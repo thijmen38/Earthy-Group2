@@ -68,9 +68,13 @@ Video/gif, excel, flowchart of the script and explanation
 in 2D
 
 **3D Study**  
-*Shriya*
-showing gif and explaining 3D study, why were certain spaces given a second floor important to mention here. Built vs unbuilt etc, first level of connectivity and vertical connections. 
 
+![connectivity of spaces](img/connectivity-of-spaces.gif)
+
+It was neccesary to analyse the 2D configuration in a 3D space to determine the adjacencies and connectivity in the horizontal and the vertical plane. The outputs generated from the computational tool were used as an input for this study.
+
+First step was to study the ratio between the built v/s unbuilt spaces and define the proportions of the unbuilt spaces depending on the widths of the adjacent built spaces.
+Next step was to connect the built and the unbuilt spaces and understand the nature of the connection. This was determined by analyzing if the connection was an exterior, interior, horizontal or vertical connection. Once the connections are defined, the walls were extruded. Certain spaces like the quiet rooms, workspaces and the sheesha were placed on the first floor as the nature of the space determined it's position. As the quiet rooms and the workspaces required a quiet and calm environment and the sheesha required an open to sky configuration, the spaces were placed on the first floor.   
 
 ### Configured design
 

@@ -14,7 +14,10 @@ again nice text about yourself
 
 **Shriya Balakrishnan** [Linkedin](https://www.linkedin.com/in/shriyabalakrishnan/)
 
-and again
+![Shriya.jpg](img/shriya.jpg)
+
+Aspiring to become a leading Building Technologist, I am a highly motivated, hardworking individual. After pursuing my bachelors in architecture from Mumbai University, I worked as an Assistant Project Architect at SSA Architects in Mumbai for a year.
+In view of widening my vistas beyond design and architecture, I was keen to pursue my masters in a technical subject which bridged the gap between an architect and an engineer. Pursuing my masters in Building Technology has helped me gain the neccesary technical knowledge and improve my software skills. 
 
 **Thijmen Pluimers** [Linkedin](https://www.linkedin.com/in/thijmenpluimers/)  
 *personal picture*
