@@ -30,6 +30,7 @@ The design vision is to create a “recreation hub” hosting social spaces with
 - What type of indoor comfort is required for each program?
 - What type of visual connection or circulation is required between different programs.
 
+5 testing
 
 # Flowchart
 
