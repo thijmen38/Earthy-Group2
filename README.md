@@ -1,6 +1,5 @@
 # Earthy-Group2
 
-HELLO BEZA, does it work now?? please
 
 # Design problems
 ## Problem statement

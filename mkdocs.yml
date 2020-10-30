@@ -6,8 +6,8 @@ nav:
   - Other: other.md
 theme:
   name: material
-  logo: img/Earthy.png
+  logo: img/logo.gif
   palette:
-    primary: red
+    primary: brown
   font:
     text: Maven Pro
