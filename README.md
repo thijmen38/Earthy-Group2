@@ -1,6 +1,6 @@
 # Earthy-Group2
 
-HELLO BEZA
+HELLO BEZA!
 
 # Design problems
 ## Problem statement
