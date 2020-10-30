@@ -1,6 +1,7 @@
 site_name: RAHA
 nav:
   - Home: index.md
+  - About: about.md
   - Design: design.md
   - Presentations: presentations.md
   - Other: other.md
