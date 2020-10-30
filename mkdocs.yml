@@ -1,0 +1,10 @@
+site_name: RAHA
+nav:
+  - Home: index.md
+  - Design: design.md
+  - Presentations: presentations.md
+  - Other: other.md
+theme:
+  name: material
+  palette:
+    primary: red
