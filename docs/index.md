@@ -2,9 +2,9 @@
 
 Welcome to RAHA!
 
-![Entrance.jpg](img/Entrance.jpg) -->
+![Entrance.jpg](img/Entrance.jpg)
 
-This is a place of rest, comfort and peace of mind
+This is a place of rest, comfort and peace of mind.
 
 ## About
 

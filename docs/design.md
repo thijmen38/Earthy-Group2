@@ -14,7 +14,7 @@ klds;gfkljdhgfkjhds
 
 ## 2_Forming
 
-![Cross-vaults](img/cross-vaults.gif) ![Square](img/square.gif)![Rectangle](img/Rectangle.gif) -->
+![Cross-vaults](img/cross-vaults.gif) ![Square](img/square.gif)![Rectangle](img/Rectangle.gif) 
 
 ---
 
