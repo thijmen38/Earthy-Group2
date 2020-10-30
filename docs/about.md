@@ -1,6 +1,8 @@
-### The Team
+The Raha project group consists of 5 members, each member has written a summary of their professional experience below.  
 
-The Raha project group consists of 5 members, each member has written a summary of their professional experience below.
+*anagha* nice intro for this page
+*all* provide personal text and picture
+
 
 **Anagha Yoganand** [Linkedin](https://www.linkedin.com/in/anagha-yoganand/)
 
