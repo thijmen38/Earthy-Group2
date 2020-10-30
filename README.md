@@ -1,5 +1,7 @@
 # Earthy-Group2
 
+HELLO BEZA
+
 # Design problems
 ## Problem statement
 The zaatari camp houses a large number of syrian refugees. Although the camp was set-up as a short-term accommodation the ongoing war has prolonged the duration to a latent permanency. As a result, long-term solutions are required not only in accommodation but also by providing adequate and culturally relevant community based facilities that also work towards informally addressing underlying issues related to the holistic well-being of the refugees. 
