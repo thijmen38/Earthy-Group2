@@ -1,12 +1,13 @@
-The Raha project group consists of 5 members, each member has written a summary of their professional experience below.  
+Raha is designed by a group of 5 enthusiastic students pursuing their masters education in Building Technology at the Technical University of Delft, The Netherlands. Their aligned motivation to further computational skills and its application in Architectural design/construction brought them together for this project.   
 
-*anagha* nice intro for this page
+Want to know the team better? Please read through the introductions below. Want to start an interesting converstaion or look for collaboration with them? Please contect with them via Linkedin!   
+
 *all* provide personal text and picture
 
 
 **Anagha Yoganand** [Linkedin](https://www.linkedin.com/in/anagha-yoganand/)
 
-nice text about yourself
+Anagha Yoganand is a 
 
 **Bezawit Z. Bekele** [Linkedin](https://www.linkedin.com/in/bezawit-zerayacob-bekele/)
 

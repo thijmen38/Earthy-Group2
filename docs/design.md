@@ -22,10 +22,16 @@ ssssss Ease construction due to unskilled whatever else
 introduction explaining the configuring phase and its goals.(from course brief)*Anagha*
 
 ### Site selection *Beza*
-*flowchart*
-*beza's gif*
+*flowchart*  
+Course Brief's demand @Beza please cover these points: *Analysis: Analyse the site in terms of intensities of population, activities, highlighting the infrastructure and seeking to reveal the invisible connections as well as flows of people and goods between points of interest.
+Synthesis: Interpret the analyses and put them together to form a conclusion regarding how things work right now.
+Evaluation: Identify the missing buildings and the connections that need to be strengthened or improved.
+Proposition: Propose a list of communal buildings or mega buildings (such as bazars) to be designed and then envision and list stages of spatial improvements that can be feasibly realized by the community.*  
+
+*beza's gif*  
 explaining how we came to the selection of this site. Explain with apt conclusion why district 9 was chosen, link it to the site study.  
-*Twinkle*
+
+*Twinkle*  
 Explain the site surroundings and site orientation, add a google map/diagram - wind and sun path (brief study) 
 
 ### Program of requirements *Thijmen*  
@@ -136,7 +142,7 @@ Show the floor plan with all roof teseelations (evolution) and reason for choosi
 Use the colour code as per Twinkle's roof modules 3d 
 
 <ins>*Walls*</ins>  
-Though a computational method was used for the roofs, for the walls we opted a manual approach
+Though a computational method was used for the roofs, for the walls we opted a manual approach explain the approach
 
 **Simplification**  
 *Shirya*  
@@ -170,7 +176,7 @@ Material image
 Mention Limit states
 
 **Strcutural Analysis**
-Flowchart if needed
+Flowchart if needed, include the script and karamba details
 
 <ins>*Process*</ins>
 
