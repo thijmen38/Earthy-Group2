@@ -2,9 +2,6 @@ Raha is designed by a group of 5 enthusiastic students pursuing their masters ed
 
 Want to know the team better? Please read through the introductions below. Want to start an interesting converstaion or look for collaboration with them? Please contect with them via Linkedin!   
 
-*all* provide personal text and picture
-
-
 **Anagha Yoganand** [Linkedin](https://www.linkedin.com/in/anagha-yoganand/)
 
 ![AnaghaYganand-Portrait.jpg](img/AnaghaYganand-Portrait.jpg)

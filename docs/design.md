@@ -16,8 +16,13 @@ xxxxxx intervention
 ssssss Ease construction due to unskilled whatever else
 
 ### Overall flow chart
+This flowchart shows the overall procedural workflow adopted for designing Raha. The whole project is divided into four stages, Congifuration, Forming, Structuring and Constructability respectively. 
+
+The larger division of stages offers an eventual progression of the design by keeping each stage in coherence and informed with the other to achieve a generative design. 
+
 
 ---
+
 ## 1_Configuration
 introduction explaining the configuring phase and its goals.(from course brief)*Anagha*
 
@@ -61,8 +66,10 @@ show depth chart explaining the logic behind it
 showing and explaining
 
 ### Summary or conclusion
-*First do the rest*
----
+*First do the rest*  
+
+---  
+
 ## 2_Forming
 introduction explaining the configuring phase and its goals.(from course brief)*Anagha*
 
