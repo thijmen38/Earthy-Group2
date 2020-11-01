@@ -241,7 +241,7 @@ Explain the load coonditions considered
 <ins>*Module_2*</ins>
 
 *Loadcases:*
-Explain the load coonditions considered
+Explain the load conditions considered
 
 *Support conditions*
 
