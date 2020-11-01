@@ -165,12 +165,19 @@ show sections and explain the heights etc
 Introduction explaining the configuring phase and its goals.(from course brief)*Anagha*
 
 ### Tesellations
-Flowchart showing the tesselation process 
+![Tesselation flow chart](img/tessellationflowchart.png)
 
 **Exploration**
 
 <ins>*Manual*</ins>   
 *Shriya and Beza*  
+![Dome tesselations](img/dometessellations.png)
+
+The form finding was determined by the study of architectural characteristics of different spaces. To start the process and understand how different meshes gave different shapes, a thorough literature study was conducted. During this process, we considered a roof form and it's corresponding size, and manually
+
+
+The form finding process was determined by the study of architectural characteristics of that space.    To start the process and understand how different meshes gave different shapes, a thorough literature study was conducted. During this process, we considered a roof form and a corresponding size, and manually meshed the initial divisions. Later these meshes were imported in the kangaroo solver to sub divide the initial meshes and generate the dynamically relaxed form. the sub division of the meshes were controlled by a number slider which would determine the level of the sub division. This would make the meshes more coarse or fine, depending on the complexity of the This process was repeated for different meshing strategies and finally the triangulation method was adopted as it satisfied the desired shape which was determined initially.
+
 Explain the different types of tesselations (dome/cross vault Jpegs) and meshing logic/strategy
 
 <ins>*Computational*</ins>  
@@ -187,47 +194,47 @@ Use the colour code as per Twinkle's roof modules 3d
 <ins>*Walls*</ins>  
 Though a computational method was used for the roofs, for the walls we opted a manual approach explain the approach
 
-### Simplification  
+**Simplification**  
 *Shirya*  
 Explain the Gif- explain the simplification process.
 
-**Square domes**
+<ins>*Square domes*</ins>
 
 ![Square](img/square.gif)
 
 Explain the gif and mention which modules use the same approach
 Include impage of elliptical curve simplification
 
-**Rectangular domes**
+<ins>*Rectangular domes*</ins>
 
 ![Rectangle](img/Rectangle.gif)
 
 Explain the gif and mention which modules use the same approach
 Include impage of elliptical curve simplification
 
-**Cross vaults**
+<ins>*Cross vaults*</ins>
 
 ![Cross-vaults](img/cross-vaults.gif)
 
 Explain the gif and mention which modules use the same approach
 Include impage of Catenary arch simplification
 
-### Material Selection  
+**Material Selection**  
 Mention the course requirement of the material, and then talk about the analysis/study not being part of the course brief due to the lack of lab access in Covid times, the material was chosen from the last years projects of material study (Reference)  
 Material image
 
 Mention Limit states
 
-### Strcutural Analysis
+**Strcutural Analysis**
 Flowchart if needed, include the script and karamba details
 
-**Process**
+<ins>*Process*</ins>
 
 How it was done initially, explaining with an example module. Image of the first approach stages
 
 Then talk about the Final approach with another image
 
-**Module_1**
+<ins>*Module_1*</ins>
 
 *Loadcases:*
 Explain the load coonditions considered
