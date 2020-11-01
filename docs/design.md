@@ -40,9 +40,45 @@ explaining how we came to the selection of this site. Explain with apt conclusio
 Explain the site surroundings and site orientation, add a google map/diagram - wind and sun path (brief study) 
 
 ### Program of requirements *Thijmen*  
-Show table of requirements and provide link to downloadable document.
-Explain why these programs fit our design goal.
-and how were the numbers and parameters decided.
+![Program_of_requirements.PNG](rev/configuration/Program_of_requirements.png)
+[Click here to open the PDF](rev/configuration/Program_of_requirements.pdf)  
+
+Having selected a site to fit the Raha building a program was developed.  
+with the functions that are to be hosted in the building came also some demands on capacity, size, level of privacy, and desire for daylight. Below these choices will be explained.
+
+<ins>Tea house</ins>  
+The tea house is one of the main functions of Raha. Its purpose is to connect people and provide them with a place where they can meet and socialize.
+To do so there will be two seating spaces, a public one and a private one to allow for more intimate conversations. Together they will have a capacity for 150 people. They will be located ad the southeastern part of the building to have propper daylight which helps create the ambiance required. 
+
+There will also be a tea bar and kitchen located in this area to provide visitors with food and drinks. These functions will have to be close to a separate entrance for them to be provided with supplies. Daylight is a necessity in the kitchen but it would help to reduce the need for artificial light.
+
+To make sure that visitors with kids are also welcomed there will be an indoor and outdoor play area for the children.
+
+All of these functions will be connected with a courtyard, named the herbal garden this courtyard can provide herbs for the tea that is being served in the tea house. Visitors are welcome to help with the gardening of this garden.  
+There will also be some toilets connected to the herbal garden.
+
+<ins>Hammam</ins>  
+The hammam is a more secluded part of the Raha building, it is there to provide comfort hygiene for male and female the layout of the hammam will be the same and as follows.  
+From the Waterbody courtyard, you enter the main hall and entrance of the hammam.
+Where you can get your towels and go through to the changing room to continue either to the steam room, or the public or private bath spaces.  
+All of these rooms require good ventilation and daylight but are private so this should be taken into account when designing said room.  
+The hammam as a whole can host up to 125 people.
+
+<ins>Quiet area</ins>  
+Also located next to the waterbody courtyard is the quiet area. The quiet area hosts the next functions.
+The quiet rooms where people can come, sit, read, and enjoy a quiet space.
+There is also a library to provide visitors with books to read.
+And several workspaces for the visitors to use.
+
+All of these rooms require daylight but it should not be disturbing this is why a north orientation is chosen for these rooms.  
+There will also be toilets connected to the waterbody courtyard.
+
+<ins>Entrance</ins>  
+Of course the project needs an entrance, when entering the site visitors will first walk into the water fountain courtyard. From which they can choose to go to the waterbody courtyard or the herbal garden courtyard.
+
+<ins>Service zone</ins>  
+To provide all the functions from there required services like heating, water, power, storeroom, etc. There will be a service zone that has his separate entrance and is connected to the hammam, tea house, and water fountain courtyard.
+
 
 ### Connectivity of spaces
 
