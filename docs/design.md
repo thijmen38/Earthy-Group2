@@ -165,6 +165,7 @@ show sections and explain the heights etc
 Introduction explaining the configuring phase and its goals.(from course brief)*Anagha*
 
 ### Tesellations
+
 ![Tesselation flow chart](img/tessellationflowchart.png)
 
 **Exploration**
@@ -205,7 +206,7 @@ Though a computational method was used for the roofs, for the walls we opted a m
 
 <ins>*Square domes*</ins>
 
-![Square](img/square.gif)
+![Square](img/sqauredome.gif)
 
 In order to achieve a smooth form and for the ease of construction, the dynamically relaxed form was refined further. The inital tesselataion, based on the tartan grid, was approximated and simplified to the closest curve resembling the generated mesh. These curves were used to build the final surface of the roof which was later analyzed in karamba 3D for structural calculations. 
 
@@ -219,7 +220,7 @@ This logic was repeated for the other square domes: 6 x 6 M and 9 x 9 M. The cur
 
 <ins>*Rectangular domes*</ins>
 
-![Rectangle](img/Rectangle.gif)
+![Rectangle](img/rectangulardome.gif)
 
 Similar logic was applied for the rectangular domes.
 
@@ -234,21 +235,27 @@ This logic was repeated for the other rectangular domes domes: 6 x 3 M and 9 x 6
 
 <ins>*Cross vaults*</ins>
 
-![Cross-vaults](img/cross-vaults.gif)
+![Cross-vaults](img/crossvault.gif)
 
-Explain the gif and mention which modules use the same approach
-Include impage of Catenary arch simplification
+The dynamically relaxed form was refined under a specific geometry in order to ensure accuracy in construction. Each curve of the form was re-drawn to the closest caternary arc. These rcs were made using the edge points of the meshes and then cut into half to derive the catenafry curves. For the cross vaults, only one catenary arc was used to generate the surafce. The final surface was generated using these elliptical curves and imported to weaverbird in grasshopper for further refinement.
 
 ![cross vault simplification](img/crossvaultsimplification.png)
 
 **Material Selection**  
-Mention the course requirement of the material, and then talk about the analysis/study not being part of the course brief due to the lack of lab access in Covid times, the material was chosen from the last years projects of material study (Reference)  
-Material image
 
-Mention Limit states
+Due to the change in the course structure due to Covid-19, material research and testing was not part of the brief. We reffered to the tests and anlysis done by the previous year students of the same course. We primarily considered the test results of Bustan group (Group 5) and chose the same materials and material limit states for our project.  
+
+![material](img/materials.jpg)
+
+The adobe bricks should be made by the refugees at the camp site with the available materials. The recipe for the standard brick composition were 30% clay, 30% fine sand, 40% coarse sand and 10% water of the total weight of the dry ingredients. Additionally, straw was chosen as an addtion to the adobe paste to improve the tensile strength of the brick. The straw was added in the percentage of 10% of the total mixture. The final mixture was then placed in the required moulds and allowed to dry to make the bricks. The mortar was also prepared with the same basic composition with higher percentage of water as required to make the sticky paste. (Bustan,2019)
+
+![limit states](img/Limitstates.jpg)
+
+The limit states of the material were obtained from a research paper (Clifton, J. R., & Davis, F. L., 1979.) and Last year's material report written by Bustan group (group 5). From the literature study (Clifton, J. R., & Davis, F. L., 1979) we concluded that safety factor within the range 1.2-2 is ideal in this case. In case of addtional floors above, safety factor of 4 was considered.  
 
 **Strcutural Analysis**
-Flowchart if needed, include the script and karamba details
+
+![structural flow chart](img/structuralflowchart.png)
 
 <ins>*Process*</ins>
 
