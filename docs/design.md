@@ -187,47 +187,47 @@ Use the colour code as per Twinkle's roof modules 3d
 <ins>*Walls*</ins>  
 Though a computational method was used for the roofs, for the walls we opted a manual approach explain the approach
 
-**Simplification**  
+### Simplification  
 *Shirya*  
 Explain the Gif- explain the simplification process.
 
-<ins>*Square domes*</ins>
+**Square domes**
 
 ![Square](img/square.gif)
 
 Explain the gif and mention which modules use the same approach
 Include impage of elliptical curve simplification
 
-<ins>*Rectangular domes*</ins>
+**Rectangular domes**
 
 ![Rectangle](img/Rectangle.gif)
 
 Explain the gif and mention which modules use the same approach
 Include impage of elliptical curve simplification
 
-<ins>*Cross vaults*</ins>
+**Cross vaults**
 
 ![Cross-vaults](img/cross-vaults.gif)
 
 Explain the gif and mention which modules use the same approach
 Include impage of Catenary arch simplification
 
-**Material Selection**  
+### Material Selection  
 Mention the course requirement of the material, and then talk about the analysis/study not being part of the course brief due to the lack of lab access in Covid times, the material was chosen from the last years projects of material study (Reference)  
 Material image
 
 Mention Limit states
 
-**Strcutural Analysis**
+### Strcutural Analysis
 Flowchart if needed, include the script and karamba details
 
-<ins>*Process*</ins>
+**Process**
 
 How it was done initially, explaining with an example module. Image of the first approach stages
 
 Then talk about the Final approach with another image
 
-<ins>*Module_1*</ins>
+**Module_1**
 
 *Loadcases:*
 Explain the load coonditions considered
