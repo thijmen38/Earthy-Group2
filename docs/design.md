@@ -173,10 +173,8 @@ Introduction explaining the configuring phase and its goals.(from course brief)*
 *Shriya and Beza*  
 ![Dome tesselations](img/dometessellations.png)
 
-The form finding was determined by the study of architectural characteristics of different spaces. To start the process and understand how different meshes gave different shapes, a thorough literature study was conducted. During this process, we considered a roof form and it's corresponding size, and manually
+The form finding was determined by the study of architectural characteristics of different spaces. To start the process and understand how different meshes gave different shapes, a thorough literature study was conducted. During this process, we considered a roof form and it's corresponding size, and manually meshed the initial divisions. The initial divisions followed a logic which was derived from the literature research. Different types of meshing logic was explored initially and were imported in the kangaroo solver to generate the dynamically relaxed form. Different meshing logic gave a different result, for example, the quad split logic generated a curved peak while the triangulation logic generated a pointed peak. This step was repeated for every type of meshing logic and the triangulation meshing logic was chosen as it closely resembled the desired form. Later these meshes were imported in the kangaroo solver to sub divide the initial meshes and generate the dynamically relaxed form. 
 
-
-The form finding process was determined by the study of architectural characteristics of that space.    To start the process and understand how different meshes gave different shapes, a thorough literature study was conducted. During this process, we considered a roof form and a corresponding size, and manually meshed the initial divisions. Later these meshes were imported in the kangaroo solver to sub divide the initial meshes and generate the dynamically relaxed form. the sub division of the meshes were controlled by a number slider which would determine the level of the sub division. This would make the meshes more coarse or fine, depending on the complexity of the This process was repeated for different meshing strategies and finally the triangulation method was adopted as it satisfied the desired shape which was determined initially.
 
 Explain the different types of tesselations (dome/cross vault Jpegs) and meshing logic/strategy
 
@@ -188,29 +186,51 @@ Mention the challenge with dome with Skylight and why it wasnt possible to relax
 **Final Tesselation**  
 *Shriya and Anagha*  
 <ins>*Roof*</ins>   
-Show the floor plan with all roof teseelations (evolution) and reason for choosing this particular meshing strategy
-Use the colour code as per Twinkle's roof modules 3d 
+
+![Tessellation initial](img/initialroof.jpg) 
+
+As the triangulation meshing logic was chosen initially, after dynamically relaxing the meshes, we realized that the form generated failed to perform well structurally. The dynamically relaxed roof did not transfer the loads uniformly and developed peak tensile stresses at the edges of the walls. Moreover, the meshing logic did not work well for larger spans as it generated fairly flat surface at the top of the dome which gave rise to peak tensile stresses at the highest points of the roof.
+
+*Insert the final tessellation floor plan*
+
+The final tesselation logic was a combination of constant quad split and triangulation method. This logic was structurally analyzed and worked well structurally as the load distribution was uniform and peak tensile stresses generated were considerable. Moreover, this logic closely resembled the desired form and maintained the form irrespective of the span.
 
 <ins>*Walls*</ins>  
-Though a computational method was used for the roofs, for the walls we opted a manual approach explain the approach
+
+![wallTessellation](img/walltessellation.jpg) 
+
+Though a computational method was used for the roofs, for the walls we opted a manual approach. The meshes for the walls were generated using the initial divisions of the roof mesh. The intersecting points between the roof and the wall determined the mesh lines for the walls. These mesh lines became the guideline for the division of the arched opening in the wall. A similar mesh logic was applied in the wall meshing as done for the roof meshes; constant quad split and triangulation method. Once the walls with the openings were meshed, walls without openings followed the mesh lines of the later. After the initial meshing of the walls, they were imported to weaverbird in grasshopper to sub divide the initial meshes and make the meshes more coarse and match them with the roof meshes. 
 
 **Simplification**  
-*Shirya*  
-Explain the Gif- explain the simplification process.
 
 <ins>*Square domes*</ins>
 
 ![Square](img/square.gif)
 
-Explain the gif and mention which modules use the same approach
-Include impage of elliptical curve simplification
+In order to achieve a smooth form and for the ease of construction, the dynamically relaxed form was refined further. The inital tesselataion, based on the tartan grid, was approximated and simplified to the closest curve resembling the generated mesh. These curves were used to build the final surface of the roof which was later analyzed in karamba 3D for structural calculations. 
+
+![Square simplification](img/3x3domesimplification.jpg)
+
+The dynamically relaxed form was refined under a specific geometry in order to ensure accuracy in construction. Each curve of the form was re-drawn to the closest ellipse. These ellipses were made using the edge points of the meshes and then cut into half to derive the ellipcal curves. For the sqaure domes, two types of ellipses were used: one ellipse in the vertical and horizontal direction nd one for the diagonals. The final surface was generated using these elliptical curves and imported to weaverbird in grasshopper for further refinement.
+
+![Square simplification](img/9x9domesimplification.png)
+
+This logic was repeated for the other square domes: 6 x 6 M and 9 x 9 M. The curves were scaled twice for the 6 x 6 m doem and thrice for the 9 x 9 m dome. In case of 9 x 9 m dome, additional curves were drawn to match the initial tesselations and for structural stability.
 
 <ins>*Rectangular domes*</ins>
 
 ![Rectangle](img/Rectangle.gif)
 
-Explain the gif and mention which modules use the same approach
-Include impage of elliptical curve simplification
+Similar logic was applied for the rectangular domes.
+
+![rectangular simplification](img/6x3domesimplification.jpg)
+
+In case of rectangular domes, two different ellipses were made. One ellipse was made in the center dividing the top ridge into 2 parts and the second ellipse was drawn from the corners of the rectangle, creating a slight curvature on the smaller sides of the ceiling.
+
+![rectangular simplification](img/12x9domesimplification.png)
+
+This logic was repeated for the other rectangular domes domes: 6 x 3 M and 9 x 6 M. The curves were scaled twice for the 6 x 3 m doem and thrice for the 9 x 6 m dome. In case of 9 x 6 m dome, additional curves were drawn to match the initial tesselations and for structural stability.
+
 
 <ins>*Cross vaults*</ins>
 
@@ -218,6 +238,8 @@ Include impage of elliptical curve simplification
 
 Explain the gif and mention which modules use the same approach
 Include impage of Catenary arch simplification
+
+![cross vault simplification](img/crossvaultsimplification.png)
 
 **Material Selection**  
 Mention the course requirement of the material, and then talk about the analysis/study not being part of the course brief due to the lack of lab access in Covid times, the material was chosen from the last years projects of material study (Reference)  
