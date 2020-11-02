@@ -280,7 +280,7 @@ Next step was to connect the built and the unbuilt spaces and understand the nat
 <div style="text-align: justify"> 
 After having configured the general layout, it was important to translate it into the final plan for the building. For this, a grid of 1200mm x 1200mm was selected. The logic was based on the fact that 1200mm is the minimum corridor width required for a person. The grid was further refined into a Tartan grid. This consists of straight lines of varying widths and distances, crossing at right angles. Tartan grids allow for modularity in the size of built elements. Elements are restricted to centre on the centreline grid and limited in dimension to stay within the tartan bands. 
 
-The optimized grid has 600mm bands with 2400mm distance between each 60cm bands. This is to ensure that all walls lie in these bands and no module in the building is less than 2400mm x 2400mm. The reason for choosing the width of tartan band as 60cm comes from a small study done on commonly used wall thicknesses for various spans. This was also backed by the previous year structural reports. Our assumption was later proved to be correct and details of that can be found in 3_Structuring.
+The optimized grid has 600mm bands with 2400mm distance between each 600mm bands. This is to ensure that all walls lie in these bands and no module in the building is less than 2400mm x 2400mm. The reason for choosing the width of tartan band as 600mm comes from a small study done on commonly used wall thicknesses for various spans. This was also backed by the previous year structural reports. So when two modules are placed adjacent to each other the wall thickness between them is the combination of the wall thickness of each module but is constructed as one and load from both roofs is directed to the centre of this combined wall. Our assumption was later proved to be correct and details of that can be found in 3_Structuring.
 </div>
 
 
@@ -302,26 +302,43 @@ Insert image of final floor plan - FF
 As shown here, there is a main entrance which can be reached by a pedestrian route to keep it away from the busy main street. On the back of the site, there is a service road provided which functions as a supply route for several functions and is a way in for the employees and maintenance.  The unloading & loading service zone is near the kitchen and store for the ease of use while the other services are divided in two service rooms placed near the Hammam. 
 </div>
 
+**Architectural Characteristics**
+<div style="text-align: justify"> 
+As one of the aim was to develop a feeling of comfort and familiarity among the inhabitants of the camp therefore, we studied the vernacular and traditional architecture of Syria. Some important characteristics that were common are the courtyard planning, different types of domes, vaults and archways used and the transition between spaces. These characteristics were then incorporated into the design by carefully analysing each module based on the following factors and assigning priority to these factors based on the type of space that they serve.
+
+Geometry: If a space had a square or rectangular layout
+Daylight: If the space needed to be dimly-lit, completely-lit or partially-lit.
+Pre-defined architectural characteristics: If the space already had an architectural style from the vernacular, for e.g.: Hammam had domes with skylight.
+
+The following table shows the spaces onto which the roofs will be placed and the order of their most important criteria.
+</div>
+
+**Roof modules** 
+<div style="text-align: justify"> 
+The architectural characteristics and tartan grid divides the building into 8 different roof modules which are shown below.
+</div>
 
 **Wall modules**  
+<div style="text-align: justify"> 
 explain how the walls have been designed according to the tartan grid.
 including the change of wall tickness (why we choose for 600mm bands in the tartan grid)
-
-**roof modules**  
-talk about Architectural charactaristics and show the different roof modules in the plan view - 4 types Crossvaults, Square domes, Rectangular domes and Domes with Skylight
-talk about how these roofs have been designed using the tarten grid
+</div>
 
 **Sections**  
+<div style="text-align: justify"> 
 show sections and explain the heights etc
+</div>
 
-**details**
+**Details**
+<div style="text-align: justify"> 
 
 <ins>*Services*</ins>  
 
 <ins>*Ventilation*</ins>  
 
-<ins>*Detailed section*</ins>  
+<ins>*Detailed section*</ins> 
 
+</div>
  
 ### Summary or conclusion
 
