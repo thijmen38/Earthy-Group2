@@ -269,7 +269,7 @@ The flowchart explains the pseudo code used to develop this tool.
 This process is then repeated keeping the relaxed curves from depth 1 as the attractor for the depth 2 and so on. This process of staged relaxation per depth enhances the configuration results, by aligning spaces orthogonally and reduces chaos when the total number of spaces are high.     
 
 
-![SpaceGDS](img/SpaceGDS.gif)  
+![GDSpaceF](img/GDSpaceF.gif)  
 *Fig: The gif below shows the spatial configuration results of this computational process*  
 
 From the many iterations this tool generated, the most ideal solution was chosen considering the site boundary conditions. 
@@ -907,18 +907,17 @@ The next step was to figure out how to make the ribs in a way that can easily be
 
 **Interlocking bricks**  
 
-<<<<<<< HEAD
 <ins>*design process*</ins>
 
 The approach for the interlocking blocks was: if the blocks were placed in order of their interlocking nature, they would automatically generate the curvature of the rib. This means there is no need for centering, a guide or a large formwork. 
 
-This idea was digitally modelled first for a simple semi-circular arch. The first model shows an interlocking brick system with just one brick module. 
-=======
+This idea was digitally modelled first for a simple semi-circular arch. The first model shows an interlocking brick system with just one brick module.   
+
 <ins>*system exploration*</ins> 
 <div style="text-align: justify">  
-For the interlocking rib system, one can either have the ribs made from gypsum or adobe. The advantage of using gypsum over adobe is that large pieces can be made with gypsum and it thus reduces the number of different modules required for construction. In both cases, the material cannot withstand tension forces in the corners. Therefore, for the ease of construction of these ribs, various interlocking patterns were studied and compared on the basis of their simplicity with the mould, material usage and sharp edges to finalize one. The table below shows the analysis in detail. 
+For the interlocking rib system, one can either have the ribs made from gypsum or adobe. The advantage of using gypsum over adobe is that large pieces can be made with gypsum and it thus reduces the number of different modules required for construction. In both cases, the material cannot withstand tension forces in the corners. Therefore, for the ease of construction of these ribs, various interlocking patterns were studied and compared on the basis of their simplicity with the mould, material usage and sharp edges to finalize one. The table below shows the analysis in detail.   
+
 </div>
->>>>>>> fc2cdad1658fe41729ac60be61bb2df99237ddee
 
 ![Interlocking brick one](img/interlocking1.jpg)  
 *Fig: Interlocking block 1* 
