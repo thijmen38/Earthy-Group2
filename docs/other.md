@@ -8,6 +8,10 @@ tell we got inspired by previous years and helped us like pirouz and shervin.
 
 Türkmen, İ., Ekinci, E., Kantarcı, F., & Sarıcı, T. (2020). The mechanical and physical properties of unfired earth bricks stabilized with gypsum and Elazığ Ferrochrome slag. Retrieved 2 November 2020
 
+Brown, P., & Clifton, J. (1978). Adobe. I: The Properties of Adobe. Studies In Conservation, 23(4), 139. doi: 10.2307/1505842
+
+Zangana, L., & Tokmachy, A. (2019). Study of the Thermal Insulation Properties of the Compressed Earth Block Stabilized with Gypsum. Kirkuk University Journal-Scientific Studies, 14(1), 241-251. doi: 10.32894/kujss.2019.14.1.16
+
 
 
 
@@ -15,13 +19,8 @@ Türkmen, İ., Ekinci, E., Kantarcı, F., & Sarıcı, T. (2020). The mechanical 
 
 ## 1_Scripts
 
-<<<<<<< HEAD
 The design process, as shown on the [design page](design.md), was developed using many grasshopper scripts.
 Below we listed the most important scrips with a download link for detailed study of the project.
-=======
-To produce the design as shown on the [design page](design.md) a lot of scripts were used.
-Below we listed the most important scripts with a download link for anybody intereseted to study them.
->>>>>>> a6f89847f6ceba1efca362ebbcf35152da8da66e
 
 **Site selector**
 
