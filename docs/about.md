@@ -17,8 +17,8 @@ again nice text about yourself
 
 ![Shriya.jpg](img/shriya.jpg)
 
-Aspiring to become a leading Building Technologist, I am a highly motivated, hardworking individual. After pursuing my bachelors in architecture from Mumbai University, I worked as an Assistant Project Architect at SSA Architects in Mumbai for a year.
-In view of widening my vistas beyond design and architecture, I was keen to pursue my masters in a technical subject which bridged the gap between an architect and an engineer. Pursuing my masters in Building Technology has helped me gain the neccesary technical knowledge and improve my software skills. 
+Aspiring to become a leading Building Technologist, she is a highly motivated, hardworking individual. After pursuing her bachelors in architecture from Mumbai University, she worked as an Assistant Project Architect at SSA Architects in Mumbai for a year.
+In view of widening her vistas beyond design and architecture, she was keen to pursue her masters in a technical subject which bridged the gap between an architect and an engineer. Pursuing her masters in Building Technology has helped her gain the neccesary technical knowledge and improve her software skills. 
 
 **Thijmen Pluimers** [Linkedin](https://www.linkedin.com/in/thijmenpluimers/)  
 *personal picture*
