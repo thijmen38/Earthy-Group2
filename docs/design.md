@@ -490,8 +490,23 @@ In case of the wall, maximum tensile stresses were observed at the corners and a
 <ins>*Verification*</ins>
 
 *Exploration*
+<div style="text-align: justify"> 
+In order to verify the results of the karamba analysis, a test module was considered which was generated manually. In thtis case, the walls had arched edges in order to check if the karamba model shows difference in the load distribution. In this case, it was observed that the maximum compression was at the highest points where the wall and the roof intersected whereas the maximum tension was observed at the corners. This verifies that the load distribution is correct and the karamba model gives accurate results.
+</div>
+
+![check 1](img/check.jpg)  
+*Fig: Results showing the structural analysis of a test module*  
 
 *Hand Calculation*
+
+Sum of total Reaction forces in Computational Model= **42.24 KN**  
+Surface area of mesh= 15.64 m2  
+Thickness of mesh= 0.15 m
+therefore, Volume of the mesh= 2.34 m3  
+Safety Factor= 1.2  
+Specific weight = 15 KN/m3 (Adobe density = 1500 kg/m3)  
+Total reaction force= 2.34 x 1.2 x 15 = **42.22 KN**  
+Thus, Computational model gives accurate results.
 
 **Module_2: 6x6 Square Dome**
 
