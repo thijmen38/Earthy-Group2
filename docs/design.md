@@ -72,7 +72,7 @@ The design vision is to create a “recreation hub” hosting social spaces with
 <div style="text-align: justify"> 
 This flowchart shows the overall procedural workflow adopted for designing RAHA. The whole project is divided into four stages, Configuration, Forming, Structuring and Constructability respectively. The larger division of stages offers an eventual progression of the design by keeping each stage in coherence and informed with the other to achieve a generative design.
 
-INSEERT FLOW CHART HERE
+INSERT FLOW CHART HERE
 
 The first part is configuring followed by shaping and structuring. In the configuration phase: based on the identified problem and proposed intervention; the main programmatic functions were defined. A set of rules were developed to select the site after which the program relationships were developed using bubble diagrams ands REL charts. These were computationally mirrored using a phyton script and a syntactic tool. Further relationships were studied using metro-link diagrams and depth graphs. Based on the outcome, the study was translated to a concept plan which was further developed computationally using gradient decent optimization. Following these studies the floor plans were formulated. 
 
@@ -242,8 +242,9 @@ An excel table was created to input the hierarchy of spaces (from the depth char
 ![ExcelInputGD](img/ExcelInputGD.png)  
 *Fig: Spatial parameters translated as inputs into an excel sheet for the gradient descent tool*
 
-The flowchart explains the pseudo code used to develop this tool. 
+The flowchart explains the pseudo code used to develop this tool.   
 
+![GDFlowchart](img/GDFlowchart.png) 
 
 
 
