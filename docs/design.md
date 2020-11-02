@@ -333,7 +333,7 @@ Introduction explaining the configuring phase and its goals.(from course brief)*
 
 ### Tesellations
 
-![Tesselation flow chart](img/tessellationflowchart.png)
+![Tesselation flow chart](img/tessellationflowchart.jpg)
 *Fig: Tessellation process flow chart*
 
 **Exploration**
@@ -346,7 +346,7 @@ Introduction explaining the configuring phase and its goals.(from course brief)*
 The form finding was determined by the study of architectural characteristics of different spaces. To start the process and understand how different meshes gave different shapes, a thorough literature study was conducted. During this process, we considered a roof form and it's corresponding size, and manually meshed the initial divisions. The initial divisions followed a logic which was derived from the literature research. Different types of meshing logic was explored initially and were imported in the kangaroo solver to generate the dynamically relaxed form. Different meshing logic gave a different result, for example, the quad split logic generated a curved peak while the triangulation logic generated a pointed peak. This step was repeated for every type of meshing logic and the triangulation meshing logic was chosen as it closely resembled the desired form. Later these meshes were imported in the kangaroo solver to sub divide the initial meshes and generate the dynamically relaxed form. 
 </div>
 
-![Vault tesselations](img/tess.png)
+![Vault tesselations](img/tess.jpg)
 *Fig: Exploration of different vault tesselations*
 
 <ins>*Computational*</ins>  
@@ -357,7 +357,7 @@ For this script, the inputs are the tesselation lines and the anchor lines. The 
 During the process of relaxing and checking the roofs, it sometimes occurred that the top of the roof was lower than the points around it. To fix this some tweaking with the edge lengths had to be done.
 </div>
 
-![relaxing process](rev\forming\relaxer.gif)  
+![relaxing process](img\relaxer.gif)  
 *Fig: showing the process of relaxing the roof using grasshopper*
 
 The script above along with all the other scripts used for this project can be found on the [Other page](other.md).
@@ -489,6 +489,8 @@ In the second stage, the simplified surface of the wall and the roof was chosen 
 It was observed that the load distribution was uniform and the meshes were coherent. The peak stresses developed at the edges and the corners of the wall were within the set limits and the transition between tension and compression was logical and regular. High compression at the bottom of the wall and at the top of the roof and tension at the corners and the edges of the wall determined the analysis was performed correctly. Moreover, the analysis proved that the roof can be made into a completely compression roof which fulfilled the ultimate goal.
 
 The structural analysis does not consider gypsum as the material for the ribs. Adobe material properties were considered for the entire structure. As gypsum has higher compressive strength as compared to adobe, it was assumed that using gypsum would give better results in the analysis.
+
+The script used for the structural analysis of all the modules can be found on the [Other page](other.md).
  </div>
  
  **Module_1: 3x3 Square Dome**
