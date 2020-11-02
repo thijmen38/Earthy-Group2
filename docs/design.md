@@ -208,7 +208,7 @@ After creating the bubble diagrams we analyzed them. To do some more effectively
 ![depth chart](rev\configuration\bubble_diagram\depthchart.jpg)  
 *Fig: Depth chart of the functions*
 <div style="text-align: justify"> 
-The depth chart as shown above clearly shows the hierarchy of the spaces. For instance, it shows a clear split between the hammam areas and the tea bar areas. It also shows how deep the bathing spaces are in the building. Which is where they are designed to be.
+The depth chart as shown above clearly shows the hierarchy of the spaces. For instance, it shows a clear split between the hammam areas and the tea bar areas. It also shows how deep the bathing spaces are in the building. Which is where they are designed to be. This heirarchy branches from public spaces to private spaces, which helps in determining the connectivity between spaces.
 </div>
 </br>
 
@@ -242,8 +242,25 @@ introduction explaining the configuring phase and its goals.(from course brief)*
 
 ### Spacial configuration
 
-**Gradient descent optimization**  
-*Anagha*  
+**2D Study**  
+ 
+<div style="text-align: justify"> 
+Once a conceptual analysis of spatial clusters and their connections was identified, a computational approach of gradient descent was adopted to configure these spaces in 2-dimension.    
+
+This approach was inspired by one of the group's from the previous year who developed a gradient descent tool. The tool was further developed to cater to the project goals.   
+
+To start a grid of 1.2m x 1.2m was considered, derived from a standard corridor width size and minimum area for one person. Therefore, each functional area was adjusted to a multiple of this grid size.
+
+An excel table was created to input the hierarchy of spaces (from the depth chart in an ascending order) and their area dimensions (from the program of requirements). As seen in image below, the excel is used to import these inputs into the Grasshopper environment.
+
+![ExcelInputGD](img/ExcelInputGD.png)  
+*Fig: Spatial parameters translated as inputs into an excel sheet for the gradient descent tool*
+
+The flowchart explains the pseudo code used to develop this tool. 
+
+
+
+
 Video/gif, excel, flowchart of the script and explanation
 in 2D
 
@@ -348,9 +365,6 @@ The form finding was determined by the study of architectural characteristics of
 
 ![Vault tesselations](img/tess.png)
 *Fig: Exploration of different vault tesselations*
-
-Explain the different types of tesselations (dome/cross vault Jpegs) and meshing logic/strategy  
-Mention the challenge with dome with Skylight and why it wasnt possible to relax an opening within the dome.
 
 <ins>*Computational*</ins>  
 <div style="text-align: justify"> 
@@ -506,7 +520,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support1](img/supports.jpg)  
+![support1](img/support1.jpg)  
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -555,7 +569,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support2](img/supports.jpg)  
+![support 2](img/support2.jpg)  
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -607,79 +621,230 @@ All the edge points of the base of the roof are considered as fixed supports in 
 ![results](img/9x9domestructuralanalysis.jpg)  
 *Fig: Results showing the structural behavior of square dome and supporting wall*  
 <div style="text-align: justify"> 
-In case of the roof, it was observed that peak tensile stresses were developed at the corners of the wall as the meshes generated a defined ridge line from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 150 mm, the structure was safe. The maximum deflection observed was 1.4 mm (3000/400 = 7.5) which was also safe for the given load conditions.
+In case of the roof, it was observed that peak tensile stresses were developed at the corners of the wall as the meshes generated a defined ridge line from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 300 mm, the structure was safe. The maximum deflection observed was 14.8 mm (9000/400 = 22.5) which was also safe for the given load conditions. Due to the large span, this module has thicker walls and roof. 
 
-In case of the wall, maximum tensile stresses were observed at the corners and at the key stone of the arched opening. This proves that the arch distributes the loads from the corners to the key stone and tranferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 300 mm, the structure was safe. The maximum deflection observed was 1.3 mm (3000/400 = 7.5) which was also safe for the given load conditions.
+In case of the wall, maximum tensile stresses were observed at the corners and at the key stone of the arched opening. This proves that the arch distributes the loads from the corners to the key stone and tranferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 450 mm, the structure was safe. The maximum deflection observed was 1.4 mm (9000/400 = 22.5) which was also safe for the given load conditions.
 </div>
 
 <ins>*Verification*</ins>
 
 *Hand Calculation*
 
-Sum of total Reaction forces in Computational Model= **1072.37 KN**  
-Surface area of mesh= 59.56 m2  
+Sum of total Reaction forces in Computational Model= **694.95 KN**  
+Surface area of mesh= 128.63 m2  
 Thickness of mesh= 0.30 m  
-therefore, Volume of the mesh= 17.86 m3  
-Safety Factor= 4  
+therefore, Volume of the mesh= 38.58 m3  
+Safety Factor= 1.2
 Specific weight = 15 KN/m3 (Adobe density = 1500 kg/m3)  
-Total reaction force= 17.86 x 4 x 15 = **1071.6 KN**   
+Total reaction force= 38.58 x 1.2 x 15 = **694.4 KN**   
 Thus, Computational model gives accurate results.
 
 **Module_4: 6x3 Rectangular Dome**
 
 <ins>*Loadcases:*</ins>
-Explain the load coonditions considered
+
+![Loadcase](img/loadcase1.jpg)
+*Fig: Load cases for the analysis*  
+<div style="text-align: justify"> 
+The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non vertical loads were applied using mesh loads in Karamba 3D. Self-weight of the structure and the design values were taken from the material research as discussed in the section before.
+</div>
 
 <ins>*Support conditions*</ins>
 
+![support 4](img/supports4.jpg)  
+*Fig: Support conditions for the roof and the wall*  
+<div style="text-align: justify"> 
+All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
+</div>
+
 <ins>*Results*</ins>
 
+![results](img/6x3domestructuralanalysis.jpg)  
+*Fig: Results showing the structural behavior of square dome and supporting wall*  
+<div style="text-align: justify"> 
+In case of the roof, it was observed that peak tensile stresses were developed at the edges of the wall as the ridge lines are not defined in the karamba model.Hnece, it considers the shirtest distance to transfer the load.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 150 mm, the structure was safe. The maximum deflection observed was 6.9 mm (6000/400 = 15) which was also safe for the given load conditions. 
+
+In case of the wall, maximum tensile stresses were observed at the edges and at the key stone of the arched opening. This proves that the arch distributes the loads from the edges and the corners to the key stone and tranferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 300 mm, the structure was safe. The maximum deflection observed was 1.4 mm (6000/400 = 15) which was also safe for the given load conditions.
+</div>
+
 <ins>*Verification*</ins>
+
+*Hand Calculation*
+
+Sum of total Reaction forces in Computational Model= **71.84 KN**  
+Surface area of mesh= 26.61 m2  
+Thickness of mesh= 0.15 m  
+therefore, Volume of the mesh= 4 m3  
+Safety Factor= 1.2
+Specific weight = 15 KN/m3 (Adobe density = 1500 kg/m3)  
+Total reaction force= 4 x 1.2 x 15 = **72 KN**   
+Thus, Computational model gives accurate results.
 
 **Module_5: 9x6 Rectangular Dome**
 
 <ins>*Loadcases:*</ins>
-Explain the load coonditions considered
+
+![Loadcase](img/loadcase1.jpg)
+*Fig: Load cases for the analysis*  
+<div style="text-align: justify"> 
+The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non vertical loads were applied using mesh loads in Karamba 3D. Self-weight of the structure and the design values were taken from the material research as discussed in the section before.
+</div>
 
 <ins>*Support conditions*</ins>
 
+![support 5](img/supports5.jpg)  
+*Fig: Support conditions for the roof and the wall*  
+<div style="text-align: justify"> 
+All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall on the ground floor, excluding the opening, are considered as fixed supports in all directions.
+</div>
+
 <ins>*Results*</ins>
 
+![results](img/9x6domestructuralanalysis.jpg)  
+*Fig: Results showing the structural behavior of square dome and supporting wall*  
+<div style="text-align: justify"> 
+In case of the roof, it was observed that peak tensile stresses were developed at the edges of the wall as the ridge lines are not defined in the karamba model.Hnece, it considers the shirtest distance to transfer the load.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 225 mm, the structure was safe. The maximum deflection observed was 17.7 mm (9000/400 = 22.5) which was also safe for the given load conditions. 
+
+The wall in this case is a double storeyed wall with a solid wall between the first and the ground floor which is the area for the filling between the slab and the lower roof. 
+In this case, maximum tensile stresses were observed at the edges and at the key stone of the arched opening. This proves that the arch distributes the loads from the edges and the corners to the key stone and tranferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 450 mm, the structure was safe. The maximum deflection observed was 8.5 mm (9000/400 = 22.5)  which was also safe for the given load conditions.
+</div>
+
 <ins>*Verification*</ins>
+
+*Hand Calculation*
+
+Sum of total Reaction forces in Computational Model= **217.06 KN**  
+Surface area of mesh= 80.37 m2  
+Thickness of mesh= 0.15 m  
+therefore, Volume of the mesh= 12.05 m3  
+Safety Factor= 1.2
+Specific weight = 15 KN/m3 (Adobe density = 1500 kg/m3)  
+Total reaction force= 12.05 x 1.2 x 15 = **216.9 KN**   
+Thus, Computational model gives accurate results.
 
 **Module_6: 12x9 Rectangular Dome**
 
 <ins>*Loadcases:*</ins>
-Explain the load coonditions considered
+
+![Loadcase](img/loadcase1.jpg)
+*Fig: Load cases for the analysis*  
+<div style="text-align: justify"> 
+The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non vertical loads were applied using mesh loads in Karamba 3D. Self-weight of the structure and the design values were taken from the material research as discussed in the section before.
+</div>
 
 <ins>*Support conditions*</ins>
 
+![support 6](img/supports6.jpg)  
+*Fig: Support conditions for the roof and the wall*  
+<div style="text-align: justify"> 
+All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
+</div>
+
 <ins>*Results*</ins>
 
+![results](img/12x9domestructuralanalysis.jpg)  
+*Fig: Results showing the structural behavior of square dome and supporting wall*  
+<div style="text-align: justify"> 
+In case of the roof, it was observed that peak tensile stresses were developed at corners and the edges where the ridges were specified in the model. Looking at the simplification geometry, the tensile stresses were developed at the corners of the curves.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 300 mm, the structure was safe. The maximum deflection observed was 23 mm (12000/400 = 30) which was also safe for the given load conditions. 
+
+In case of the wall, maximum tensile stresses were observed at the edges and at the key stone of the arched opening at the corners. This proves that the arch distributes the loads from the edges and the corners to the key stone and tranferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 600 mm, the structure was safe. The maximum deflection observed was 10.4 mm (12000/400 = 30) which was also safe for the given load conditions.
+
+</div>
+
 <ins>*Verification*</ins>
+
+*Hand Calculation*
+
+Sum of total Reaction forces in Computational Model= **217.06 KN**  
+Surface area of mesh= 80.37 m2  
+Thickness of mesh= 0.15 m  
+therefore, Volume of the mesh= 12.05 m3  
+Safety Factor= 1.2
+Specific weight = 15 KN/m3 (Adobe density = 1500 kg/m3)  
+Total reaction force= 12.05 x 1.2 x 15 = **216.9 KN**   
+Thus, Computational model gives accurate results.
 
 **Module_7: 3x3 Cross vault**
 
 <ins>*Loadcases:*</ins>
-Explain the load coonditions considered
+
+![Loadcase](img/loadcase1.jpg)
+*Fig: Load cases for the analysis*  
+<div style="text-align: justify"> 
+The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non vertical loads were applied using mesh loads in Karamba 3D. Self-weight of the structure and the design values were taken from the material research as discussed in the section before.
+</div>
 
 <ins>*Support conditions*</ins>
 
+![support 7](img/support7.jpg)  
+*Fig: Support conditions for the roof and the wall*  
+<div style="text-align: justify"> 
+All the edge points of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
+</div>
+
 <ins>*Results*</ins>
 
+![results](img/3x3crossvaultsstructuralanalysis.jpg)  
+*Fig: Results showing the structural behavior of square dome and supporting wall*  
+<div style="text-align: justify"> 
+In case of the roof, it was observed that peak tensile stresses were developed at the corners as the meshes generated a defined ridge line from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 150 mm, the structure was safe. The maximum deflection observed was 0.74 mm (3000/400 = 7.5) which was also safe for the given load conditions. 
+
+In case of the wall, maximum tensile stresses were observed at the key stone of the arched opening and the corners. The tensile stresses at the corners were very minimum while the tensile stresses at the key stone was larger. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 300 mm, the structure was safe. The maximum deflection observed was 5.26 mm (3000/400 = 7.5) which was also safe for the given load conditions.
+</div>
+
 <ins>*Verification*</ins>
+
+*Hand Calculation*
+
+Sum of total Reaction forces in Computational Model= **35.92 KN**  
+Surface area of mesh= 13.26 m2  
+Thickness of mesh= 0.15 m  
+therefore, Volume of the mesh= 2 m3  
+Safety Factor= 1.2
+Specific weight = 15 KN/m3 (Adobe density = 1500 kg/m3)  
+Total reaction force= 2 x 1.2 x 15 = **36 KN**   
+Thus, Computational model gives accurate results.
 
 **Module_8: 9x9 Adobe 2.0 Dome**
 
 <ins>*Loadcases:*</ins>
-Explain the load coonditions considered
+
+![Loadcase](img/loadcase1.jpg)
+*Fig: Load cases for the analysis*  
+<div style="text-align: justify"> 
+The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non vertical loads were applied using mesh loads in Karamba 3D. Self-weight of the structure and the design values were taken from the material research as discussed in the section before.
+</div>
 
 <ins>*Support conditions*</ins>
 
+![support 8](img/support8.jpg)  
+*Fig: Support conditions for the roof and the wall*  
+<div style="text-align: justify"> 
+All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
+</div>
+
 <ins>*Results*</ins>
 
+![results](img/Adobe2.0structuralanalysis.jpg)  
+*Fig: Results showing the structural behavior of square dome and supporting wall*  
+<div style="text-align: justify"> 
+In case of the roof, it was observed that peak tensile stresses were developed at the corners as the meshes generated a defined ridge line due to the squinch. The squinch lines act as ridges and the squinch lines at the corners form the shortest distance to transfer the load to the wall. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 300 mm, the structure was safe. The maximum deflection observed was 12 mm (9000/400 = 22.5) which was also safe for the given load conditions. 
+
+In case of the wall, maximum tensile stresses were observed at the key stone of the arched opening and the corners. The tensile stresses at the corners were very minimum while the tensile stresses at the key stone was larger. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 450 mm, the structure was safe. The maximum deflection observed was 1.5 mm (9000/400 = 22.5) which was also safe for the given load conditions.
+</div>
 
 <ins>*Verification*</ins>
+
+*Hand Calculation*
+
+Sum of total Reaction forces in Computational Model= **770.96 KN**  
+Surface area of mesh= 142.7 m2  
+Thickness of mesh= 0.30 m  
+therefore, Volume of the mesh= 42.8 m3  
+Safety Factor= 1.2
+Specific weight = 15 KN/m3 (Adobe density = 1500 kg/m3)  
+Total reaction force= 42.8 x 1.2 x 15 = **770.4 KN**   
+Thus, Computational model gives accurate results.
 
 ### Summary or conclusion  
 
@@ -688,11 +853,22 @@ Explain the load coonditions considered
 
 Introduction explaining the construction phase and its goals.(from course brief)*Bez*
 
+This phase in the design process was carried along side with the structuring phase. To understand how the construction of the defined modules can be achieved with unskilled laborers various literature reviews were referenced. The referenced construction methods were explored further by simple digital and physical model making. Thereafter, the rib-infill construction method was chosen as it can be easily adopted to the different modules present. Step by step of the constructability processes will be explained below. 
+
 **Methodology**   
 
 <ins>*relationship between different modules*</ins> 
 *Beza*  
 Explaining the scalable difference between each module, therfore each curve is double of the other, Mention how they are Different yet similar a the same time. 
+
+To define a construction method, first the relationship between the different wall and roof modules was studied. Since the floor plan was configured based on a tartan grid, the modules are multiples of each other. 
+
+As seen previously in the simplification process, the tessellated roofs of the different Dome modules were approximated using elliptical curves. The Dome roof modules are approximated with multiples of the radius of 2 ellipses, the diagonal ellipse with radius of (2.12 m, 1.2m) and the horizontal ellipses of (1.5m, 1.2m). multiplying the radius of these ellipses with 1, 2, 3 will give us 3x3, 6x6, 9x9 domes respectively. 
+
+The vaulted domes are made up of 2 square domes. For instance, the 3x6 dome is made up of two 3x3 square domes placed adjacent to each other. Therefore, the elliptical curves of the 3x3 dome can be used to approximate the 3x6 vaulted dome. Which in turn means that multiplying the radius of the base ellipses (diagonal ellipse with radius of (2.12 m, 1.2m) and the horizontal ellipses of (1.5m, 1.2m)) with 1, 2, 3 will give us the 3x6, 6x9, 9x12 vaulted domes respectively.  This mean that all the domes with the exception of the Adobe 2.0 are scaled versions of the smallest size (3x3). 
+
+![scalability](img/scale.gif)  
+*Fig: Relationship between different modules* 
 
 <ins>*Rib system approach*</ins>  
 *Beza*  
