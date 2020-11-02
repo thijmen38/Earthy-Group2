@@ -192,9 +192,11 @@ Mention the challenge with dome with Skylight and why it wasnt possible to relax
 
 As the triangulation meshing logic was chosen initially, after dynamically relaxing the meshes, we realized that the form generated failed to perform well structurally. The dynamically relaxed roof did not transfer the loads uniformly and developed peak tensile stresses at the edges of the walls. Moreover, the meshing logic did not work well for larger spans as it generated fairly flat surface at the top of the dome which gave rise to peak tensile stresses at the highest points of the roof.
 
-![FinalTesselation](img/FinalTesselation.jpg) 
+![FinalTesselation](img/FinalTesselation.jpg)     
+*Fig: Showing the final roof tessellations from wall centerlines*
 
-*Insert the final tessellation floor plan*
+![InnerTesselation](img/InnerTesselation.jpg)   
+*Fig: Showing the final roof tessellations seperated by the wall thickness*  
 
 The final tesselation logic was a combination of constant quad split and triangulation method. This logic was structurally analyzed and worked well structurally as the load distribution was uniform and peak tensile stresses generated were considerable. Moreover, this logic closely resembled the desired form and maintained the form irrespective of the span.
 
