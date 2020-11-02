@@ -101,12 +101,17 @@ This bubble diagram was studied and connections were moderated if necessary. How
 Final bubble diagram.
 
 **Hierarchy of spaces**  
-*Thijmen*  
-<ins>*Depth chart*</ins>  
-show depth chart explaining the logic behind it
+After creating the bubble diagrams we analyzed them. To do some more effectively we looked at the hierarchy of the spaces as this gives a good view of how private the rooms are and how long it would take a visitor to reach them.
+
+<ins>*Depth chart*</ins>\
+![depth chart](rev\configuration\bubble_diagram\depthchart.jpg)\
+The depth chart as shown above clearly shows the hierarchy of the spaces. For instance, it shows a clear split between the hammam areas and the tea bar areas. It also shows how deep the bathing spaces are in the building. Which is where they are designed to be.
 
 <ins>*Metro link diagram*</ins>  
-showing and explaining
+![depth chart](rev\configuration\bubble_diagram\metro_link.jpg)\
+To show the connections on a very conceptual level a metro link diagram was created as can be seen above.\
+![depth chart](rev\configuration\bubble_diagram\depthchart2.jpg)\
+To show the clustering of the functions this diagram was transformed into a hexagonal connectivity chart which is shown above.
 
 ### Summary or conclusion
 *First do the rest*  
