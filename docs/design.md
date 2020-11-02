@@ -777,11 +777,22 @@ Explain the load coonditions considered
 
 Introduction explaining the construction phase and its goals.(from course brief)*Bez*
 
+This phase in the design process was carried along side with the structuring phase. To understand how the construction of the defined modules can be achieved with unskilled laborers various literature reviews were referenced. The referenced construction methods were explored further by simple digital and physical model making. Thereafter, the rib-infill construction method was chosen as it can be easily adopted to the different modules present. Step by step of the constructability processes will be explained below. 
+
 **Methodology**   
 
 <ins>*relationship between different modules*</ins> 
 *Beza*  
 Explaining the scalable difference between each module, therfore each curve is double of the other, Mention how they are Different yet similar a the same time. 
+
+To define a construction method, first the relationship between the different wall and roof modules was studied. Since the floor plan was configured based on a tartan grid, the modules are multiples of each other. 
+
+As seen previously in the simplification process, the tessellated roofs of the different Dome modules were approximated using elliptical curves. The Dome roof modules are approximated with multiples of the radius of 2 ellipses, the diagonal ellipse with radius of (2.12 m, 1.2m) and the horizontal ellipses of (1.5m, 1.2m). multiplying the radius of these ellipses with 1, 2, 3 will give us 3x3, 6x6, 9x9 domes respectively. 
+
+The vaulted domes are made up of 2 square domes. For instance, the 3x6 dome is made up of two 3x3 square domes placed adjacent to each other. Therefore, the elliptical curves of the 3x3 dome can be used to approximate the 3x6 vaulted dome. Which in turn means that multiplying the radius of the base ellipses (diagonal ellipse with radius of (2.12 m, 1.2m) and the horizontal ellipses of (1.5m, 1.2m)) with 1, 2, 3 will give us the 3x6, 6x9, 9x12 vaulted domes respectively.  This mean that all the domes with the exception of the Adobe 2.0 are scaled versions of the smallest size (3x3). 
+
+![scalability](img/scale.gif)  
+*Fig: Relationship between different modules* 
 
 <ins>*Rib system approach*</ins>  
 *Beza*  
