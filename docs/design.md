@@ -115,6 +115,7 @@ To show the clustering of the functions this diagram was transformed into a hexa
 
 ### Summary or conclusion
 *First do the rest*  
+The functions and there relationships that are created in this chapter will be the input for the next chapter were the building layout will be formed.
 
 ---  
 
