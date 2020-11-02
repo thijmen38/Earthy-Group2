@@ -473,10 +473,13 @@ It was observed that the load distribution was uniform and the meshes were coher
 The structural analysis does not consider gypsum as the material for the ribs. Adobe material properties were considered for the entire structure. As gypsum has higher compressive strength as compared to adobe, it was assumed that using gypsum would give better results in the analysis.
  </div>
  
- **Module_1**
+ **Module_1: 3x3 Square Dome**
 
 <ins>*Loadcases:*</ins>
 
+![Loadcase](img/loadcase1.jpg)
+*Fig: Final approach for structural analysis of the structure*
+In case of the roofs with no first floor above it, the load cases considered were self -weight of the structure  which was taken from the material analysis, non-vertical mesh loads were applied using the mesh loads in karamba 3D, finish material load of 2 KN/m2 and a safety factor of 1.2.
 
 <ins>*Support conditions*</ins>
 
@@ -484,18 +487,7 @@ The structural analysis does not consider gypsum as the material for the ribs. A
 
 <ins>*Verification*</ins>
 
-**Module_2**
-
-<ins>*Loadcases:*</ins>
-Explain the load coonditions considered
-
-<ins>*Support conditions*</ins>
-
-<ins>*Results*</ins>
-
-<ins>*Verification*</ins>
-
-**Module_3**
+**Module_2: 6x6 Square Dome**
 
 <ins>*Loadcases:*</ins>
 Explain the load coonditions considered
@@ -506,7 +498,7 @@ Explain the load coonditions considered
 
 <ins>*Verification*</ins>
 
-**Module_4**
+**Module_3: 9x9 Square Dome**
 
 <ins>*Loadcases:*</ins>
 Explain the load coonditions considered
@@ -517,7 +509,7 @@ Explain the load coonditions considered
 
 <ins>*Verification*</ins>
 
-**Module_5**
+**Module_4: 6x3 Rectangular Dome**
 
 <ins>*Loadcases:*</ins>
 Explain the load coonditions considered
@@ -528,7 +520,7 @@ Explain the load coonditions considered
 
 <ins>*Verification*</ins>
 
-**Module_6**
+**Module_5: 9x6 Rectangular Dome**
 
 <ins>*Loadcases:*</ins>
 Explain the load coonditions considered
@@ -539,7 +531,7 @@ Explain the load coonditions considered
 
 <ins>*Verification*</ins>
 
-**Module_7**
+**Module_6: 12x9 Rectangular Dome**
 
 <ins>*Loadcases:*</ins>
 Explain the load coonditions considered
@@ -550,7 +542,18 @@ Explain the load coonditions considered
 
 <ins>*Verification*</ins>
 
-**Module_8**
+**Module_7: 3x3 Cross vault**
+
+<ins>*Loadcases:*</ins>
+Explain the load coonditions considered
+
+<ins>*Support conditions*</ins>
+
+<ins>*Results*</ins>
+
+<ins>*Verification*</ins>
+
+**Module_8: 9x9 Adobe 2.0 Dome**
 
 <ins>*Loadcases:*</ins>
 Explain the load coonditions considered
