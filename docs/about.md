@@ -23,7 +23,7 @@ Aspiring to become a leading Building Technologist, she is a highly motivated, h
 In view of widening her vistas beyond design and architecture, she was keen to pursue her masters in a technical subject which bridged the gap between an architect and an engineer. Pursuing her masters in Building Technology has helped her gain the neccesary technical knowledge and improve her software skills. 
 
 **Thijmen Pluimers** [Linkedin](https://www.linkedin.com/in/thijmenpluimers/)  
-*personal picture*
+![Thijmen.jpg](img\thijmen.jpg)
 
 After doing his Bachelor at the Saxion hoge school in Enschede Thijmen decided to come to Delft to enroll in the Building Technology master track.
 Having focused his Bachelor graduation on structural engineering he was determined to focus on broadening his knowledge about the building industry during his master study. previous to earthy he already gained knowledge about facades by following the Facade Design course and being a Facade designer in the interdisciplinary course MEGA. It was in this course where he saw the potential of computational design and wanted to learn about this. This naturally brought him to the earthy course.
