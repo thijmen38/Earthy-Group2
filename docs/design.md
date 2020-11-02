@@ -243,7 +243,7 @@ introduction explaining the configuring phase and its goals.(from course brief)*
 ### Spacial configuration
 
 **2D Study**  
-*Anagha*  
+ 
 <div style="text-align: justify"> 
 Once a conceptual analysis of spatial clusters and their connections was identified, a computational approach of gradient descent was adopted to configure these spaces in 2-dimension.    
 
@@ -251,9 +251,10 @@ This approach was inspired by one of the group's from the previous year who deve
 
 To start a grid of 1.2m x 1.2m was considered, derived from a standard corridor width size and minimum area for one person. Therefore, each functional area was adjusted to a multiple of this grid size.
 
-An excel table was created to input the heirarchy of spaces (from the depth chart in an ascending order) and their area dimensions (from the program of requirements). This excel is used to import these inputs into the Grasshopper environment.
+An excel table was created to input the hierarchy of spaces (from the depth chart in an ascending order) and their area dimensions (from the program of requirements). As seen in image below, the excel is used to import these inputs into the Grasshopper environment.
 
 ![ExcelInputGD](img/ExcelInputGD.png)  
+*Fig: Spatial parameters translated as inputs into an excel sheet for the gradient descent tool*
 
 The flowchart explains the pseudo code used to develop this tool. 
 
