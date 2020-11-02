@@ -14,7 +14,7 @@ Türkmen, İ., Ekinci, E., Kantarcı, F., & Sarıcı, T. (2020). The mechanical 
 ## 1_Scripts
 
 To produce the design as shown on the [design page](design.md) a lot of scripts were used.
-Below we listed the most important scrips with a download link for anybody intereseted to study them.
+Below we listed the most important scripts with a download link for anybody intereseted to study them.
 
 **site selector**
 
@@ -41,7 +41,7 @@ The grasshopper tool can be [downloaded here](rev\scripts\Basic_bubble_diagram.g
 
 **Relaxer**  
 <div style="text-align: justify">
-To study our tessellations and there final form a grasshopper script was made that did the relaxing.
+To study our tessellations and their final form a grasshopper script was made that did the relaxing.
 It takes in anchor curves and the tesselation as input. After meshing the tesselation it relaxes it.
 The script is illustrated in the gif below and can be downloaded below </div>
 </br>
