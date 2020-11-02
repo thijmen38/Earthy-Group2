@@ -464,7 +464,7 @@ The structural analysis does not consider gypsum as the material for the ribs. A
 <ins>*Loadcases:*</ins>
 
 ![Loadcase](img/loadcase1.jpg)
-*Fig: Final approach for structural analysis of the structure*  
+*Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non vertical loads were applied using mesh loads in Karamba 3D. Self-weight of the structure and the design values were taken from the material research as discussed in the section before.
 </div>
@@ -472,7 +472,7 @@ The load case for this part of the building is shown in the Figure above, where 
 <ins>*Support conditions*</ins>
 
 ![support1](img/supports.jpg)  
-*Fig: Support conditions for the roof*  
+*Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
 </div>
@@ -511,9 +511,20 @@ Thus, Computational model gives accurate results.
 **Module_2: 6x6 Square Dome**
 
 <ins>*Loadcases:*</ins>
-Explain the load coonditions considered
+
+![Loadcase](img/loadcase2.jpg)
+*Fig: Load cases for the analysis*  
+<div style="text-align: justify"> 
+The load case for this part of the building is shown in the Figure above, where live load of first floor was considered as 4kN/m2 (Malakatas, 2008), the slab load and filling load were taken as 1kN/m2 and 1600Kg/m3 respectively and safety factor of 4 was considered. The non vertical load was applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
+</div>
 
 <ins>*Support conditions*</ins>
+
+![support2](img/supports.jpg)  
+*Fig: Support conditions for the roof and the wall*  
+<div style="text-align: justify"> 
+All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
+</div>
 
 <ins>*Results*</ins>
 
