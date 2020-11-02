@@ -28,4 +28,4 @@ Having focused his Bachelor graduation on structural engineering he was determin
 
 **Twinkle Nathani** [Linkedin](https://www.linkedin.com/in/twinkle-nathani-88036a105/)
 
-abdknckdj
+Twinkle is a student of master track Building Technology at TU Delft. She is also the head of Media and Public Relations committee of BouT, the study association of the AE&T department at the Bouwkunde. Over the past years, she had a growing interest in the field of sustainable design. After graduating in architecture from National Institute of Technology in 2018, she worked for two years with firms specializing in earth construction and bio-climatic building design. She decided to take up this course to apply and further enhance her knowledge in design and construction of Earhy buildings through computational workflows.
