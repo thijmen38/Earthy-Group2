@@ -254,16 +254,17 @@ To start a grid of 1.2m x 1.2m was considered, derived from a standard corridor 
 An excel table was created to input the hierarchy of spaces (from the depth chart in an ascending order) and their area dimensions (from the program of requirements). As seen in image below, the excel is used to import these inputs into the Grasshopper environment.
 
 ![ExcelInputGD](img/ExcelInputGD.png)  
-*Fig: Spatial parameters translated as inputs into an excel sheet for the gradient descent tool*
-
-The flowchart explains the pseudo code used to develop this tool.   
-
-![GDFlowchart](img/GDFlowchart.png) 
+*Fig: Spatial parameters translated as inputs into an excel sheet for the gradient descent tool*  
 
 
+![GDFlowchart](img/GDFlowchart.jpg) 
+*Fig: The flowchart explains the pseudo code used to develop this tool*
 
-Video/gif, excel, flowchart of the script and explanation
-in 2D
+The manual inputs apart from the excel sheet used for the script are the site dimension (length and breadth), direction of north with respect to site and to place the entrance checkpoint on site. With these inputs the script 
+
+
+
+Video/gif and explanation
 
 **3D Study**  
 
