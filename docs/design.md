@@ -260,13 +260,31 @@ Next step was to connect the built and the unbuilt spaces and understand the nat
 ### Configured design
 
 **Modular grid**    
-*Twinkle*  
-talk about the grid 1.2m we first choose and how it transformed into the tartan grid explain why initially bands of 600mm was assumed- based on last years reference and our room sizes. 
+<div style="text-align: justify"> 
+After having configured the general layout, it was important to translate it into the final plan for the building. For this, a grid of 1200mm x 1200mm was selected. The logic was based on the fact that 1200mm is the minimum corridor width required for a person. The grid was further refined into a Tartan grid. This consists of straight lines of varying widths and distances, crossing at right angles. Tartan grids allow for modularity in the size of built elements. Elements are restricted to centre on the centreline grid and limited in dimension to stay within the tartan bands. 
+
+The optimized grid has 600mm bands with 2400mm distance between each 60cm bands. This is to ensure that all walls lie in these bands and no module in the building is less than 2400mm x 2400mm. The reason for choosing the width of tartan band as 60cm comes from a small study done on commonly used wall thicknesses for various spans. This was also backed by the previous year structural reports. Our assumption was later proved to be correct and details of that can be found in 3_Structuring.
+</div>
+
 
 **Floor plans**  
-show (general) floor plans and there plan evolution (study on the courtyards and therfore the configuration that was informed)
-*Siteplan*  
-showing the site plan of the building and its surrounding, and the orientation (start with the first one and show how it evolved)  
+<div style="text-align: justify"> 
+Once the grid was fixed, different spaces were then moulded in the plan based on the area fixed in the programme requirements. This also resulted in different modules of roofs and walls based on how many tartan bands they occupy. The second step was to fix the dimensions for the courtyard. To do this, the traditional Iranian geometric design method was adopted. It uses a golden rectangular design, which is drawn inside a regular hexagon. The ratio of length to width being 1.73. The width of the Water-fountain courtyard is double the width of the rooms adjoining it. This is done so that rooms receive proper daylight. The Water-body courtyard and Herbal garden are cosier and requires mutual shading therefore, these are equal in widths with the adjacent rooms.
+
+*Insert Picture*
+
+Below you can see how different spaces comes together to form the final plan. As informed from the computational and manual processes, the courtyards form the main connecting elements each equipped with a transition vestibule space. The tea-bar with it’s different seating spaces are placed in the east of the site. The hammam in the south west corner closer to the mosque and bore well and the library and quiet room spaces in the north west to make use of daylight. 
+
+Insert image of overall general plan
+Insert image of final floor plan - GF
+Insert image of final floor plan - FF
+</div>
+
+<ins>*Siteplan*</ins> 
+<div style="text-align: justify"> 
+As shown here, there is a main entrance which can be reached by a pedestrian route to keep it away from the busy main street. On the back of the site, there is a service road provided which functions as a supply route for several functions and is a way in for the employees and maintenance.  The unloading & loading service zone is near the kitchen and store for the ease of use while the other services are divided in two service rooms placed near the Hammam. 
+</div>
+
 
 **Wall modules**  
 explain how the walls have been designed according to the tartan grid.
