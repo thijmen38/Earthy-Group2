@@ -4,7 +4,10 @@ tell we got inspired by previous years and helped us like pirouz and shervin.
 ---
 ## 0_Literature
 
-falskhgfds
+**References**
+
+Türkmen, İ., Ekinci, E., Kantarcı, F., & Sarıcı, T. (2020). The mechanical and physical properties of unfired earth bricks stabilized with gypsum and Elazığ Ferrochrome slag. Retrieved 2 November 2020
+
 
 ---
 

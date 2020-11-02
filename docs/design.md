@@ -304,6 +304,11 @@ Due to the change in the course structure due to Covid-19, material research and
 
 The adobe bricks should be made by the refugees at the camp site with the available materials. The recipe for the standard brick composition were 30% clay, 30% fine sand, 40% coarse sand and 10% water of the total weight of the dry ingredients. Additionally, straw was chosen as an addition to the adobe paste to improve the tensile strength of the brick. The straw was added in the percentage of 10% of the total mixture. The final mixture was then placed in the required moulds and allowed to dry to make the bricks. The mortar was also prepared with the same basic composition with higher percentage of water as required to make the sticky paste. (Bustan,2019)
 
+![gypsum mechanical properties](img/Gypsum.jpg)
+*Fig: Mechanical properties of Gypsum*
+
+Since elliptical curves were used to simplify the geometry, the combination of interlocking bricks and adobe projected in the elliptical curve leads to increase in the number of brick modules. In order to reduce the number of modules and ease of constructibility, gypsum bricks were used instead of adobe bricks for the ribs. A literature study was conducted to understand the mechanical properties of gypsum. From the study, it was concluded that gypsum stabiliser indicated higher compressive strength values compared to adobe. (Türkmen, Ekinci, Kantarcı & Sarıcı, 2020)
+
 ![limit states](img/Limitstates.jpg)
 *Fig: Design Values*
 
@@ -326,10 +331,11 @@ It was observed that the load distribution was not uniform as we observed peak t
 ![final approach](img/processsofstructuralanalysis2.jpg)
 *Fig: Final approach for structural analysis of the structure*
 
+<div style="text-align: justify"> 
 In the second stage, the simplified surface of the wall and the roof was chosen for further analysis. In this case, the wall and the roof were analyzed separately. First the roof was analysed using the simplified geometry. The reaction forces from the roof were given as an input to the wall analysis along with the self weight of the wall. The wall was then analyzed. 
 
 It was observed that the load distribution was uniform and the meshes were coherent. The peak stresses developed at the edges and the corners of the wall were within the set limits and the transition between tension and compression was logical and regular. High compression at the bottom of the wall and at the top of the roof and tension at the corners and the edges of the wall determined the analysis was performed correctly. Moreover, the analysis proved that the roof can be made into a completely compression roof which fulfilled the ultimate goal.
-
+ </div>
 <ins>*Module_1*</ins>
 
 *Loadcases:*
