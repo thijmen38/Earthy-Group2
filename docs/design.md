@@ -206,9 +206,10 @@ Introduction explaining the configuring phase and its goals.(from course brief)*
 *Shriya and Beza*  
 ![Dome tesselations](img/dometessellations.png)
 *Fig: Exploration of different meshing techniques*
-
+<div style="text-align: justify"> 
 The form finding was determined by the study of architectural characteristics of different spaces. To start the process and understand how different meshes gave different shapes, a thorough literature study was conducted. During this process, we considered a roof form and it's corresponding size, and manually meshed the initial divisions. The initial divisions followed a logic which was derived from the literature research. Different types of meshing logic was explored initially and were imported in the kangaroo solver to generate the dynamically relaxed form. Different meshing logic gave a different result, for example, the quad split logic generated a curved peak while the triangulation logic generated a pointed peak. This step was repeated for every type of meshing logic and the triangulation meshing logic was chosen as it closely resembled the desired form. Later these meshes were imported in the kangaroo solver to sub divide the initial meshes and generate the dynamically relaxed form. 
-
+</div>
+</br>
 
 Explain the different types of tesselations (dome/cross vault Jpegs) and meshing logic/strategy  
 Mention the challenge with dome with Skylight and why it wasnt possible to relax an opening within the dome.
@@ -224,8 +225,10 @@ To test the tesselations that were made
 
 ![Tessellation initial](img/initialroof.jpg) 
 *Fig: Showing the initial roof tessellations*
-
+<div style="text-align: justify"> 
 As the triangulation meshing logic was chosen initially, after dynamically relaxing the meshes, we realized that the form generated failed to perform well structurally. The dynamically relaxed roof did not transfer the loads uniformly and developed peak tensile stresses at the edges of the walls. Moreover, the meshing logic did not work well for larger spans as it generated fairly flat surface at the top of the dome which gave rise to peak tensile stresses at the highest points of the roof.
+</div>
+</br>
 
 ![FinalTesselation](img/FinalTesselation.jpg)     
 *Fig: Showing the final roof tessellations from wall centerlines*
@@ -233,35 +236,47 @@ As the triangulation meshing logic was chosen initially, after dynamically relax
 ![InnerTesselation](img/InnerTesselation.jpg)   
 *Fig: Showing the final roof tessellations seperated by the wall thickness*  
 
+<div style="text-align: justify"> 
 The final tesselation logic was a combination of constant quad split and triangulation method. This logic was structurally analyzed and worked well structurally as the load distribution was uniform and peak tensile stresses generated were considerable. Moreover, this logic closely resembled the desired form and maintained the form irrespective of the span.
+</div>
+</br>
 
 <ins>*Walls*</ins>  
 
 ![wallTessellation](img/walltessellation.jpg)
 *Fig: Wall tessellations* 
 
+<div style="text-align: justify"> 
 Though a computational method was used for the roofs, for the walls we opted a manual approach. The meshes for the walls were generated using the initial divisions of the roof mesh. The intersecting points between the roof and the wall determined the mesh lines for the walls. These mesh lines became the guideline for the division of the arched opening in the wall. A similar mesh logic was applied in the wall meshing as done for the roof meshes; constant quad split and triangulation method. Once the walls with the openings were meshed, walls without openings followed the mesh lines of the later. After the initial meshing of the walls, they were imported to weaverbird in grasshopper to sub divide the initial meshes and make the meshes more coarse and match them with the roof meshes. 
+</div>
+</br>
 
-**Simplification**  
+### Simplification 
 
-<ins>*Square domes*</ins>
+**Square domes**
 
 ![Square](img/sqauredome.gif)
 *Fig: Evolution of the dynamically relaxed form*
-
+<div style="text-align: justify"> 
 In order to achieve a smooth form and for the ease of construction, the dynamically relaxed form was refined further. The inital tesselataion, based on the tartan grid, was approximated and simplified to the closest curve resembling the generated mesh. These curves were used to build the final surface of the roof which was later analyzed in karamba 3D for structural calculations. 
+</div>
+</br>
 
 ![Square simplification](img/3x3domesimplification.jpg)
 *Fig: Simplification logic of Square domes*
-
+<div style="text-align: justify"> 
 The dynamically relaxed form was refined under a specific geometry in order to ensure accuracy in construction. Each curve of the form was re-drawn to the closest ellipse. These ellipses were made using the edge points of the meshes and then cut into half to derive the elliptical curves. For the square domes, two types of ellipses were used: one ellipse in the vertical and horizontal direction and one for the diagonals. The final surface was generated using these elliptical curves and imported to weaverbird in grasshopper for further refinement.
+</div>
+</br>
 
 ![Square simplification](img/9x9domesimplification.png)
 *Fig: Simplification logic of Square domes*
-
+<div style="text-align: justify"> 
 This logic was repeated for the other square domes: 6 x 6 M and 9 x 9 M. The curves were scaled twice for the 6 x 6 m dome and thrice for the 9 x 9 m dome. In case of 9 x 9 m dome, additional curves were drawn to match the initial tesselations and for structural stability.
+</div>
+</br>
 
-<ins>*Rectangular domes*</ins>
+**Rectangular domes**
 
 ![Rectangle](img/rectangulardome.gif)
 *Fig: Evolution of the dynamically relaxed form*
@@ -270,57 +285,71 @@ Similar logic was applied for the rectangular domes.
 
 ![rectangular simplification](img/6x3domesimplification.jpg)
 *Fig: Simplification logic of rectangular domes*
-
+<div style="text-align: justify"> 
 In case of rectangular domes, two different ellipses were made. One ellipse was made in the center dividing the top ridge into 2 parts and the second ellipse was drawn from the corners of the rectangle, creating a slight curvature on the smaller sides of the ceiling.
+</div>
+</br>
 
 ![rectangular simplification](img/12x9domesimplification.png)
 *Fig: Simplification logic of rectangular domes*
-
+<div style="text-align: justify"> 
 This logic was repeated for the other rectangular domes domes: 6 x 3 M and 9 x 6 M. The curves were scaled twice for the 6 x 3 m dome and thrice for the 9 x 6 m dome. In case of 9 x 6 m dome, additional curves were drawn to match the initial tesselations and for structural stability.
+</div>
+</br>
 
-
-<ins>*Cross vaults*</ins>
+**Cross vaults**
 
 ![Cross-vaults](img/crossvault.gif)
 *Fig: Evolution of the dynamically relaxed form*
-
+<div style="text-align: justify"> 
 The dynamically relaxed form was refined under a specific geometry in order to ensure accuracy in construction. Each curve of the form was re-drawn to the closest catenary arc. These arcs were made using the edge points of the meshes and then cut into half to derive the catenary curves. For the cross vaults, only one catenary arc was used to generate the surface. The final surface was generated using these elliptical curves and imported to weaverbird in grasshopper for further refinement.
+</div>
+</br>
 
 ![cross vault simplification](img/crossvaultsimplification.png)
 *Fig: Simplification logic of cross vaults*
 
-**Material Selection**  
-
+### Material selection 
+<div style="text-align: justify"> 
 Due to the change in the course structure due to Covid-19, material research and testing was not part of the brief. We referred to the tests and anlaysis done by the previous year students of the same course. We primarily considered the test results of Bustan group (Group 5) and chose the same materials and material limit states for our project.  
+</div>
+</br>
 
 ![material](img/materials.jpg)
 *Fig: Material composition*
-
+<div style="text-align: justify">
 The adobe bricks should be made by the refugees at the camp site with the available materials. The recipe for the standard brick composition were 30% clay, 30% fine sand, 40% coarse sand and 10% water of the total weight of the dry ingredients. Additionally, straw was chosen as an addition to the adobe paste to improve the tensile strength of the brick. The straw was added in the percentage of 10% of the total mixture. The final mixture was then placed in the required moulds and allowed to dry to make the bricks. The mortar was also prepared with the same basic composition with higher percentage of water as required to make the sticky paste. (Bustan,2019)
+</div>
+</br>
 
 ![gypsum mechanical properties](img/Gypsum.jpg)
 *Fig: Mechanical properties of Gypsum*
-
+<div style="text-align: justify">
 Since elliptical curves were used to simplify the geometry, the combination of interlocking bricks and adobe projected in the elliptical curve leads to increase in the number of brick modules. In order to reduce the number of modules and ease of constructibility, gypsum bricks were used instead of adobe bricks for the ribs. A literature study was conducted to understand the mechanical properties of gypsum. From the study, it was concluded that gypsum stabiliser indicated higher compressive strength values compared to adobe. (Türkmen, Ekinci, Kantarcı & Sarıcı, 2020)
+</div>
+</br>
 
 ![limit states](img/Limitstates.jpg)
 *Fig: Design Values*
-
+<div style="text-align: justify">
 The limit states of the material were obtained from a research paper (Clifton, J. R., & Davis, F. L., 1979.) and Last year's material report written by Bustan group (group 5). From the literature study (Clifton, J. R., & Davis, F. L., 1979) we concluded that safety factor within the range 1.2-2 is ideal in this case. In case of addtional floors above, safety factor of 4 was considered.  
+</div>
+</br>
 
-**Strcutural Analysis**
+### Structural analysis
 
 ![structural flow chart](img/structuralflowchart.png)
 *Fig: Structural analysis process flow chart*
 
-<ins>*Process*</ins>
+**Process**
 
 ![initial approach](img/processsofstructuralanalysis1.jpg)
 *Fig: Initial approach for structural analysis of the structure*
-
+<div style="text-align: justify">
 Structural analysis of the generated geometry was implemented in Karamba 3D in grasshopper. The structural analysis process was carried out in 2 stages. In the first stage, the chosen dynamically relaxed form was placed over the vertical base after which the wall and the roof meshes were merged to form a uniform mesh. This uniform mesh became the input for the karamba analysis. 
 
 It was observed that the load distribution was not uniform as we observed peak tensile stresses at the edges of the wall and irregularity in the load distribution in the roof. This was due to irregular surfaces and meshes generated from dynamic relaxation. Moreover, the ridge between the wall and the roof was visible distinctly, therefore, the wall and the roof meshes were not coherent.
+</div>
 
 ![final approach](img/processsofstructuralanalysis2.jpg)
 *Fig: Final approach for structural analysis of the structure*
@@ -330,93 +359,94 @@ In the second stage, the simplified surface of the wall and the roof was chosen 
 
 It was observed that the load distribution was uniform and the meshes were coherent. The peak stresses developed at the edges and the corners of the wall were within the set limits and the transition between tension and compression was logical and regular. High compression at the bottom of the wall and at the top of the roof and tension at the corners and the edges of the wall determined the analysis was performed correctly. Moreover, the analysis proved that the roof can be made into a completely compression roof which fulfilled the ultimate goal.
  </div>
-<ins>*Module_1*</ins>
+ 
+ **Module_1**
 
-*Loadcases:*
+<ins>*Loadcases:*</ins>
 Explain the load coonditions considered
 
-*Support conditions*
+<ins>*Support conditions*</ins>
 
-*Results*
+<ins>*Results*</ins>
 
-*Verification*
+<ins>*Verification*</ins>
 
-<ins>*Module_2*</ins>
+**Module_2**
 
-*Loadcases:*
-Explain the load conditions considered
-
-*Support conditions*
-
-*Results*
-
-*Verification*
-
-<ins>*Module_3*</ins>
-
-*Loadcases:*
+<ins>*Loadcases:*</ins>
 Explain the load coonditions considered
 
-*Support conditions*
+<ins>*Support conditions*</ins>
 
-*Results*
+<ins>*Results*</ins>
 
-*Verification*
+<ins>*Verification*</ins>
 
-<ins>*Module_4*</ins>
+**Module_3**
 
-*Loadcases:*
+<ins>*Loadcases:*</ins>
 Explain the load coonditions considered
 
-*Support conditions*
+<ins>*Support conditions*</ins>
 
-*Results*
+<ins>*Results*</ins>
 
-*Verification*
+<ins>*Verification*</ins>
 
-<ins>*Module_5*</ins>
+**Module_4**
 
-*Loadcases:*
+<ins>*Loadcases:*</ins>
 Explain the load coonditions considered
 
-*Support conditions*
+<ins>*Support conditions*</ins>
 
-*Results*
+<ins>*Results*</ins>
 
-*Verification*
+<ins>*Verification*</ins>
 
-<ins>*Module_6*</ins>
+**Module_5**
 
-*Loadcases:*
+<ins>*Loadcases:*</ins>
 Explain the load coonditions considered
 
-*Support conditions*
+<ins>*Support conditions*</ins>
 
-*Results*
+<ins>*Results*</ins>
 
-*Verification*
+<ins>*Verification*</ins>
 
-<ins>*Module_7*</ins>
+**Module_6**
 
-*Loadcases:*
+<ins>*Loadcases:*</ins>
 Explain the load coonditions considered
 
-*Support conditions*
+<ins>*Support conditions*</ins>
 
-*Results*
+<ins>*Results*</ins>
 
-*Verification*
+<ins>*Verification*</ins>
 
-<ins>*Module_8*</ins>
+**Module_7**
 
-*Loadcases:*
+<ins>*Loadcases:*</ins>
 Explain the load coonditions considered
 
-*Support conditions*
+<ins>*Support conditions*</ins>
 
-*Results*
+<ins>*Results*</ins>
 
-*Verification*
+<ins>*Verification*</ins>
+
+**Module_8**
+
+<ins>*Loadcases:*</ins>
+Explain the load coonditions considered
+
+<ins>*Support conditions*</ins>
+
+<ins>*Results*</ins>
+
+<ins>*Verification*</ins>
 
 ### Summary or conclusion  
 
