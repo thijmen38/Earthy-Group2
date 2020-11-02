@@ -902,11 +902,18 @@ The next step was to figure out how to make the ribs in a way that can easily be
 
 **Interlocking bricks**  
 
+<<<<<<< HEAD
 <ins>*design process*</ins>
 
 The approach for the interlocking blocks was: if the blocks were placed in order of their interlocking nature, they would automatically generate the curvature of the rib. This means there is no need for centering, a guide or a large formwork. 
 
 This idea was digitally modelled first for a simple semi-circular arch. The first model shows an interlocking brick system with just one brick module. 
+=======
+<ins>*system exploration*</ins> 
+<div style="text-align: justify">  
+For the interlocking rib system, one can either have the ribs made from gypsum or adobe. The advantage of using gypsum over adobe is that large pieces can be made with gypsum and it thus reduces the number of different modules required for construction. In both cases, the material cannot withstand tension forces in the corners. Therefore, for the ease of construction of these ribs, various interlocking patterns were studied and compared on the basis of their simplicity with the mould, material usage and sharp edges to finalize one. The table below shows the analysis in detail. 
+</div>
+>>>>>>> fc2cdad1658fe41729ac60be61bb2df99237ddee
 
 ![Interlocking brick one](img/interlocking1.jpg)  
 *Fig: Interlocking block 1* 
@@ -941,18 +948,33 @@ For further study the script can be downloaden on the [Other page.](other.md)
 *Fig: Showing the process followed by the rib maker gif*
 
 *Experiment*  
-*Twinkle and Anagha*  
-Add video and talk about teh brick infill making and 3d printing of the blocks
+<div style="text-align: justify">
+In order to better understand the process and sequence of construction of the different types of modules of the building, an experiment was carried out and a scaled model of Module 2 i.e. 6000mm x 6000mm dome was made. The bricks for the interlocking rib system were 3D printed and the infill bricks were hand moulded from play clay and were baked in oven for 10 minutes. 
 
-<ins>*Construction instrument*</ins>   
-*Twinkle*  
-*General concept and deisgn of the tool*  
+To construct this model, the first step was to mark the square base on a sheet of paper. As a next step, the curve of the rib segment was drawn and cut out from a piece of cardboard to be used as formwork to lay the interlocking bricks. This formwork was placed on the square base and each brick was then placed in position with the help of tack glue. Once all the ribs were in place the keystone was put and the infill layer from the baked bricks were put. 
 
-*Adaptation to different modules* 
+With this experiment, it was concluded that the interlocking bricks dictates the curve of the ribs and the formwork was only required to hold them in place. Once the ribs and keystone are in place, the infill bricks can be laid out in concentric circles to ensure that compressions bands in the dome are always complete before laying the next course. 
+</div>
+
+<ins>*Construction instrument*</ins>
+<div style="text-align: justify">  
+The context of the site generates several limitations like the availability of limited resources and skilled labours on the building process. Therefore, it was important to find a process that made use of minimal supporting materials, tools and skills. This created an opportunity for innovative solutions to solve the problem of constructability. Therefore, we designed a tool called The Support Spider that can aid the labours and make the process simple and efficient. 
+</div>
+ 
+*General concept and deisgn of the tool* 
+<div style="text-align: justify"> 
+The tool works on the logic of creating an ellipse which can be viewed here. Notice that at 3 min 16 sec, one can see that the top segment is created by taking the radius as the end of the minor axis and the point on the minor axis where the line segment cuts it. For the simplification of the tool, this radius is found out for all the ellipsoidal segments of the domes and the supporting rods are then made. Since the tool is required only as a support and not the guide for curvature, it is possible to generalize it and make the supporting rods flexible in length. 
+</div> 
+
+*Adaptation to different modules*
+<div style="text-align: justify">
+As mentioned earlier, all domes are the scaled versions of the smaller dome, so all the elliptical arches of these modules which form the interlocking ribs are scaled versions or the smallest arch. Therefore, they all have a common centre. The tool is designed to fit the smallest module and can be expanded to the largest module by increasing the length of the supporting rod.
+</div>
 
 **Adobe 2.0** 
 
-<ins>*Design concept*</ins>  
+<ins>*Design concept*</ins> 
+<div style="text-align: justify"> 
 *Twinkle*   
 mention fibonacci and the twist in the dome that creates the lamela dome look 
 
@@ -960,7 +982,8 @@ mention fibonacci and the twist in the dome that creates the lamela dome look
 *Anagha*  
 Script flowchart Include the GIF and explanation. 
 
-<ins>*Construction instrument*</ins>   
+<ins>*Construction instrument*</ins> 
+<div style="text-align: justify">  
 *Twinkle*    
 *General concept and deisgn of the tool*  
 
