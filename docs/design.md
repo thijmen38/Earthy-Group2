@@ -503,7 +503,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support1](img/supports.jpg)  
+![support1](img/support1.jpg)  
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -552,7 +552,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support2](img/supports.jpg)  
+![support 2](img/support2.jpg)  
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -634,7 +634,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support 3](img/supports4.jpg)  
+![support 4](img/supports4.jpg)  
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -675,7 +675,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support 3](img/supports5.jpg)  
+![support 5](img/supports5.jpg)  
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall on the ground floor, excluding the opening, are considered as fixed supports in all directions.
@@ -717,21 +717,21 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support 3](img/supports5.jpg)  
+![support 6](img/supports6.jpg)  
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
-All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall on the ground floor, excluding the opening, are considered as fixed supports in all directions.
+All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
 </div>
 
 <ins>*Results*</ins>
 
-![results](img/9x6domestructuralanalysis.jpg)  
+![results](img/12x9domestructuralanalysis.jpg)  
 *Fig: Results showing the structural behavior of square dome and supporting wall*  
 <div style="text-align: justify"> 
-In case of the roof, it was observed that peak tensile stresses were developed at the edges of the wall as the ridge lines are not defined in the karamba model.Hnece, it considers the shirtest distance to transfer the load.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 225 mm, the structure was safe. The maximum deflection observed was 17.7 mm (9000/400 = 22.5) which was also safe for the given load conditions. 
+In case of the roof, it was observed that peak tensile stresses were developed at corners and the edges where the ridges were specified in the model. Looking at the simplification geometry, the tensile stresses were developed at the corners of the curves.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 300 mm, the structure was safe. The maximum deflection observed was 23 mm (12000/400 = 30) which was also safe for the given load conditions. 
 
-The wall in this case is a double storeyed wall with a solid wall between the first and the ground floor which is the area for the filling between the slab and the lower roof. 
-In this case, maximum tensile stresses were observed at the edges and at the key stone of the arched opening. This proves that the arch distributes the loads from the edges and the corners to the key stone and tranferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 450 mm, the structure was safe. The maximum deflection observed was 8.5 mm (9000/400 = 22.5)  which was also safe for the given load conditions.
+In case of the wall, maximum tensile stresses were observed at the edges and at the key stone of the arched opening at the corners. This proves that the arch distributes the loads from the edges and the corners to the key stone and tranferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 600 mm, the structure was safe. The maximum deflection observed was 10.4 mm (12000/400 = 30) which was also safe for the given load conditions.
+
 </div>
 
 <ins>*Verification*</ins>
@@ -750,25 +750,84 @@ Thus, Computational model gives accurate results.
 **Module_7: 3x3 Cross vault**
 
 <ins>*Loadcases:*</ins>
-Explain the load coonditions considered
+
+![Loadcase](img/loadcase1.jpg)
+*Fig: Load cases for the analysis*  
+<div style="text-align: justify"> 
+The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non vertical loads were applied using mesh loads in Karamba 3D. Self-weight of the structure and the design values were taken from the material research as discussed in the section before.
+</div>
 
 <ins>*Support conditions*</ins>
 
+![support 7](img/support7.jpg)  
+*Fig: Support conditions for the roof and the wall*  
+<div style="text-align: justify"> 
+All the edge points of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
+</div>
+
 <ins>*Results*</ins>
 
+![results](img/3x3crossvaultsstructuralanalysis.jpg)  
+*Fig: Results showing the structural behavior of square dome and supporting wall*  
+<div style="text-align: justify"> 
+In case of the roof, it was observed that peak tensile stresses were developed at the corners as the meshes generated a defined ridge line from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 150 mm, the structure was safe. The maximum deflection observed was 0.74 mm (3000/400 = 7.5) which was also safe for the given load conditions. 
+
+In case of the wall, maximum tensile stresses were observed at the key stone of the arched opening and the corners. The tensile stresses at the corners were very minimum while the tensile stresses at the key stone was larger. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 300 mm, the structure was safe. The maximum deflection observed was 5.26 mm (3000/400 = 7.5) which was also safe for the given load conditions.
+</div>
+
 <ins>*Verification*</ins>
+
+*Hand Calculation*
+
+Sum of total Reaction forces in Computational Model= **35.92 KN**  
+Surface area of mesh= 13.26 m2  
+Thickness of mesh= 0.15 m  
+therefore, Volume of the mesh= 2 m3  
+Safety Factor= 1.2
+Specific weight = 15 KN/m3 (Adobe density = 1500 kg/m3)  
+Total reaction force= 2 x 1.2 x 15 = **36 KN**   
+Thus, Computational model gives accurate results.
 
 **Module_8: 9x9 Adobe 2.0 Dome**
 
 <ins>*Loadcases:*</ins>
-Explain the load coonditions considered
+
+![Loadcase](img/loadcase1.jpg)
+*Fig: Load cases for the analysis*  
+<div style="text-align: justify"> 
+The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non vertical loads were applied using mesh loads in Karamba 3D. Self-weight of the structure and the design values were taken from the material research as discussed in the section before.
+</div>
 
 <ins>*Support conditions*</ins>
 
+![support 8](img/support8.jpg)  
+*Fig: Support conditions for the roof and the wall*  
+<div style="text-align: justify"> 
+All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
+</div>
+
 <ins>*Results*</ins>
 
+![results](img/Adobe2.0structuralanalysis.jpg)  
+*Fig: Results showing the structural behavior of square dome and supporting wall*  
+<div style="text-align: justify"> 
+In case of the roof, it was observed that peak tensile stresses were developed at the corners as the meshes generated a defined ridge line due to the squinch. The squinch lines act as ridges and the squinch lines at the corners form the shortest distance to transfer the load to the wall. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 300 mm, the structure was safe. The maximum deflection observed was 12 mm (9000/400 = 22.5) which was also safe for the given load conditions. 
+
+In case of the wall, maximum tensile stresses were observed at the key stone of the arched opening and the corners. The tensile stresses at the corners were very minimum while the tensile stresses at the key stone was larger. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 450 mm, the structure was safe. The maximum deflection observed was 1.5 mm (9000/400 = 22.5) which was also safe for the given load conditions.
+</div>
 
 <ins>*Verification*</ins>
+
+*Hand Calculation*
+
+Sum of total Reaction forces in Computational Model= **770.96 KN**  
+Surface area of mesh= 142.7 m2  
+Thickness of mesh= 0.30 m  
+therefore, Volume of the mesh= 42.8 m3  
+Safety Factor= 1.2
+Specific weight = 15 KN/m3 (Adobe density = 1500 kg/m3)  
+Total reaction force= 42.8 x 1.2 x 15 = **770.4 KN**   
+Thus, Computational model gives accurate results.
 
 ### Summary or conclusion  
 
