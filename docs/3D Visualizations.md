@@ -18,6 +18,3 @@
 
 ![Render 6](rev/renders/adobe2.0.jpg)
 *Fig: Interior view of Hammam main hall*
-
-
-
