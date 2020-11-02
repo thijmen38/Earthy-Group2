@@ -13,7 +13,7 @@ Türkmen, İ., Ekinci, E., Kantarcı, F., & Sarıcı, T. (2020). The mechanical 
 
 ## 1_Scripts
 
-To produce the design as shown on the [design page](https://design.nl) a lot of scripts were used.
+To produce the design as shown on the [design page](design.md) a lot of scripts were used.
 Below we listed the most important scrips with a download link for anybody intereseted to study them.
 
 **site selector**

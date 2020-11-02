@@ -11,7 +11,7 @@ Anagha Yoganand is currently pursuing MSc.Architecture, Urbanism and Building sc
 
 **Bezawit Zerayacob Bekele** [Linkedin](https://www.linkedin.com/in/bezawit-zerayacob-bekele/)
 
-![AnaghaYganand-Portrait.jpg](img/Beza.jpg)
+![Beza.jpg](img/Beza.jpg)
 
 Bezawit Zerayacob is a young architect with experience in research, design and construction industry. Currently, she is pursuing her Master's Education in Building Technology at the Delft University of Technology with a focus on facade, structural and computational design.  Bezawit is passionate about finding the intersection between design, technology and business to solve societal and environmental problems.  She is motivated to study appropriate building technology and use of local resources as a method for reducing the housing deficit in developing countries along with ideating strategies and computational design tools for slum upgrading in poverty-stricken urban areas. 
 
