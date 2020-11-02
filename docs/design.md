@@ -339,7 +339,7 @@ Introduction explaining the configuring phase and its goals.(from course brief)*
 **Exploration**
 
 <ins>*Manual*</ins>   
-*Shriya and Beza*  
+
 ![Dome tesselations](img/dometessellations.png)
 *Fig: Exploration of different meshing techniques*
 <div style="text-align: justify"> 
