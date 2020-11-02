@@ -321,19 +321,17 @@ Mention the challenge with dome with Skylight and why it wasnt possible to relax
 <ins>*Computational*</ins>  
 <div style="text-align: justify"> 
 To test the tesselations that were made a grasshopper script was made.
-For this script, the inputs are the tesselation lines and the anchor lines. the anchor lines can be set to a different strength to create openings in them for the cross vaults.
+For this script, the inputs are the tesselation lines and the anchor lines. The anchor lines can be set to a different strength to create openings in them for the cross vaults.
+
+During the process of relaxing and checking the roofs, it sometimes occurred that the top of the roof was lower than the points around it. To fix this some tweaking with the edge lengths had to be done.
 </div>
 </br>
-<div style="text-align: justify"> 
-During the process of relaxing and checking the roofs, it sometimes occurred that the top of the roof was lower than the points around it, to fix this some tweaking with the edge lengths had to be done.
-</div>
-</br>
-![relaxing process](rev\forming\relaxer.gif) 
+
+![relaxing process](rev\forming\relaxer.gif)  
 *Fig: showing the process of relaxing the roof using grasshopper*
-<div style="text-align: justify"> 
+
 the script above along with all the other scripts used for this project can be found on the [Other page](other.md).
-</div>
-</br>
+
 
 **Final Tesselation**  
 
@@ -590,15 +588,29 @@ The different interlocking systems researched refer to appendix when neccessary 
 <ins>*design process*</ins> 
 *Beza*
 
-*Manual study*
+*Manual study*  
 *Beza*
 Starting from the circular arch to the elliptical arc taht forms the Dome ribs.
 
 *Computational tool development*  
-*Thijmen*  
-Flowchart of the script
-Include the GIF
-The adaptation of the tool for various modules
+<div style="text-align: justify">
+To make the desired ribs fit all the domes that are in the project a computational tool has been designed.
+The script takes in curves that it turns into ribs. these curves can be made by projecting lines to the roof surface.
+</div>
+</br>
+
+After this it does the flowing:
+1. Splits the curves into segments provided by the stone sizes.
+2. Offset those curves and turn them into a cross-section using a provided indentation size.
+3. Extrude the offsets creating a stone.
+4. Mirror them around to generate all the ribs.
+5. Get the roof surface between the ribs.
+6. orient bricks to this surface using the pattern specified in the script.
+
+For further study the script can be downloaden on the [Other page.](other.md)
+
+![rib maker](rev\constructability\Rib-gif.gif)  
+*Fig: Showing the process followed by the rib maker gif*
 
 *Experiment*  
 *Twinkle and Anagha*  
