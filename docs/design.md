@@ -254,7 +254,7 @@ Once a conceptual analysis of spatial clusters and their connections was identif
 
 This approach was inspired by one of the group's from the previous year who developed a gradient descent tool. The tool was further developed to cater to the project goals.   
 
-To start a grid of 1.2m x 1.2m was considered, derived from a standard corridor width size and minimum area for one person. Therefore, each functional area was adjusted to a multiple of this grid size.
+To start a grid of 1.2 m x 1.2 m was considered, derived from a standard corridor width size and minimum area for one person. Therefore, each functional area was adjusted to a multiple of this grid size.
 
 An excel table was created to input the hierarchy of spaces (from the depth chart in an ascending order) and their area dimensions (from the program of requirements). As seen in image below, the excel is used to import these inputs into the Grasshopper environment.
 
@@ -266,9 +266,14 @@ The flowchart explains the pseudo code used to develop this tool.
 ![GDFlowchart](img/GDFlowchart.png) 
 
 
+This process is then repeated keeping the relaxed curves from depth 1 as the attractor for the depth 2 and so on. This process of staged relaxation per depth enhances the configuration results, by aligning spaces orthogonally and reduces chaos when the total number of spaces are high.     
 
-Video/gif, excel, flowchart of the script and explanation
-in 2D
+
+![SpaceGDS](img/SpaceGDS.gif)  
+*Fig: The gif below shows the spatial configuration results of this computational process*  
+
+From the many iterations this tool generated, the most ideal solution was chosen considering the site boundary conditions. 
+
 
 **3D Study**  
 
