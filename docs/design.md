@@ -294,9 +294,6 @@ After having configured the general layout, it was important to translate it int
 The optimized grid has 600mm bands with 2400mm distance between each 600mm bands. This is to ensure that all walls lie in these bands and no module in the building is less than 2400mm x 2400mm. The reason for choosing the width of tartan band as 600mm comes from a small study done on commonly used wall thicknesses for various spans. This was also backed by the previous year structural reports. So when two modules are placed adjacent to each other the wall thickness between them is the combination of the wall thickness of each module but is constructed as one and load from both roofs is directed to the centre of this combined wall. Our assumption was later proved to be correct and details of that can be found in 3_Structuring.
 </div>
 
-
-
-
 **Floor plans**  
 <div style="text-align: justify"> 
 Once the grid was fixed, different spaces were then moulded in the plan based on the area fixed in the programme requirements. This also resulted in different modules of roofs and walls based on how many tartan bands they occupy. The second step was to fix the dimensions for the courtyard. To do this, the traditional Iranian geometric design method was adopted. It uses a golden rectangular design, which is drawn inside a regular hexagon. The ratio of length to width being 1.73. The width of the Water-fountain courtyard is double the width of the rooms adjoining it. This is done so that rooms receive proper daylight. The Water-body courtyard and Herbal garden are cosier and requires mutual shading therefore, these are equal in widths with the adjacent rooms.
@@ -336,7 +333,6 @@ The architectural characteristics and tartan grid divides the building into 8 di
 explain how the walls have been designed according to the tartan grid.
 including the change of wall tickness (why we choose for 600mm bands in the tartan grid)
 </div>
-
 
 **Wall modules**  
 explain how the walls have been designed according to the tartan grid.
@@ -921,6 +917,9 @@ The second model is a modified version of the first model where the interlocking
 ![Interlocking brick two](img/interlocking2.jpg)  
 *Fig: Interlocking block 2* 
 
+![3dPrint1](img/3dPrint1.jpeg)  
+*Fig: 3-D Printed prototype of interlocking block 2* 
+
 <ins>*system exploration*</ins> 
 <div style="text-align: justify">  
 For the interlocking rib system, one can either have the ribs made from gypsum or adobe. The advantage of using gypsum over adobe is that large pieces can be made with gypsum and it thus reduces the number of different modules required for construction. In both cases, the material cannot withstand tension forces in the corners. Therefore, for the ease of construction of these ribs, various interlocking patterns were studied and compared on the basis of their simplicity with the mould, material usage and sharp edges to finalize one. The table below shows the analysis in detail. 
@@ -943,7 +942,7 @@ After this it does the flowing:
 5. Get the roof surface between the ribs.
 6. orient bricks to this surface using the pattern specified in the script.
 
-For further study the script can be downloaden on the [Other page.](other.md)
+For further study the script can be download on the [Other page.](other.md)
 
 ![rib maker](rev\constructability\Rib-gif.gif)  
 *Fig: Showing the process followed by the rib maker gif*
@@ -964,13 +963,16 @@ The context of the site generates several limitations like the availability of l
  
 *General concept and deisgn of the tool* 
 <div style="text-align: justify"> 
-The tool works on the logic of creating an ellipse which can be viewed here. Notice that at 3 min 16 sec, one can see that the top segment is created by taking the radius as the end of the minor axis and the point on the minor axis where the line segment cuts it. For the simplification of the tool, this radius is found out for all the ellipsoidal segments of the domes and the supporting rods are then made. Since the tool is required only as a support and not the guide for curvature, it is possible to generalize it and make the supporting rods flexible in length. 
-</div> 
+The tool works on the logic of creating an ellipse which can be viewed here. Notice that at 3 min 16 sec, one can see that the top segment is created by taking the radius as the end of the minor axis and the point on the minor axis where the line segment cuts it. For the simplification of the tool, this radius is found out for all the ellipsoidal segments of the domes and the supporting rods are then made. Since the tool is required only as a support and not the guide for curvature, it is possible to generalize it and make the supporting rods flexible in length.   
+</div>   
+
 
 *Adaptation to different modules*
 <div style="text-align: justify">
-As mentioned earlier, all domes are the scaled versions of the smaller dome, so all the elliptical arches of these modules which form the interlocking ribs are scaled versions or the smallest arch. Therefore, they all have a common centre. The tool is designed to fit the smallest module and can be expanded to the largest module by increasing the length of the supporting rod.
-</div>
+As mentioned earlier, all domes are the scaled versions of the smaller dome, so all the elliptical arches of these modules which form the interlocking ribs are scaled versions or the smallest arch. Therefore, they all have a common centre. The tool is designed to fit the smallest module and can be expanded to the largest module by increasing the length of the supporting rod.  
+
+</div>  
+
 
 **Adobe 2.0** 
 
@@ -1012,6 +1014,8 @@ Gif.
 
 *Adobe 2.0*  
 Gif.
+
+
 3d image of the brick colour and nomenclature  
 
 ### Summary or conclusion
