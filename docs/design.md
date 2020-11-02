@@ -911,13 +911,7 @@ The next step was to figure out how to make the ribs in a way that can easily be
 
 The approach for the interlocking blocks was: if the blocks were placed in order of their interlocking nature, they would automatically generate the curvature of the rib. This means there is no need for centering, a guide or a large formwork. 
 
-This idea was digitally modelled first for a simple semi-circular arch. The first model shows an interlocking brick system with just one brick module.   
-
-<ins>*system exploration*</ins> 
-<div style="text-align: justify">  
-For the interlocking rib system, one can either have the ribs made from gypsum or adobe. The advantage of using gypsum over adobe is that large pieces can be made with gypsum and it thus reduces the number of different modules required for construction. In both cases, the material cannot withstand tension forces in the corners. Therefore, for the ease of construction of these ribs, various interlocking patterns were studied and compared on the basis of their simplicity with the mould, material usage and sharp edges to finalize one. The table below shows the analysis in detail.   
-
-</div>
+This idea was digitally modelled first for a simple semi-circular arch. The first model shows an interlocking brick system with just one brick module. 
 
 ![Interlocking brick one](img/interlocking1.jpg)  
 *Fig: Interlocking block 1* 
@@ -927,8 +921,11 @@ The second model is a modified version of the first model where the interlocking
 ![Interlocking brick two](img/interlocking2.jpg)  
 *Fig: Interlocking block 2* 
 
-
-<ins>*system exploration*</ins>   
+<ins>*system exploration*</ins> 
+<div style="text-align: justify">  
+For the interlocking rib system, one can either have the ribs made from gypsum or adobe. The advantage of using gypsum over adobe is that large pieces can be made with gypsum and it thus reduces the number of different modules required for construction. In both cases, the material cannot withstand tension forces in the corners. Therefore, for the ease of construction of these ribs, various interlocking patterns were studied and compared on the basis of their simplicity with the mould, material usage and sharp edges to finalize one. The table below shows the analysis in detail. 
+</div>
+  
 * Twinkle table*  
 
 *Computational tool development*  
