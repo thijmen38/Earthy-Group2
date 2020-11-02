@@ -208,7 +208,7 @@ After creating the bubble diagrams we analyzed them. To do some more effectively
 ![depth chart](rev\configuration\bubble_diagram\depthchart.jpg)  
 *Fig: Depth chart of the functions*
 <div style="text-align: justify"> 
-The depth chart as shown above clearly shows the hierarchy of the spaces. For instance, it shows a clear split between the hammam areas and the tea bar areas. It also shows how deep the bathing spaces are in the building. Which is where they are designed to be.
+The depth chart as shown above clearly shows the hierarchy of the spaces. For instance, it shows a clear split between the hammam areas and the tea bar areas. It also shows how deep the bathing spaces are in the building. Which is where they are designed to be. This heirarchy branches from public spaces to private spaces, which helps in determining the connectivity between spaces.
 </div>
 </br>
 
@@ -242,8 +242,16 @@ introduction explaining the configuring phase and its goals.(from course brief)*
 
 ### Spacial configuration
 
-**Gradient descent optimization**  
+**2D Study**  
 *Anagha*  
+<div style="text-align: justify"> 
+Once a conceptual analysis of spatial clusters and their connections was identified, a computational approach of gradient descent was adopted to configure these spaces in 2-dimension. To start a grid of 1.2m x 1.2m was considered, derived from a standard corridor width. Therfore, each functional area was adjusted to a multiple of this grid size.   
+
+This approach was inspired by one of the group's from the previous year who developed a gradient descent tool. The tool was further developed to cater to the project goals. 
+
+
+
+
 Video/gif, excel, flowchart of the script and explanation
 in 2D
 
