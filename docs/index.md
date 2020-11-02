@@ -1,11 +1,9 @@
 # RAHA
 
 ![Entrance.jpg](img/Entrance.jpg)
+*Fig: 3D Visualisation of the Entrance of RAHA*
 
-**welcome message**  
-*Shriya*   
-explaining the site and why we choose to use one.  
-
+Welcome to our website. This website will show all our progress within the course of Earthy. Using this website allows us to use gif's and videos to explain our design and makes it easier to navigate. The menu bar consists of different links which takes you through the entire design process from analysing the problems to the constructibility of the project.  
 
 ## Abstract
   
