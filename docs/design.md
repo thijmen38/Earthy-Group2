@@ -481,13 +481,36 @@ The structural analysis does not consider gypsum as the material for the ribs. A
 
 ![Loadcase](img/loadcase1.jpg)
 *Fig: Final approach for structural analysis of the structure*
-In case of the roofs with no first floor above it, the load cases considered were self -weight of the structure  which was taken from the material analysis, non-vertical mesh loads were applied using the mesh loads in karamba 3D, finish material load of 2 KN/m2 and a safety factor of 1.2.
+<div style="text-align: justify"> 
+The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non vertical loads were applied using mesh loads in Karamba 3D. Self-weight of the structure and the design values were taken from the material research as discussed in the section before.
+</div>
+</br>
 
 <ins>*Support conditions*</ins>
 
+![support1](img/supports.jpg)  
+*Fig: Support conditions for the roof*
+<div style="text-align: justify"> 
+All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
+</div>
+</br>
+
 <ins>*Results*</ins>
 
+![results](img/3x3domestructuralanalysis.jpg)  
+*Fig: Results showing the structural behavior of square dome and supporting wall*
+<div style="text-align: justify"> 
+In case of the roof, it was observed that peak tensile stresses were developed at the corners of the wall as the meshes generated a defined ridge line from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 150 mm, the structure was safe. The maximum deflection observed was 1.4 mm (3000/400 = 7.5) which was also safe for the given load conditions.
+
+In case of the wall, maximum tensile stresses were observed at the corners and at the key stone of the arched opening. This proves that the arch distributes the loads from the corners to the key stone and tranferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 300 mm, the structure was safe. The maximum deflection observed was 1.3 mm (3000/400 = 7.5) which was also safe for the given load conditions.
+</div>
+</br>
+
 <ins>*Verification*</ins>
+
+*Exploration*
+
+*Hand Calculation*
 
 **Module_2: 6x6 Square Dome**
 
