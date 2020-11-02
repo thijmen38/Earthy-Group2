@@ -281,7 +281,7 @@ Next step was to connect the built and the unbuilt spaces and understand the nat
 <div style="text-align: justify"> 
 After having configured the general layout, it was important to translate it into the final plan for the building. For this, a grid of 1200mm x 1200mm was selected. The logic was based on the fact that 1200mm is the minimum corridor width required for a person. The grid was further refined into a Tartan grid. This consists of straight lines of varying widths and distances, crossing at right angles. Tartan grids allow for modularity in the size of built elements. Elements are restricted to centre on the centreline grid and limited in dimension to stay within the tartan bands. 
 
-The optimized grid has 600mm bands with 2400mm distance between each 60cm bands. This is to ensure that all walls lie in these bands and no module in the building is less than 2400mm x 2400mm. The reason for choosing the width of tartan band as 60cm comes from a small study done on commonly used wall thicknesses for various spans. This was also backed by the previous year structural reports. Our assumption was later proved to be correct and details of that can be found in 3_Structuring.
+The optimized grid has 600mm bands with 2400mm distance between each 600mm bands. This is to ensure that all walls lie in these bands and no module in the building is less than 2400mm x 2400mm. The reason for choosing the width of tartan band as 600mm comes from a small study done on commonly used wall thicknesses for various spans. This was also backed by the previous year structural reports. So when two modules are placed adjacent to each other the wall thickness between them is the combination of the wall thickness of each module but is constructed as one and load from both roofs is directed to the centre of this combined wall. Our assumption was later proved to be correct and details of that can be found in 3_Structuring.
 </div>
 
 
@@ -303,26 +303,43 @@ Insert image of final floor plan - FF
 As shown here, there is a main entrance which can be reached by a pedestrian route to keep it away from the busy main street. On the back of the site, there is a service road provided which functions as a supply route for several functions and is a way in for the employees and maintenance.  The unloading & loading service zone is near the kitchen and store for the ease of use while the other services are divided in two service rooms placed near the Hammam. 
 </div>
 
+**Architectural Characteristics**
+<div style="text-align: justify"> 
+As one of the aim was to develop a feeling of comfort and familiarity among the inhabitants of the camp therefore, we studied the vernacular and traditional architecture of Syria. Some important characteristics that were common are the courtyard planning, different types of domes, vaults and archways used and the transition between spaces. These characteristics were then incorporated into the design by carefully analysing each module based on the following factors and assigning priority to these factors based on the type of space that they serve.
+
+Geometry: If a space had a square or rectangular layout
+Daylight: If the space needed to be dimly-lit, completely-lit or partially-lit.
+Pre-defined architectural characteristics: If the space already had an architectural style from the vernacular, for e.g.: Hammam had domes with skylight.
+
+The following table shows the spaces onto which the roofs will be placed and the order of their most important criteria.
+</div>
+
+**Roof modules** 
+<div style="text-align: justify"> 
+The architectural characteristics and tartan grid divides the building into 8 different roof modules which are shown below.
+</div>
 
 **Wall modules**  
+<div style="text-align: justify"> 
 explain how the walls have been designed according to the tartan grid.
 including the change of wall tickness (why we choose for 600mm bands in the tartan grid)
-
-**roof modules**  
-talk about Architectural charactaristics and show the different roof modules in the plan view - 4 types Crossvaults, Square domes, Rectangular domes and Domes with Skylight
-talk about how these roofs have been designed using the tarten grid
+</div>
 
 **Sections**  
+<div style="text-align: justify"> 
 show sections and explain the heights etc
+</div>
 
-**details**
+**Details**
+<div style="text-align: justify"> 
 
 <ins>*Services*</ins>  
 
 <ins>*Ventilation*</ins>  
 
-<ins>*Detailed section*</ins>  
+<ins>*Detailed section*</ins> 
 
+</div>
  
 ### Summary or conclusion
 
@@ -334,20 +351,20 @@ Introduction explaining the configuring phase and its goals.(from course brief)*
 
 ### Tesellations
 
-![Tesselation flow chart](img/tessellationflowchart.png)
+![Tesselation flow chart](img/tessellationflowchart.jpg)
 *Fig: Tessellation process flow chart*
 
 **Exploration**
 
 <ins>*Manual*</ins>   
-*Shriya and Beza*  
+
 ![Dome tesselations](img/dometessellations.png)
 *Fig: Exploration of different meshing techniques*
 <div style="text-align: justify"> 
 The form finding was determined by the study of architectural characteristics of different spaces. To start the process and understand how different meshes gave different shapes, a thorough literature study was conducted. During this process, we considered a roof form and it's corresponding size, and manually meshed the initial divisions. The initial divisions followed a logic which was derived from the literature research. Different types of meshing logic was explored initially and were imported in the kangaroo solver to generate the dynamically relaxed form. Different meshing logic gave a different result, for example, the quad split logic generated a curved peak while the triangulation logic generated a pointed peak. This step was repeated for every type of meshing logic and the triangulation meshing logic was chosen as it closely resembled the desired form. Later these meshes were imported in the kangaroo solver to sub divide the initial meshes and generate the dynamically relaxed form. 
 </div>
 
-![Vault tesselations](img/tess.png)
+![Vault tesselations](img/tess.jpg)
 *Fig: Exploration of different vault tesselations*
 
 <ins>*Computational*</ins>  
@@ -358,7 +375,7 @@ For this script, the inputs are the tesselation lines and the anchor lines. The 
 During the process of relaxing and checking the roofs, it sometimes occurred that the top of the roof was lower than the points around it. To fix this some tweaking with the edge lengths had to be done.
 </div>
 
-![relaxing process](rev\forming\relaxer.gif)  
+![relaxing process](img\relaxer.gif)  
 *Fig: showing the process of relaxing the roof using grasshopper*
 
 The script above along with all the other scripts used for this project can be found on the [Other page](other.md).
@@ -490,6 +507,8 @@ In the second stage, the simplified surface of the wall and the roof was chosen 
 It was observed that the load distribution was uniform and the meshes were coherent. The peak stresses developed at the edges and the corners of the wall were within the set limits and the transition between tension and compression was logical and regular. High compression at the bottom of the wall and at the top of the roof and tension at the corners and the edges of the wall determined the analysis was performed correctly. Moreover, the analysis proved that the roof can be made into a completely compression roof which fulfilled the ultimate goal.
 
 The structural analysis does not consider gypsum as the material for the ribs. Adobe material properties were considered for the entire structure. As gypsum has higher compressive strength as compared to adobe, it was assumed that using gypsum would give better results in the analysis.
+
+The script used for the structural analysis of all the modules can be found on the [Other page](other.md).
  </div>
  
  **Module_1: 3x3 Square Dome**
@@ -504,7 +523,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support1](img/supports.jpg)  
+![support1](img/support1.jpg)  
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -553,7 +572,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support2](img/supports.jpg)  
+![support 2](img/support2.jpg)  
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -635,7 +654,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support 3](img/supports4.jpg)  
+![support 4](img/supports4.jpg)  
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -676,7 +695,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support 3](img/supports5.jpg)  
+![support 5](img/supports5.jpg)  
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall on the ground floor, excluding the opening, are considered as fixed supports in all directions.
@@ -718,21 +737,21 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support 3](img/supports5.jpg)  
+![support 6](img/supports6.jpg)  
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
-All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall on the ground floor, excluding the opening, are considered as fixed supports in all directions.
+All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
 </div>
 
 <ins>*Results*</ins>
 
-![results](img/9x6domestructuralanalysis.jpg)  
+![results](img/12x9domestructuralanalysis.jpg)  
 *Fig: Results showing the structural behavior of square dome and supporting wall*  
 <div style="text-align: justify"> 
-In case of the roof, it was observed that peak tensile stresses were developed at the edges of the wall as the ridge lines are not defined in the karamba model.Hnece, it considers the shirtest distance to transfer the load.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 225 mm, the structure was safe. The maximum deflection observed was 17.7 mm (9000/400 = 22.5) which was also safe for the given load conditions. 
+In case of the roof, it was observed that peak tensile stresses were developed at corners and the edges where the ridges were specified in the model. Looking at the simplification geometry, the tensile stresses were developed at the corners of the curves.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 300 mm, the structure was safe. The maximum deflection observed was 23 mm (12000/400 = 30) which was also safe for the given load conditions. 
 
-The wall in this case is a double storeyed wall with a solid wall between the first and the ground floor which is the area for the filling between the slab and the lower roof. 
-In this case, maximum tensile stresses were observed at the edges and at the key stone of the arched opening. This proves that the arch distributes the loads from the edges and the corners to the key stone and tranferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 450 mm, the structure was safe. The maximum deflection observed was 8.5 mm (9000/400 = 22.5)  which was also safe for the given load conditions.
+In case of the wall, maximum tensile stresses were observed at the edges and at the key stone of the arched opening at the corners. This proves that the arch distributes the loads from the edges and the corners to the key stone and tranferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 600 mm, the structure was safe. The maximum deflection observed was 10.4 mm (12000/400 = 30) which was also safe for the given load conditions.
+
 </div>
 
 <ins>*Verification*</ins>
@@ -751,25 +770,84 @@ Thus, Computational model gives accurate results.
 **Module_7: 3x3 Cross vault**
 
 <ins>*Loadcases:*</ins>
-Explain the load coonditions considered
+
+![Loadcase](img/loadcase1.jpg)
+*Fig: Load cases for the analysis*  
+<div style="text-align: justify"> 
+The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non vertical loads were applied using mesh loads in Karamba 3D. Self-weight of the structure and the design values were taken from the material research as discussed in the section before.
+</div>
 
 <ins>*Support conditions*</ins>
 
+![support 7](img/support7.jpg)  
+*Fig: Support conditions for the roof and the wall*  
+<div style="text-align: justify"> 
+All the edge points of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
+</div>
+
 <ins>*Results*</ins>
 
+![results](img/3x3crossvaultsstructuralanalysis.jpg)  
+*Fig: Results showing the structural behavior of square dome and supporting wall*  
+<div style="text-align: justify"> 
+In case of the roof, it was observed that peak tensile stresses were developed at the corners as the meshes generated a defined ridge line from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 150 mm, the structure was safe. The maximum deflection observed was 0.74 mm (3000/400 = 7.5) which was also safe for the given load conditions. 
+
+In case of the wall, maximum tensile stresses were observed at the key stone of the arched opening and the corners. The tensile stresses at the corners were very minimum while the tensile stresses at the key stone was larger. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 300 mm, the structure was safe. The maximum deflection observed was 5.26 mm (3000/400 = 7.5) which was also safe for the given load conditions.
+</div>
+
 <ins>*Verification*</ins>
+
+*Hand Calculation*
+
+Sum of total Reaction forces in Computational Model= **35.92 KN**  
+Surface area of mesh= 13.26 m2  
+Thickness of mesh= 0.15 m  
+therefore, Volume of the mesh= 2 m3  
+Safety Factor= 1.2
+Specific weight = 15 KN/m3 (Adobe density = 1500 kg/m3)  
+Total reaction force= 2 x 1.2 x 15 = **36 KN**   
+Thus, Computational model gives accurate results.
 
 **Module_8: 9x9 Adobe 2.0 Dome**
 
 <ins>*Loadcases:*</ins>
-Explain the load coonditions considered
+
+![Loadcase](img/loadcase1.jpg)
+*Fig: Load cases for the analysis*  
+<div style="text-align: justify"> 
+The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non vertical loads were applied using mesh loads in Karamba 3D. Self-weight of the structure and the design values were taken from the material research as discussed in the section before.
+</div>
 
 <ins>*Support conditions*</ins>
 
+![support 8](img/support8.jpg)  
+*Fig: Support conditions for the roof and the wall*  
+<div style="text-align: justify"> 
+All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
+</div>
+
 <ins>*Results*</ins>
 
+![results](img/Adobe2.0structuralanalysis.jpg)  
+*Fig: Results showing the structural behavior of square dome and supporting wall*  
+<div style="text-align: justify"> 
+In case of the roof, it was observed that peak tensile stresses were developed at the corners as the meshes generated a defined ridge line due to the squinch. The squinch lines act as ridges and the squinch lines at the corners form the shortest distance to transfer the load to the wall. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall.These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 300 mm, the structure was safe. The maximum deflection observed was 12 mm (9000/400 = 22.5) which was also safe for the given load conditions. 
+
+In case of the wall, maximum tensile stresses were observed at the key stone of the arched opening and the corners. The tensile stresses at the corners were very minimum while the tensile stresses at the key stone was larger. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 450 mm, the structure was safe. The maximum deflection observed was 1.5 mm (9000/400 = 22.5) which was also safe for the given load conditions.
+</div>
 
 <ins>*Verification*</ins>
+
+*Hand Calculation*
+
+Sum of total Reaction forces in Computational Model= **770.96 KN**  
+Surface area of mesh= 142.7 m2  
+Thickness of mesh= 0.30 m  
+therefore, Volume of the mesh= 42.8 m3  
+Safety Factor= 1.2
+Specific weight = 15 KN/m3 (Adobe density = 1500 kg/m3)  
+Total reaction force= 42.8 x 1.2 x 15 = **770.4 KN**   
+Thus, Computational model gives accurate results.
 
 ### Summary or conclusion  
 
@@ -778,11 +856,22 @@ Explain the load coonditions considered
 
 Introduction explaining the construction phase and its goals.(from course brief)*Bez*
 
+This phase in the design process was carried along side with the structuring phase. To understand how the construction of the defined modules can be achieved with unskilled laborers various literature reviews were referenced. The referenced construction methods were explored further by simple digital and physical model making. Thereafter, the rib-infill construction method was chosen as it can be easily adopted to the different modules present. Step by step of the constructability processes will be explained below. 
+
 **Methodology**   
 
 <ins>*relationship between different modules*</ins> 
 *Beza*  
 Explaining the scalable difference between each module, therfore each curve is double of the other, Mention how they are Different yet similar a the same time. 
+
+To define a construction method, first the relationship between the different wall and roof modules was studied. Since the floor plan was configured based on a tartan grid, the modules are multiples of each other. 
+
+As seen previously in the simplification process, the tessellated roofs of the different Dome modules were approximated using elliptical curves. The Dome roof modules are approximated with multiples of the radius of 2 ellipses, the diagonal ellipse with radius of (2.12 m, 1.2m) and the horizontal ellipses of (1.5m, 1.2m). multiplying the radius of these ellipses with 1, 2, 3 will give us 3x3, 6x6, 9x9 domes respectively. 
+
+The vaulted domes are made up of 2 square domes. For instance, the 3x6 dome is made up of two 3x3 square domes placed adjacent to each other. Therefore, the elliptical curves of the 3x3 dome can be used to approximate the 3x6 vaulted dome. Which in turn means that multiplying the radius of the base ellipses (diagonal ellipse with radius of (2.12 m, 1.2m) and the horizontal ellipses of (1.5m, 1.2m)) with 1, 2, 3 will give us the 3x6, 6x9, 9x12 vaulted domes respectively.  This mean that all the domes with the exception of the Adobe 2.0 are scaled versions of the smallest size (3x3). 
+
+![scalability](img/scale.gif)  
+*Fig: Relationship between different modules* 
 
 <ins>*Rib system approach*</ins>  
 *Beza*  
