@@ -1,3 +1,7 @@
+## 0_Acknowledgements  
+tell we got inspired by previous years and helped us like pirouz and shervin.
+
+---
 ## 0_Literature
 
 falskhgfds
@@ -9,7 +13,11 @@ falskhgfds
 To produce the design as shown on the [design page](https://design.nl) a lot of scripts were used.
 Below we listed the most important scrips with a download link for anybody intereseted to study them.
 
+**site selector**
+
 **Bubble diagram maker**
+
+**Gradient descent**
 
 **Relaxer**
 

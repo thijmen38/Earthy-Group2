@@ -210,12 +210,13 @@ Introduction explaining the configuring phase and its goals.(from course brief)*
 The form finding was determined by the study of architectural characteristics of different spaces. To start the process and understand how different meshes gave different shapes, a thorough literature study was conducted. During this process, we considered a roof form and it's corresponding size, and manually meshed the initial divisions. The initial divisions followed a logic which was derived from the literature research. Different types of meshing logic was explored initially and were imported in the kangaroo solver to generate the dynamically relaxed form. Different meshing logic gave a different result, for example, the quad split logic generated a curved peak while the triangulation logic generated a pointed peak. This step was repeated for every type of meshing logic and the triangulation meshing logic was chosen as it closely resembled the desired form. Later these meshes were imported in the kangaroo solver to sub divide the initial meshes and generate the dynamically relaxed form. 
 
 
-Explain the different types of tesselations (dome/cross vault Jpegs) and meshing logic/strategy
+Explain the different types of tesselations (dome/cross vault Jpegs) and meshing logic/strategy  
+Mention the challenge with dome with Skylight and why it wasnt possible to relax an opening within the dome.
 
 <ins>*Computational*</ins>  
 *Thijmen*  
-Explain the mesh maker 4000, flowchart and the dynamic relaxation strengths and anchors, etc per module - total number of modules 7 + 1 (3- square domes, 3 rectangular domes,1 cross-vault, +1 is dome with skylight (Adobe 2.0))  
-Mention the challenge with dome with Skylight and why it wasnt possible to relax an opening within the dome.
+To test the tesselations that were made
+
 
 **Final Tesselation**  
 
