@@ -100,7 +100,6 @@ As per the proposed intervention of building a recreation hub, the main programm
 To select the site, a computation tool was created that first identifies built/ unbuilt space and road networks. The tools select the empty plots on the site. These plots are further filtered by size taking only in-between spaces of larger sizes.  Then the existing water resources are mapped. Open spaces that fall within 250 m of the existing water resource are selected. The existing schools, youth centers and kindergartens were mapped and the site selection was further narrowed down to open spaces within 100m of the mapped centers. From the remaining list, the hierarchical demarcation was given to the open spaces based on the distance from the main busy road with preference given to quieter spaces further away from the loud busy main street. At this stage, spaces in districts 6, 7 and 9 were identified. The final chosen site falls in district 9 which has the least saturated population therefore the proposed facility can cater to a larger percentage of the district’s population.
 </div>
 
-*Twinkle*  
 The chosen site in District 9 was then studied based on factors to understand the nearby context, climate, access routes, nodes etc. The total site area was 3880 (81m x 48m) sq.m. 
 
 The site is oriented along the North-South axis and the predominant wind direction is from the West. The main access road is from the East. There is a Mosque and a bore well on the West while the North and South is flanked by kindergarten and residences.
@@ -341,34 +340,30 @@ The architectural characteristics and tartan grid divides the building into 8 di
 
 **Wall modules**  
 <div style="text-align: justify"> 
-explain how the walls have been designed according to the tartan grid.
-including the change of wall tickness (why we choose for 600mm bands in the tartan grid)
-</div>
-
-
-**Wall modules**  
-<div style="text-align: justify"> 
-explain how the walls have been designed according to the tartan grid.
-including the change of wall tickness (why we choose for 600mm bands in the tartan grid)
-</div>
-
-**roof modules**  
-<div style="text-align: justify"> 
-talk about Architectural charactaristics and show the different roof modules in the plan view - 4 types Crossvaults, Square domes, Rectangular domes and Domes with Skylight
-talk about how these roofs have been designed using the tarten grid
+The tartan grid is not just limited to plan but also extends in the vertical direction to the walls. The wall openings: window and doors have been positioned based on the tartan grid as you can see below. 
 </div>
 
 **Sections**  
 <div style="text-align: justify"> 
-show sections and explain the heights etc
+Section AA’ shows the connection between Water-body courtyard, Hammam main hall and public baths. One can clearly see the drastic level difference between the courtyard and the hammam main hall.
+
+Section BB’ shows the connection between all the courtyards, vestibules and the library space. The library space spans two floors and provides shade to the courtyard below creating a comfortable outdoor space. These spaces have a very gentle level difference between them. 
 </div>
 
 **Details**
 <div style="text-align: justify"> 
+Following topics gives details about the heating, ventilation and rainwater services in our building. Once the different modules with different roof structures are placed adjacent to each other, it is important to make sure that these are well connected to avoid percolation of water in the ridges. Another important aspect was to provide heating and ventilation in the hammam to keep it comfortable.
+</div>
 
-<ins>*Services*</ins>  
+<ins>*Rainwater Services*</ins> 
+<div style="text-align: justify">
+To fill in the gaps between the two roof and to ensure that water doesn’t percolate in, the gaps were filled with sand. A desired slope is achieved for the water to run off the building. A coating of Lime plaster is applied on the outer surface for the Hammam domes and tadelakt for the other roofs to ensure sealed surface.
+</div>
 
-<ins>*Ventilation*</ins>  
+<ins>*Heating and Ventilation*</ins>
+<div style="text-align: justify">
+To heat the Hammam, we have a boiler in the service room which is connected to the public and private baths and steam rooms through the floor. This will make sure that the Hammam area is evenly heated all throughout the year. To ventilate, the Public bath has a skylight on top and there are seams provided on the top and bottom of the doors of steam room and private bath for ease of construction and ventilation.
+</div> 
 
 <ins>*Detailed section*</ins> 
 
