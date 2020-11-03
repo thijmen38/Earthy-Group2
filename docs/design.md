@@ -274,6 +274,7 @@ This process is then repeated keeping the relaxed curves from depth 1 as the att
 
 From the many iterations this tool generated, the most ideal solution was chosen considering the site boundary conditions. 
 
+For further study the script can be download on the [Other page.](other.md)
 
 **3D Study**  
 
@@ -878,10 +879,10 @@ Introduction explaining the construction phase and its goals.(from course brief)
 
 This phase in the design process was carried along side with the structuring phase. To understand how the construction of the defined modules can be achieved with unskilled laborers various literature reviews were referenced. The referenced construction methods were explored further by simple digital and physical model making. Thereafter, the rib-infill construction method was chosen as it can be easily adopted to the different modules present. Step by step of the constructability processes will be explained below. 
 
-**Methodology**   
+## Methodology ##   
 
-<ins>*relationship between different modules*</ins> 
-*Beza*  
+**Relationship between different modules**
+
 Explaining the scalable difference between each module, therfore each curve is double of the other, Mention how they are Different yet similar a the same time. 
 
 To define a construction method, first the relationship between the different wall and roof modules was studied. Since the floor plan was configured based on a tartan grid, the modules are multiples of each other. 
@@ -893,7 +894,7 @@ The vaulted domes are made up of 2 square domes. For instance, the 3x6 dome is m
 ![scalability](img/scale.gif)  
 *Fig: Relationship between different modules* 
 
-<ins>*Construction method*</ins>
+**Construction method**
 
 Because of the way the roofs are tessellated and because of the scalable relationship between the different types of roofs, a rib-infill system of construction was chosen. This limits the amount of required formwork and makes the construction process easier. 
 
@@ -901,7 +902,7 @@ Because of the way the roofs are tessellated and because of the scalable relatio
 *Beza*  
 The next step was to figure out how to make the ribs in a way that can easily be constructed with unskilled laborers and requiring limited formwork. Here various types of construction systems were looked at. From literature review, a few examples of interlocking construction systems were taken into consideration to determine the applicability for the construction of the roof modules. 
 
-**Interlocking bricks**  
+ ## Interlocking bricks ##   
 
 <ins>*design process*</ins>
 
@@ -960,30 +961,36 @@ With this experiment, it was concluded that the interlocking bricks dictates the
 <div style="text-align: justify">  
 The context of the site generates several limitations like the availability of limited resources and skilled labours on the building process. Therefore, it was important to find a process that made use of minimal supporting materials, tools and skills. This created an opportunity for innovative solutions to solve the problem of constructability. Therefore, we designed a tool called The Support Spider that can aid the labours and make the process simple and efficient. 
 </div>
- 
+ </br>  
+
 *General concept and deisgn of the tool* 
 <div style="text-align: justify"> 
 The tool works on the logic of creating an ellipse which can be viewed here. Notice that at 3 min 16 sec, one can see that the top segment is created by taking the radius as the end of the minor axis and the point on the minor axis where the line segment cuts it. For the simplification of the tool, this radius is found out for all the ellipsoidal segments of the domes and the supporting rods are then made. Since the tool is required only as a support and not the guide for curvature, it is possible to generalize it and make the supporting rods flexible in length.   
 </div>   
-
+</br>  
 
 *Adaptation to different modules*
 <div style="text-align: justify">
 As mentioned earlier, all domes are the scaled versions of the smaller dome, so all the elliptical arches of these modules which form the interlocking ribs are scaled versions or the smallest arch. Therefore, they all have a common centre. The tool is designed to fit the smallest module and can be expanded to the largest module by increasing the length of the supporting rod.  
-
 </div>  
+</br>
 
+## Adobe 2.0 ##
 
-**Adobe 2.0** 
-
-<ins>*Design concept*</ins> 
+**Design concept** 
 <div style="text-align: justify"> 
 *Twinkle*   
-mention fibonacci and the twist in the dome that creates the lamela dome look 
+mention fibonacci and the twist in the dome that creates the lamela dome look     
+</br>
 
-<ins>*Computational tool*</ins>  
-*Anagha*  
-Script flowchart Include the GIF and explanation. 
+**Computational tool**
+ 
+A computational script was made to inform the Adobe 2.0 geometry and inform the brick laying accordingly.
+
+The inputs for this script are diameter of the dome, number of segments, squinch height and brick height inorder to create this fibonacci based dome, that twists and offsets to form a conical dome leaving a skylight at the top.   
+
+![Adobe2.0](img\Adobe2.0.gif) 
+*Fig: Shows the computational tool generation in steps for creating Adobe 2.0*
 
 <ins>*Construction instrument*</ins> 
 <div style="text-align: justify">  
