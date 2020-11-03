@@ -299,11 +299,11 @@ Once the grid was fixed, different spaces were then moulded in the plan based on
 Below you can see how different spaces comes together to form the final plan. As informed from the computational and manual processes, the courtyards form the main connecting elements each equipped with a transition vestibule space. The tea-bar with it’s different seating spaces are placed in the east of the site. The hammam in the south west corner closer to the mosque and bore well and the library and quiet room spaces in the north west to make use of daylight. 
 </div>
 
-![General] (img\2_General Plan.jpg) 
+![General plan](img/2_General_Plan.jpg)
 *Fig: Shows the general organization of different functions*
 
-![Courtyard proportion](img\9-Figure11-1.png) 
-*Fig: Shows the traditional Iranian geometric design for courtyards*
+![GFplan](img/2_GF_Plan.jpg) 
+*Fig: Shows the Ground Floor plan*
 
 ![Courtyard proportion](img\9-Figure11-1.png) 
 *Fig: Shows the traditional Iranian geometric design for courtyards*
