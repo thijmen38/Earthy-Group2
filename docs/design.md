@@ -243,9 +243,9 @@ In the forming phase of the design: Based on the relationship study and depth gr
 <div style="text-align: justify"> 
 Once a conceptual analysis of spatial clusters and their connections was identified, a computational approach of gradient descent was adopted to configure these spaces in 2-dimension.    
 
-This approach was inspired by one of the group's from the previous year who developed a gradient descent tool. The tool was further developed to cater to the project goals.   
+This approach was inspired by the previous year's work, wherein one group had developed a gradient descent tool. In this project the tool was further was adapted and revised to the desired goals.   
 
-To start a grid of 1.2 m x 1.2 m was considered, derived from a standard corridor width size and minimum area for one person. Therefore, each functional area was adjusted to a multiple of this grid size.
+First a grid of 1.2 m x 1.2 m was considered, derived from a standard corridor width size and minimum area for one person. Therefore, each functional area was adjusted to a multiple of this grid size.
 
 An excel table was created to input the hierarchy of spaces (from the depth chart in an ascending order) and their area dimensions (from the program of requirements). As seen in image below, the excel is used to import these inputs into the Grasshopper environment.
 </div>
@@ -261,11 +261,12 @@ The flowchart explains the pseudo code used to develop this tool.
 
 <div style="text-align: justify"> 
 
-The input of the spaces, hierarchy depths, direction of spaces, space length and width dimensions are first sorted together to branch them into their respective depth hierarchy. While the north direction, site dimenisons creates rectangular regions in directions North, South, East, West, North-east and South-east . It places these regions at the given distance from the center of the site and populates it with the assigned spaces. The site dimenisons 
+In the script, all input from excel is sorted together to branch into a data structure informed by depth hierarchy and creates rectangular spaces as per space dimensions. The site dimensions are used to generate a grid of 1.2m x 1.2m to snap spaces to this grid further. The north direction input informs the creation of rectangular regions in directions of North, South, East, West, North-east and South-east at a given distance from the centre of the site. It populates these regions with the assigned spaces. 
 
-The input of the entrance checkpoint curve is 
+The entrance checkpoint curve input is the starting point to relax depth 1 in this case water fountain courtyard dynamically. For this, it is important to set goals. As dynamic relaxation in principle mimics the working of spring, the most important goal was to set a constant tension line between the entrance checkpoint and the water fountain courtyard. 
 
-This process is then repeated keeping the relaxed curves from hierarchy depth 1 as the attractor for the depth 2 and the relaxed curves from depth 2 become the attractor for the depth 3 spaces so on. This process of staged relaxation per depth hierarchy enhances the configuration results, by aligning spaces orthogonally and reduces chaos when the total number of spaces is high.     
+This process is then repeated, keeping the relaxed curves from hierarchy depth one as the attractor for the depth two and the relaxed curves from depth two become the attractor for the depth three spaces so on. This process of staged relaxation per depth hierarchy enhances the configuration results, by aligning spaces orthogonally and reduces chaos when the total number of spaces is high.    
+
 </div>
 
 ![GDSpaceF](img/GDSpaceF.gif)  
@@ -1150,15 +1151,39 @@ The building modules are based on the tartan grid, they are scalable variations 
 
 ## 5_Conclusion
 <div style="text-align: justify">
-It can be concluded that the design as was shown on this page takes into account the limits we set for it and does so using scripts to optimize the dicisions made in the process. An optimal site was selected setting the limitations of adjacency to a water source, free plot size and nearby facilities. The program of the project was based on the problem statements seen in the Zaatari camp and evolved into an inclusive place to relax and enjoy peace and quiet in Raha.
+It can be concluded that the design as was shown on this page takes into account the limits we set for it and does so using scripts to optimize the dicisions made in the process. An optimal site was selected setting the limitations of adjacency to a water source, free plot size and nearby facilities. The program of the project was based on the problem statements seen in the Zaatari camp and evolved into an inclusive place to relax and enjoy peace and quiet in Raha.  
 
-Gradient Descent tool limitations: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation. 
+Limitations: 
+
+General: The compuatational tool used in this case Grasshopper is limited by the program.    
+
+Site selection tool: The limitation of this script is that the criterias are subjective. It can be further developed to make it adaptable to different building functions. 
+
+Gradient Descent tool: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation. 
+
+Material Study: Due to the change in the course structutre dictated by the tranfer for of education online, it was not an option to test materials which limited the material properties considered in this project. This led to selectiing them from the last years works.   
+
+Structural Analysis using Karmaba: The kramaba model does not consider the forces in the horizontal direction, as the mesh is analyzed as a shell instead of a plate. The wind loads were not included in the analysis as it was negligible. 
+
+Interlocking blocks: The concept of interlocking bricks work very well for circular curves as they generate the same module of bricks, however, when they are adapted to elliptical curves, every brick module in the curve becomes unique increasing the number of modules. 
+
+Construction Instrument: The instrument developed is still at a conceptual stage, while the logic for the tool works, the assembly of the tool is not covered in the scope. 
+
+Adobe 2.0 dome computational tool: Due to the time constraints the tool was not developed to create interlocking bricks for the ribs in the squinch area of the dome. 
+
+
+
+
+
+
 </div>
 
 ---
 ## 6_Reflection
 <div style="text-align: justify">
 While going through the process of designing, an earthy building as is being explained above a lot was learned. Below each group member will reflect on the process and how they have experienced it.
+
+
 </div>
 
 **Anagha Yoganand**
