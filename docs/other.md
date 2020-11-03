@@ -89,7 +89,7 @@ The only inputs it needs are the brick sizes and the curves over which it needs 
 the gif below illustrates how the ribs are generated. The script can be downloaded below.
 </div>
 
-[download here.](rev\scripts\Rib_brickgen.gh).
+[download here.](rev\scripts\Rib_brickgen.gh)
 
 ![Rib maker](rev\constructability\Rib-gif.gif)  
 *Fig: Showing the process followed by the rib maker gif*
