@@ -257,7 +257,7 @@ An excel table was created to input the hierarchy of spaces (from the depth char
 
 The flowchart explains the pseudo code used to develop this tool.   
 
-![GDFlowchart](img/GDFlowchart.jpg) 
+[![GDFlowchart](img/GDFlowchart.jpg)](img/GDFlowchart.jpg)  
 
 <div style="text-align: justify"> 
 

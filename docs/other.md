@@ -41,7 +41,7 @@ The valley houses seem to be the most luxurious of the tree having several rooms
 
 - Yadav, N., 2020. Interlocking Vaults By Voronoi Decomposition Of 3D Space. [online] Researchgate. Available at: <https://www.researchgate.net/publication/341977545_Interlocking_Vaults_by_Voronoi_Decomposition_of_3D_Space> [Accessed 3 November 2020].
 
-- 2020. TRASH TALK. OXFAM.
+- 2020, TRASH TALK. OXFAM. (https://oxfamilibrary.openrepository.com/bitstream/handle/10546/620329/dp-trash-talk-zaatari-recycling-210817-en.pdf;jsessionid=0AE54A9EFC7F9B03F399258EAF73F744?sequence=1) [Accessed 3 Novermber 2020]
 
 ---
 
@@ -87,13 +87,7 @@ The animation below shows the spatial configuration result of this computational
 
 
 ![GDSpaceF](img/GDSpaceF.gif)  
-<<<<<<< HEAD
     
-</div>
-
-=======
-   
->>>>>>> 5a32e727c774916a6d21b89cc9100c7f7ce9ae4d
 **Relaxer**  
 <div style="text-align: justify">
 To study our tessellations and their final form a grasshopper script was made that did the relaxing.
