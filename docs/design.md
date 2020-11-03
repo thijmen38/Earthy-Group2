@@ -984,8 +984,10 @@ For further study the script can be download on the [Other page.](other.md)
 *Experiment*  
 <div style="text-align: justify">
 To better understand the process and sequence of construction of the different types of modules of the building, an experiment was carried out and a scaled model of Module 2 i.e. 6000mm x 6000mm dome was made. The bricks for the interlocking rib system were 3D printed and the infill bricks were hand molded from play clay and were baked in an oven for 10 minutes.     
-  
+
 To construct this model, the first step was to mark the square base on a sheet of paper. As a next step, the curve of the rib segment was drawn and cut out from a piece of cardboard to be used as formwork to lay the interlocking bricks. This formwork was placed on the square base and each brick was then placed in position with the help of tack glue. Once all the ribs were in place the keystone was put and the infill layer from the baked bricks was put. 
+  
+![Experiment1](rev\constructability\Experiment1.jpg)     
 
 With this experiment, it was concluded that the interlocking bricks dictate the curve of the ribs and the formwork was only required to hold them in place. Once the ribs and keystone are in place, the infill bricks can be laid out in concentric circles to ensure that compressions bands in the dome are always complete before laying the next course. 
 </div>
