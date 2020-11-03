@@ -71,9 +71,12 @@ The design vision is to create a “recreation hub” hosting social spaces with
 ### Overall flow chart
 <div style="text-align: justify"> 
 This flowchart shows the overall procedural workflow adopted for designing RAHA. The whole project is divided into four stages, Configuration, Forming, Structuring and Constructability respectively. The larger division of stages offers an eventual progression of the design by keeping each stage incoherence and informed with the other to achieve a generative design.
+</div>
 
-INSERT FLOW CHART HERE
+[![overall flow chart](img/ofc.jpg)](img\final overall flowchart .jpg)  
+*Fig: Overall flow chart of the design process (click image to zoom in).*
 
+<div style="text-align: justify"> 
 The first part is configuring followed by shaping and structuring. In the configuration phase: based on the identified problem and proposed intervention; the main programmatic functions were defined. A set of rules were developed to select the site after which the program relationships were developed using bubble diagrams and REL charts. These were computationally mirrored using a phyton script and a syntactic tool. Further relationships were studied using metro-link diagrams and depth graphs. Based on the outcome, the study was translated to a concept plan which was further developed computationally using gradient descent optimization. Following these studies the floor plans were formulated. 
 
 In the shaping process, the required architectural principles for each space was ranked based on set priority criteria to inform the form-finding process. Based on this, different dynamically relaxed roof tessellations were studied after which roof and wall modules were defined. 
@@ -87,13 +90,15 @@ The constructability was studied along with the structuring phase. Different con
 In the configuration phase of the design process, based on the design goals the programs will be defined along with their spatial requirements and the area requirements. Based on the site study, the relationship between the programs and the integration of the programs into the site will be studied using various computational and graphical methods. 
 
 ### Site selection 
+![Location flow chart.jpg](img/location.jpg)  
+*Fig: Shows the site selection flow chart*
 <div style="text-align: justify"> 
-INSERT FLOW CHART HERE
-
 As per the proposed intervention of building a recreation hub, the main programmatic functions are a tea house, a hammam, a quiet space with a library, and a play area for children with connecting courtyards housing herbal gardens and water bodies.  To select the site the points of consideration are unbuilt spaces, water resources, proximity to other facilities such as schools and kindergartens and the distance from the main road. As the recreation hub includes a hammam, locating it near a water resource is essential. The recreation hub also includes a quiet space with library, a children’s playground which can be an extension to existing schools, youth centers and kindergartens. 
 </div>
 
 ![Location Selection.GIF](img/location.gif)
+
+[Click here to download the script](rev/scripts/Location_finder.gh)
 
 <div style="text-align: justify"> 
 To select the site, a computation tool was created that first identifies built/ unbuilt space and road networks. The tools select the empty plots on the site. These plots are further filtered by size taking only in-between spaces of larger sizes.  Then the existing water resources are mapped. Open spaces that fall within 250 m of the existing water resource are selected. The existing schools, youth centers and kindergartens were mapped and the site selection was further narrowed down to open spaces within 100m of the mapped centers. From the remaining list, the hierarchical demarcation was given to the open spaces based on the distance from the main busy road with preference given to quieter spaces further away from the loud busy main street. At this stage, spaces in districts 6, 7 and 9 were identified. The final chosen site falls in district 9 which has the least saturated population therefore the proposed facility can cater to a larger percentage of the district’s population.
@@ -245,6 +250,8 @@ To start a grid of 1.2 m x 1.2 m was considered, derived from a standard corrido
 An excel table was created to input the hierarchy of spaces (from the depth chart in an ascending order) and their area dimensions (from the program of requirements). As seen in image below, the excel is used to import these inputs into the Grasshopper environment.
 </div>
 
+[The excel can be downloaded here.](rev\scripts\Space_layout_excel.xlsx)  
+
 ![ExcelInputGD](img/ExcelInputGD.PNG)  
 *Fig: Spatial parameters translated as inputs into an excel sheet for the gradient descent tool*
 
@@ -253,7 +260,7 @@ The flowchart explains the pseudo code used to develop this tool.
 ![GDFlowchart](img/GDFlowchart.png) 
 
 <div style="text-align: justify"> 
-This process is then repeated keeping the relaxed curves from depth 1 as the attractor for the depth 2 and so on. This process of staged relaxation per depth enhances the configuration results, by aligning spaces orthogonally and reduces chaos when the total number of spaces are high.     
+This process is then repeated keeping the relaxed curves from hierarchy depth 1 as the attractor for the depth 2 and the relaxed curves from depth 2 become the attractor for the depth 3 spaces so on. This process of staged relaxation per depth hierarchy enhances the configuration results, by aligning spaces orthogonally and reduces chaos when the total number of spaces is high.     
 </div>
 
 ![GDSpaceF](img/GDSpaceF.gif)  
@@ -281,7 +288,7 @@ Next step was to connect the built and the unbuilt spaces and understand the nat
 
 **Modular grid**    
 <div style="text-align: justify"> 
-After having configured the general layout, it was important to translate it into the final plan for the building. For this, a grid of 1200mm x 1200mm was selected. The logic was based on the fact that 1200mm is the minimum corridor width required for a person. The grid was further refined into a Tartan grid. This consists of straight lines of varying widths and distances, crossing at right angles. Tartan grids allow for modularity in the size of built elements. Elements are restricted to centre on the centreline grid and limited in dimension to stay within the tartan bands. 
+After having configured the general layout, it was important to translate it into the final plan for the building. For this, a grid of 1200mm x 1200mm was selected. The logic was based on the fact that 1200mm is the minimum corridor width required for a person. The grid was further refined into a Tartan grid. This consists of straight lines of varying widths and distances, crossing at right angles. Tartan grids allow for modularity in the size of built elements. Elements are restricted to centre on the centreline grid and limited in dimension to stay within the tartan bands.   
 
 The optimized grid has 600mm bands with 2400mm distance between each 600mm bands. This is to ensure that all walls lie in these bands and no module in the building is less than 2400mm x 2400mm. The reason for choosing the width of tartan band as 600mm comes from a small study done on commonly used wall thicknesses for various spans. This was also backed by the previous year structural reports. So when two modules are placed adjacent to each other the wall thickness between them is the combination of the wall thickness of each module but is constructed as one and load from both roofs is directed to the centre of this combined wall. Our assumption was later proved to be correct and details of that can be found in 3_Structuring.
 </div>
@@ -397,11 +404,7 @@ In the structuring phase of the design process, the building form is analyzed fo
 
 ### Tesellations
 
-<<<<<<< HEAD
-![Tesselation flow chart](img/Tessellationflowchart.jpg)
-=======
 ![flowchart Tessellations](img\Tessellationflowchart1.jpg)  
->>>>>>> 4be0495b89b838b554cffe7120817891a30757ed
 *Fig: Tessellation process flow chart*
 
 **Exploration**
@@ -1054,6 +1057,8 @@ However, for the squinch, this script creates different block sizes that form th
 ![Adobe2.0](img\Adobe2.0-.gif)  
 *Fig: Shows the computational tool generation in steps for creating Adobe 2.0*
 
+To study this further, the script can be downloaded on the [Other page.](other.md)
+
 <ins>*Construction instrument*</ins> 
 <div style="text-align: justify">  
 In the construction of the dome of Adobe 2.0, there were two challenges; one was that not only the bricks offsets in plan but also rotate with a certain angle to generate the golden spiral and the other was to make the squinching from the square base to convert it into a circular base for the start of the dome. To solve the first challenge, a Fathy’s compass was used. This tool has a pipe anchored to a pole fixed into the ground in the centre of the circular space to be covered. With its help, the labour can lay bricks in proper circle and complete the dome. To inform the worker about the angle of rotation another simple tool called the angle measure was made. It was observed that all bricks rotate at the same angle from the previous brick of the previous course. Therefore, with the help of Fathy’s compass and angle measure, it’s possible to create the Adobe 2.0 dome easily and efficiently. 
@@ -1142,7 +1147,10 @@ The building modules are based on the tartan grid, they are scalable variations 
 <div style="text-align: justify">
 It can be concluded that the design as was shown on this page takes into account the limits we set for it and does so using scripts to optimize the dicisions made in the process. An optimal site was selected setting the limitations of adjacency to a water source, free plot size and nearby facilities. The program of the project was based on the problem statements seen in the Zaatari camp and evolved into an inclusive place to relax and enjoy peace and quiet in Raha.
 
-Gradient Descent tool limitations: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation.  
+Gradient Descent tool limitations: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation. 
+
+
+
 </div>
 
 ---
