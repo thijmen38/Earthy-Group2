@@ -257,7 +257,7 @@ An excel table was created to input the hierarchy of spaces (from the depth char
 
 The flowchart explains the pseudo code used to develop this tool.   
 
-![GDFlowchart](img/GDFlowchart.jpg) 
+[![GDFlowchart](img/GDFlowchart.jpg)](img/GDFlowchart.jpg)  
 
 <div style="text-align: justify"> 
 
@@ -329,7 +329,7 @@ Below you can see how different spaces comes together to form the final plan. As
 As shown here, there is a main entrance which can be reached by a pedestrian route to keep it away from the busy main street. On the back of the site, there is a service road provided which functions as a supply route for several functions and is a way in for the employees and maintenance.  The unloading & loading service zone is near the kitchen and store for the ease of use while the other services are divided in two service rooms placed near the Hammam. 
 </div>
 
-![Site Plan](img\1_Siteplan.jpg) 
+![Site Plan](img\1_Siteplan.jpg)  
 *Fig: Shows the Site plan*
 
 **Architectural Characteristics**
@@ -343,7 +343,7 @@ Pre-defined architectural characteristics: If the space already had an architect
 The following table shows the spaces onto which the roofs will be placed and the order of their most important criteria.
 </div>
 
-![Architectural Characteristics](img\1_Site_Plan.jpg) 
+![Architectural Characteristics](img\architecturalcharacteristics.png)   
 *Table: Shows the Architectural characteristics*
 
 **Roof modules** 
@@ -351,16 +351,16 @@ The following table shows the spaces onto which the roofs will be placed and the
 The architectural characteristics and tartan grid divides the building into 8 different roof modules which are shown below.
 </div>
 
-![Architectural Characteristics](img\1_Site_Plan.jpg) 
-*Table: Shows the Architectural characteristics*
+![Roof Modules](img\roof.jpg) 
+*Table: Shows the different roof modules*
 
 **Wall modules**  
 <div style="text-align: justify"> 
 The tartan grid is not just limited to plan but also extends in the vertical direction to the walls. The wall openings: window and doors have been positioned based on the tartan grid as you can see below. 
 </div>
 
-![Architectural Characteristics](img\1_Site_Plan.jpg) 
-*Table: Shows the Architectural characteristics*
+![Wall Modules](img\walls.jpg)   
+*Table: Shows the different wall modules*
 
 **Sections**  
 <div style="text-align: justify"> 
@@ -369,7 +369,7 @@ Section AA’ shows the connection between Water-body courtyard, Hammam main hal
 Section BB’ shows the connection between all the courtyards, vestibules and the library space. The library space spans two floors and provides shade to the courtyard below creating a comfortable outdoor space. These spaces have a very gentle level difference between them. 
 </div>
 
-![Sections](img\1_Section.jpg) 
+![Sections](img\1_Section.jpg)  
 *Fig: Shows the sections*
 
 **Details**
@@ -382,7 +382,7 @@ Following topics gives details about the heating, ventilation and rainwater serv
 To fill in the gaps between the two roof and to ensure that water doesn’t percolate in, the gaps were filled with sand. A desired slope is achieved for the water to run off the building. A coating of Lime plaster is applied on the outer surface for the Hammam domes and tadelakt for the other roofs to ensure sealed surface.
 </div>
 
-![Sections](img\Sections.jpg) 
+![Sections](img\Sections.jpg)  
 *Fig: Shows the sections*
 
 <ins>*Heating and Ventilation*</ins>
@@ -390,7 +390,7 @@ To fill in the gaps between the two roof and to ensure that water doesn’t perc
 To heat the Hammam, we have a boiler in the service room which is connected to the public and private baths and steam rooms through the floor. This will make sure that the Hammam area is evenly heated all throughout the year. To ventilate, the Public bath has a skylight on top and there are seams provided on the top and bottom of the doors of steam room and private bath for ease of construction and ventilation.
 </div> 
 
-![Heating and Ventilation](img\1_Detail.jpg) 
+![Heating and Ventilation](img\1_Detail.jpg)  
 *Fig: Shows the heating and ventilation strategies for the Hammam*
 
  
@@ -1016,8 +1016,10 @@ The context of the site generates several limitations like the availability of l
 
 *General concept and design of the tool* 
 <div style="text-align: justify"> 
-The tool works on the logic of creating an ellipse which can be viewed here. Notice that at 3 min 16 sec, one can see that the top segment is created by taking the radius as the end of the minor axis and the point on the minor axis where the line segment cuts it. For the simplification of the tool, this radius is found out for all the ellipsoidal segments of the domes and the supporting rods are then made. Since the tool is required only as a support and not the guide for curvature, it is possible to generalize it and make the supporting rods flexible in length. Below you can see the process. Notice the red denotes the extention in the tool.  
+The tool works on the logic of creating an ellipse which can be viewed below. Notice that at 3 min 16 sec, one can see that the top segment is created by taking the radius as the end of the minor axis and the point on the minor axis where the line segment cuts it. For the simplification of the tool, this radius is found out for all the ellipsoidal segments of the domes and the supporting rods are then made. Since the tool is required only as a support and not the guide for curvature, it is possible to generalize it and make the supporting rods flexible in length. Below you can see the process. Notice the red denotes the extention in the tool.  
 </div>   
+
+[Link to video explaining the creating of an ellipse](https://www.youtube.com/watch?v=x9o-DQMg2XA)
 
 ![Support Spider](img\Intrument.gif)  
 *Fig: Shows the process followed in developing the Support Spider*
@@ -1151,7 +1153,15 @@ The building modules are based on the tartan grid, they are scalable variations 
 
 ## 5_Conclusion
 <div style="text-align: justify">
-It can be concluded that the design as was shown on this page takes into account the limits we set for it and does so using scripts to optimize the dicisions made in the process. An optimal site was selected setting the limitations of adjacency to a water source, free plot size and nearby facilities. The program of the project was based on the problem statements seen in the Zaatari camp and evolved into an inclusive place to relax and enjoy peace and quiet in Raha.  
+
+The ongoing war has prolonged the short-term accommodation towards latent permanency, providing adequate and culturally relevant community-based facilities became important to ensure the holistic well-being of the refugees. The project RAHA was aimed at providing comfort and a sense of belongingness to the inhabitants of the Zaatari camp. 
+
+An optimal district was selected by setting the limitations of adjacency to a water source, free plot size and nearby facilities. 
+Along with the set parameters, the urban analysis of the other projects was taken into consideration, which affected the site selection process. Once the site was selected, it was important to establish the program requirements and understand the connections between various spaces in the building. For this, a thorough study was conducted by drawing different bubble diagrams, REL charts, depth chart and metro-link networks which served as an input for the gradient descent solver, thereby generating our final layout. To make the design more modular, a Tartan grid was chosen which became the base for the further development of roofs and walls.
+
+The modular geometry was then simplified for the structural analysis. The roofs were optimized to behave in complete compression, except the corners, which showed low tensile stresses. The walls were optimized to take the load of the roof above and also to not exceed the width of the Tartan bands. To make the construction more realistic, a higher safety factor was considered to cover the inefficiency in the construction process. 
+
+The construction process and materials were carefully researched to finalize the appropriate method for the buildability. These methods take into consideration the limited resources on-site, skills of the laborers and time required during the construction. The instruments along with the different brick modules for interlocking make the process easy and efficient.
 
 Limitations: 
 
@@ -1170,11 +1180,6 @@ Interlocking blocks: The concept of interlocking bricks work very well for circu
 Construction Instrument: The instrument developed is still at a conceptual stage, while the logic for the tool works, the assembly of the tool is not covered in the scope. 
 
 Adobe 2.0 dome computational tool: Due to the time constraints the tool was not developed to create interlocking bricks for the ribs in the squinch area of the dome. 
-
-
-
-
-
 
 </div>
 
@@ -1214,6 +1219,6 @@ That is why I would like to learn about using Python in the time to come.
 
 **Twinkle Nathani**
 <div style="text-align: justify">
-The Earthy course is a design studio which has the steepest learning curve as compared to all the other courses in the master's track of Building Technology. I personally enjoyed this course as I have worked with earth before but never encountered the possiblity of combining a primitve material with the current technology using the latest computational softwares. The best part about this course was the constructibility phase as I throughly enjoyed myself exloring different construction techniques in order to close the loop. The was the course was structured pushed me to think more and with every challenge we faced, especially with adobe 2.0 structure, it only increased the level of complexity and intensity of the course, which made the course extremely interesting.Within the 10 weeks of the coursework, the first few weeks were intense due to the different workshops and lectures. I personally think that these workshops/lectures could have been split into two parts as many of them were more relevant for the 2nd half of the coursework. 
-All in all, I am extrememly proud of what we have achieved as a team to complete the project sucessfully. I would like to thank my fellow group mates for working tirelessly make RAHA happen. I would also like to thank all the tutors who helped us throughout the course.
+The Earthy course is a design studio which has the steepest learning curve as compared to all the other courses in the master's track of Building Technology. I personally enjoyed this course as I have worked with earth before but never encountered the possiblity of combining a primitve material with the current technology using the latest computational softwares. The best part about this course was the constructibility phase as I throughly enjoyed myself exloring different construction techniques in order to close the loop. The course was structured in a way that pushed me to think more and with every challenge we faced, especially with adobe 2.0 structure, it only increased the level of complexity and intensity of the course, which made the course extremely interesting. Within the 10 weeks of the coursework, the first few weeks were intense due to the different workshops and lectures. I personally think that these workshops/lectures could have been split into two parts as many of them were more relevant for the 2nd half of the coursework. 
+All in all, I am extrememly proud of what we have achieved as a team to complete the project sucessfully. I would like to thank my fellow group mates for working tirelessly to make RAHA happen. I would also like to thank all the tutors who helped us throughout the course.
 </div>
