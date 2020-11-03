@@ -1048,6 +1048,9 @@ The final section of the brick in laid in the same way using a smaller module of
 ---
 
 ## 5_Conclusion
+<div style="text-align: justify">
+
+</div>
 
 ---
 ## 6_Reflection
