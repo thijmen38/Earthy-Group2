@@ -97,7 +97,10 @@ To select the site, a computation tool was created that first identifies built/ 
 </div>
 
 *Twinkle*  
-Explain the site surroundings and site orientation, add a google map/diagram - wind and sun path (brief study) 
+The chosen site in District 9 was then studied based on factors to understand the nearby context, climate, access routes, nodes etc. The total site area was 3880 (81m x 48m) sq.m. 
+
+The site is oriented along the North-South axis and the predominant wind direction is from the West. The main access road is from the East. There is a Mosque and a bore well on the West while the North and South is flanked by kindergarten and residences.
+
 
 ### Program of requirements *Thijmen* 
 
