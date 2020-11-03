@@ -870,7 +870,7 @@ After structurally analyzing the geometry, it can be concluded that in most case
 This phase in the design process was carried alongside the structuring phase. To understand how the construction of the defined modules can be achieved with unskilled laborers, various literature reviews were referred to. The referenced construction methods were explored further by simple digital and physical model making. Thereafter, the rib-infill construction method was chosen as it can be easily adapted to the different modules present. Step by step of the constructability processes will be explained below. 
 </div>
 
-## Methodology   
+### Methodology   
 
 **Relationship between different modules**
 <div style="text-align: justify">
@@ -895,7 +895,7 @@ Because of the way the roofs are tessellated and because of the scalable relatio
 
 The next step was to figure out how to make the ribs in a way that can easily be constructed with unskilled laborers and requiring limited formwork. Here various types of construction systems were looked at. From literature review, a few examples of interlocking construction systems were taken into consideration to determine the applicability for the construction of the roof modules. 
 
- ## Interlocking bricks ##   
+ ### Interlocking bricks
 
 <ins>*design process*</ins>
 <div style="text-align: justify">
@@ -968,7 +968,7 @@ The tool works on the logic of creating an ellipse which can be viewed here. Not
 As mentioned earlier, all domes are the scaled versions of the smaller dome, so all the elliptical arches of these modules which form the interlocking ribs are scaled versions or the smallest arch. Therefore, they all have a common center. The tool is designed to fit the smallest module and can be expanded to the largest module by increasing the length of the supporting rod.  
 </div>  
 
-## Adobe 2.0 ##
+### Adobe 2.0
 
 **Design concept** 
 <div style="text-align: justify"> 
