@@ -102,7 +102,7 @@ The chosen site in District 9 was then studied based on factors to understand th
 
 The site is oriented along the North-South axis and the predominant wind direction is from the West. The main access road is from the East. There is a Mosque and a bore well on the West while the North and South is flanked by kindergarten and residences.
 
-### Program of requirements *Thijmen* 
+### Program of requirements
 
 ![Program of requirements](rev/configuration/Program_of_requirements.png)
 *Fig: The program of requirements of the project*
