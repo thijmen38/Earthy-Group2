@@ -406,7 +406,7 @@ In the structuring phase of the design process, the building form is analyzed fo
 
 ### Tesellations
 
-![flowchart Tessellations](img\Tessellationflowchart1.jpg)  
+[![flowchart Tessellations](img\Tessellationflowchart1.jpg)](rev\Tessellation_flow_chart.png)  
 *Fig: Tessellation process flow chart*
 
 **Exploration**
