@@ -3,6 +3,7 @@ nav:
   - Home: index.md
   - The team: about.md
   - Design: design.md
+  - 3D Visualizations: 3D_Visualizations.md
   - Presentations: presentations.md
   - Other: other.md
 theme:

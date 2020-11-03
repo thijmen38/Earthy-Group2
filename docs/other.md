@@ -6,7 +6,25 @@ The achievements in this project would not have made if it was not for the cours
 ---
 ## 0_Literature
 
+### Vernacular Architecture
+
+
+<div style="text-align: justify">
+To see how houses are typically built in Jordan and to decide if inspiration could be taken from this a study into their vernacular architecture was conducted. A small summary can be read below.
+</div>  
+<div style="text-align: justify">
+In Jordan, there is a separation between three different vernacular architecture styles which are all rarely seen as a result of inhabitants looking for better living conditions in the cities thus abandoning the buildings. All have to do with the different regions in the country namely: The desert, The highlands and the valley.
+</div>
+
+<div style="text-align: justify">
+Traditionally the houses used in the dessert are tents, houses in the highlands are simple rectangular houses subdivided into rooms by using an arched wall. 
+The valley houses seem to be the most luxurious of the tree having several rooms and a courtyard or patio. (Baglioni, E. ,2015)
+</div>
+
+
 **References**  
+
+- Baglioni, E. (2015). Jordanian vernacular architecture. Taylor & Francis Group, London.
 
 - Türkmen, İ., Ekinci, E., Kantarcı, F., & Sarıcı, T. (2020). The mechanical and physical properties of unfired earth bricks stabilized with gypsum and Elazığ Ferrochrome slag. Retrieved 2 November 2020
 
@@ -71,7 +89,7 @@ The only inputs it needs are the brick sizes and the curves over which it needs 
 the gif below illustrates how the ribs are generated. The script can be downloaded below.
 </div>
 
-[download here.](rev\scripts\Rib_brickgen.gh).
+[download here.](rev\scripts\Rib_brickgen.gh)
 
 ![Rib maker](rev\constructability\Rib-gif.gif)  
 *Fig: Showing the process followed by the rib maker gif*
