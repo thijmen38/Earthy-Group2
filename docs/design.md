@@ -1024,9 +1024,12 @@ As mentioned earlier, all domes are the scaled versions of the smaller dome, so 
 
 **Design concept** 
 <div style="text-align: justify"> 
-The idea behind introducing Adobe 2.0 in the course was to push the limits to explore something which has never been built before in adobe. For this challenge, the inspiration came from the Lamella tessellations found in sunflowers. These tessellations occur in the Fibonacci sequence in nature and shifts horizontally keeping the same centre creating a twisting pattern. On further research an origami lamella dome was found which helped us in better understanding the shape of the dome. The difficulty was that each lamella strip not only was an offset but also shifted at the bottom. 
+The idea behind introducing Adobe 2.0 in the course was to push the limits to explore something which has never been built before in adobe. For this challenge, the inspiration came from the Lamella tessellations found in sunflowers. These tessellations occur in the Fibonacci sequence in nature and shifts horizontally keeping the same centre creating a twisting pattern. On further research an origami lamella dome was found as seen in figure below, which helped us in better understanding the shape of the dome. The attractive feature of this geometry was the opening it creates at the apex, serving as a deciding factor on selecting it. Having an opening at the apex created the skylight we envisioned for the hammam main hall and public bathing spaces, i.e. the three 9mx9m dome modules.        
 
-Various methods were researched………..
+![Lamellaorigami](Lamellaorigami-.jpg)   
+*Fig: An origami model of the Lamella dome, source:[Flicker](https://www.flickr.com/photos/yoshinobu_miyamoto/4400658370/)* 
+
+On research it was found that the curves in the Lamella tessellation follow a fibonacci interpolation of points.Therefore,this informed the starting point of generating a computational script for this roof module.
     
 </div>
 
@@ -1035,6 +1038,13 @@ Various methods were researched………..
 A computational script was made to inform the Adobe 2.0 geometry and inform the bricklaying accordingly.
 
 The inputs for this script are the diameter of the dome, the number of segments, squinch height and brick height in order to create this Fibonacci based dome, that twists and offsets to form a conical dome leaving a skylight at the top.   
+
+An integrated pyhton script counts the number of the bricks per segment of the Lamella dome's leaf and colours them as per assigned code, as seen in the animation below. This is an essential information for the brick laying process. 
+
+A discrete corner stone design is achived such that this stone can be repeated on all the corner conditions of the dome retaining the aesthetic quality of the geometry. 
+
+However, for the squinch, this script creates different block sizes that form the unique ribs, but the form offers repitation of these ribs, reducing the complexity in construction.
+
 </div>
 
 ![Adobe2.0](img\Adobe2.0-.gif) 
