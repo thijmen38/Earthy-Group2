@@ -376,7 +376,7 @@ Following topics gives details about the heating, ventilation and rainwater serv
 To fill in the gaps between the two roof and to ensure that water doesn’t percolate in, the gaps were filled with sand. A desired slope is achieved for the water to run off the building. A coating of Lime plaster is applied on the outer surface for the Hammam domes and tadelakt for the other roofs to ensure sealed surface.
 </div>
 
-![Sections](img\1_Section.jpg) 
+![Sections](img\Sections.jpg) 
 *Fig: Shows the sections*
 
 <ins>*Heating and Ventilation*</ins>
@@ -387,9 +387,6 @@ To heat the Hammam, we have a boiler in the service room which is connected to t
 ![Heating and Ventilation](img\1_Detail.jpg) 
 *Fig: Shows the heating and ventilation strategies for the Hammam*
 
-<ins>*Detailed section*</ins> 
-<div style="text-align: justify">
-</div>
  
 ### Summary 
 <div style="text-align: justify">
@@ -561,7 +558,7 @@ It was observed that the load distribution was uniform and the meshes were coher
 
 The structural analysis does not consider gypsum as the material for the ribs. Adobe material properties were considered for the entire structure. As gypsum has higher compressive strength as compared to adobe, it was assumed that using gypsum would give better results in the analysis.
 
-The script used for the structural analysis of all the modules can be found on the [Other page](other.md).
+The script used for the structural analysis of all the modules can be found on the Other page.
  </div>
  
  **Module_1: 3x3 Square Dome**
@@ -1032,11 +1029,13 @@ As mentioned earlier, all domes are the scaled versions of the smaller dome, so 
 **Design concept** 
 <div style="text-align: justify"> 
 The idea behind introducing Adobe 2.0 in the course was to push the limits to explore something which has never been built before in adobe. For this challenge, the inspiration came from the Lamella tessellations found in sunflowers. These tessellations occur in the Fibonacci sequence in nature and shifts horizontally keeping the same centre creating a twisting pattern. On further research an origami lamella dome was found as seen in figure below, which helped us in better understanding the shape of the dome. The attractive feature of this geometry was the opening it creates at the apex, serving as a deciding factor on selecting it. Having an opening at the apex created the skylight we envisioned for the hammam main hall and public bathing spaces, i.e. the three 9mx9m dome modules.        
+</div>
 
 ![Lamellaorigami](Lamellaorigami-.jpg)   
 *Fig: An origami model of the Lamella dome, source:[Flicker](https://www.flickr.com/photos/yoshinobu_miyamoto/4400658370/)* 
 
-On research it was found that the curves in the Lamella tessellation follow a fibonacci interpolation of points.Therefore,this informed the starting point of generating a computational script for this roof module.
+<div style="text-align: justify"> 
+On research it was found that the curves in the Lamella tessellation follow a fibonacci interpolation of points. Therefore,this informed the starting point of generating a computational script for this roof module.
     
 </div>
 
@@ -1188,8 +1187,7 @@ That is why I would like to learn about using Python in the time to come.
 
 **Twinkle Nathani**
 <div style="text-align: justify">
-The Earthy course is a design studio which has the steepest learning curve as compared to all the other courses in the master's track of Building Technology. I personally enjoyed this course as I have worked with earth before but never encountered the possiblity of combining a primitve material with the current technology using the latest computational softwares. The best part about this course was the constructibility phase as I throughly enjoyed myself exloring different construction techniques in order to close the loop. The was the course was structured pushed me to think more and with every challenge we faced, especially with adobe 2.0 structure, it only increased the level of complexity and intensity of the course, which made the course extremely interesting.Within the 10 weeks of the coursework, the first few weeks were intense due to the different workshops and lectures. I personally think that these workshops/lectures could have been split into two parts as many of them were more relevant for the 2nd half of the coursework. 
-All in all, I am extrememly proud of what we have achieved as a team to complete the project sucessfully. I would like to thank my fellow group mates
+The Earthy course is a design studio which has the steepest learning curve as compared to all the other courses in the master's track of Building Technology. I personally enjoyed this course as I have worked with earth before but never encountered the possiblity of combining a primitve material with the current technology using the latest computational softwares. The best part about this course was the constructibility phase as I throughly enjoyed myself exloring different construction techniques in order to close the loop. The was the course was structured pushed me to think more and with every challenge we faced, especially with adobe 2.0 structure, it only increased the level of complexity and intensity of the course, which made the course extremely interesting.
 
 
 </div>
