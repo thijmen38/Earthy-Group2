@@ -33,8 +33,6 @@ The proposed intervention is to introduce a “recreation hub” including a tea
 The design vision is to create a “recreation hub” hosting social spaces with partly interchangeable functions, which have comfortable indoor climates by learning from vernacular architecture and utilizing appropriate building technology that allows for efficient use of space, limited resources and ease of constructability.
 </div>
 
-
-
 ### Design questions
 
 1. What are the site conditions?  
@@ -69,8 +67,6 @@ The design vision is to create a “recreation hub” hosting social spaces with
 •	What type of bricks, molds, formwork are required?  
 •	What resources and material are available?  
 •	What is the construction sequence?  
-
-
 
 ### Overall flow chart
 <div style="text-align: justify"> 
@@ -114,7 +110,6 @@ Having selected a site to fit the Raha building a program was developed.
 with the functions that are to be hosted in the building came also some demands on capacity, size, level of privacy, and desire for daylight. Below these choices will be explained.
 </div>
 
-
 <ins>Tea house</ins>  
 <div style="text-align: justify"> 
 The tea house is one of the main functions of Raha. Its purpose is to connect people and provide them with a place where they can meet and socialize.
@@ -127,7 +122,6 @@ To make sure that visitors with kids are also welcomed there will be an indoor a
 All of these functions will be connected with a courtyard, named the herbal garden this courtyard can provide herbs for the tea that is being served in the tea house. Visitors are welcome to help with the gardening of this garden.  
 There will also be some toilets connected to the herbal garden.
 </div>
-</br>
 
 <ins>Hammam</ins>  
 <div style="text-align: justify"> 
@@ -137,37 +131,28 @@ Where you can get your towels and go through to the changing room to continue ei
 All of these rooms require good ventilation and daylight but are private so this should be taken into account when designing said room.  
 The hammam as a whole can host up to 125 people.
 </div>
-</br>
 
 <ins>Quiet area</ins>  
 <div style="text-align: justify"> 
 Also located next to the waterbody courtyard is the quiet area. The quiet area hosts the next functions.
 The quiet rooms where people can come, sit, read, and enjoy a quiet space.
-There is also a library to provide visitors with books to read.
-And several workspaces for the visitors to use.
-
-All of these rooms require daylight but it should not be disturbing this is why a north orientation is chosen for these rooms.  
-There will also be toilets connected to the waterbody courtyard.
+A library and several workspaces are provided for the visitors which can provide help he visitors de-stress from the day to day routine. All of these rooms require daylight, hence, north orientation was chosen for these rooms.  
 </div>
-</br>
 
 <ins>Entrance</ins>  
 <div style="text-align: justify"> 
-Of course the project needs an entrance, when entering the site visitors will first walk into the water fountain courtyard. From which they can choose to go to the waterbody courtyard or the herbal garden courtyard.
+In order to enter the site, an entry check point was porposed highlighting the name of the project While entering, the visitors will first walk into the water fountain courtyard. From which they can choose to go to the waterbody courtyard or the herbal garden courtyard.
 </div>
-</br>
 
 <ins>Service zone</ins>  
 <div style="text-align: justify"> 
 To provide all the functions from there required services like heating, water, power, storeroom, etc. There will be a service zone that has his separate entrance and is connected to the hammam, tea house, and water fountain courtyard.
 </div>
-</br>
 
 ### Connectivity of spaces
 <div style="text-align: justify"> 
 After deciding which functions should be in the project to achieve our vision the relations between these functions were studied. To do so we went through the next steps multiple times untill the the project relations were coherent.  
 </div>
-</br>
 
 **Rel chart**  
 
@@ -176,7 +161,6 @@ After deciding which functions should be in the project to achieve our vision th
 <div style="text-align: justify"> 
 The REL chart shows the relationship a certain function or room has with every other function or room. In the beginning, assumptions were made on which function should be connected to which other function. By analyzing the results this chart was changed to make sure it provided a better input for our syntactic tool.
 </div>
-</br>
 
 **Bubble diagram**  
 <div style="text-align: justify"> 
@@ -184,7 +168,6 @@ Taking the REL chart created in the previous chapter the connections were analyz
 Starting with the syntactic tool for Rhino Grasshopper.
 To make the process of checking and rechecking more automated rather than building a new bubble diagram each time. A script was created to generate points and their connections based on the connections in the REL chart.
 </div>
-</br>
 
 ![dots and lines for bubble diagram](rev\configuration\bubble_diagram\bubble_lines.png)
 *Fig: Dots and lines generated by the output of the REL chart, this will be input for the syntactic tool.*
@@ -197,7 +180,6 @@ To make the process of checking and rechecking more automated rather than buildi
 <div style="text-align: justify"> 
 This bubble diagram was studied and connections were moderated if necessary. However, it did not provide us with the clear bubble diagram that we were expecting from the program. So we converted it into a manual bubble diagram. This also gave us the option of giving a certain weight to the connections as is shown below.
 </div>
-</br>
 
 ![bubble diagram manual](rev\configuration\bubble_diagram\bubble_manual.png)  
 *Fig: The final bubble diagram*
@@ -206,7 +188,6 @@ This bubble diagram was studied and connections were moderated if necessary. How
 <div style="text-align: justify"> 
 After creating the bubble diagrams we analyzed them. To do some more effectively we looked at the hierarchy of the spaces as this gives a good view of how private the rooms are and how long it would take a visitor to reach them.
 </div>
-</br>
 
 <ins>*Depth chart*</ins>
 
@@ -215,30 +196,27 @@ After creating the bubble diagrams we analyzed them. To do some more effectively
 <div style="text-align: justify"> 
 The depth chart as shown above clearly shows the hierarchy of the spaces. For instance, it shows a clear split between the hammam areas and the tea bar areas. It also shows how deep the bathing spaces are in the building. Which is where they are designed to be. This heirarchy branches from public spaces to private spaces, which helps in determining the connectivity between spaces.
 </div>
-</br>
 
 <ins>*Metro link diagram*</ins>  
 
 ![depth chart](rev\configuration\bubble_diagram\metro_link.jpg)  
 *Fig: Metro link diagram*  
 <div style="text-align: justify"> 
-To show the connections on a very conceptual level a metro link diagram was created as can be seen above.
+To show the connections on a conceptual level, a metro link diagram was created as shown in the figure. This link helped in understanding the adjacencies and provided a mind map for the users to connect between the spaces and which route to opt for.
 </div>
-</br>
 
 ![depth chart](rev\configuration\bubble_diagram\depthchart2.jpg)  
 *Fig: Connectivity chart*  
 <div style="text-align: justify"> 
-To show the clustering of the functions this diagram was transformed into a hexagonal connectivity chart which is shown above.
+Deconstructing the depth chart, the connections were transformed into a spatial configuration showing the transition between the different depths in the chart. 
+This shows a conceptual arrangement of the spaces which serves as a base for the computational configuration process.
 </div>
-</br>
 
-### Summary or conclusion
-*First do the rest*  
+### Summary 
+
 <div style="text-align: justify"> 
-The functions and there relationships that are created in this chapter will be the input for the next chapter were the building layout will be formed.
+The configuration process identified the stages in the design porcess which were supported by an algorithmic logic.By defining the problems and the design goals, a list of functional spaces were proposed which were formulated by a set of rules. These spaces were further analyzed to derive a logical relationship between different functions with the help of bubble diagram and depth chart. These connections developed a schematic spatial layout which was explored further in the forming phase.
 </div>
-</br>
 
 ---  
 
@@ -359,7 +337,10 @@ show sections and explain the heights etc
 
 </div>
  
-### Summary or conclusion
+### Summary 
+<div style="text-align: justify">
+The Forming process strategicaly developed a shape from the spatial configuration based on the REL-Chart and the bubble diagram. In  order to define the shape and the layout, a grid was defined which became the base for converting the design ideas and concepts into the proposed site boundary. This grid was imminent in making the design more modular.
+</div>
 
 ---
 
@@ -769,7 +750,6 @@ All the edge points of the base of the roof are considered as fixed supports in 
 In case of the roof, it was observed that peak tensile stresses were developed at corners and the edges where the ridges were specified in the model. Looking at the simplification geometry, the tensile stresses were developed at the corners of the curves. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 300 mm, the structure was safe. The maximum deflection observed was 23 mm (12000/400 = 30) which was also safe for the given load conditions. 
 
 In case of the wall, maximum tensile stresses were observed at the edges and at the key stone of the arched opening at the corners. This proves that the arch distributes the loads from the edges and the corners to the key stone and transferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 600 mm, the structure was safe. The maximum deflection observed was 10.4 mm (12000/400 = 30) which was also safe for the given load conditions.
-
 </div>
 
 <ins>*Verification*</ins>
@@ -867,7 +847,7 @@ Specific weight = 15 KN/m3 (Adobe density = 1500 kg/m3)
 Total reaction force= 42.8 x 1.2 x 15 = **770.4 KN**   
 Thus, Computational model gives accurate results.
 
-### Summary or conclusion  
+### Summary 
 <div style="text-align: justify">
 After structurally analyzing the geometry, it can be concluded that in most cases, the originally assumed wall thickness (max 600 mm according to the tartan grid) was accurate. For certain modules, the wall thicknesses were more than 300 mm due to the presence of first floor or double height space. The roofs were optimized to behave in complete compression, except the corners, which showed low tensile stresses. In order to achieve structurally sound geometry, it was important to refine the meshes and redo the tessellations as the type of mesh determined the distribution of the loads. Further, the mesh was simplified to the closest ellipse and was imported to karamba. This process was repeated several times until the final form was achieved. 
 </div>
@@ -875,9 +855,7 @@ After structurally analyzing the geometry, it can be concluded that in most case
 ---
 ## 4_Constructability
 
-Introduction explaining the construction phase and its goals.(from course brief)*Bez*
-
-This phase in the design process was carried along side with the structuring phase. To understand how the construction of the defined modules can be achieved with unskilled laborers various literature reviews were referenced. The referenced construction methods were explored further by simple digital and physical model making. Thereafter, the rib-infill construction method was chosen as it can be easily adopted to the different modules present. Step by step of the constructability processes will be explained below. 
+This phase in the design process was carried along side with the structuring phase. To understand how the construction of the defined modules can be achieved with unskilled laborers, various literature reviews were referred. The referenced construction methods were explored further by simple digital and physical model making. Thereafter, the rib-infill construction method was chosen as it can be easily adopted to the different modules present. Step by step of the constructability processes will be explained below. 
 
 ## Methodology ##   
 
@@ -933,7 +911,6 @@ For the interlocking rib system, one can either have the ribs made from gypsum o
 To make the desired ribs fit all the domes that are in the project a computational tool has been designed.
 The script takes in curves that it turns into ribs. these curves can be made by projecting lines to the roof surface.
 </div>
-</br>
 
 After this it does the flowing:
 1. Splits the curves into segments provided by the stone sizes.
@@ -961,19 +938,16 @@ With this experiment, it was concluded that the interlocking bricks dictates the
 <div style="text-align: justify">  
 The context of the site generates several limitations like the availability of limited resources and skilled labours on the building process. Therefore, it was important to find a process that made use of minimal supporting materials, tools and skills. This created an opportunity for innovative solutions to solve the problem of constructability. Therefore, we designed a tool called The Support Spider that can aid the labours and make the process simple and efficient. 
 </div>
- </br>  
 
 *General concept and deisgn of the tool* 
 <div style="text-align: justify"> 
 The tool works on the logic of creating an ellipse which can be viewed here. Notice that at 3 min 16 sec, one can see that the top segment is created by taking the radius as the end of the minor axis and the point on the minor axis where the line segment cuts it. For the simplification of the tool, this radius is found out for all the ellipsoidal segments of the domes and the supporting rods are then made. Since the tool is required only as a support and not the guide for curvature, it is possible to generalize it and make the supporting rods flexible in length.   
 </div>   
-</br>  
 
 *Adaptation to different modules*
 <div style="text-align: justify">
 As mentioned earlier, all domes are the scaled versions of the smaller dome, so all the elliptical arches of these modules which form the interlocking ribs are scaled versions or the smallest arch. Therefore, they all have a common centre. The tool is designed to fit the smallest module and can be expanded to the largest module by increasing the length of the supporting rod.  
 </div>  
-</br>
 
 ## Adobe 2.0 ##
 
@@ -981,7 +955,7 @@ As mentioned earlier, all domes are the scaled versions of the smaller dome, so 
 <div style="text-align: justify"> 
 *Twinkle*   
 mention fibonacci and the twist in the dome that creates the lamela dome look     
-</br>
+</div>
 
 **Computational tool**
  
@@ -1002,7 +976,7 @@ The inputs for this script are diameter of the dome, number of segments, squinch
 Brick sizes and weights to be justified for constructability -  Brick Library with dimensions weights and moulds - which one is used where (which module)
 In a 3D view colour code and nomenclate the bricks used per module
 
-<ins>*construction sequence*</ins>   
+<ins>*Construction sequence*</ins>   
 *Beza*  
 All the lovely Gifs and explanation of the process it selft
 Foundation to walls to window/door openings and therefore roof modules
@@ -1025,7 +999,7 @@ Gif.
 
 3d image of the brick colour and nomenclature  
 
-### Summary or conclusion
+### Summary 
 
 ---
 
@@ -1033,18 +1007,22 @@ Gif.
 
 ---
 ## 6_Reflection
-
-While going through the process of designing an earthy building as is being explained above a lot was learned. Below each group member will reflect on the process and how they have experienced it.
+<div style="text-align: justify">
+While going through the process of designing, an earthy building as is being explained above a lot was learned. Below each group member will reflect on the process and how they have experienced it.
 
 Gradient Descent tool limitations: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation.  
+</div>
 
 **Bezawit Z. Bekele**
 
 reflection
 
 **Shriya Balakrishnan**
+<div style="text-align: justify">
+The course AR3B011 Earthy is an amalgamation of diverse topics ranging from spatial planning, programming, construction techniques and structural design. The entire learning process was indeed remarkable and a different approach towards thinking mathematically and computationally. One major challenge of the course was to design with limited material resources and unskilled labour. Although adobe construction is something that has been done since ages, it is not commonly adopted construction material which developed the perfect design brief in the proposed location. Moreover, the structuring phase was an additional challenge due to the lack of assistance for the structural analysis using Karamba 3D and Ansys.
 
-reflection
+Nonetheless, we are happy with the results we have achieved for such a fast paced course. I personally learnt a lot from this course and the experience of working with my enthusiastic team members was incredible as we all gave our 100% to this project. 
+</div>
 
 **Thijmen Pluimers**
 
