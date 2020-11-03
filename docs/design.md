@@ -359,7 +359,7 @@ Following topics gives details about the heating, ventilation and rainwater serv
 <div style="text-align: justify">
 To fill in the gaps between the two roof and to ensure that water doesn’t percolate in, the gaps were filled with sand. A desired slope is achieved for the water to run off the building. A coating of Lime plaster is applied on the outer surface for the Hammam domes and tadelakt for the other roofs to ensure sealed surface.
 </div>
-
+test
 <ins>*Heating and Ventilation*</ins>
 <div style="text-align: justify">
 To heat the Hammam, we have a boiler in the service room which is connected to the public and private baths and steam rooms through the floor. This will make sure that the Hammam area is evenly heated all throughout the year. To ventilate, the Public bath has a skylight on top and there are seams provided on the top and bottom of the doors of steam room and private bath for ease of construction and ventilation.
