@@ -72,7 +72,8 @@ The design vision is to create a “recreation hub” hosting social spaces with
 <div style="text-align: justify"> 
 This flowchart shows the overall procedural workflow adopted for designing RAHA. The whole project is divided into four stages, Configuration, Forming, Structuring and Constructability respectively. The larger division of stages offers an eventual progression of the design by keeping each stage incoherence and informed with the other to achieve a generative design.
 
-INSERT FLOW CHART HERE
+![overall flow chart](img/ofc.jpg)  
+*Fig: Overall flow chart of the design process*
 
 The first part is configuring followed by shaping and structuring. In the configuration phase: based on the identified problem and proposed intervention; the main programmatic functions were defined. A set of rules were developed to select the site after which the program relationships were developed using bubble diagrams and REL charts. These were computationally mirrored using a phyton script and a syntactic tool. Further relationships were studied using metro-link diagrams and depth graphs. Based on the outcome, the study was translated to a concept plan which was further developed computationally using gradient descent optimization. Following these studies the floor plans were formulated. 
 
@@ -89,8 +90,8 @@ In the configuration phase of the design process, based on the design goals the 
 ### Site selection 
 <div style="text-align: justify"> 
 
-![Location flow chart](img/location.jpg)
-*Fig: Shows the site selection process*
+![Location flow chart.jpg](img/location.jpg)
+*Fig: Shows the site selection flow chart*
 
 As per the proposed intervention of building a recreation hub, the main programmatic functions are a tea house, a hammam, a quiet space with a library, and a play area for children with connecting courtyards housing herbal gardens and water bodies.  To select the site the points of consideration are unbuilt spaces, water resources, proximity to other facilities such as schools and kindergartens and the distance from the main road. As the recreation hub includes a hammam, locating it near a water resource is essential. The recreation hub also includes a quiet space with library, a children’s playground which can be an extension to existing schools, youth centers and kindergartens. 
 </div>
