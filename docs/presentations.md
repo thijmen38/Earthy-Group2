@@ -18,3 +18,8 @@ Thursday the 29th of October the final presentation of the project was given. In
 ---
 
 ## 2_Video
+<div style="text-align: justify"> 
+Because the whole course was online due to CoVid-19 a video was created to give an overview of the process throughout the project.
+</div>
+
+[Video](rev/EarthyVideo.mp4)
