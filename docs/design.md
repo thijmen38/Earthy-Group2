@@ -328,7 +328,7 @@ Below you can see how different spaces comes together to form the final plan. As
 As shown here, there is a main entrance which can be reached by a pedestrian route to keep it away from the busy main street. On the back of the site, there is a service road provided which functions as a supply route for several functions and is a way in for the employees and maintenance.  The unloading & loading service zone is near the kitchen and store for the ease of use while the other services are divided in two service rooms placed near the Hammam. 
 </div>
 
-![Site Plan](img\1_Siteplan.jpg) 
+![Site Plan](img\1_Siteplan.jpg)  
 *Fig: Shows the Site plan*
 
 **Architectural Characteristics**
@@ -342,7 +342,7 @@ Pre-defined architectural characteristics: If the space already had an architect
 The following table shows the spaces onto which the roofs will be placed and the order of their most important criteria.
 </div>
 
-![Architectural Characteristics](img\1_Site_Plan.jpg) 
+![Architectural Characteristics](img\architecturalcharacteristics.png)   
 *Table: Shows the Architectural characteristics*
 
 **Roof modules** 
@@ -350,7 +350,7 @@ The following table shows the spaces onto which the roofs will be placed and the
 The architectural characteristics and tartan grid divides the building into 8 different roof modules which are shown below.
 </div>
 
-![Architectural Characteristics](img\1_Site_Plan.jpg) 
+![Architectural Characteristics](img\roof.jpg)  
 *Table: Shows the Architectural characteristics*
 
 **Wall modules**  
@@ -358,7 +358,7 @@ The architectural characteristics and tartan grid divides the building into 8 di
 The tartan grid is not just limited to plan but also extends in the vertical direction to the walls. The wall openings: window and doors have been positioned based on the tartan grid as you can see below. 
 </div>
 
-![Architectural Characteristics](img\1_Site_Plan.jpg) 
+![Architectural Characteristics](img\walls.jpg)   
 *Table: Shows the Architectural characteristics*
 
 **Sections**  
@@ -368,7 +368,7 @@ Section AA’ shows the connection between Water-body courtyard, Hammam main hal
 Section BB’ shows the connection between all the courtyards, vestibules and the library space. The library space spans two floors and provides shade to the courtyard below creating a comfortable outdoor space. These spaces have a very gentle level difference between them. 
 </div>
 
-![Sections](img\1_Section.jpg) 
+![Sections](img\1_Section.jpg)  
 *Fig: Shows the sections*
 
 **Details**
@@ -381,7 +381,7 @@ Following topics gives details about the heating, ventilation and rainwater serv
 To fill in the gaps between the two roof and to ensure that water doesn’t percolate in, the gaps were filled with sand. A desired slope is achieved for the water to run off the building. A coating of Lime plaster is applied on the outer surface for the Hammam domes and tadelakt for the other roofs to ensure sealed surface.
 </div>
 
-![Sections](img\Sections.jpg) 
+![Sections](img\Sections.jpg)  
 *Fig: Shows the sections*
 
 <ins>*Heating and Ventilation*</ins>
@@ -389,7 +389,7 @@ To fill in the gaps between the two roof and to ensure that water doesn’t perc
 To heat the Hammam, we have a boiler in the service room which is connected to the public and private baths and steam rooms through the floor. This will make sure that the Hammam area is evenly heated all throughout the year. To ventilate, the Public bath has a skylight on top and there are seams provided on the top and bottom of the doors of steam room and private bath for ease of construction and ventilation.
 </div> 
 
-![Heating and Ventilation](img\1_Detail.jpg) 
+![Heating and Ventilation](img\1_Detail.jpg)  
 *Fig: Shows the heating and ventilation strategies for the Hammam*
 
  
@@ -1156,8 +1156,6 @@ It can be concluded that the design as was shown on this page takes into account
 
 Gradient Descent tool limitations: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation. 
 </div>
-
-Limittations
 
 ---
 ## 6_Reflection
