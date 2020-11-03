@@ -350,26 +350,16 @@ The following table shows the spaces onto which the roofs will be placed and the
 The architectural characteristics and tartan grid divides the building into 8 different roof modules which are shown below.
 </div>
 
-<<<<<<< HEAD
-![Roof Modules](img\1_Site_Plan.jpg) 
+![Roof Modules](img\roof.jpg) 
 *Table: Shows the different roof modules*
-=======
-![Architectural Characteristics](img\roof.jpg)  
-*Table: Shows the Architectural characteristics*
->>>>>>> d96fa45de6e058e697979212fcf8638584172774
 
 **Wall modules**  
 <div style="text-align: justify"> 
 The tartan grid is not just limited to plan but also extends in the vertical direction to the walls. The wall openings: window and doors have been positioned based on the tartan grid as you can see below. 
 </div>
 
-<<<<<<< HEAD
-![Wall Modules](img\1_Site_Plan.jpg) 
+![Wall Modules](img\walls.jpg)   
 *Table: Shows the different wall modules*
-=======
-![Architectural Characteristics](img\walls.jpg)   
-*Table: Shows the Architectural characteristics*
->>>>>>> d96fa45de6e058e697979212fcf8638584172774
 
 **Sections**  
 <div style="text-align: justify"> 
