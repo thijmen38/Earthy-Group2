@@ -257,11 +257,11 @@ An excel table was created to input the hierarchy of spaces (from the depth char
 
 The flowchart explains the pseudo code used to develop this tool.   
 
-![GDFlowchart](img/GDFlowchart.png) 
+![GDFlowchart](img/GDFlowchart.jpg) 
 
 <div style="text-align: justify"> 
 
-The input of the spaces, hierarchy depths, direction of spaces, space length and width dimensions are first sorted to branch them into their respective depth hierarchy. While the north direction, site dimenisons and distance creates regions in directions North, South, East, West, North-east and South-east. It places these regions at the given distance from the center of the site and populates it with the assigned spaces.
+The input of the spaces, hierarchy depths, direction of spaces, space length and width dimensions are first sorted together to branch them into their respective depth hierarchy. While the north direction, site dimenisons creates rectangular regions in directions North, South, East, West, North-east and South-east . It places these regions at the given distance from the center of the site and populates it with the assigned spaces. The site dimenisons 
 
 The input of the entrance checkpoint curve is 
 
