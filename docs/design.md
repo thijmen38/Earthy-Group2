@@ -302,11 +302,11 @@ Below you can see how different spaces comes together to form the final plan. As
 ![General plan](img/2_General_Plan.jpg)
 *Fig: Shows the general organization of different functions*
 
-![GFplan](img/2_GF_Plan.jpg) 
+![Ground Floor Plan](img/2_GF_Plan.jpg) 
 *Fig: Shows the Ground Floor plan*
 
-![Courtyard proportion](img\9-Figure11-1.png) 
-*Fig: Shows the traditional Iranian geometric design for courtyards*
+![First Floor Plan](img\2_FF_Plan.jpg) 
+*Fig: Shows the First Floor plan*
 
 
 <ins>*Siteplan*</ins> 
