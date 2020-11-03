@@ -1050,7 +1050,7 @@ For the second challenge of squinching from square base to circular base, the id
 
 **Brick Library**  
 <div style="text-align: justify">  
-To give a clear overview of the bricks and which brick is used where, a brick library was made. This document shows which bricks are needed to construct the dome ribs. The infill between these ribs is less critical when it comes to the brick size other then it should have a thickness of at least 200mm.
+To give a clear overview of the bricks and which brick is used where a brick library was made. This document shows which bricks are needed to construct the dome ribs. The infill between these ribs is less critical when it comes to the brick size other than it should have a thickness of at least 200mm.
 the brick library contains the bricks for the following modules:
 </div>
 
@@ -1127,6 +1127,8 @@ The building modules are based on the tartan grid, they are scalable variations 
 
 ## 5_Conclusion
 <div style="text-align: justify">
+It can be concluded that the design as was shown on this page takes into account the limits we set for it and does so using scripts to optimize the dicisions made in the process. An optimal site was selected setting the limitations of adjacency to a water source, free plot size and nearby facilities. The program of the project was based on the problem statements seen in the Zaatari camp and evolved into an inclusive place to relax and enjoy peace and quiet in Raha.
+
 
 </div>
 
