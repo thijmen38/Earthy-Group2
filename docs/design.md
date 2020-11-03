@@ -263,7 +263,7 @@ The flowchart explains the pseudo code used to develop this tool.
 
 In the script, all input from excel is sorted together to branch into a data structure informed by depth hierarchy and creates rectangular spaces as per space dimensions. The site dimensions are used to generate a grid of 1.2m x 1.2m to snap spaces to this grid further. The north direction input informs the creation of rectangular regions in directions of North, South, East, West, North-east and South-east at a given distance from the centre of the site. It populates these regions with the assigned spaces. 
 
-The entrance checkpoint curve input is the starting point to relax depth 1 in this case water fountain courtyard dynamically. For this, it is important to set goals. As dynamic relaxation in principle mimics the working of spring, the most important goal was to set a constant tension line between the entrance checkpoint and the water fountain courtyard. 
+The entrance checkpoint curve input is the starting point to relax depth 1 in this case water fountain courtyard dynamically. For this, it is important to set goals. As dynamic relaxation in principle mimics the working of spring, the most important goal was to set a constant tension line between the entrance checkpoint and the water fountain courtyard. It is then that the two spaces are dynamically relaxed that attracts the depth 1 spaces (water fountain courtyard) to the attractor space (entrance checkpoint).
 
 This process is then repeated, keeping the relaxed curves from hierarchy depth one as the attractor for the depth two and the relaxed curves from depth two become the attractor for the depth three spaces so on. This process of staged relaxation per depth hierarchy enhances the configuration results, by aligning spaces orthogonally and reduces chaos when the total number of spaces is high.    
 
@@ -920,8 +920,6 @@ This phase in the design process was carried alongside the structuring phase. To
 
 **Relationship between different modules**
 <div style="text-align: justify">
-Explaining the scalable difference between each module, therefore each curve is double of the other, Mention how they are Different yet similar a the same time. 
-
 To define a construction method, first, the relationship between the different wall and roof modules was studied. Since the floor plan was configured based on a tartan grid, the modules are multiples of each other. 
 
 As seen previously in the simplification process, the tessellated roofs of the different Dome modules were approximated using elliptical curves. The Dome roof modules are approximated with multiples of the radius of 2 ellipses, the diagonal ellipse with a radius of (2.12 m, 1.2m) and the horizontal ellipses of (1.5m, 1.2m). multiplying the radius of these ellipses with 1, 2, 3 will give us 3x3, 6x6, 9x9 domes respectively. 
@@ -996,13 +994,15 @@ For further study the script can be download on the [Other page.](other.md)
 To better understand the process and sequence of construction of the different types of modules of the building, an experiment was carried out and a scaled model of Module 2 i.e. 6000mm x 6000mm dome was made. The bricks for the interlocking rib system were 3D printed and the infill bricks were hand molded from play clay and were baked in an oven for 10 minutes.     
 
 To construct this model, the first step was to mark the square base on a sheet of paper. As a next step, the curve of the rib segment was drawn and cut out from a piece of cardboard to be used as formwork to lay the interlocking bricks. This formwork was placed on the square base and each brick was then placed in position with the help of tack glue. Once all the ribs were in place the keystone was put and the infill layer from the baked bricks was put. 
+</div>
 
 ![3DPrint2](img\3DPrint2.jpeg)      
 *Fig: Shows the bricks in one rib forming the required curvature when simply placed next to one another following the interlock sequence*  
 
 ![Experiment1](img\Experiment1.jpg)         
-*Fig: Shows the different processes of the experiment*
+*Fig: Shows the different processes of the experiment*  
 
+<div style="text-align: justify">
 With this experiment, it was concluded that the interlocking bricks dictate the curve of the ribs and the formwork was only required to hold them in place. Once the ribs and keystone are in place, the infill bricks can be laid out in concentric circles to ensure that compressions bands in the dome are always complete before laying the next course. 
 </div>
 
@@ -1161,25 +1161,25 @@ Along with the set parameters, the urban analysis of the other projects was take
 
 The modular geometry was then simplified for the structural analysis. The roofs were optimized to behave in complete compression, except the corners, which showed low tensile stresses. The walls were optimized to take the load of the roof above and also to not exceed the width of the Tartan bands. To make the construction more realistic, a higher safety factor was considered to cover the inefficiency in the construction process. 
 
-The construction process and materials were carefully researched to finalize the appropriate method for the buildability. These methods take into consideration the limited resources on-site, skills of the laborers and time required during the construction. The instruments along with the different brick modules for interlocking make the process easy and efficient.
+The construction process and materials were carefully researched to finalize the appropriate method for the buildability. These methods take into consideration the limited resources on-site, skills of the labourers and time required during the construction. The instruments, along with the different brick modules for interlocking, make the process easy and efficient.
 
 Limitations: 
 
-General: The compuatational tool used in this case Grasshopper is limited by the program.    
+General: The computational process is limited to the software used.    
 
-Site selection tool: The limitation of this script is that the criterias are subjective. It can be further developed to make it adaptable to different building functions. 
+Site selection tool: The limitation of this script is that the criteria are subjective. It can be further developed to make it adaptable to different building functions. 
 
-Gradient Descent tool: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation. 
+Gradient Descent tool: While the script strives to create a Tetris inspired configuration, there is further scope of developing an efficient grid-snapping system that avoids collisions and overlap of spaces after the dynamic relaxation. 
 
-Material Study: Due to the change in the course structutre dictated by the tranfer for of education online, it was not an option to test materials which limited the material properties considered in this project. This led to selectiing them from the last years works.   
+Material Study: Due to the change in the course structure dictated by the transfer for of education online, it was not an option to test materials which limited the material properties considered in this project. This led to selecting them from the last year's works.   
 
-Structural Analysis using Karmaba: The kramaba model does not consider the forces in the horizontal direction, as the mesh is analyzed as a shell instead of a plate. The wind loads were not included in the analysis as it was negligible. 
+Structural Analysis using Karamba: The Karamba model does not consider the forces in the horizontal direction, as the mesh is analyzed as a shell instead of a plate. The wind loads were not included in the analysis as it was negligible. 
 
 Interlocking blocks: The concept of interlocking bricks work very well for circular curves as they generate the same module of bricks, however, when they are adapted to elliptical curves, every brick module in the curve becomes unique increasing the number of modules. 
 
-Construction Instrument: The instrument developed is still at a conceptual stage, while the logic for the tool works, the assembly of the tool is not covered in the scope. 
+Construction Instrument: The instrument developed is still at a conceptual stage, while the logic for the tool works; the assembly of the tool is not covered in the scope. 
 
-Adobe 2.0 dome computational tool: Due to the time constraints the tool was not developed to create interlocking bricks for the ribs in the squinch area of the dome. 
+Adobe 2.0 dome computational tool: Due to the time constraints, the tool was not developed to create interlocking bricks for the ribs in the squinch area of the dome. 
 
 </div>
 
