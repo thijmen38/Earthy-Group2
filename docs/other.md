@@ -21,6 +21,10 @@ Traditionally the houses used in the dessert are tents, houses in the highlands 
 The valley houses seem to be the most luxurious of the tree having several rooms and a courtyard or patio. (Baglioni, E. ,2015)
 </div>
 
+### Configuration
+
+![configuration](rev\configuration\original_bubble.gif)
+
 
 **References**  
 
