@@ -497,13 +497,13 @@ This logic was repeated for the other rectangular domes domes: 6 x 3 M and 9 x 6
 
 **Cross vaults**
 
-![Cross-vaults](img/crossvault.gif)
+![Cross-vaults](img/crossvault.gif)  
 *Fig: Evolution of the dynamically relaxed form*
 <div style="text-align: justify"> 
 The dynamically relaxed form was refined under a specific geometry to ensure accuracy in construction. Each curve of the form was re-drawn to the closest catenary arc. These arcs were made using the edge points of the meshes and then cut into half to derive the catenary curves. For the cross vaults, only one catenary arc was used to generate the surface. The final surface was generated using these elliptical curves and imported to weaverbird in grasshopper for further refinement.
 </div>
 
-![cross vault simplification](img/crossvaultsimplification.png)
+![cross vault simplification](img/crossvaultsimplification.png)  
 *Fig: Simplification logic of cross vaults*
 
 ### Material selection 
@@ -511,19 +511,19 @@ The dynamically relaxed form was refined under a specific geometry to ensure acc
 Due to the change in the course structure due to Covid-19, material research and testing was not part of the brief. We referred to the tests and analysis done by the previous year students of the same course. We primarily considered the test results of Bustan group (Group 5) and chose the same materials and material limit states for our project.  
 </div>
 
-![material](img/materials.jpg)
+![material](img/materials.jpg)  
 *Fig: Material composition*
 <div style="text-align: justify">
 The adobe bricks should be made by the refugees at the campsite with the available materials. The recipe for the standard brick composition was 30% clay, 30% fine sand, 40% coarse sand and 10% water of the total weight of the dry ingredients. Additionally, straw was chosen as an addition to the adobe paste to improve the tensile strength of the brick. The straw was added in the percentage of 10% of the total mixture. The final mixture was then placed in the required molds and allowed to dry to make the bricks. The mortar was also prepared with the same basic composition with a higher percentage of water as required to make the sticky paste. (Bustan,2019)
 </div>
 
-![gypsum mechanical properties](img/Gypsum.jpg)
+![gypsum mechanical properties](img/Gypsum.jpg)  
 *Fig: Mechanical properties of Gypsum*
 <div style="text-align: justify">
 Since elliptical curves were used to simplify the geometry, the combination of interlocking bricks and adobe projected in the elliptical curve leads to an increase in the number of brick modules. In order to reduce the number of modules and ease of constructibility, gypsum bricks were used instead of adobe bricks for the ribs. A literature study was conducted to understand the mechanical properties of gypsum. From the study, it was concluded that gypsum stabilizer indicated higher compressive strength values compared to adobe. (Türkmen, Ekinci, Kantarcı & Sarıcı, 2020)
 </div>
 
-![limit states](img/Limitstates.jpg)
+![limit states](img/Limitstates.jpg)  
 *Fig: Design Values*
 <div style="text-align: justify">
 The limit states of the material were obtained from a research paper (Clifton, J. R., & Davis, F. L., 1979.) and Last year's material report written by Bustan group (group 5). From the literature study (Clifton, J. R., & Davis, F. L., 1979) we concluded that safety factor within the range 1.2-2 is ideal in this case. In case of addtional floors above, safety factor of 4 was considered.  
@@ -531,12 +531,12 @@ The limit states of the material were obtained from a research paper (Clifton, J
 
 ### Structural analysis
 
-![structural flow chart](img/structuralflowchart.png)
+![structural flow chart](img/structuralflowchart.png)  
 *Fig: Structural analysis process flow chart*
 
 **Process**
 
-![initial approach](img/processsofstructuralanalysis1.jpg)
+![initial approach](img/processsofstructuralanalysis1.jpg)  
 *Fig: Initial approach for structural analysis of the structure*
 <div style="text-align: justify">
 Structural analysis of the generated geometry was implemented in Karamba 3D in grasshopper. The structural analysis process was carried out in 2 stages. In the first stage, the chosen dynamically relaxed form was placed over the vertical base after which the wall and the roof meshes were merged to form a uniform mesh. This uniform mesh became the input for the karamba analysis. 
@@ -544,7 +544,7 @@ Structural analysis of the generated geometry was implemented in Karamba 3D in g
 It was observed that the load distribution was not uniform as we observed peak tensile stresses at the edges of the wall and irregularity in the load distribution in the roof. This was due to irregular surfaces and meshes generated from dynamic relaxation. Moreover, the ridge between the wall and the roof was visible distinctly; therefore, the wall and the roof meshes were not coherent.
 </div>
 
-![final approach](img/processsofstructuralanalysis2.jpg)
+![final approach](img/processsofstructuralanalysis2.jpg)  
 *Fig: Final approach for structural analysis of the structure*
 
 <div style="text-align: justify"> 
@@ -561,7 +561,7 @@ The script used for the structural analysis of all the modules can be found on t
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase1.jpg)
+![Loadcase](img/loadcase1.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 were considered. Non vertical loads were applied using mesh loads in Karamba 3D. Self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -610,7 +610,7 @@ Thus, Computational model gives accurate results.
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase2.jpg)
+![Loadcase](img/loadcase2.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where live load of the first floor was considered as 4kN/m2 (Malakatas, 2008), the slab load and filling load were taken as 1kN/m2 and 1600Kg/m3 respectively and safety factor of 4 was considered. The non-vertical load was applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -651,7 +651,7 @@ Thus, Computational model gives accurate results.
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase1.jpg)
+![Loadcase](img/loadcase1.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non-vertical loads were applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -692,7 +692,7 @@ Thus, Computational model gives accurate results.
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase1.jpg)
+![Loadcase](img/loadcase1.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non-vertical loads were applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -700,7 +700,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support 4](img/supports4.jpg)  
+![support 4](img/supports4.jpg)   
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -733,7 +733,7 @@ Thus, Computational model gives accurate results.
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase1.jpg)
+![Loadcase](img/loadcase1.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non-vertical loads were applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -775,7 +775,7 @@ Thus, Computational model gives accurate results.
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase1.jpg)
+![Loadcase](img/loadcase1.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non-vertical loads were applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -817,7 +817,7 @@ Thus, Computational model gives accurate results.
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase1.jpg)
+![Loadcase](img/loadcase1.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non-vertical loads were applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -858,7 +858,7 @@ Thus, Computational model gives accurate results.
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase1.jpg)
+![Loadcase](img/loadcase1.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non-vertical loads were applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -1001,7 +1001,7 @@ With this experiment, it was concluded that the interlocking bricks dictate the 
 The context of the site generates several limitations like the availability of limited resources and skilled labours on the building process. Therefore, it was important to find a process that made use of minimal supporting materials, tools and skills. This created an opportunity for innovative solutions to solve the problem of constructability. Therefore, we designed a tool called The Support Spider that can aid the labours and make the process simple and efficient. This tool is made entirely from the materials available on site.    
 </div>  
   
-![Tool](img\Instrument.jpg)
+![Tool](img\Instrument.jpg)  
 *Fig: Shows the Support Spider*
 
 *General concept and design of the tool* 
@@ -1009,7 +1009,7 @@ The context of the site generates several limitations like the availability of l
 The tool works on the logic of creating an ellipse which can be viewed here. Notice that at 3 min 16 sec, one can see that the top segment is created by taking the radius as the end of the minor axis and the point on the minor axis where the line segment cuts it. For the simplification of the tool, this radius is found out for all the ellipsoidal segments of the domes and the supporting rods are then made. Since the tool is required only as a support and not the guide for curvature, it is possible to generalize it and make the supporting rods flexible in length. Below you can see the process. Notice the red denotes the extention in the tool.  
 </div>   
 
-![Support Spider](img\Intrument.gif)
+![Support Spider](img\Intrument.gif)  
 *Fig: Shows the process followed in developing the Support Spider*
 
 *Adaptation to different modules*
@@ -1017,7 +1017,7 @@ The tool works on the logic of creating an ellipse which can be viewed here. Not
 As mentioned earlier, all domes are the scaled versions of the smaller dome, so all the elliptical arches of these modules which form the interlocking ribs are scaled versions or the smallest arch. Therefore, they all have a common center. The tool is designed to fit the smallest module and can be expanded to the largest module by increasing the length of the supporting rod.  
 </div>  
 
-![Extension](img\Extension.jpg)
+![Extension](img\Extension.jpg)  
 *Fig: Shows how the tool can be extended to fit all curves*
 
 ### Adobe 2.0
@@ -1047,7 +1047,7 @@ However, for the squinch, this script creates different block sizes that form th
 
 </div>
 
-![Adobe2.0](img\Adobe2.0-.gif) 
+![Adobe2.0](img\Adobe2.0-.gif)  
 *Fig: Shows the computational tool generation in steps for creating Adobe 2.0*
 
 <ins>*Construction instrument*</ins> 
@@ -1057,7 +1057,7 @@ In the construction of the dome of Adobe 2.0, there were two challenges; one was
 For the second challenge of squinching from square base to circular base, the idea was to create interlocking ribs to inform the curve and infill the bricks to finish the squinching. Due to the time constraint, this method was not explored to its full potential. 
 </div>
 
-![Construction Tool](img\compass.jpg)
+![Construction Tool](img\compass.jpg)  
 *Fig: Shows Fathy's compass and Angle measure*
 
 ### materials
@@ -1096,7 +1096,7 @@ As mentioned earlier the construction system chosen is the rib-infill method whe
 
 To construct these domes, first the layout of the walls will be marked based on the tartan grid from the center using a rope. Once the out line has been defined, the site will be excavated and the foundation of the building will be laid with stones. After the foundation is in place the floor is compacted and rammed back. Then the bricks of the walls are laid in a pattern leaving the gap for the door and window openings. To construct the arches of the windows and doors, a compass is used to guide the mason. Once the arches are in place, the rest of the wall is completed. 
 
-![dome](img\d.gif) 
+![dome](img\d.gif)  
 *Fig: Shows the construction sequence for square domes*
 
 After the completion of the wall, the construction of the roof begins. First the corner base bricks are placed at each corner of the diagonals, then the base bricks are placed at the center of each side of the wall. Once all the base bricks are in place, the middle bricks are put on top of the base bricks in the manner of their interlocking nature. The spider support instrument is used to support the bricks while they are being put together vertically. At the meeting point of the 8 arches, the keystone is inserted stabilizing the rib structure. Once the rib structure is in place, the infill is constructed. Then the roof is covered with a water- resistant layer.
@@ -1106,7 +1106,7 @@ After the completion of the wall, the construction of the roof begins. First the
 
 The Construction of the vaulted domes is quite similar to that of the domes. The vaulted domes are made of split dome ribs placed at either sides along the long side of the rectangular wall outline and a middle arch. 
 
-![Vaulted dome](img\vd.gif) 
+![Vaulted dome](img\vd.gif)  
 *Fig: Shows the construction sequence for rectangular vaulted domes*
 
 After the walls have been constructed, the base corner bricks are placed at each corner. Then the base bricks are placed at the center of each sides of the wall. As the diagonals have different curvature than the middle curves, the base stones are of two modules. The middle interlocking bricks are placed one on top of the other following their interlocking nature. Three spider supports are used; one on each side and one for the middle elliptical arch. At the meeting point of the 3 arches at each side and the two arches in the middle, the keystones are put in place stabilizing the rib structure. Following this, the infill is constructed and a water protective layer is placed to cover the roof. 
@@ -1115,19 +1115,19 @@ After the walls have been constructed, the base corner bricks are placed at each
 
 The construction of the cross vaults is similar to the domes. Here the cross-vaults are of one square module. To construct the cross vaults four base stones of the same kind are placed on each wall corner. Then the middle bricks are placed in order of their interlocking nature. At a point where the 4 arches meet, the key stone is placed stabilizing the rib-structure. Then the infill is constructed followed by the water protective layer.  
 
-![Cross Vault](img\cv.gif) 
+![Cross Vault](img\cv.gif)  
 *Fig: Shows the construction sequence for cross-vault*
 
 *Adobe 2.0*  
 The construction of the adobe 2.0 is broken down into 3 parts. The first part is the dome squinch, to construct the dome squinch starting from a square base to a segmented circular base on which the twisting dome structure begins. The bricks are laid concentrically where the corner stones are of a different shape, the developed computational script generated a sequence of brick numbers that need to be laid consecutively on a line before the direction of the brick laying changes. After placing the line of bricks in the same angle the corner brick is placed, which informs the direction change of laying the bricks. In such a way the bricks are laid with the help of a compass that is used to align the brick to the proper angle. 
 
-![Adobe 2.0](img\ad2.gif)     
+![Adobe 2.0](img\ad2.gif)      
 *Fig: Shows the construction sequence for the Adobe 2.0*
 
 After the squinch is constructed the twisting dome is constructed in 2 stages, the bottom half and the top half. This differentiation is needed because the top section uses smaller brick sizes. 
 Based on the sequence of bricks that can be laid before the angle changes which is informed by the computational script. The line of bricks is put in place followed by the corner stone of a different size and shape that informs the directional change. Then the next line of bricks is placed concentrically until the full loop is complete, then the next layer of bricks is placed based on the brick sequence number. The compass is used to align the bricks to the required angle in each segment and course of the brick laying. In this manner the first section of the twisting dome is complete. The height where this section ends is also informed by the computational script. 
 
-![Adobe 2.0 Construction](img\adc.png)   
+![Adobe 2.0 Construction](img\adc.png)    
 *Fig: Shows the construction technique for the Adobe 2.0*
 
 The final section of the brick in laid in the same way using a smaller module of bricks which can be seen in the brick catalog. The bricks are placed concentrically leaving a skylight opening at the pinnacle of the twisting dome.
