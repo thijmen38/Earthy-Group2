@@ -93,7 +93,7 @@ INSERT FLOW CHART HERE
 As per the proposed intervention of building a recreation hub, the main programmatic functions are a tea house, a hammam, a quiet space with a library, and a play area for children with connecting courtyards housing herbal gardens and water bodies.  To select the site the points of consideration are unbuilt spaces, water resources, proximity to other facilities such as schools and kindergartens and the distance from the main road. As the recreation hub includes a hammam, locating it near a water resource is essential. The recreation hub also includes a quiet space with library, a children’s playground which can be an extension to existing schools, youth centers and kindergartens. 
 </div>
 
-![Location Selection.GIF](img/Location.gif)
+![Location Selection.GIF](img/location.gif)
 
 <div style="text-align: justify"> 
 To select the site, a computation tool was created that first identifies built/ unbuilt space and road networks. The tools select the empty plots on the site. These plots are further filtered by size taking only in-between spaces of larger sizes.  Then the existing water resources are mapped. Open spaces that fall within 250 m of the existing water resource are selected. The existing schools, youth centers and kindergartens were mapped and the site selection was further narrowed down to open spaces within 100m of the mapped centers. From the remaining list, the hierarchical demarcation was given to the open spaces based on the distance from the main busy road with preference given to quieter spaces further away from the loud busy main street. At this stage, spaces in districts 6, 7 and 9 were identified. The final chosen site falls in district 9 which has the least saturated population therefore the proposed facility can cater to a larger percentage of the district’s population.
@@ -1064,7 +1064,7 @@ For the second challenge of squinching from square base to circular base, the id
 
 **Brick Library**  
 <div style="text-align: justify">  
-To give a clear overview of the bricks and which brick is used where, a brick library was made. This document shows which bricks are needed to construct the dome ribs. The infill between these ribs is less critical when it comes to the brick size other then it should have a thickness of at least 200mm.
+To give a clear overview of the bricks and which brick is used where a brick library was made. This document shows which bricks are needed to construct the dome ribs. The infill between these ribs is less critical when it comes to the brick size other than it should have a thickness of at least 200mm.
 the brick library contains the bricks for the following modules:
 </div>
 
@@ -1141,7 +1141,9 @@ The building modules are based on the tartan grid, they are scalable variations 
 
 ## 5_Conclusion
 <div style="text-align: justify">
+It can be concluded that the design as was shown on this page takes into account the limits we set for it and does so using scripts to optimize the dicisions made in the process. An optimal site was selected setting the limitations of adjacency to a water source, free plot size and nearby facilities. The program of the project was based on the problem statements seen in the Zaatari camp and evolved into an inclusive place to relax and enjoy peace and quiet in Raha.
 
+Gradient Descent tool limitations: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation.  
 </div>
 
 ---
@@ -1149,7 +1151,6 @@ The building modules are based on the tartan grid, they are scalable variations 
 <div style="text-align: justify">
 While going through the process of designing, an earthy building as is being explained above a lot was learned. Below each group member will reflect on the process and how they have experienced it.
 
-Gradient Descent tool limitations: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation.  
 </div>
 
 **Anagha Yoganand**
