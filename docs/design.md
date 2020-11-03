@@ -248,6 +248,9 @@ This approach was inspired by one of the group's from the previous year who deve
 To start a grid of 1.2 m x 1.2 m was considered, derived from a standard corridor width size and minimum area for one person. Therefore, each functional area was adjusted to a multiple of this grid size.
 
 An excel table was created to input the hierarchy of spaces (from the depth chart in an ascending order) and their area dimensions (from the program of requirements). As seen in image below, the excel is used to import these inputs into the Grasshopper environment.
+
+[The excel can be downloaded here.](rev\scripts\Space_layout_excel.xlsx)
+
 </div>
 
 ![ExcelInputGD](img/ExcelInputGD.PNG)  
@@ -258,7 +261,7 @@ The flowchart explains the pseudo code used to develop this tool.
 ![GDFlowchart](img/GDFlowchart.png) 
 
 <div style="text-align: justify"> 
-This process is then repeated keeping the relaxed curves from depth 1 as the attractor for the depth 2 and so on. This process of staged relaxation per depth enhances the configuration results, by aligning spaces orthogonally and reduces chaos when the total number of spaces are high.     
+This process is then repeated keeping the relaxed curves from hierarchy depth 1 as the attractor for the depth 2 and the relaxed curves from depth 2 become the attractor for the depth 3 spaces so on. This process of staged relaxation per depth hierarchy enhances the configuration results, by aligning spaces orthogonally and reduces chaos when the total number of spaces is high.     
 </div>
 
 ![GDSpaceF](img/GDSpaceF.gif)  
@@ -286,7 +289,7 @@ Next step was to connect the built and the unbuilt spaces and understand the nat
 
 **Modular grid**    
 <div style="text-align: justify"> 
-After having configured the general layout, it was important to translate it into the final plan for the building. For this, a grid of 1200mm x 1200mm was selected. The logic was based on the fact that 1200mm is the minimum corridor width required for a person. The grid was further refined into a Tartan grid. This consists of straight lines of varying widths and distances, crossing at right angles. Tartan grids allow for modularity in the size of built elements. Elements are restricted to centre on the centreline grid and limited in dimension to stay within the tartan bands. 
+After having configured the general layout, it was important to translate it into the final plan for the building. For this, a grid of 1200mm x 1200mm was selected. The logic was based on the fact that 1200mm is the minimum corridor width required for a person. The grid was further refined into a Tartan grid. This consists of straight lines of varying widths and distances, crossing at right angles. Tartan grids allow for modularity in the size of built elements. Elements are restricted to centre on the centreline grid and limited in dimension to stay within the tartan bands.   
 
 The optimized grid has 600mm bands with 2400mm distance between each 600mm bands. This is to ensure that all walls lie in these bands and no module in the building is less than 2400mm x 2400mm. The reason for choosing the width of tartan band as 600mm comes from a small study done on commonly used wall thicknesses for various spans. This was also backed by the previous year structural reports. So when two modules are placed adjacent to each other the wall thickness between them is the combination of the wall thickness of each module but is constructed as one and load from both roofs is directed to the centre of this combined wall. Our assumption was later proved to be correct and details of that can be found in 3_Structuring.
 </div>
@@ -1055,6 +1058,8 @@ However, for the squinch, this script creates different block sizes that form th
 ![Adobe2.0](img\Adobe2.0-.gif)  
 *Fig: Shows the computational tool generation in steps for creating Adobe 2.0*
 
+To study this further, the script can be downloaded on the [Other page.](other.md)
+
 <ins>*Construction instrument*</ins> 
 <div style="text-align: justify">  
 In the construction of the dome of Adobe 2.0, there were two challenges; one was that not only the bricks offsets in plan but also rotate with a certain angle to generate the golden spiral and the other was to make the squinching from the square base to convert it into a circular base for the start of the dome. To solve the first challenge, a Fathy’s compass was used. This tool has a pipe anchored to a pole fixed into the ground in the centre of the circular space to be covered. With its help, the labour can lay bricks in proper circle and complete the dome. To inform the worker about the angle of rotation another simple tool called the angle measure was made. It was observed that all bricks rotate at the same angle from the previous brick of the previous course. Therefore, with the help of Fathy’s compass and angle measure, it’s possible to create the Adobe 2.0 dome easily and efficiently. 
@@ -1143,7 +1148,10 @@ The building modules are based on the tartan grid, they are scalable variations 
 <div style="text-align: justify">
 It can be concluded that the design as was shown on this page takes into account the limits we set for it and does so using scripts to optimize the dicisions made in the process. An optimal site was selected setting the limitations of adjacency to a water source, free plot size and nearby facilities. The program of the project was based on the problem statements seen in the Zaatari camp and evolved into an inclusive place to relax and enjoy peace and quiet in Raha.
 
-Gradient Descent tool limitations: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation.  
+Gradient Descent tool limitations: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation. 
+
+
+
 </div>
 
 ---
