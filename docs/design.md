@@ -886,43 +886,53 @@ After structurally analyzing the geometry, it can be concluded that in most case
 
 ---
 ## 4_Constructability
-
-This phase in the design process was carried along side with the structuring phase. To understand how the construction of the defined modules can be achieved with unskilled laborers, various literature reviews were referred. The referenced construction methods were explored further by simple digital and physical model making. Thereafter, the rib-infill construction method was chosen as it can be easily adopted to the different modules present. Step by step of the constructability processes will be explained below. 
+<div style="text-align: justify">
+This phase in the design process was carried alongside the structuring phase. To understand how the construction of the defined modules can be achieved with unskilled laborers, various literature reviews were referred to. The referenced construction methods were explored further by simple digital and physical model making. Thereafter, the rib-infill construction method was chosen as it can be easily adapted to the different modules present. Step by step of the constructability processes will be explained below. 
+</div>
 
 ## Methodology ##   
 
 **Relationship between different modules**
-Explaining the scalable difference between each module, therfore each curve is double of the other, Mention how they are Different yet similar a the same time. 
+<div style="text-align: justify">
+Explaining the scalable difference between each module, therefore each curve is double of the other, Mention how they are Different yet similar a the same time. 
 
-To define a construction method, first the relationship between the different wall and roof modules was studied. Since the floor plan was configured based on a tartan grid, the modules are multiples of each other. 
+To define a construction method, first, the relationship between the different wall and roof modules was studied. Since the floor plan was configured based on a tartan grid, the modules are multiples of each other. 
 
-As seen previously in the simplification process, the tessellated roofs of the different Dome modules were approximated using elliptical curves. The Dome roof modules are approximated with multiples of the radius of 2 ellipses, the diagonal ellipse with radius of (2.12 m, 1.2m) and the horizontal ellipses of (1.5m, 1.2m). multiplying the radius of these ellipses with 1, 2, 3 will give us 3x3, 6x6, 9x9 domes respectively. 
+As seen previously in the simplification process, the tessellated roofs of the different Dome modules were approximated using elliptical curves. The Dome roof modules are approximated with multiples of the radius of 2 ellipses, the diagonal ellipse with a radius of (2.12 m, 1.2m) and the horizontal ellipses of (1.5m, 1.2m). multiplying the radius of these ellipses with 1, 2, 3 will give us 3x3, 6x6, 9x9 domes respectively. 
 
-The vaulted domes are made up of 2 square domes. For instance, the 3x6 dome is made up of two 3x3 square domes placed adjacent to each other. Therefore, the elliptical curves of the 3x3 dome can be used to approximate the 3x6 vaulted dome. Which in turn means that multiplying the radius of the base ellipses (diagonal ellipse with radius of (2.12 m, 1.2m) and the horizontal ellipses of (1.5m, 1.2m)) with 1, 2, 3 will give us the 3x6, 6x9, 9x12 vaulted domes respectively.  This mean that all the domes with the exception of the Adobe 2.0 are scaled and replicated versions of the smallest size (3x3). 
+The vaulted domes are made up of 2 square domes. For instance, the 3x6 dome is made up of two 3x3 square domes placed adjacent to each other. Therefore, the elliptical curves of the 3x3 dome can be used to approximate the 3x6 vaulted dome. Which in turn means that multiplying the radius of the base ellipses (diagonal ellipse with a radius of (2.12 m, 1.2m) and the horizontal ellipses of (1.5m, 1.2m)) with 1, 2, 3 will give us the 3x6, 6x9, 9x12 vaulted domes respectively.  This means that all the domes except for the Adobe 2.0 are scaled and replicated versions of the smallest size (3x3). 
+</div>
 
 ![scalability](img/scale.gif)  
 *Fig: Relationship between different modules* 
 
 **Construction method**
-
+<div style="text-align: justify">
 Because of the way the roofs are tessellated and because of the scalable relationship between the different types of roofs, a rib-infill system of construction was chosen. This limits the amount of required formwork and makes the construction process easier. 
+</div>
 
 <ins>*Rib system approach*</ins>  
-*Beza*  
-The next step was to figure out how to make the ribs in a way that can easily be constructed with unskilled laborers and requiring limited formwork. Here various types of construction systems were looked at. From literature review, a few examples of interlocking construction systems were taken into consideration to determine the applicability for the construction of the roof modules. 
+<div style="text-align: justify">
+The next step was to figure out how to make the ribs in a way that can easily be constructed with unskilled laborers and requiring limited formwork. Here various types of construction systems were looked at. From the literature review, a few examples of interlocking construction systems were taken into consideration to determine the applicability for the construction of the roof modules. 
+</div>
 
  ## Interlocking bricks ##   
 
 <ins>*design process*</ins>
-
+<div style="text-align: justify">
 The approach for the interlocking blocks was: if the blocks were placed in order of their interlocking nature, they would automatically generate the curvature of the rib. This means there is no need for centering, a guide or a large formwork. 
+</div>
 
-This idea was digitally modelled first for a simple semi-circular arch. The first model shows an interlocking brick system with just one brick module. 
+<div style="text-align: justify">
+This idea was digitally modeled first for a simple semi-circular arch. The first model shows an interlocking brick system with just one brick module. 
+</div>
 
 ![Interlocking brick one](img/interlocking1.jpg)  
 *Fig: Interlocking block 1* 
 
+div style="text-align: justify">
 The second model is a modified version of the first model where the interlocking blocks are shaped in a way, they can easily be molded to form adobe blocks. Here the corner base stones are of different module and there is a key-stone in the middle. This module was tested by 3d printing the 4 different modules.
+</div>
 
 ![Interlocking brick two](img/interlocking2.jpg)  
 *Fig: Interlocking block 2* 
@@ -931,7 +941,7 @@ The second model is a modified version of the first model where the interlocking
 *Fig: 3-D Printed prototype of interlocking block 2* 
 <ins>*system exploration*</ins> 
 <div style="text-align: justify">  
-For the interlocking rib system, one can either have the ribs made from gypsum or adobe. The advantage of using gypsum over adobe is that large pieces can be made with gypsum and it thus reduces the number of different modules required for construction. In both cases, the material cannot withstand tension forces in the corners. Therefore, for the ease of construction of these ribs, various interlocking patterns were studied and compared on the basis of their simplicity with the mould, material usage and sharp edges to finalize one. The table below shows the analysis in detail. 
+For the interlocking rib system, one can either have the ribs made from gypsum or adobe. The advantage of using gypsum over adobe is that large pieces can be made with gypsum and it thus reduces the number of different modules required for construction. In both cases, the material cannot withstand tension forces in the corners. Therefore, for the ease of construction of these ribs, various interlocking patterns were studied and compared on the basis of their simplicity with the mold, material usage and sharp edges to finalize one. The table below shows the analysis in detail. 
 </div>
   
 * Twinkle table*  
@@ -958,16 +968,16 @@ For further study the script can be download on the [Other page.](other.md)
 
 *Experiment*  
 <div style="text-align: justify">
-In order to better understand the process and sequence of construction of the different types of modules of the building, an experiment was carried out and a scaled model of Module 2 i.e. 6000mm x 6000mm dome was made. The bricks for the interlocking rib system were 3D printed and the infill bricks were hand moulded from play clay and were baked in oven for 10 minutes.     
+To better understand the process and sequence of construction of the different types of modules of the building, an experiment was carried out and a scaled model of Module 2 i.e. 6000mm x 6000mm dome was made. The bricks for the interlocking rib system were 3D printed and the infill bricks were hand molded from play clay and were baked in an oven for 10 minutes.     
   
-To construct this model, the first step was to mark the square base on a sheet of paper. As a next step, the curve of the rib segment was drawn and cut out from a piece of cardboard to be used as formwork to lay the interlocking bricks. This formwork was placed on the square base and each brick was then placed in position with the help of tack glue. Once all the ribs were in place the keystone was put and the infill layer from the baked bricks were put. 
+To construct this model, the first step was to mark the square base on a sheet of paper. As a next step, the curve of the rib segment was drawn and cut out from a piece of cardboard to be used as formwork to lay the interlocking bricks. This formwork was placed on the square base and each brick was then placed in position with the help of tack glue. Once all the ribs were in place the keystone was put and the infill layer from the baked bricks was put. 
 
-With this experiment, it was concluded that the interlocking bricks dictates the curve of the ribs and the formwork was only required to hold them in place. Once the ribs and keystone are in place, the infill bricks can be laid out in concentric circles to ensure that compressions bands in the dome are always complete before laying the next course. 
+With this experiment, it was concluded that the interlocking bricks dictate the curve of the ribs and the formwork was only required to hold them in place. Once the ribs and keystone are in place, the infill bricks can be laid out in concentric circles to ensure that compressions bands in the dome are always complete before laying the next course. 
 </div>
 
 <ins>*Construction instrument*</ins>
 <div style="text-align: justify">  
-The context of the site generates several limitations like the availability of limited resources and skilled labours on the building process. Therefore, it was important to find a process that made use of minimal supporting materials, tools and skills. This created an opportunity for innovative solutions to solve the problem of constructability. Therefore, we designed a tool called The Support Spider that can aid the labours and make the process simple and efficient. 
+The context of the site generates several limitations like the availability of limited resources and skilled laborers on the building process. Therefore, it was important to find a process that made use of minimal supporting materials, tools and skills. This created an opportunity for innovative solutions to solve the problem of constructability. Therefore, we designed a tool called The Support Spider that can aid the labors and make the process simple and efficient. 
 </div>
 
 *General concept and deisgn of the tool* 
@@ -977,7 +987,7 @@ The tool works on the logic of creating an ellipse which can be viewed here. Not
 
 *Adaptation to different modules*
 <div style="text-align: justify">
-As mentioned earlier, all domes are the scaled versions of the smaller dome, so all the elliptical arches of these modules which form the interlocking ribs are scaled versions or the smallest arch. Therefore, they all have a common centre. The tool is designed to fit the smallest module and can be expanded to the largest module by increasing the length of the supporting rod.  
+As mentioned earlier, all domes are the scaled versions of the smaller dome, so all the elliptical arches of these modules which form the interlocking ribs are scaled versions or the smallest arch. Therefore, they all have a common center. The tool is designed to fit the smallest module and can be expanded to the largest module by increasing the length of the supporting rod.  
 </div>  
 
 ## Adobe 2.0 ##
@@ -989,10 +999,11 @@ mention fibonacci and the twist in the dome that creates the lamela dome look
 </div>
 
 **Computational tool**
- 
-A computational script was made to inform the Adobe 2.0 geometry and inform the brick laying accordingly.
+ <div style="text-align: justify"> 
+A computational script was made to inform the Adobe 2.0 geometry and inform the bricklaying accordingly.
 
-The inputs for this script are diameter of the dome, number of segments, squinch height and brick height inorder to create this fibonacci based dome, that twists and offsets to form a conical dome leaving a skylight at the top.   
+The inputs for this script are the diameter of the dome, the number of segments, squinch height and brick height in order to create this Fibonacci based dome, that twists and offsets to form a conical dome leaving a skylight at the top.   
+</div>
 
 ![Adobe2.0](img\Adobe2.0.gif) 
 *Fig: Shows the computational tool generation in steps for creating Adobe 2.0*
@@ -1050,14 +1061,19 @@ reflection
 
 **Shriya Balakrishnan**
 <div style="text-align: justify">
-The course AR3B011 Earthy is an amalgamation of diverse topics ranging from spatial planning, programming, construction techniques and structural design. The entire learning process was indeed remarkable and a different approach towards thinking mathematically and computationally. One major challenge of the course was to design with limited material resources and unskilled labour. Although adobe construction is something that has been done since ages, it is not commonly adopted construction material which developed the perfect design brief in the proposed location. Moreover, the structuring phase was an additional challenge due to the lack of assistance for the structural analysis using Karamba 3D and Ansys.
+The course AR3B011 Earthy is an amalgamation of diverse topics ranging from spatial planning, programming, construction techniques and structural design. The entire learning process was indeed remarkable and a different approach towards thinking mathematically and computationally. One major challenge of the course was to design with limited material resources and unskilled labor. Although adobe construction is something that has been done for ages, it is not commonly adopted construction material that developed the perfect design brief in the proposed location. Moreover, the structuring phase was an additional challenge due to the lack of assistance for the structural analysis using Karamba 3D and Ansys.
 
-Nonetheless, we are happy with the results we have achieved for such a fast paced course. I personally learnt a lot from this course and the experience of working with my enthusiastic team members was incredible as we all gave our 100% to this project. 
+Nonetheless, we are happy with the results we have achieved for such a fast-paced course. I personally learned a lot from this course and the experience of working with my enthusiastic team members was incredible as we all gave our 100% to this project. 
 </div>
 
 **Thijmen Pluimers**
-
-reflection
+<div style="text-align: justify">
+The Earthy course had it all. From more familair subjects like planning of functions and buildings to matters that I only encoutered since the start of the master like like visual scripting using Grasshopper. And then there was the brand new, constructing earth buildings and using a coding language like Python.
+I look back at the course as being an intense learning enviroment, in the 10 weeks we had to make our submission i belive we give everything and came up with a great design.
+Given the minimal knowlage I had about scripting and grasshopper I believe this course has given me a lot of erperience with it in a short time.
+If i could do the course over with the knowlage i now pocess i would focus more on coding our scripts in python rather then grasshopper. However the basic understanding of grasshopper was not as well developed as it now is so it would have been almost imposible.
+That is why I would like to learn about using Python in the time to come.
+</div>
 
 **Twinkle Nathani**
 
