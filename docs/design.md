@@ -1189,7 +1189,5 @@ That is why I would like to learn about using Python in the time to come.
 **Twinkle Nathani**
 <div style="text-align: justify">
 The Earthy course is a design studio which has the steepest learning curve as compared to all the other courses in the master's track of Building Technology. I personally enjoyed this course as I have worked with earth before but never encountered the possiblity of combining a primitve material with the current technology using the latest computational softwares. The best part about this course was the constructibility phase as I throughly enjoyed myself exloring different construction techniques in order to close the loop. The was the course was structured pushed me to think more and with every challenge we faced, especially with adobe 2.0 structure, it only increased the level of complexity and intensity of the course, which made the course extremely interesting.Within the 10 weeks of the coursework, the first few weeks were intense due to the different workshops and lectures. I personally think that these workshops/lectures could have been split into two parts as many of them were more relevant for the 2nd half of the coursework. 
-All in all, I am extrememly proud of what we have achieved as a team to complete the project sucessfully. I would like to thank my fellow group mates
-
-
+All in all, I am extrememly proud of what we have achieved as a team to complete the project sucessfully. I would like to thank my fellow group mates for working tirelessly make RAHA happen. I would also like to thank all the tutors who helped us throughout the course.
 </div>
