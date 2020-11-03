@@ -71,10 +71,12 @@ The design vision is to create a “recreation hub” hosting social spaces with
 ### Overall flow chart
 <div style="text-align: justify"> 
 This flowchart shows the overall procedural workflow adopted for designing RAHA. The whole project is divided into four stages, Configuration, Forming, Structuring and Constructability respectively. The larger division of stages offers an eventual progression of the design by keeping each stage incoherence and informed with the other to achieve a generative design.
+</div>
 
-![overall flow chart](img/ofc.jpg)  
-*Fig: Overall flow chart of the design process*
+[![overall flow chart](img/ofc.jpg)](img\final overall flowchart .jpg)  
+*Fig: Overall flow chart of the design process (click image to zoom in).*
 
+<div style="text-align: justify"> 
 The first part is configuring followed by shaping and structuring. In the configuration phase: based on the identified problem and proposed intervention; the main programmatic functions were defined. A set of rules were developed to select the site after which the program relationships were developed using bubble diagrams and REL charts. These were computationally mirrored using a phyton script and a syntactic tool. Further relationships were studied using metro-link diagrams and depth graphs. Based on the outcome, the study was translated to a concept plan which was further developed computationally using gradient descent optimization. Following these studies the floor plans were formulated. 
 
 In the shaping process, the required architectural principles for each space was ranked based on set priority criteria to inform the form-finding process. Based on this, different dynamically relaxed roof tessellations were studied after which roof and wall modules were defined. 
@@ -88,11 +90,9 @@ The constructability was studied along with the structuring phase. Different con
 In the configuration phase of the design process, based on the design goals the programs will be defined along with their spatial requirements and the area requirements. Based on the site study, the relationship between the programs and the integration of the programs into the site will be studied using various computational and graphical methods. 
 
 ### Site selection 
-<div style="text-align: justify"> 
-
-![Location flow chart.jpg](img/location.jpg)
+![Location flow chart.jpg](img/location.jpg)  
 *Fig: Shows the site selection flow chart*
-
+<div style="text-align: justify"> 
 As per the proposed intervention of building a recreation hub, the main programmatic functions are a tea house, a hammam, a quiet space with a library, and a play area for children with connecting courtyards housing herbal gardens and water bodies.  To select the site the points of consideration are unbuilt spaces, water resources, proximity to other facilities such as schools and kindergartens and the distance from the main road. As the recreation hub includes a hammam, locating it near a water resource is essential. The recreation hub also includes a quiet space with library, a children’s playground which can be an extension to existing schools, youth centers and kindergartens. 
 </div>
 
