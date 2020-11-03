@@ -260,11 +260,16 @@ The flowchart explains the pseudo code used to develop this tool.
 ![GDFlowchart](img/GDFlowchart.png) 
 
 <div style="text-align: justify"> 
+
+The input of the spaces, hierarchy depths, direction of spaces, space length and width dimensions are first sorted to branch them into their respective depth hierarchy. While the north direction, site dimenisons and distance creates regions in directions North, South, East, West, North-east and South-east. It places these regions at the given distance from the center of the site and populates it with the assigned spaces.
+
+The input of the entrance checkpoint curve is 
+
 This process is then repeated keeping the relaxed curves from hierarchy depth 1 as the attractor for the depth 2 and the relaxed curves from depth 2 become the attractor for the depth 3 spaces so on. This process of staged relaxation per depth hierarchy enhances the configuration results, by aligning spaces orthogonally and reduces chaos when the total number of spaces is high.     
 </div>
 
 ![GDSpaceF](img/GDSpaceF.gif)  
-*Fig: The gif below shows the spatial configuration results of this computational process*  
+*Fig: The animation shows the spatial configuration result of this computational process*  
 
 <div style="text-align: justify"> 
 From the many iterations this tool generated, the most ideal solution was chosen considering the site boundary conditions. 
