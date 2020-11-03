@@ -1,29 +1,29 @@
 ## 0_Introduction *Beza*
 <div style="text-align: justify"> 
-This site documents the design process of RAHA, a recreational center designed within the boarders of the Zaatari camp. RAHA is an Arabic word meaning comfort, rest or relaxation; it is also an acronym for recreational activity hub actuator. The intention behind the design of the building is to create a recreational facility where the refugees in the camp can interact with one another while participating in culturally relevant activities. The recreational hub contains programmatic functions that allows for the refugees to relieve their stress and engage in informal counselling and therapeutic activities. While the social objectives are to re-introduce a sense of normalcy for the camp residents; the design of the building explores the use of computation for creating 21st C earth buildings. 
+This site documents the design process of RAHA, a recreational center designed within the borders of the Zaatari camp. RAHA is an Arabic word meaning comfort, rest or relaxation; it is also an acronym for recreational activity hub actuator. The intention behind the design of the building is to create a recreational facility where the refugees in the camp can interact with one another while participating in culturally relevant activities. The recreational hub contains programmatic functions that allow for the refugees to relieve their stress and engage in informal counseling and therapeutic activities. While the social objectives are to re-introduce a sense of normalcy for the camp residents; the design of the building explores the use of computation for creating 21st C earth buildings. 
 
-The design process is explained in 4 stages: Configuring, shaping, structuring and Constructability. The configuration stage starts with identifying a problem that can be addressed by a missing building on a selected site followed by defining the programs and their co-responding relationship. In the shaping phase, the form finding of the building is studied where different roof tessellations are explored. This is followed by the structuring phase where the building form is structurally analyzed using karamba. In line with the structuring phase, the ease of construction was studied where different construction methods and sequences are tested. Based on the design progression, the final output is presented with the chosen construction method and defined bricks and modules. 
+The design process is explained in 4 stages: Configuring, shaping, structuring and Constructability. The configuration stage starts with identifying a problem that can be addressed by a missing building on a selected site followed by defining the programs and their co-responding relationship. In the shaping phase, the form-finding of the building is studied where different roof tessellations are explored. This is followed by the structuring phase where the building form is structurally analyzed using karamba. In line with the structuring phase, the ease of construction was studied where different construction methods and sequences are tested. Based on the design progression, the final output is presented with the chosen construction method and defined bricks and modules. 
 </div>
 
 ### About Zaatari
 <div style="text-align: justify"> 
-The zaatari camp is the largest camp for Syrian refugees set up in Jordan following the breakout of the Syrian civil war in 2011. The camp started operating in 2012 admitting 15,000 refugees by August 2012. The number of refugees in the camp increased over the years to a staggering 78,357 by October 2018. During this time, the camp evolved from a small collection of tents into a permanent urban settlement. 
+The Zaatari camp is the largest camp for Syrian refugees set up in Jordan following the breakout of the Syrian civil war in 2011. The camp started operating in 2012 admitting 15,000 refugees by August 2012. The number of refugees in the camp increased over the years to a staggering 78,357 by October 2018. During this time, the camp evolved from a small collection of tents into a permanent urban settlement. 
 
 The camp is divided into 12 districts, there are 32 schools and 52 community centers. Presently the UNHCR coordinates the infrastructure improvements and shelter assistance within the camp along with the provision of energy supply. There are pre-fabricated shelters including latrine and kitchen. 
 </div>
 
 ### Problem statement
 <div style="text-align: justify"> 
-The zaatari camp houses a large number of Syrian refugees. Although the camp was set-up as a short-term accommodation the ongoing war has prolonged the duration to a latent permanency. As a result, long-term solutions are required not only in accommodation but also by providing adequate and culturally relevant community-based facilities that also work towards informally addressing underlying issues related to the holistic well-being of the refugees.
+The Zaatari camp houses a large number of Syrian refugees. Although the camp was set-up as a short-term accommodation the ongoing war has prolonged the duration to latent permanency. As a result, long-term solutions are required not only in accommodation but also by providing adequate and culturally relevant community-based facilities that also work towards informally addressing underlying issues related to the holistic well-being of the refugees.
 
-Refugees residing in the camp come from a war ridden place, they have had traumatic experiences most of which have lost loved once and left loved ones behind. Research shows various distresses reported among refugees including avoidance, anger, helplessness, fear and reduced functioning. The various types of distress result in the deterioration of the refugee’s mental well-being and hinder their chance of having a stable normal life. As the number of residents within the camp continue to increase and extend their temporary stay; the facilities in the camp are rendered incapable to cater to the needs of the incremental population. Therefore, it is essential to have centers geared towards relieving their distress and creating a better living environment within the camp. 
+Refugees residing in the camp come from a war-ridden place, they have had traumatic experiences most of which have lost loved ones and left loved ones behind. Research shows various distresses reported among refugees including avoidance, anger, helplessness, fear and reduced functioning. The various types of distress result in the deterioration of the refugee’s mental well-being and hinder their chance of having a stable normal life. As the number of residents within the camp continues to increase and extend their temporary stay; the facilities in the camp are rendered incapable to cater to the needs of the incremental population. Therefore, it is essential to have centers geared towards relieving their distress and creating a better living environment within the camp. 
 </div>
 
 ![Problem statement.GIF](img/problem.gif)
 
 ### Intervention
 <div style="text-align: justify"> 
-For the refugees to be re-integrated to a sense of normalcy, a vast array of facilities must be incorporated within the camp.
+For the refugees to be re-integrated into a sense of normalcy, a vast array of facilities must be incorporated within the camp.
 
 The proposed intervention is to introduce a “recreation hub” including a tea house, a hammam, a play area for children and connecting courtyards with herbal gardens. The proposed function is a culturally relevant community based “recreation hub” where the spaces allow for various levels of human interaction, activities and informal counseling. These spaces will be correlated based on a multilayer programmatic requirement considering the area, climatic needs, visual connections and zoning of the public-private spaces.
 </div>
@@ -36,50 +36,50 @@ The design vision is to create a “recreation hub” hosting social spaces with
 ### Design questions
 
 1. What are the site conditions?  
-•	What is the climatic condition?  
-•	What is the population size?  
+•   What is the climatic condition?  
+•   What is the population size?  
 2. Where should the “recreation hub” be located?  
-•	What is the built-unbuilt relation?  
-•	What resources are available?  
-•	What facilities are present?  
+•   What is the built-unbuilt relation?  
+•   What resources are available?  
+•   What facilities are present?  
 3. What are the programmatic needs of the “recreation hub”?  
-•	Which programs are culturally relevant and fit the site context?  
-•	What is the area requirement of each program?  
+•   Which programs are culturally relevant and fit the site context?  
+•   What is the area requirement of each program?  
 4. How should the different programs be spatially configured?  
-•	What is the public-private zoning requirement for each program?  
-•	What is the level of enclosure required for each program (closed, open, semi-open)?  
-•	What type of indoor comfort is required for each program?  
-•	What type of visual connection or circulation is required between different programs?  
-5. What are the architectural characteristics requirement for each space?  
-•	How are these characteristics translated into the building form?  
+•   What is the public-private zoning requirement for each program?  
+•   What is the level of enclosure required for each program (closed, open, semi-open)?  
+•   What type of indoor comfort is required for each program?  
+•   What type of visual connection or circulation is required between different programs?  
+5. What are the architectural characteristics required for each space?  
+•   How are these characteristics translate into the building form?  
 6. How should the roof tessellations be configured?  
-•	What type of tessellations result in the desired architectural characteristic?  
-•	Which tessellations of the roof need to match?  
-•	How do the tessellations relate to the grid?  
-•	How many different roof modules are present?  
-•	How can the roof be simplified to closely match the tessellations?  
+•   What type of tessellations result in the desired architectural characteristic?  
+•   Which tessellations of the roof need to match?  
+•   How do the tessellations relate to the grid?  
+•   How many different roof modules are present?  
+•   How can the roof be simplified to closely match the tessellations?  
 7. Is the designed form structurally stable?   
-•	In what way do the roof tessellations need to be modified?  
-•	What are the wall thicknesses required in different parts of the building?  
-•	Are the loads transferred uniformly?  
-8. Which construction system can be easily be done with unskilled laborer’s?  
-•	What type of construction system can be used for the varying modules?  
-•	What type of bricks, molds, formwork are required?  
-•	What resources and material are available?  
-•	What is the construction sequence?  
+•   In what way do the roof tessellations need to be modified?  
+•   What are the wall thicknesses required in different parts of the building?  
+•   Are the loads transferred uniformly?  
+8. Which construction system can be easily be done with unskilled laborers?  
+•   What type of construction system can be used for the varying modules?  
+•   What type of bricks, molds, formwork are required?  
+•   What resources and materials are available?  
+•   What is the construction sequence?  
 
 ### Overall flow chart
 <div style="text-align: justify"> 
-This flowchart shows the overall procedural workflow adopted for designing RAHA. The whole project is divided into four stages, Configuration, Forming, Structuring and Constructability respectively. The larger division of stages offers an eventual progression of the design by keeping each stage in coherence and informed with the other to achieve a generative design.
+This flowchart shows the overall procedural workflow adopted for designing RAHA. The whole project is divided into four stages, Configuration, Forming, Structuring and Constructability respectively. The larger division of stages offers an eventual progression of the design by keeping each stage incoherence and informed with the other to achieve a generative design.
 
 INSERT FLOW CHART HERE
 
-The first part is configuring followed by shaping and structuring. In the configuration phase: based on the identified problem and proposed intervention; the main programmatic functions were defined. A set of rules were developed to select the site after which the program relationships were developed using bubble diagrams ands REL charts. These were computationally mirrored using a phyton script and a syntactic tool. Further relationships were studied using metro-link diagrams and depth graphs. Based on the outcome, the study was translated to a concept plan which was further developed computationally using gradient decent optimization. Following these studies the floor plans were formulated. 
+The first part is configuring followed by shaping and structuring. In the configuration phase: based on the identified problem and proposed intervention; the main programmatic functions were defined. A set of rules were developed to select the site after which the program relationships were developed using bubble diagrams and REL charts. These were computationally mirrored using a phyton script and a syntactic tool. Further relationships were studied using metro-link diagrams and depth graphs. Based on the outcome, the study was translated to a concept plan which was further developed computationally using gradient descent optimization. Following these studies the floor plans were formulated. 
 
-In the shaping process, the required architectural principles for each space was ranked based on set priority criteria to inform the form finding process. Based on this, different dynamically relaxed roof tessellations were studied after which roof and wall modules were defined. 
-Based on the defined modules, the structuring phase starts with simplification of the tessellated roofs. The simplified roof surfaces are meshed and structurally analyzed on karamba. Here the material properties and cross sections are defined. Based on the results of the structural analysis the roof tessellations and wall thicknesses are optimized for best results. 
+In the shaping process, the required architectural principles for each space was ranked based on set priority criteria to inform the form-finding process. Based on this, different dynamically relaxed roof tessellations were studied after which roof and wall modules were defined. 
+Based on the defined modules, the structuring phase starts with the simplification of the tessellated roofs. The simplified roof surfaces are meshed and structurally analyzed on karamba. Here the material properties and cross-sections are defined. Based on the results of the structural analysis the roof tessellations and wall thicknesses are optimized for best results. 
 
-The constructability was studied along with the structuring phase. Different construction systems are analyzed and ranked based on ease of construction and adaptability to the different modules. The materials available on site are studied for potential to aid the construction system. The chosen system is further developed computationally and further studied with a physical model. The brick sizes and modules are defined. The construction system and sequence are developed along with required formwork. 
+The constructability was studied along with the structuring phase. Different construction systems are analyzed and ranked based on ease of construction and adaptability to the different modules. The materials available on-site are studied for the potential to aid the construction system. The chosen system is further developed computationally and further studied with a physical model. The brick sizes and modules are defined. The construction system and sequence are developed along with the required formwork. 
 </div>
 
 ## 1_Configuration
@@ -89,11 +89,11 @@ introduction explaining the configuring phase and its goals.(from course brief)*
 <div style="text-align: justify"> 
 INSERT FLOW CHART HERE
 
-As per the proposed intervention of building a recreation hub, the main programmatic functions are a tea house, a hammam, quiet space with library, and a play area for children with connecting courtyards housing herbal gardens and water bodies.  To select the site the points of consideration are unbuilt spaces, water resource, proximity to other facilities such as schools and kindergartens and the distance from the main road. As the recreation hub includes a hammam, locating it near a water resource is essential. The recreation hub also includes a quiet space with library, a children’s playground which can be an extension to existing schools, youth centers and kindergartens. 
+As per the proposed intervention of building a recreation hub, the main programmatic functions are a tea house, a hammam, a quiet space with a library, and a play area for children with connecting courtyards housing herbal gardens and water bodies.  To select the site the points of consideration are unbuilt spaces, water resources, proximity to other facilities such as schools and kindergartens and the distance from the main road. As the recreation hub includes a hammam, locating it near a water resource is essential. The recreation hub also includes a quiet space with library, a children’s playground which can be an extension to existing schools, youth centers and kindergartens. 
 
 ![Location Selection.GIF](img/Location.gif)
 
-To select the site, a computation tool was created that first identifies built/ unbuilt space and road networks. The tools select the empty plots on the site. These plots are further filtered by size taking only in-between spaces of larger sizes.  Then the existing water resources are mapped. Open spaces that fall within 250 m of the existing water resource are selected. The existing schools, youth centers and kindergartens were mapped and the site selection was further narrowed down to open spaces within 100m of the mapped centers. From the remaining list, hierarchical demarcation was given to the open spaces based on the distance from the main busy road with preference given to quieter spaces further away from the loud busy main street. At this stage, spaces in district 6, 7 and 9 were identified. The final chosen site falls in district 9 which has the least saturated population therefore the proposed facility can cater to a larger percentage of the district’s population.
+To select the site, a computation tool was created that first identifies built/ unbuilt space and road networks. The tools select the empty plots on the site. These plots are further filtered by size taking only in-between spaces of larger sizes.  Then the existing water resources are mapped. Open spaces that fall within 250 m of the existing water resource are selected. The existing schools, youth centers and kindergartens were mapped and the site selection was further narrowed down to open spaces within 100m of the mapped centers. From the remaining list, the hierarchical demarcation was given to the open spaces based on the distance from the main busy road with preference given to quieter spaces further away from the loud busy main street. At this stage, spaces in districts 6, 7 and 9 were identified. The final chosen site falls in district 9 which has the least saturated population therefore the proposed facility can cater to a larger percentage of the district’s population.
 </div>
 
 *Twinkle*  
@@ -101,9 +101,11 @@ Explain the site surroundings and site orientation, add a google map/diagram - w
 
 ### Program of requirements *Thijmen* 
 
-![Program_of_requirements.PNG](rev/configuration/Program_of_requirements.png)
+
+
+![Program of requirements](rev/configuration/Program_of_requirements.png)
 *Fig: The program of requirements of the project*
-[Click here to open the PDF](rev/configuration/Program_of_requirements.pdf)  
+[Click here to download](rev/configuration/Program_of_requirements.pdf)
 
 <div style="text-align: justify"> 
 Having selected a site to fit the Raha building a program was developed.  
@@ -156,7 +158,7 @@ After deciding which functions should be in the project to achieve our vision th
 
 **Rel chart**  
 
-![relchart.PNG](rev/configuration/relchart.png)
+![rel chart](rev/configuration/relchart.png)
 *Fig: The final REL Chart.*
 <div style="text-align: justify"> 
 The REL chart shows the relationship a certain function or room has with every other function or room. In the beginning, assumptions were made on which function should be connected to which other function. By analyzing the results this chart was changed to make sure it provided a better input for our syntactic tool.
@@ -235,6 +237,7 @@ This approach was inspired by one of the group's from the previous year who deve
 To start a grid of 1.2 m x 1.2 m was considered, derived from a standard corridor width size and minimum area for one person. Therefore, each functional area was adjusted to a multiple of this grid size.
 
 An excel table was created to input the hierarchy of spaces (from the depth chart in an ascending order) and their area dimensions (from the program of requirements). As seen in image below, the excel is used to import these inputs into the Grasshopper environment.
+</div>
 
 ![ExcelInputGD](img/ExcelInputGD.png)  
 *Fig: Spatial parameters translated as inputs into an excel sheet for the gradient descent tool*
@@ -243,14 +246,16 @@ The flowchart explains the pseudo code used to develop this tool.
 
 ![GDFlowchart](img/GDFlowchart.png) 
 
-
+<div style="text-align: justify"> 
 This process is then repeated keeping the relaxed curves from depth 1 as the attractor for the depth 2 and so on. This process of staged relaxation per depth enhances the configuration results, by aligning spaces orthogonally and reduces chaos when the total number of spaces are high.     
-
+</div>
 
 ![GDSpaceF](img/GDSpaceF.gif)  
 *Fig: The gif below shows the spatial configuration results of this computational process*  
 
+<div style="text-align: justify"> 
 From the many iterations this tool generated, the most ideal solution was chosen considering the site boundary conditions. 
+</div>
 
 For further study the script can be download on the [Other page.](other.md)
 
@@ -259,10 +264,12 @@ For further study the script can be download on the [Other page.](other.md)
 ![connectivity of spaces](img/connectivity-of-spaces.gif)  
 *Fig: 3D Visualisation of connectivity of spaces*
 
+<div style="text-align: justify"> 
 It was neccessary to analyse the 2D configuration in a 3D space to determine the adjacencies and connectivity in the horizontal and the vertical plane. The outputs generated from the computational tool were used as an input for this study.
 
 First step was to study the ratio between the built v/s unbuilt spaces and define the proportions of the unbuilt spaces depending on the widths of the adjacent built spaces.
 Next step was to connect the built and the unbuilt spaces and understand the nature of the connection. This was determined by analyzing if the connection was an exterior, interior, horizontal or vertical connection. Once the connections are defined, the walls were extruded. Certain spaces like the quiet rooms, workspaces and the sheesha were placed on the first floor as the nature of the space determined it's position. As the quiet rooms and the workspaces required a quiet and calm environment and the sheesha required an open to sky configuration, the spaces were placed on the first floor.   
+</div>
 
 ### Configured design
 
@@ -276,9 +283,11 @@ The optimized grid has 600mm bands with 2400mm distance between each 600mm bands
 **Floor plans**  
 <div style="text-align: justify"> 
 Once the grid was fixed, different spaces were then moulded in the plan based on the area fixed in the programme requirements. This also resulted in different modules of roofs and walls based on how many tartan bands they occupy. The second step was to fix the dimensions for the courtyard. To do this, the traditional Iranian geometric design method was adopted. It uses a golden rectangular design, which is drawn inside a regular hexagon. The ratio of length to width being 1.73. The width of the Water-fountain courtyard is double the width of the rooms adjoining it. This is done so that rooms receive proper daylight. The Water-body courtyard and Herbal garden are cosier and requires mutual shading therefore, these are equal in widths with the adjacent rooms.
+</div>
 
 *Insert Picture*
 
+<div style="text-align: justify"> 
 Below you can see how different spaces comes together to form the final plan. As informed from the computational and manual processes, the courtyards form the main connecting elements each equipped with a transition vestibule space. The tea-bar with it’s different seating spaces are placed in the east of the site. The hammam in the south west corner closer to the mosque and bore well and the library and quiet room spaces in the north west to make use of daylight. 
 
 Insert image of overall general plan
@@ -314,12 +323,16 @@ including the change of wall tickness (why we choose for 600mm bands in the tart
 </div>
 
 **Wall modules**  
+<div style="text-align: justify"> 
 explain how the walls have been designed according to the tartan grid.
 including the change of wall tickness (why we choose for 600mm bands in the tartan grid)
+</div>
 
 **roof modules**  
+<div style="text-align: justify"> 
 talk about Architectural charactaristics and show the different roof modules in the plan view - 4 types Crossvaults, Square domes, Rectangular domes and Domes with Skylight
 talk about how these roofs have been designed using the tarten grid
+</div>
 
 **Sections**  
 <div style="text-align: justify"> 
@@ -339,7 +352,7 @@ show sections and explain the heights etc
  
 ### Summary 
 <div style="text-align: justify">
-The Forming process strategicaly developed a shape from the spatial configuration based on the REL-Chart and the bubble diagram. In  order to define the shape and the layout, a grid was defined which became the base for converting the design ideas and concepts into the proposed site boundary. This grid was imminent in making the design more modular.
+The Forming process strategically developed a shape from the spatial configuration based on the REL-Chart and the bubble diagram. In order to define the shape and the layout, a grid was defined which became the base for converting the design ideas and concepts into the proposed site boundary. This grid was imminent in making the design more modular.
 </div>
 
 ---
@@ -360,7 +373,7 @@ Introduction explaining the configuring phase and its goals.(from course brief)*
 ![Dome tesselations](img/dometessellations.png)
 *Fig: Exploration of different meshing techniques*
 <div style="text-align: justify"> 
-The form finding was determined by the study of architectural characteristics of different spaces. To start the process and understand how different meshes gave different shapes, a thorough literature study was conducted. During this process, we considered a roof form and it's corresponding size, and manually meshed the initial divisions. The initial divisions followed a logic which was derived from the literature research. Different types of meshing logic was explored initially and were imported in the kangaroo solver to generate the dynamically relaxed form. Different meshing logic gave a different result, for example, the quad split logic generated a curved peak while the triangulation logic generated a pointed peak. This step was repeated for every type of meshing logic and the triangulation meshing logic was chosen as it closely resembled the desired form. Later these meshes were imported in the kangaroo solver to sub divide the initial meshes and generate the dynamically relaxed form. 
+The form-finding was determined by the study of architectural characteristics of different spaces. To start the process and understand how different meshes gave different shapes, a thorough literature study was conducted. During this process, we considered a roof form and it's the corresponding size, and manually meshed the initial divisions. The initial divisions followed a logic that was derived from the literature research. Different types of meshing logic were explored initially and were imported in the kangaroo solver to generate the dynamically relaxed form. Different meshing logic gave a different result, for example, the quad split logic generated a curved peak while the triangulation logic generated a pointed peak. This step was repeated for every type of meshing logic and the triangulation meshing logic was chosen as it closely resembled the desired form. Later these meshes were imported in the kangaroo solver to subdivide the initial meshes and generate the dynamically relaxed form. 
 </div>
 
 ![Vault tesselations](img/tess.jpg)
@@ -404,7 +417,7 @@ The final tesselation logic was a combination of constant quad split and triangu
 *Fig: Wall tessellations* 
 
 <div style="text-align: justify"> 
-Though a computational method was used for the roofs, for the walls we opted a manual approach. The meshes for the walls were generated using the initial divisions of the roof mesh. The intersecting points between the roof and the wall determined the mesh lines for the walls. These mesh lines became the guideline for the division of the arched opening in the wall. A similar mesh logic was applied in the wall meshing as done for the roof meshes; constant quad split and triangulation method. Once the walls with the openings were meshed, walls without openings followed the mesh lines of the later. After the initial meshing of the walls, they were imported to weaverbird in grasshopper to sub divide the initial meshes and make the meshes more coarse and match them with the roof meshes. 
+Though a computational method was used for the roofs, for the walls we opted for a manual approach. The meshes for the walls were generated using the initial divisions of the roof mesh. The intersecting points between the roof and the wall determined the mesh lines for the walls. These mesh lines became the guideline for the division of the arched opening in the wall. A similar mesh logic was applied in the wall meshing as done for the roof meshes; constant quad split and triangulation method. Once the walls with the openings meshed, walls without openings followed the mesh lines of the latter. After the initial meshing of the walls, they were imported to weaverbird in grasshopper to subdivide the initial meshes and make the meshes more coarse and match them with the roof meshes. 
 </div>
 
 ### Simplification 
@@ -414,13 +427,13 @@ Though a computational method was used for the roofs, for the walls we opted a m
 ![Square](img/sqauredome.gif)
 *Fig: Evolution of the dynamically relaxed form*
 <div style="text-align: justify"> 
-In order to achieve a smooth form and for the ease of construction, the dynamically relaxed form was refined further. The inital tesselataion, based on the tartan grid, was approximated and simplified to the closest curve resembling the generated mesh. These curves were used to build the final surface of the roof which was later analyzed in karamba 3D for structural calculations. 
+In order to achieve a smooth form and for the ease of construction, the dynamically relaxed form was refined further. The initial tessellation, based on the tartan grid, was approximated and simplified to the closest curve resembling the generated mesh. These curves were used to build the final surface of the roof which was later analyzed in karamba 3D for structural calculations. 
 </div>
 
 ![Square simplification](img/3x3domesimplification.jpg)
 *Fig: Simplification logic of Square domes*
 <div style="text-align: justify"> 
-The dynamically relaxed form was refined under a specific geometry in order to ensure accuracy in construction. Each curve of the form was re-drawn to the closest ellipse. These ellipses were made using the edge points of the meshes and then cut into half to derive the elliptical curves. For the square domes, two types of ellipses were used: one ellipse in the vertical and horizontal direction and one for the diagonals. The final surface was generated using these elliptical curves and imported to weaverbird in grasshopper for further refinement.
+The dynamically relaxed form was refined under a specific geometry to ensure accuracy in construction. Each curve of the form was re-drawn to the closest ellipse. These ellipses were made using the edge points of the meshes and then cut into half to derive the elliptical curves. For the square domes, two types of ellipses were used: one ellipse in the vertical and horizontal direction and one for the diagonals. The final surface was generated using these elliptical curves and imported to weaverbird in grasshopper for further refinement.
 </div>
 
 ![Square simplification](img/9x9domesimplification.png)
@@ -453,7 +466,7 @@ This logic was repeated for the other rectangular domes domes: 6 x 3 M and 9 x 6
 ![Cross-vaults](img/crossvault.gif)
 *Fig: Evolution of the dynamically relaxed form*
 <div style="text-align: justify"> 
-The dynamically relaxed form was refined under a specific geometry in order to ensure accuracy in construction. Each curve of the form was re-drawn to the closest catenary arc. These arcs were made using the edge points of the meshes and then cut into half to derive the catenary curves. For the cross vaults, only one catenary arc was used to generate the surface. The final surface was generated using these elliptical curves and imported to weaverbird in grasshopper for further refinement.
+The dynamically relaxed form was refined under a specific geometry to ensure accuracy in construction. Each curve of the form was re-drawn to the closest catenary arc. These arcs were made using the edge points of the meshes and then cut into half to derive the catenary curves. For the cross vaults, only one catenary arc was used to generate the surface. The final surface was generated using these elliptical curves and imported to weaverbird in grasshopper for further refinement.
 </div>
 
 ![cross vault simplification](img/crossvaultsimplification.png)
@@ -461,19 +474,19 @@ The dynamically relaxed form was refined under a specific geometry in order to e
 
 ### Material selection 
 <div style="text-align: justify"> 
-Due to the change in the course structure due to Covid-19, material research and testing was not part of the brief. We referred to the tests and anlaysis done by the previous year students of the same course. We primarily considered the test results of Bustan group (Group 5) and chose the same materials and material limit states for our project.  
+Due to the change in the course structure due to Covid-19, material research and testing was not part of the brief. We referred to the tests and analysis done by the previous year students of the same course. We primarily considered the test results of Bustan group (Group 5) and chose the same materials and material limit states for our project.  
 </div>
 
 ![material](img/materials.jpg)
 *Fig: Material composition*
 <div style="text-align: justify">
-The adobe bricks should be made by the refugees at the camp site with the available materials. The recipe for the standard brick composition were 30% clay, 30% fine sand, 40% coarse sand and 10% water of the total weight of the dry ingredients. Additionally, straw was chosen as an addition to the adobe paste to improve the tensile strength of the brick. The straw was added in the percentage of 10% of the total mixture. The final mixture was then placed in the required moulds and allowed to dry to make the bricks. The mortar was also prepared with the same basic composition with higher percentage of water as required to make the sticky paste. (Bustan,2019)
+The adobe bricks should be made by the refugees at the campsite with the available materials. The recipe for the standard brick composition was 30% clay, 30% fine sand, 40% coarse sand and 10% water of the total weight of the dry ingredients. Additionally, straw was chosen as an addition to the adobe paste to improve the tensile strength of the brick. The straw was added in the percentage of 10% of the total mixture. The final mixture was then placed in the required molds and allowed to dry to make the bricks. The mortar was also prepared with the same basic composition with a higher percentage of water as required to make the sticky paste. (Bustan,2019)
 </div>
 
 ![gypsum mechanical properties](img/Gypsum.jpg)
 *Fig: Mechanical properties of Gypsum*
 <div style="text-align: justify">
-Since elliptical curves were used to simplify the geometry, the combination of interlocking bricks and adobe projected in the elliptical curve leads to increase in the number of brick modules. In order to reduce the number of modules and ease of constructibility, gypsum bricks were used instead of adobe bricks for the ribs. A literature study was conducted to understand the mechanical properties of gypsum. From the study, it was concluded that gypsum stabiliser indicated higher compressive strength values compared to adobe. (Türkmen, Ekinci, Kantarcı & Sarıcı, 2020)
+Since elliptical curves were used to simplify the geometry, the combination of interlocking bricks and adobe projected in the elliptical curve leads to an increase in the number of brick modules. In order to reduce the number of modules and ease of constructibility, gypsum bricks were used instead of adobe bricks for the ribs. A literature study was conducted to understand the mechanical properties of gypsum. From the study, it was concluded that gypsum stabilizer indicated higher compressive strength values compared to adobe. (Türkmen, Ekinci, Kantarcı & Sarıcı, 2020)
 </div>
 
 ![limit states](img/Limitstates.jpg)
@@ -503,7 +516,7 @@ It was observed that the load distribution was not uniform as we observed peak t
 <div style="text-align: justify"> 
 In the second stage, the simplified surface of the wall and the roof was chosen for further analysis. In this case, the wall and the roof were analyzed separately. First the roof was analyzed using the simplified geometry. The reaction forces from the roof were given as an input to the wall analysis along with the self-weight of the wall. The wall was then analyzed.
 
-It was observed that the load distribution was uniform and the meshes were coherent. The peak stresses developed at the edges and the corners of the wall were within the set limits and the transition between tension and compression was logical and regular. High compression at the bottom of the wall and at the top of the roof and tension at the corners and the edges of the wall determined the analysis was performed correctly. Moreover, the analysis proved that the roof can be made into a completely compression roof which fulfilled the ultimate goal.
+It was observed that the load distribution was uniform and the meshes were coherent. The peak stresses developed at the edges and the corners of the wall were within the set limits and the transition between tension and compression was logical and regular. High compression at the bottom of the wall and at the top of the roof and tension at the corners and the edges of the wall determined the analysis was performed correctly. Moreover, the analysis proved that the roof can be made into a complete compression roof which fulfilled the ultimate goal.
 
 The structural analysis does not consider gypsum as the material for the ribs. Adobe material properties were considered for the entire structure. As gypsum has higher compressive strength as compared to adobe, it was assumed that using gypsum would give better results in the analysis.
 
@@ -533,16 +546,16 @@ All the edge points of the base of the roof are considered as fixed supports in 
 ![results](img/3x3domestructuralanalysis.jpg)  
 *Fig: Results showing the structural behavior of square dome and supporting wall*  
 <div style="text-align: justify"> 
-In case of the roof, it was observed that peak tensile stresses were developed at the corners of the wall as the meshes generated a defined ridge line from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 150 mm, the structure was safe. The maximum deflection observed was 1.4 mm (3000/400 = 7.5) which was also safe for the given load conditions.
+In case of the roof, it was observed that peak tensile stresses were developed at the corners of the wall as the meshes generated a defined ridgeline from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with a shell thickness of 150 mm, the structure was safe. The maximum deflection observed was 1.4 mm (3000/400 = 7.5) which was also safe for the given load conditions.
 
-In case of the wall, maximum tensile stresses were observed at the corners and at the key stone of the arched opening. This proves that the arch distributes the loads from the corners to the key stone and transferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 300 mm, the structure was safe. The maximum deflection observed was 1.3 mm (3000/400 = 7.5) which was also safe for the given load conditions.
+In case of the wall, maximum tensile stresses were observed at the corners and at the keystone of the arched opening. This proves that the arch distributes the loads from the corners to the keystone and transferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with a wall thickness of 300 mm, the structure was safe. The maximum deflection observed was 1.3 mm (3000/400 = 7.5) which was also safe for the given load conditions.
 </div>
 
 <ins>*Verification*</ins>
 
 *Exploration*
 <div style="text-align: justify"> 
-In order to verify the results of the karamba analysis, a test module was considered which was generated manually. In this case, the walls had arched edges in order to check if the karamba model shows difference in the load distribution. In this case, it was observed that the maximum compression was at the highest points where the wall and the roof intersected whereas the maximum tension was observed at the corners. This verifies that the load distribution is correct and the karamba model gives accurate results.
+In order to verify the results of the karamba analysis, a test module was considered which was generated manually. In this case, the walls had arched edges in order to check if the karamba model shows a difference in the load distribution. In this case, it was observed that the maximum compression was at the highest points where the wall and the roof intersected whereas the maximum tension was observed at the corners. This verifies that the load distribution is correct and the karamba model gives accurate results.
 </div>
 
 ![check 1](img/check.jpg)  
@@ -566,7 +579,7 @@ Thus, Computational model gives accurate results.
 ![Loadcase](img/loadcase2.jpg)
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
-The load case for this part of the building is shown in the Figure above, where live load of first floor was considered as 4kN/m2 (Malakatas, 2008), the slab load and filling load were taken as 1kN/m2 and 1600Kg/m3 respectively and safety factor of 4 was considered. The non-vertical load was applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
+The load case for this part of the building is shown in the Figure above, where live load of the first floor was considered as 4kN/m2 (Malakatas, 2008), the slab load and filling load were taken as 1kN/m2 and 1600Kg/m3 respectively and safety factor of 4 was considered. The non-vertical load was applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
 </div>
 
 <ins>*Support conditions*</ins>
@@ -582,9 +595,9 @@ All the edge points of the base of the roof are considered as fixed supports in 
 ![results](img/6x6domestructuralanalysis.jpg)  
 *Fig: Results showing the structural behavior of square dome and supporting wall*  
 <div style="text-align: justify"> 
-In case of the roof, it was observed that peak tensile stresses were developed at the corners of the wall as the meshes generated a defined ridge line from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 450 mm, the structure was safe. Due to the presence of first floor, the high tensile and compressive forces were developed on the roof surface. This required a thicker roof and wall in order to bring down the loads within the limit states. The maximum deflection observed was 6.6 mm (6000/400 = 15) which was also safe for the given load conditions.
+In case of the roof, it was observed that peak tensile stresses were developed at the corners of the wall as the meshes generated a defined ridgeline from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with a shell thickness of 450 mm, the structure was safe. Due to the presence of the first floor, high tensile and compressive forces were developed on the roof surface. This required a thicker roof and wall in order to bring down the loads within the limit states. The maximum deflection observed was 6.6 mm (6000/400 = 15) which was also safe for the given load conditions.
 
-In case of the wall, maximum tensile stresses were observed at the corners and at the key stone of the arched opening. This proves that the arch distributes the loads from the corners to the key stone and transferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 600 mm, the structure was safe. The maximum deflection observed was 3.2 mm (6000/400 = 15) which was also safe for the given load conditions.
+In case of the wall, maximum tensile stresses were observed at the corners and at the keystone of the arched opening. This proves that the arch distributes the loads from the corners to the keystone and transferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with a wall thickness of 600 mm, the structure was safe. The maximum deflection observed was 3.2 mm (6000/400 = 15) which was also safe for the given load conditions.
 </div>
 
 <ins>*Verification*</ins>
@@ -607,7 +620,7 @@ Thus, Computational model gives accurate results.
 ![Loadcase](img/loadcase1.jpg)
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
-The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non-vertical loads were applied using mesh loads in Karamba 3D. Self-weight of the structure and the design values were taken from the material research as discussed in the section before.
+The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non-vertical loads were applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
 </div>
 
 <ins>*Support conditions*</ins>
