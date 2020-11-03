@@ -870,7 +870,7 @@ After structurally analyzing the geometry, it can be concluded that in most case
 This phase in the design process was carried alongside the structuring phase. To understand how the construction of the defined modules can be achieved with unskilled laborers, various literature reviews were referred to. The referenced construction methods were explored further by simple digital and physical model making. Thereafter, the rib-infill construction method was chosen as it can be easily adapted to the different modules present. Step by step of the constructability processes will be explained below. 
 </div>
 
-## Methodology ##   
+## Methodology   
 
 **Relationship between different modules**
 <div style="text-align: justify">
