@@ -1018,8 +1018,10 @@ As mentioned earlier, all domes are the scaled versions of the smaller dome, so 
 
 **Design concept** 
 <div style="text-align: justify"> 
-*Twinkle*   
-mention fibonacci and the twist in the dome that creates the lamela dome look     
+The idea behind introducing Adobe 2.0 in the course was to push the limits to explore something which has never been built before in adobe. For this challenge, the inspiration came from the Lamella tessellations found in sunflowers. These tessellations occur in the Fibonacci sequence in nature and shifts horizontally keeping the same centre creating a twisting pattern. On further research an origami lamella dome was found which helped us in better understanding the shape of the dome. The difficulty was that each lamella strip not only was an offset but also shifted at the bottom. 
+
+Various methods were researched………..
+    
 </div>
 
 **Computational tool**
@@ -1039,8 +1041,8 @@ In the construction of the dome of Adobe 2.0, there were two challenges; one was
 For the second challenge of squinching from square base to circular base, the idea was to create interlocking ribs to inform the curve and infill the bricks to finish the squinching. Due to the time constraint, this method was not explored to its full potential. 
 </div>
 
-![Extension](img\Extension.jpg)
-*Fig: Shows how the tool can be extended to fit all curves*
+![Construction Tool](img\compass.jpg)
+*Fig: Shows Fathy's compass and Angle measure*
 
 **Brick Library**  
 *Twinkle*  
