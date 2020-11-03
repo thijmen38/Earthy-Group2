@@ -245,7 +245,7 @@ To start a grid of 1.2 m x 1.2 m was considered, derived from a standard corrido
 An excel table was created to input the hierarchy of spaces (from the depth chart in an ascending order) and their area dimensions (from the program of requirements). As seen in image below, the excel is used to import these inputs into the Grasshopper environment.
 </div>
 
-![ExcelInputGD](img/ExcelInputGD.png)  
+![ExcelInputGD](img/ExcelInputGD.PNG)  
 *Fig: Spatial parameters translated as inputs into an excel sheet for the gradient descent tool*
 
 The flowchart explains the pseudo code used to develop this tool.   
@@ -397,20 +397,20 @@ In the structuring phase of the design process, the building form is analyzed fo
 
 ### Tesellations
 
-![Tesselation flow chart](img/tessellationflowchart.jpg)
+![flowchart Tessellations](img\Tessellationflowchart1.jpg)  
 *Fig: Tessellation process flow chart*
 
 **Exploration**
 
 <ins>*Manual*</ins>   
 
-![Dome tesselations](img/dometessellations.png)
+![Dome tesselations](img/dometessellations.png)  
 *Fig: Exploration of different meshing techniques*
 <div style="text-align: justify"> 
 The form-finding was determined by the study of architectural characteristics of different spaces. To start the process and understand how different meshes gave different shapes, a thorough literature study was conducted. During this process, we considered a roof form and it's the corresponding size, and manually meshed the initial divisions. The initial divisions followed a logic that was derived from the literature research. Different types of meshing logic were explored initially and were imported in the kangaroo solver to generate the dynamically relaxed form. Different meshing logic gave a different result, for example, the quad split logic generated a curved peak while the triangulation logic generated a pointed peak. This step was repeated for every type of meshing logic and the triangulation meshing logic was chosen as it closely resembled the desired form. Later these meshes were imported in the kangaroo solver to subdivide the initial meshes and generate the dynamically relaxed form. 
 </div>
 
-![Vault tesselations](img/tess.jpg)
+![Vault tesselations](img/tess.jpg)  
 *Fig: Exploration of different vault tesselations*
 
 <ins>*Computational*</ins>  
@@ -430,7 +430,7 @@ The script above along with all the other scripts used for this project can be f
 
 <ins>*Roof*</ins>   
 
-![Tessellation initial](img/Initialroof.jpg) 
+![Tessellation initial](img/Initialroof.jpg)  
 *Fig: Showing the initial roof tessellations*
 <div style="text-align: justify"> 
 As the triangulation meshing logic was chosen initially, after dynamically relaxing the meshes, we realized that the form generated failed to perform well structurally. The dynamically relaxed roof did not transfer the loads uniformly and developed peak tensile stresses at the edges of the walls. Moreover, the meshing logic did not work well for larger spans as it generated fairly flat surface at the top of the dome which gave rise to peak tensile stresses at the highest points of the roof.
@@ -447,7 +447,7 @@ The final tesselation logic was a combination of constant quad split and triangu
 
 <ins>*Walls*</ins>  
 
-![wallTessellation](img/walltessellation.jpg)
+![wallTessellation](img/walltessellation.jpg)  
 *Fig: Wall tessellations* 
 
 <div style="text-align: justify"> 
@@ -458,19 +458,19 @@ Though a computational method was used for the roofs, for the walls we opted for
 
 **Square domes**
 
-![Square](img/square.gif)
+![Square](img/square.gif)  
 *Fig: Evolution of the dynamically relaxed form*
 <div style="text-align: justify"> 
 In order to achieve a smooth form and for the ease of construction, the dynamically relaxed form was refined further. The initial tessellation, based on the tartan grid, was approximated and simplified to the closest curve resembling the generated mesh. These curves were used to build the final surface of the roof which was later analyzed in karamba 3D for structural calculations. 
 </div>
 
-![Square simplification](img/3x3domesimplification.jpg)
+![Square simplification](img/3x3domesimplification.jpg)  
 *Fig: Simplification logic of Square domes*
 <div style="text-align: justify"> 
 The dynamically relaxed form was refined under a specific geometry to ensure accuracy in construction. Each curve of the form was re-drawn to the closest ellipse. These ellipses were made using the edge points of the meshes and then cut into half to derive the elliptical curves. For the square domes, two types of ellipses were used: one ellipse in the vertical and horizontal direction and one for the diagonals. The final surface was generated using these elliptical curves and imported to weaverbird in grasshopper for further refinement.
 </div>
 
-![Square simplification](img/9x9domesimplification.png)
+![Square simplification](img/9x9domesimplification.png)  
 *Fig: Simplification logic of Square domes*
 <div style="text-align: justify"> 
 This logic was repeated for the other square domes: 6 x 6 M and 9 x 9 M. The curves were scaled twice for the 6 x 6 m dome and thrice for the 9 x 9 m dome. In case of 9 x 9 m dome, additional curves were drawn to match the initial tesselations and for structural stability.
@@ -478,18 +478,18 @@ This logic was repeated for the other square domes: 6 x 6 M and 9 x 9 M. The cur
 
 **Rectangular domes**
 
-![Rectangle](img/rectangle.gif)
+![Rectangle](img/rectangle.gif)  
 *Fig: Evolution of the dynamically relaxed form*
 
 Similar logic was applied for the rectangular domes.
 
-![rectangular simplification](img/6x3domesimplification.jpg)
+![rectangular simplification](img/6x3domesimplification.jpg)  
 *Fig: Simplification logic of rectangular domes*
 <div style="text-align: justify"> 
 In case of rectangular domes, two different ellipses were made. One ellipse was made in the center dividing the top ridge into 2 parts and the second ellipse was drawn from the corners of the rectangle, creating a slight curvature on the smaller sides of the ceiling.
 </div>
 
-![rectangular simplification](img/12x9domesimplification.png)
+![rectangular simplification](img/12x9domesimplification.png)  
 *Fig: Simplification logic of rectangular domes*
 <div style="text-align: justify"> 
 This logic was repeated for the other rectangular domes domes: 6 x 3 M and 9 x 6 M. The curves were scaled twice for the 6 x 3 m dome and thrice for the 9 x 6 m dome. In case of 9 x 6 m dome, additional curves were drawn to match the initial tesselations and for structural stability.
@@ -931,7 +931,7 @@ Because of the way the roofs are tessellated and because of the scalable relatio
 
 The next step was to figure out how to make the ribs in a way that can easily be constructed with unskilled laborers and requiring limited formwork. Here various types of construction systems were looked at. From literature review, a few examples of interlocking construction systems were taken into consideration to determine the applicability for the construction of the roof modules. 
 
- ### Interlocking bricks
+### Interlocking bricks
 
 <ins>*design process*</ins>
 <div style="text-align: justify">
@@ -958,8 +958,8 @@ The second model is a modified version of the first model where the interlocking
 <div style="text-align: justify">  
 For the interlocking rib system, one can either have the ribs made from gypsum or adobe. The advantage of using gypsum over adobe is that large pieces can be made with gypsum and it thus reduces the number of different modules required for construction. In both cases, the material cannot withstand tension forces in the interlocking joints. Therefore, for the ease of construction of these ribs, various interlocking patterns were studied and compared on the basis of their simplicity with the mould, material usage and sharp edges to finalize one. The table below shows the analysis in detail. 
 </div>
-  
-![Comparative Analysis](img/interlockingtable.jpg)  
+
+![Comparateive](img\Interlockingtable.jpg)  
 *Table: Comparative Analysis of Interlocking Patterns* 
 
 *Computational tool development*  
@@ -1127,7 +1127,7 @@ The construction of the adobe 2.0 is broken down into 3 parts. The first part is
 After the squinch is constructed the twisting dome is constructed in 2 stages, the bottom half and the top half. This differentiation is needed because the top section uses smaller brick sizes. 
 Based on the sequence of bricks that can be laid before the angle changes which is informed by the computational script. The line of bricks is put in place followed by the corner stone of a different size and shape that informs the directional change. Then the next line of bricks is placed concentrically until the full loop is complete, then the next layer of bricks is placed based on the brick sequence number. The compass is used to align the bricks to the required angle in each segment and course of the brick laying. In this manner the first section of the twisting dome is complete. The height where this section ends is also informed by the computational script. 
 
-![Adobe 2.0 Construction](img\adc.png)    
+![Adobe 2.0 construct](img\adc1.PNG)  
 *Fig: Shows the construction technique for the Adobe 2.0*
 
 The final section of the brick in laid in the same way using a smaller module of bricks which can be seen in the brick catalog. The bricks are placed concentrically leaving a skylight opening at the pinnacle of the twisting dome.
