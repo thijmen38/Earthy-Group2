@@ -106,7 +106,7 @@ The site is oriented along the North-South axis and the predominant wind directi
 ![Site Analysis](img\Site-Analysis.gif) 
 *Fig: Shows the site analysis*
 
-### Program of requirements *Thijmen* 
+### Program of requirements
 
 ![Program of requirements](rev/configuration/Program_of_requirements.png)
 *Fig: The program of requirements of the project*
@@ -163,7 +163,7 @@ After deciding which functions should be in the project to achieve our vision th
 
 **Rel chart**  
 
-![rel chart](rev/configuration/relchart.png)
+![REL-CHART](rev\configuration\relchart.PNG)  
 *Fig: The final REL Chart.*
 <div style="text-align: justify"> 
 The REL chart shows the relationship a certain function or room has with every other function or room. In the beginning, assumptions were made on which function should be connected to which other function. By analyzing the results this chart was changed to make sure it provided a better input for our syntactic tool.
@@ -1044,10 +1044,28 @@ For the second challenge of squinching from square base to circular base, the id
 ![Construction Tool](img\compass.jpg)
 *Fig: Shows Fathy's compass and Angle measure*
 
+### materials
+
 **Brick Library**  
-*Twinkle*  
-Brick sizes and weights to be justified for constructability -  Brick Library with dimensions weights and moulds - which one is used where (which module)
-In a 3D view colour code and nomenclate the bricks used per module
+<div style="text-align: justify">  
+To give a clear overview of the bricks and which brick is used where, a brick library was made. This document shows which bricks are needed to construct the dome ribs. The infill between these ribs is less critical when it comes to the brick size other then it should have a thickness of at least 200mm.
+the brick library contains the bricks for the following modules:
+</div>
+
+1. Domes
+    - 3x3  meters
+    - 6x6  meters
+    - 9x9  meters
+2. Vaults
+    - 6x3  meters
+    - 9x6  meters
+    - 12x9 meters
+3. Cross vaultes
+    - 3x3 meters
+
+[The brick library can be downloaded here.](rev\constructability\Brick_library.pdf)
+
+
 
 **Materials Used for Construction**
 
