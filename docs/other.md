@@ -2,7 +2,8 @@
 <div style="text-align: justify">
 The achievements in this project would not have made if it was not for the course guides. They helped us gain knowledge and point us in the right direction. Also, the achievements of previous years were of great inspiration. We hereby thank all of them.
 </div>
----
+
+---  
 ## 0_Literature
 
 ### Vernacular Architecture
@@ -41,6 +42,15 @@ The design process, as shown on the design page, was developed using many grassh
 </div>
 
 **Site selector**
+![Location flow chart.jpg](img/location.jpg)  
+*Fig: Shows the site selection flow chart*
+<div style="text-align: justify"> 
+As per the proposed intervention of building a recreation hub, the main programmatic functions are a tea house, a hammam, a quiet space with a library, and a play area for children with connecting courtyards housing herbal gardens and water bodies.  To select the site the points of consideration are unbuilt spaces, water resources, proximity to other facilities such as schools and kindergartens and the distance from the main road. As the recreation hub includes a hammam, locating it near a water resource is essential. The recreation hub also includes a quiet space with library, a children’s playground which can be an extension to existing schools, youth centers and kindergartens. 
+</div>
+
+![Location Selection.GIF](img/location.gif)
+
+[Click here to download the script](rev/scripts/Location_finder.gh)  
 
 **Bubble diagram maker**  
 <div style="text-align: justify">
@@ -58,11 +68,8 @@ The grasshopper tool can be [downloaded here](rev\scripts\Basic_bubble_diagram.g
 
 
 **Gradient descent**
-<div style="text-align: justify">  
 
 [The excel can be downloaded here.](rev\scripts\Space_layout_excel.xlsx)
-
-</div>
 
 ![ExcelInputGD](img/ExcelInputGD.PNG)  
 *Fig: Spatial parameters translated as inputs into an excel sheet for the gradient descent tool*
@@ -71,10 +78,7 @@ The animation below shows the spatial configuration result of this computational
 
 
 ![GDSpaceF](img/GDSpaceF.gif)  
-    
-
-</div>
-
+   
 **Relaxer**  
 <div style="text-align: justify">
 To study our tessellations and their final form a grasshopper script was made that did the relaxing.
@@ -98,7 +102,7 @@ The script comprises two stages: the first stage includes the analysis of the ro
 <div style="text-align: justify">
 This script was designed to make all the ribbed roofs for the project.
 The only inputs it needs are the brick sizes and the curves over which it needs to place these bricks.
-The gif below illustrates how the ribs are generated. The script can be downloaded below.
+the gif below illustrates how the ribs are generated. The script can be downloaded below.
 </div>
 
 [download here.](rev\scripts\Rib_brickgen.gh)
@@ -115,7 +119,4 @@ The inputs for this script are the diameter of the dome, the number of segments,
 ![Adobe2.0](img\Adobe2.0-.gif)  
 *Fig: Shows the computational tool generation in steps for creating Adobe 2.0*
 
-The script can be downloaded below.  
-</div>
-
-[download here.](rev\scripts\FInal_Adobe2.0.gh)
+[The script can be downloaded here.](rev\scripts\FInal_Adobe2.0.gh)
