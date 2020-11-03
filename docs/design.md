@@ -422,7 +422,7 @@ Though a computational method was used for the roofs, for the walls we opted for
 
 **Square domes**
 
-![Square](img/sqaure.gif)
+![Square](img/square.gif)
 *Fig: Evolution of the dynamically relaxed form*
 <div style="text-align: justify"> 
 In order to achieve a smooth form and for the ease of construction, the dynamically relaxed form was refined further. The initial tessellation, based on the tartan grid, was approximated and simplified to the closest curve resembling the generated mesh. These curves were used to build the final surface of the roof which was later analyzed in karamba 3D for structural calculations. 
