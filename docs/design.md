@@ -102,6 +102,9 @@ The chosen site in District 9 was then studied based on factors to understand th
 
 The site is oriented along the North-South axis and the predominant wind direction is from the West. The main access road is from the East. There is a Mosque and a bore well on the West while the North and South is flanked by kindergarten and residences.
 
+![Site Analysis](img\Site-Analysis.gif) 
+*Fig: Shows the site analysis*
+
 ### Program of requirements *Thijmen* 
 
 ![Program of requirements](rev/configuration/Program_of_requirements.png)
@@ -281,20 +284,30 @@ After having configured the general layout, it was important to translate it int
 The optimized grid has 600mm bands with 2400mm distance between each 600mm bands. This is to ensure that all walls lie in these bands and no module in the building is less than 2400mm x 2400mm. The reason for choosing the width of tartan band as 600mm comes from a small study done on commonly used wall thicknesses for various spans. This was also backed by the previous year structural reports. So when two modules are placed adjacent to each other the wall thickness between them is the combination of the wall thickness of each module but is constructed as one and load from both roofs is directed to the centre of this combined wall. Our assumption was later proved to be correct and details of that can be found in 3_Structuring.
 </div>
 
+![Modular Grid](img\Tartan-grid.gif) 
+*Fig: Shows the optimization of grid*
+
 **Floor plans**  
 <div style="text-align: justify"> 
 Once the grid was fixed, different spaces were then moulded in the plan based on the area fixed in the programme requirements. This also resulted in different modules of roofs and walls based on how many tartan bands they occupy. The second step was to fix the dimensions for the courtyard. To do this, the traditional Iranian geometric design method was adopted. It uses a golden rectangular design, which is drawn inside a regular hexagon. The ratio of length to width being 1.73. The width of the Water-fountain courtyard is double the width of the rooms adjoining it. This is done so that rooms receive proper daylight. The Water-body courtyard and Herbal garden are cosier and requires mutual shading therefore, these are equal in widths with the adjacent rooms.
 </div>
 
-*Insert Picture*
+![Courtyard proportion](img\9-Figure11-1.png) 
+*Fig: Shows the traditional Iranian geometric design for courtyards*
 
 <div style="text-align: justify"> 
 Below you can see how different spaces comes together to form the final plan. As informed from the computational and manual processes, the courtyards form the main connecting elements each equipped with a transition vestibule space. The tea-bar with it’s different seating spaces are placed in the east of the site. The hammam in the south west corner closer to the mosque and bore well and the library and quiet room spaces in the north west to make use of daylight. 
-
-Insert image of overall general plan
-Insert image of final floor plan - GF
-Insert image of final floor plan - FF
 </div>
+
+![General] (img\2_General Plan.jpg) 
+*Fig: Shows the general organization of different functions*
+
+![Courtyard proportion](img\9-Figure11-1.png) 
+*Fig: Shows the traditional Iranian geometric design for courtyards*
+
+![Courtyard proportion](img\9-Figure11-1.png) 
+*Fig: Shows the traditional Iranian geometric design for courtyards*
+
 
 <ins>*Siteplan*</ins> 
 <div style="text-align: justify"> 
