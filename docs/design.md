@@ -83,7 +83,8 @@ The constructability was studied along with the structuring phase. Different con
 </div>
 
 ## 1_Configuration
-introduction explaining the configuring phase and its goals.(from course brief)*Beza*
+
+In the configuration phase of the design process, based on the design goals the programs will be defined along with their spatial requirements and the area requirements. Based on the site study, the relationship between the programs and the integration of the programs into the site will be studied using various computational and graphical methods. 
 
 ### Site selection 
 <div style="text-align: justify"> 
@@ -227,7 +228,8 @@ The configuration process identified the stages in the design porcess which were
 ---  
 
 ## 2_Forming
-introduction explaining the configuring phase and its goals.(from course brief)*beza*
+
+In the forming phase of the design: Based on the relationship study and depth graphs, the programs are arranged in a defined grid. Here the space grammar is transformed from 2D to 3D where the relationship between the spaces is configured three-dimensionally. Different roof tessellations are studied along with the connectivity between adjacent spaces.
 
 ### Spacial configuration
 
@@ -292,7 +294,7 @@ The optimized grid has 600mm bands with 2400mm distance between each 600mm bands
 Once the grid was fixed, different spaces were then moulded in the plan based on the area fixed in the programme requirements. This also resulted in different modules of roofs and walls based on how many tartan bands they occupy. The second step was to fix the dimensions for the courtyard. To do this, the traditional Iranian geometric design method was adopted. It uses a golden rectangular design, which is drawn inside a regular hexagon. The ratio of length to width being 1.73. The width of the Water-fountain courtyard is double the width of the rooms adjoining it. This is done so that rooms receive proper daylight. The Water-body courtyard and Herbal garden are cosier and requires mutual shading therefore, these are equal in widths with the adjacent rooms.
 </div>
 
-![Courtyard proportion](img\9-Figure11-1.png) 
+![Courtyard proportion](img\Figure9.png) 
 *Fig: Shows the traditional Iranian geometric design for courtyards*
 
 <div style="text-align: justify"> 
@@ -302,10 +304,10 @@ Below you can see how different spaces comes together to form the final plan. As
 ![General plan](img/2_General_Plan.jpg)
 *Fig: Shows the general organization of different functions*
 
-![Ground Floor Plan](img/2_GF_Plan.jpg) 
+![Ground Floor Plan](img/2_GFplan.jpg) 
 *Fig: Shows the Ground Floor plan*
 
-![First Floor Plan](img\2_FF_Plan.jpg) 
+![First Floor Plan](img\2_FFplan.jpg) 
 *Fig: Shows the First Floor plan*
 
 
@@ -314,7 +316,7 @@ Below you can see how different spaces comes together to form the final plan. As
 As shown here, there is a main entrance which can be reached by a pedestrian route to keep it away from the busy main street. On the back of the site, there is a service road provided which functions as a supply route for several functions and is a way in for the employees and maintenance.  The unloading & loading service zone is near the kitchen and store for the ease of use while the other services are divided in two service rooms placed near the Hammam. 
 </div>
 
-![Site Plan](img\1_Site_Plan.jpg) 
+![Site Plan](img\1_Siteplan.jpg) 
 *Fig: Shows the Site plan*
 
 **Architectural Characteristics**
@@ -390,8 +392,8 @@ The Forming process strategically developed a shape from the spatial configurati
 ---
 
 ## 3_Structuring 
- 
-Introduction explaining the configuring phase and its goals.(from course brief)*beza*
+
+In the structuring phase of the design process, the building form is analyzed for structural integrity. Here the material properties are defined and the different modules are tested using karamba. Iterations were made to the cross-section dimensions and to the roof tessellations based on the result to ensure the structure is compression only load bearing form. The results from karamba are cross-checked with hand calculations. 
 
 ### Tesellations
 
@@ -957,7 +959,8 @@ The second model is a modified version of the first model where the interlocking
 For the interlocking rib system, one can either have the ribs made from gypsum or adobe. The advantage of using gypsum over adobe is that large pieces can be made with gypsum and it thus reduces the number of different modules required for construction. In both cases, the material cannot withstand tension forces in the interlocking joints. Therefore, for the ease of construction of these ribs, various interlocking patterns were studied and compared on the basis of their simplicity with the mould, material usage and sharp edges to finalize one. The table below shows the analysis in detail. 
 </div>
   
-* Twinkle table*  
+![Comparative Analysis](img/interlockingtable.jpg)  
+*Table: Comparative Analysis of Interlocking Patterns* 
 
 *Computational tool development*  
 <div style="text-align: justify">
@@ -992,15 +995,24 @@ With this experiment, it was concluded that the interlocking bricks dictate the 
 The context of the site generates several limitations like the availability of limited resources and skilled labours on the building process. Therefore, it was important to find a process that made use of minimal supporting materials, tools and skills. This created an opportunity for innovative solutions to solve the problem of constructability. Therefore, we designed a tool called The Support Spider that can aid the labours and make the process simple and efficient. This tool is made entirely from the materials available on site.
 </div>
 
+![Tool](img\Instrument.jpg)
+*Fig: Shows the Support Spider*
+
 *General concept and design of the tool* 
 <div style="text-align: justify"> 
 The tool works on the logic of creating an ellipse which can be viewed here. Notice that at 3 min 16 sec, one can see that the top segment is created by taking the radius as the end of the minor axis and the point on the minor axis where the line segment cuts it. For the simplification of the tool, this radius is found out for all the ellipsoidal segments of the domes and the supporting rods are then made. Since the tool is required only as a support and not the guide for curvature, it is possible to generalize it and make the supporting rods flexible in length. Below you can see the process. Notice the red denotes the extention in the tool.  
 </div>   
 
+![Support Spider](img\Intrument.gif)
+*Fig: Shows the process followed in developing the Support Spider*
+
 *Adaptation to different modules*
 <div style="text-align: justify">
 As mentioned earlier, all domes are the scaled versions of the smaller dome, so all the elliptical arches of these modules which form the interlocking ribs are scaled versions or the smallest arch. Therefore, they all have a common center. The tool is designed to fit the smallest module and can be expanded to the largest module by increasing the length of the supporting rod.  
 </div>  
+
+![Extension](img\Extension.jpg)
+*Fig: Shows how the tool can be extended to fit all curves*
 
 ### Adobe 2.0
 
@@ -1027,12 +1039,17 @@ In the construction of the dome of Adobe 2.0, there were two challenges; one was
 For the second challenge of squinching from square base to circular base, the idea was to create interlocking ribs to inform the curve and infill the bricks to finish the squinching. Due to the time constraint, this method was not explored to its full potential. 
 </div>
 
+![Extension](img\Extension.jpg)
+*Fig: Shows how the tool can be extended to fit all curves*
+
 **Brick Library**  
 *Twinkle*  
 Brick sizes and weights to be justified for constructability -  Brick Library with dimensions weights and moulds - which one is used where (which module)
 In a 3D view colour code and nomenclate the bricks used per module
 
-<ins>*Construction sequence*</ins>   
+<ins>*Construction sequence*</ins>  
+
+The construction sequence of the different modules is illustrated below. 
 
 *Square Domes (3x3, 6x6, 9X9)*  
 
@@ -1079,6 +1096,8 @@ The final section of the brick in laid in the same way using a smaller module of
 
 ### Summary 
 
+The building modules are based on the tartan grid, they are scalable variations of each other. This along with the chosen type of tessellation makes the choice of rib-infill construction ideal. The construction of the ribs with interlocking blocks contributes to the ease of construction using very limited formwork. The simplification of the roofs using elliptical curves increases the number of interlocking brick modules as the curvature of the ellipse changes. By having larger interlocking brick segments casted out of gypsum, the ribs can be created with a few large modules that is lightweight. These can also be easily assembled using the spider supports when needed.  
+
 ---
 
 ## 5_Conclusion
@@ -1100,7 +1119,7 @@ The design studio of Earthy is an enriching way to end the larning of the two ye
 
 **Bezawit Z. Bekele**
 
-reflection
+The Earthy course explores the various levels of complexities of building with earth using mathematical and computational means. It allowed me to explore various approaches, design and construction methods of compression only structures within the limits of the earth material. The python workshops were very useful. Yet, because of the rapid pace of the course we didn’t boldly experiment with python scripting within our design as we would have liked. All in all, the 10 weeks flew by and it was an enjoyable learning experience and one of the best team collaboration projects yet. 
 
 **Shriya Balakrishnan**
 <div style="text-align: justify">
