@@ -397,7 +397,11 @@ In the structuring phase of the design process, the building form is analyzed fo
 
 ### Tesellations
 
+<<<<<<< HEAD
+![Tesselation flow chart](img/Tessellationflowchart.jpg)
+=======
 ![flowchart Tessellations](img\Tessellationflowchart1.jpg)  
+>>>>>>> 4be0495b89b838b554cffe7120817891a30757ed
 *Fig: Tessellation process flow chart*
 
 **Exploration**
@@ -569,7 +573,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support1](img/support1.jpg)  
+![support1](img/support1.jpg)    
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -577,7 +581,7 @@ All the edge points of the base of the roof are considered as fixed supports in 
 
 <ins>*Results*</ins>
 
-![results](img/3x3domestructuralanalysis.jpg)  
+![results](img/3x3domestructuralanalysis.jpg)    
 *Fig: Results showing the structural behavior of square dome and supporting wall*  
 <div style="text-align: justify"> 
 In case of the roof, it was observed that peak tensile stresses were developed at the corners of the wall as the meshes generated a defined ridgeline from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with a shell thickness of 150 mm, the structure was safe. The maximum deflection observed was 1.4 mm (3000/400 = 7.5) which was also safe for the given load conditions.
@@ -592,7 +596,7 @@ In case of the wall, maximum tensile stresses were observed at the corners and a
 In order to verify the results of the karamba analysis, a test module was considered which was generated manually. In this case, the walls had arched edges in order to check if the karamba model shows a difference in the load distribution. In this case, it was observed that the maximum compression was at the highest points where the wall and the roof intersected whereas the maximum tension was observed at the corners. This verifies that the load distribution is correct and the karamba model gives accurate results.
 </div>
 
-![check 1](img/check.jpg)  
+![check 1](img/check.jpg)    
 *Fig: Results showing the structural analysis of a test module*  
 
 *Hand Calculation*
@@ -618,7 +622,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support 2](img/support2.jpg)  
+![support 2](img/support2.jpg)    
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -626,7 +630,7 @@ All the edge points of the base of the roof are considered as fixed supports in 
 
 <ins>*Results*</ins>
 
-![results](img/6x6domestructuralanalysis.jpg)  
+![results](img/6x6domestructuralanalysis.jpg)    
 *Fig: Results showing the structural behavior of square dome and supporting wall*  
 <div style="text-align: justify"> 
 In the case of the roof, it was observed that peak tensile stresses were developed at the corners of the wall as the meshes generated a defined ridgeline from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with a shell thickness of 450 mm, the structure was safe. Due to the presence of the first floor, high tensile and compressive forces were developed on the roof surface. This required a thicker roof and wall to bring down the loads within the limit states. The maximum deflection observed was 6.6 mm (6000/400 = 15) which was also safe for the given load conditions.
@@ -659,7 +663,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support 3](img/supports3.jpg)  
+![support 3](img/supports3.jpg)    
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -1082,10 +1086,7 @@ the brick library contains the bricks for the following modules:
 
 [The brick library can be downloaded here.](rev\constructability\Brick_library.pdf)
 
-
-
 **Materials Used for Construction**
-
 
 <ins>*Construction sequence*</ins>  
 
@@ -1101,7 +1102,6 @@ To construct these domes, first the layout of the walls will be marked based on 
 *Fig: Shows the construction sequence for square domes*
 
 After the completion of the wall, the construction of the roof begins. First the corner base bricks are placed at each corner of the diagonals, then the base bricks are placed at the center of each side of the wall. Once all the base bricks are in place, the middle bricks are put on top of the base bricks in the manner of their interlocking nature. The spider support instrument is used to support the bricks while they are being put together vertically. At the meeting point of the 8 arches, the keystone is inserted stabilizing the rib structure. Once the rib structure is in place, the infill is constructed. Then the roof is covered with a water- resistant layer.
-
 
 *Rectangular Vaulted Domes (3x6, 6x9, 9X12)*  
 
@@ -1133,7 +1133,6 @@ Based on the sequence of bricks that can be laid before the angle changes which 
 
 The final section of the brick in laid in the same way using a smaller module of bricks which can be seen in the brick catalog. The bricks are placed concentrically leaving a skylight opening at the pinnacle of the twisting dome.
 
-
 ### Summary 
 
 The building modules are based on the tartan grid, they are scalable variations of each other. This along with the chosen type of tessellation makes the choice of rib-infill construction ideal. The construction of the ribs with interlocking blocks contributes to the ease of construction using very limited formwork. The simplification of the roofs using elliptical curves increases the number of interlocking brick modules as the curvature of the ellipse changes. By having larger interlocking brick segments casted out of gypsum, the ribs can be created with a few large modules that is lightweight. These can also be easily assembled using the spider supports when needed.  
@@ -1155,12 +1154,14 @@ While going through the process of designing, an earthy building as is being exp
 </div>
 
 **Anagha Yoganand**
-
-The design studio of Earthy is an enriching way to end the formal learning of the 3 semesters in the master porgram of Building Technology. It focuses on all aspects of an Architectural design project made with Adobe, while focusing on the technical aspects using mathematics and computational logic, which I enjoyed thoroughly. I have realised this approch generates a coherent design that best answers the design problem. The course has helped upskill my computational skills in Grasshopper a plugin for Rhinocerous and laid a good foundational understanding of python in the grasshopper interface. Having said that, my motivation to further my skills in this field has only grown with this experience. The design of RAHA resulting from this course in 10 weeks duration, is absolutely a proud achievement for me. To make this happen the team worked tirelessly and always inspired me to push boundarys. I would like to thank my very hardworking group of teammates for their constant virtual support in today's digital world. I would also like to share deep appreciation towards the instructors of this course who kept us motivated and guided us throughout the course. 
+<div style="text-align: justify">
+The design studio of Earthy is an enriching way to end the formal learning of the 3 semesters in the master porgram of Building Technology. It focuses on all aspects of an Architectural design project made with Adobe, while focusing on the technical aspects using mathematics and computational logic, which I enjoyed thoroughly. I have realised this approch generates a coherent design that best answers the design problem. The course has helped upskill my computational skills in Grasshopper a plugin for Rhinocerous and laid a good foundational understanding of python in the grasshopper interface. Having said that, my motivation to further my skills in this field has only grown with this experience. The design of RAHA resulting from this course in 10 weeks duration, is absolutely a proud achievement for me. To make this happen the team worked tirelessly and always inspired me to push boundaries. I would like to thank my very hardworking group of teammates for their constant virtual support in today's digital world. I would also like to share deep appreciation towards the instructors of this course who kept us motivated and guided us throughout the course. 
+</div>
 
 **Bezawit Z. Bekele**
-
+<div style="text-align: justify">
 The Earthy course explores the various levels of complexities of building with earth using mathematical and computational means. It allowed me to explore various approaches, design and construction methods of compression only structures within the limits of the earth material. The python workshops were very useful. Yet, because of the rapid pace of the course we didn’t boldly experiment with python scripting within our design as we would have liked. All in all, the 10 weeks flew by and it was an enjoyable learning experience and one of the best team collaboration projects yet. 
+</div>
 
 **Shriya Balakrishnan**
 <div style="text-align: justify">
@@ -1179,5 +1180,6 @@ That is why I would like to learn about using Python in the time to come.
 </div>
 
 **Twinkle Nathani**
-
-reflection
+<div style="text-align: justify">
+The Earthy course is a design studio which has the steepest learning curve as compared to all the other courses in the master's track of Building Technology. I personally enjoyed this course as I have worked with earth before but never encountered the possiblity of combining a primitve material with the current technology using the latest computational softwares. 
+</div>
