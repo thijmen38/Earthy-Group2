@@ -1089,10 +1089,10 @@ Nonetheless, we are happy with the results we have achieved for such a fast-pace
 
 **Thijmen Pluimers**
 <div style="text-align: justify">
-The Earthy course had it all. From more familair subjects like planning of functions and buildings to matters that I only encoutered since the start of the master like like visual scripting using Grasshopper. And then there was the brand new, constructing earth buildings and using a coding language like Python.
-I look back at the course as being an intense learning enviroment, in the 10 weeks we had to make our submission i belive we give everything and came up with a great design.
-Given the minimal knowlage I had about scripting and grasshopper I believe this course has given me a lot of erperience with it in a short time.
-If i could do the course over with the knowlage i now pocess i would focus more on coding our scripts in python rather then grasshopper. However the basic understanding of grasshopper was not as well developed as it now is so it would have been almost imposible.
+The Earthy course had it all. From more familiar subjects like planning of functions and buildings to matters that I only encountered since the start of the master like visual scripting using Grasshopper. And then there was the brand new, constructing earth buildings and using a coding language like Python.
+I look back at the course as being an intense learning environment, in the 10 weeks we had to make our submission I believe we give everything and came up with a great design.
+Given the minimal knowledge I had about scripting and grasshopper I believe this course has given me a lot of experience with it in a short time.
+If I could do the course over with the knowledge I now possess I would focus more on coding our scripts in python rather than Grasshopper. However, the basic understanding of grasshopper was not as well developed as it now is so it would have been almost impossible.
 That is why I would like to learn about using Python in the time to come.
 </div>
 
