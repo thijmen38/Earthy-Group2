@@ -292,7 +292,7 @@ The optimized grid has 600mm bands with 2400mm distance between each 600mm bands
 Once the grid was fixed, different spaces were then moulded in the plan based on the area fixed in the programme requirements. This also resulted in different modules of roofs and walls based on how many tartan bands they occupy. The second step was to fix the dimensions for the courtyard. To do this, the traditional Iranian geometric design method was adopted. It uses a golden rectangular design, which is drawn inside a regular hexagon. The ratio of length to width being 1.73. The width of the Water-fountain courtyard is double the width of the rooms adjoining it. This is done so that rooms receive proper daylight. The Water-body courtyard and Herbal garden are cosier and requires mutual shading therefore, these are equal in widths with the adjacent rooms.
 </div>
 
-![Courtyard proportion](img\9-Figure11-1.png) 
+![Courtyard proportion](img\Figure9.png) 
 *Fig: Shows the traditional Iranian geometric design for courtyards*
 
 <div style="text-align: justify"> 
@@ -302,10 +302,10 @@ Below you can see how different spaces comes together to form the final plan. As
 ![General plan](img/2_General_Plan.jpg)
 *Fig: Shows the general organization of different functions*
 
-![Ground Floor Plan](img/2_GF_Plan.jpg) 
+![Ground Floor Plan](img/2_GFplan.jpg) 
 *Fig: Shows the Ground Floor plan*
 
-![First Floor Plan](img\2_FF_Plan.jpg) 
+![First Floor Plan](img\2_FFplan.jpg) 
 *Fig: Shows the First Floor plan*
 
 
@@ -314,7 +314,7 @@ Below you can see how different spaces comes together to form the final plan. As
 As shown here, there is a main entrance which can be reached by a pedestrian route to keep it away from the busy main street. On the back of the site, there is a service road provided which functions as a supply route for several functions and is a way in for the employees and maintenance.  The unloading & loading service zone is near the kitchen and store for the ease of use while the other services are divided in two service rooms placed near the Hammam. 
 </div>
 
-![Site Plan](img\1_Site_Plan.jpg) 
+![Site Plan](img\1_Siteplan.jpg) 
 *Fig: Shows the Site plan*
 
 **Architectural Characteristics**
@@ -957,7 +957,8 @@ The second model is a modified version of the first model where the interlocking
 For the interlocking rib system, one can either have the ribs made from gypsum or adobe. The advantage of using gypsum over adobe is that large pieces can be made with gypsum and it thus reduces the number of different modules required for construction. In both cases, the material cannot withstand tension forces in the interlocking joints. Therefore, for the ease of construction of these ribs, various interlocking patterns were studied and compared on the basis of their simplicity with the mould, material usage and sharp edges to finalize one. The table below shows the analysis in detail. 
 </div>
   
-* Twinkle table*  
+![Comparative Analysis](img/interlockingtable.jpg)  
+*Table: Comparative Analysis of Interlocking Patterns* 
 
 *Computational tool development*  
 <div style="text-align: justify">
