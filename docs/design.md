@@ -1157,6 +1157,8 @@ It can be concluded that the design as was shown on this page takes into account
 Gradient Descent tool limitations: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation. 
 </div>
 
+Limittations
+
 ---
 ## 6_Reflection
 <div style="text-align: justify">
