@@ -99,6 +99,8 @@ As per the proposed intervention of building a recreation hub, the main programm
 ![Location Selection.GIF](img/location.gif)
 *Fig: Shows the site selection process*
 
+[Click here to download the script](rev/scripts/Location_finder.gh)
+
 <div style="text-align: justify"> 
 To select the site, a computation tool was created that first identifies built/ unbuilt space and road networks. The tools select the empty plots on the site. These plots are further filtered by size taking only in-between spaces of larger sizes.  Then the existing water resources are mapped. Open spaces that fall within 250 m of the existing water resource are selected. The existing schools, youth centers and kindergartens were mapped and the site selection was further narrowed down to open spaces within 100m of the mapped centers. From the remaining list, the hierarchical demarcation was given to the open spaces based on the distance from the main busy road with preference given to quieter spaces further away from the loud busy main street. At this stage, spaces in districts 6, 7 and 9 were identified. The final chosen site falls in district 9 which has the least saturated population therefore the proposed facility can cater to a larger percentage of the district’s population.
 </div>
