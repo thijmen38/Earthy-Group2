@@ -1,4 +1,4 @@
-## 0_Introduction *Beza*
+## 0_Introduction 
 <div style="text-align: justify"> 
 This site documents the design process of RAHA, a recreational center designed within the borders of the Zaatari camp. RAHA is an Arabic word meaning comfort, rest or relaxation; it is also an acronym for recreational activity hub actuator. The intention behind the design of the building is to create a recreational facility where the refugees in the camp can interact with one another while participating in culturally relevant activities. The recreational hub contains programmatic functions that allow for the refugees to relieve their stress and engage in informal counseling and therapeutic activities. While the social objectives are to re-introduce a sense of normalcy for the camp residents; the design of the building explores the use of computation for creating 21st C earth buildings. 
 
@@ -32,6 +32,8 @@ The proposed intervention is to introduce a “recreation hub” including a tea
 <div style="text-align: justify"> 
 The design vision is to create a “recreation hub” hosting social spaces with partly interchangeable functions, which have comfortable indoor climates by learning from vernacular architecture and utilizing appropriate building technology that allows for efficient use of space, limited resources and ease of constructability.
 </div>
+
+
 
 ### Design questions
 
@@ -68,6 +70,8 @@ The design vision is to create a “recreation hub” hosting social spaces with
 •   What resources and materials are available?  
 •   What is the construction sequence?  
 
+
+
 ### Overall flow chart
 <div style="text-align: justify"> 
 This flowchart shows the overall procedural workflow adopted for designing RAHA. The whole project is divided into four stages, Configuration, Forming, Structuring and Constructability respectively. The larger division of stages offers an eventual progression of the design by keeping each stage incoherence and informed with the other to achieve a generative design.
@@ -83,9 +87,9 @@ The constructability was studied along with the structuring phase. Different con
 </div>
 
 ## 1_Configuration
-introduction explaining the configuring phase and its goals.(from course brief)*Anagha*
+introduction explaining the configuring phase and its goals.(from course brief)*Beza*
 
-### Site selection *Beza*
+### Site selection 
 <div style="text-align: justify"> 
 INSERT FLOW CHART HERE
 
@@ -112,6 +116,7 @@ Having selected a site to fit the Raha building a program was developed.
 with the functions that are to be hosted in the building came also some demands on capacity, size, level of privacy, and desire for daylight. Below these choices will be explained.
 </div>
 
+
 <ins>Tea house</ins>  
 <div style="text-align: justify"> 
 The tea house is one of the main functions of Raha. Its purpose is to connect people and provide them with a place where they can meet and socialize.
@@ -124,6 +129,7 @@ To make sure that visitors with kids are also welcomed there will be an indoor a
 All of these functions will be connected with a courtyard, named the herbal garden this courtyard can provide herbs for the tea that is being served in the tea house. Visitors are welcome to help with the gardening of this garden.  
 There will also be some toilets connected to the herbal garden.
 </div>
+</br>
 
 <ins>Hammam</ins>  
 <div style="text-align: justify"> 
@@ -133,8 +139,9 @@ Where you can get your towels and go through to the changing room to continue ei
 All of these rooms require good ventilation and daylight but are private so this should be taken into account when designing said room.  
 The hammam as a whole can host up to 125 people.
 </div>
+</br>
 
-<ins>Quiet area</ins>  
+ins>Quiet area</ins>  
 <div style="text-align: justify"> 
 Also located next to the waterbody courtyard is the quiet area. The quiet area hosts the next functions.
 The quiet rooms where people can come, sit, read, and enjoy a quiet space.
@@ -145,16 +152,19 @@ A library and several workspaces are provided for the visitors which can provide
 <div style="text-align: justify"> 
 In order to enter the site, an entry check point was porposed highlighting the name of the project While entering, the visitors will first walk into the water fountain courtyard. From which they can choose to go to the waterbody courtyard or the herbal garden courtyard.
 </div>
+</br>
 
 <ins>Service zone</ins>  
 <div style="text-align: justify"> 
 To provide all the functions from there required services like heating, water, power, storeroom, etc. There will be a service zone that has his separate entrance and is connected to the hammam, tea house, and water fountain courtyard.
 </div>
+</br>
 
 ### Connectivity of spaces
 <div style="text-align: justify"> 
 After deciding which functions should be in the project to achieve our vision the relations between these functions were studied. To do so we went through the next steps multiple times untill the the project relations were coherent.  
 </div>
+</br>
 
 **Rel chart**  
 
@@ -163,6 +173,7 @@ After deciding which functions should be in the project to achieve our vision th
 <div style="text-align: justify"> 
 The REL chart shows the relationship a certain function or room has with every other function or room. In the beginning, assumptions were made on which function should be connected to which other function. By analyzing the results this chart was changed to make sure it provided a better input for our syntactic tool.
 </div>
+</br>
 
 **Bubble diagram**  
 <div style="text-align: justify"> 
@@ -170,6 +181,7 @@ Taking the REL chart created in the previous chapter the connections were analyz
 Starting with the syntactic tool for Rhino Grasshopper.
 To make the process of checking and rechecking more automated rather than building a new bubble diagram each time. A script was created to generate points and their connections based on the connections in the REL chart.
 </div>
+</br>
 
 ![dots and lines for bubble diagram](rev\configuration\bubble_diagram\bubble_lines.png)
 *Fig: Dots and lines generated by the output of the REL chart, this will be input for the syntactic tool.*
@@ -182,6 +194,7 @@ To make the process of checking and rechecking more automated rather than buildi
 <div style="text-align: justify"> 
 This bubble diagram was studied and connections were moderated if necessary. However, it did not provide us with the clear bubble diagram that we were expecting from the program. So we converted it into a manual bubble diagram. This also gave us the option of giving a certain weight to the connections as is shown below.
 </div>
+</br>
 
 ![bubble diagram manual](rev\configuration\bubble_diagram\bubble_manual.png)  
 *Fig: The final bubble diagram*
@@ -190,6 +203,7 @@ This bubble diagram was studied and connections were moderated if necessary. How
 <div style="text-align: justify"> 
 After creating the bubble diagrams we analyzed them. To do some more effectively we looked at the hierarchy of the spaces as this gives a good view of how private the rooms are and how long it would take a visitor to reach them.
 </div>
+</br>
 
 <ins>*Depth chart*</ins>
 
@@ -198,6 +212,7 @@ After creating the bubble diagrams we analyzed them. To do some more effectively
 <div style="text-align: justify"> 
 The depth chart as shown above clearly shows the hierarchy of the spaces. For instance, it shows a clear split between the hammam areas and the tea bar areas. It also shows how deep the bathing spaces are in the building. Which is where they are designed to be. This heirarchy branches from public spaces to private spaces, which helps in determining the connectivity between spaces.
 </div>
+</br>
 
 <ins>*Metro link diagram*</ins>  
 
@@ -218,7 +233,9 @@ This shows a conceptual arrangement of the spaces which serves as a base for the
 
 <div style="text-align: justify"> 
 The configuration process identified the stages in the design porcess which were supported by an algorithmic logic.By defining the problems and the design goals, a list of functional spaces were proposed which were formulated by a set of rules. These spaces were further analyzed to derive a logical relationship between different functions with the help of bubble diagram and depth chart. These connections developed a schematic spatial layout which was explored further in the forming phase.
+</div>ctions and there relationships that are created in this chapter will be the input for the next chapter were the building layout will be formed.
 </div>
+</br>
 
 ---  
 
@@ -280,6 +297,9 @@ After having configured the general layout, it was important to translate it int
 The optimized grid has 600mm bands with 2400mm distance between each 600mm bands. This is to ensure that all walls lie in these bands and no module in the building is less than 2400mm x 2400mm. The reason for choosing the width of tartan band as 600mm comes from a small study done on commonly used wall thicknesses for various spans. This was also backed by the previous year structural reports. So when two modules are placed adjacent to each other the wall thickness between them is the combination of the wall thickness of each module but is constructed as one and load from both roofs is directed to the centre of this combined wall. Our assumption was later proved to be correct and details of that can be found in 3_Structuring.
 </div>
 
+
+
+
 **Floor plans**  
 <div style="text-align: justify"> 
 Once the grid was fixed, different spaces were then moulded in the plan based on the area fixed in the programme requirements. This also resulted in different modules of roofs and walls based on how many tartan bands they occupy. The second step was to fix the dimensions for the courtyard. To do this, the traditional Iranian geometric design method was adopted. It uses a golden rectangular design, which is drawn inside a regular hexagon. The ratio of length to width being 1.73. The width of the Water-fountain courtyard is double the width of the rooms adjoining it. This is done so that rooms receive proper daylight. The Water-body courtyard and Herbal garden are cosier and requires mutual shading therefore, these are equal in widths with the adjacent rooms.
@@ -322,6 +342,7 @@ explain how the walls have been designed according to the tartan grid.
 including the change of wall tickness (why we choose for 600mm bands in the tartan grid)
 </div>
 
+
 **Wall modules**  
 <div style="text-align: justify"> 
 explain how the walls have been designed according to the tartan grid.
@@ -354,7 +375,6 @@ show sections and explain the heights etc
 <div style="text-align: justify">
 The Forming process strategically developed a shape from the spatial configuration based on the REL-Chart and the bubble diagram. In order to define the shape and the layout, a grid was defined which became the base for converting the design ideas and concepts into the proposed site boundary. This grid was imminent in making the design more modular.
 </div>
-
 ---
 
 ## 3_Structuring 
@@ -763,6 +783,7 @@ All the edge points of the base of the roof are considered as fixed supports in 
 In case of the roof, it was observed that peak tensile stresses were developed at corners and the edges where the ridges were specified in the model. Looking at the simplification geometry, the tensile stresses were developed at the corners of the curves. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with shell thickness of 300 mm, the structure was safe. The maximum deflection observed was 23 mm (12000/400 = 30) which was also safe for the given load conditions. 
 
 In case of the wall, maximum tensile stresses were observed at the edges and at the key stone of the arched opening at the corners. This proves that the arch distributes the loads from the edges and the corners to the key stone and transferring the loads towards the ground. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with wall thickness of 600 mm, the structure was safe. The maximum deflection observed was 10.4 mm (12000/400 = 30) which was also safe for the given load conditions.
+
 </div>
 
 <ins>*Verification*</ins>
@@ -873,7 +894,6 @@ This phase in the design process was carried along side with the structuring pha
 ## Methodology ##   
 
 **Relationship between different modules**
-
 Explaining the scalable difference between each module, therfore each curve is double of the other, Mention how they are Different yet similar a the same time. 
 
 To define a construction method, first the relationship between the different wall and roof modules was studied. Since the floor plan was configured based on a tartan grid, the modules are multiples of each other. 
@@ -911,7 +931,6 @@ The second model is a modified version of the first model where the interlocking
 
 ![3dPrint1](img/3dPrint1.jpeg)  
 *Fig: 3-D Printed prototype of interlocking block 2* 
-
 <ins>*system exploration*</ins> 
 <div style="text-align: justify">  
 For the interlocking rib system, one can either have the ribs made from gypsum or adobe. The advantage of using gypsum over adobe is that large pieces can be made with gypsum and it thus reduces the number of different modules required for construction. In both cases, the material cannot withstand tension forces in the corners. Therefore, for the ease of construction of these ribs, various interlocking patterns were studied and compared on the basis of their simplicity with the mould, material usage and sharp edges to finalize one. The table below shows the analysis in detail. 
@@ -924,6 +943,7 @@ For the interlocking rib system, one can either have the ribs made from gypsum o
 To make the desired ribs fit all the domes that are in the project a computational tool has been designed.
 The script takes in curves that it turns into ribs. these curves can be made by projecting lines to the roof surface.
 </div>
+</br>
 
 After this it does the flowing:
 1. Splits the curves into segments provided by the stone sizes.
