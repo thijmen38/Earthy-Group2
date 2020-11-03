@@ -1069,7 +1069,7 @@ For the second challenge of squinching from square base to circular base, the id
 ![Construction tool](img\compass.jpg)
 *Fig: Shows Fathy's compass and Angle measure*
 
-### materials
+### Materials
 
 **Brick Library**  
 <div style="text-align: justify">  
@@ -1148,16 +1148,12 @@ The building modules are based on the tartan grid, they are scalable variations 
 It can be concluded that the design as was shown on this page takes into account the limits we set for it and does so using scripts to optimize the dicisions made in the process. An optimal site was selected setting the limitations of adjacency to a water source, free plot size and nearby facilities. The program of the project was based on the problem statements seen in the Zaatari camp and evolved into an inclusive place to relax and enjoy peace and quiet in Raha.
 
 Gradient Descent tool limitations: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation. 
-
-
-
 </div>
 
 ---
 ## 6_Reflection
 <div style="text-align: justify">
 While going through the process of designing, an earthy building as is being explained above a lot was learned. Below each group member will reflect on the process and how they have experienced it.
-
 </div>
 
 **Anagha Yoganand**
