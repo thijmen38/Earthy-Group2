@@ -242,7 +242,7 @@ The configuration process identified the stages in the design porcess which were
 ---  
 
 ## 2_Forming
-introduction explaining the configuring phase and its goals.(from course brief)*Anagha*
+introduction explaining the configuring phase and its goals.(from course brief)*beza*
 
 ### Spacial configuration
 
@@ -377,7 +377,7 @@ The Forming process strategically developed a shape from the spatial configurati
 
 ## 3_Structuring 
  
-Introduction explaining the configuring phase and its goals.(from course brief)*Anagha*
+Introduction explaining the configuring phase and its goals.(from course brief)*beza*
 
 ### Tesellations
 
@@ -908,7 +908,7 @@ The vaulted domes are made up of 2 square domes. For instance, the 3x6 dome is m
 Because of the way the roofs are tessellated and because of the scalable relationship between the different types of roofs, a rib-infill system of construction was chosen. This limits the amount of required formwork and makes the construction process easier. 
 
 <ins>*Rib system approach*</ins>  
-*Beza*  
+
 The next step was to figure out how to make the ribs in a way that can easily be constructed with unskilled laborers and requiring limited formwork. Here various types of construction systems were looked at. From literature review, a few examples of interlocking construction systems were taken into consideration to determine the applicability for the construction of the roof modules. 
 
  ## Interlocking bricks ##   
@@ -1040,13 +1040,13 @@ The construction of the cross vaults is similar to the domes. Here the cross-vau
 *Adobe 2.0*  
 The construction of the adobe 2.0 is broken down into 3 parts. The first part is the dome squinch, to construct the dome squinch starting from a square base to a segmented circular base on which the twisting dome structure begins. The bricks are laid concentrically where the corner stones are of a different shape, the developed computational script generated a sequence of brick numbers that need to be laid consecutively on a line before the direction of the brick laying changes. After placing the line of bricks in the same angle the corner brick is placed, which informs the direction change of laying the bricks. In such a way the bricks are laid with the help of a compass that is used to align the brick to the proper angle. 
 
-![Adobe 2.0](img\ad2.gif) 
+![Adobe 2.0](img\ad2.gif)     
 *Fig: Shows the construction sequence for the Adobe 2.0*
 
 After the squinch is constructed the twisting dome is constructed in 2 stages, the bottom half and the top half. This differentiation is needed because the top section uses smaller brick sizes. 
 Based on the sequence of bricks that can be laid before the angle changes which is informed by the computational script. The line of bricks is put in place followed by the corner stone of a different size and shape that informs the directional change. Then the next line of bricks is placed concentrically until the full loop is complete, then the next layer of bricks is placed based on the brick sequence number. The compass is used to align the bricks to the required angle in each segment and course of the brick laying. In this manner the first section of the twisting dome is complete. The height where this section ends is also informed by the computational script. 
 
-![Adobe 2.0 Construction](img\adc.png) 
+![Adobe 2.0 Construction](img\adc.png)   
 *Fig: Shows the construction technique for the Adobe 2.0*
 
 The final section of the brick in laid in the same way using a smaller module of bricks which can be seen in the brick catalog. The bricks are placed concentrically leaving a skylight opening at the pinnacle of the twisting dome.
