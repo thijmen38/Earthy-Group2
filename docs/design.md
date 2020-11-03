@@ -203,7 +203,7 @@ After creating the bubble diagrams we analyzed them. To do some more effectively
 
 <ins>*Depth chart*</ins>
 
-![depth chart](rev\configuration\bubble_diagram\depthchart.jpg)  
+[![depth chart](rev\configuration\bubble_diagram\depthchart.jpg)](rev\configuration\Depth_chart_big.jpg)  
 *Fig: Depth chart of the functions*
 <div style="text-align: justify"> 
 The depth chart as shown above clearly shows the hierarchy of the spaces. For instance, it shows a clear split between the hammam areas and the tea bar areas. It also shows how deep the bathing spaces are in the building. Which is where they are designed to be. This heirarchy branches from public spaces to private spaces, which helps in determining the connectivity between spaces.
