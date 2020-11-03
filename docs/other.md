@@ -72,7 +72,6 @@ The animation below shows the spatial configuration result of this computational
 
 ![GDSpaceF](img/GDSpaceF.gif)  
     
-
 </div>
 
 **Relaxer**  
