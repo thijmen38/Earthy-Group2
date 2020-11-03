@@ -1037,7 +1037,7 @@ A computational script was made to inform the Adobe 2.0 geometry and inform the 
 The inputs for this script are the diameter of the dome, the number of segments, squinch height and brick height in order to create this Fibonacci based dome, that twists and offsets to form a conical dome leaving a skylight at the top.   
 </div>
 
-![Adobe2.0](img\Adobe2.0.gif) 
+![Adobe2.0](img\Adobe2.0-.gif) 
 *Fig: Shows the computational tool generation in steps for creating Adobe 2.0*
 
 <ins>*Construction instrument*</ins> 
