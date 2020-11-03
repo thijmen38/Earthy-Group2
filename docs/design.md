@@ -350,16 +350,16 @@ The following table shows the spaces onto which the roofs will be placed and the
 The architectural characteristics and tartan grid divides the building into 8 different roof modules which are shown below.
 </div>
 
-![Architectural Characteristics](img\1_Site_Plan.jpg) 
-*Table: Shows the Architectural characteristics*
+![Roof Modules](img\1_Site_Plan.jpg) 
+*Table: Shows the different roof modules*
 
 **Wall modules**  
 <div style="text-align: justify"> 
 The tartan grid is not just limited to plan but also extends in the vertical direction to the walls. The wall openings: window and doors have been positioned based on the tartan grid as you can see below. 
 </div>
 
-![Architectural Characteristics](img\1_Site_Plan.jpg) 
-*Table: Shows the Architectural characteristics*
+![Wall Modules](img\1_Site_Plan.jpg) 
+*Table: Shows the different wall modules*
 
 **Sections**  
 <div style="text-align: justify"> 
@@ -1150,9 +1150,14 @@ The building modules are based on the tartan grid, they are scalable variations 
 
 ## 5_Conclusion
 <div style="text-align: justify">
-It can be concluded that the design as was shown on this page takes into account the limits we set for it and does so using scripts to optimize the dicisions made in the process. An optimal site was selected setting the limitations of adjacency to a water source, free plot size and nearby facilities. The program of the project was based on the problem statements seen in the Zaatari camp and evolved into an inclusive place to relax and enjoy peace and quiet in Raha.
+The ongoing war has prolonged the short-term accommodation towards latent permanency, providing adequate and culturally relevant community based facilities became important to ensure the holistic well-being of the refugees. The project RAHA was aimed at providing comfort and a sense of belongingness to the inhabitants of the Zaatari camp. 
 
-Gradient Descent tool limitations: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation. 
+An optimal district was selected by setting the limitations of adjacency to a water source, free plot size and nearby facilities. 
+Along with the set parameters, the urban analysis of the other projects were taken into consideration, which affected the site selection process. Once the site was selected, it was important to establish the programme requirements and understand the connections between various spaces in the building. For this, a thorough study was conducted by drawing different bubble diagrams, REL charts, depth chart and metro-link networks which served as an iput for the gradient descent solver, thereby generating our final layout. To make the design more modular, a Tartan grid was chosen which became the base for the further development of roofs and walls.
+
+The modular geometry was then simplified for the structural analysis. The roofs were optimized to behave in complete compression, except the corners, which showed low tensile stresses. The walls were optimised to take the load of the roof above and also to not exceed the width of the Tartan bands. To make the construction more realistic, a higher safety factor was considered to cover the inefficiency in the construction process. 
+
+The construction process and materials were carefully researched to finalize the appropriate method for the buildability. These methods take into consideration the limited resources on site, skills of the labours and time required during the construction. The instruments along with the different brick modules for interlocking makes the process easy and efficient. 
 </div>
 
 ---
@@ -1189,6 +1194,6 @@ That is why I would like to learn about using Python in the time to come.
 
 **Twinkle Nathani**
 <div style="text-align: justify">
-The Earthy course is a design studio which has the steepest learning curve as compared to all the other courses in the master's track of Building Technology. I personally enjoyed this course as I have worked with earth before but never encountered the possiblity of combining a primitve material with the current technology using the latest computational softwares. The best part about this course was the constructibility phase as I throughly enjoyed myself exloring different construction techniques in order to close the loop. The was the course was structured pushed me to think more and with every challenge we faced, especially with adobe 2.0 structure, it only increased the level of complexity and intensity of the course, which made the course extremely interesting.Within the 10 weeks of the coursework, the first few weeks were intense due to the different workshops and lectures. I personally think that these workshops/lectures could have been split into two parts as many of them were more relevant for the 2nd half of the coursework. 
-All in all, I am extrememly proud of what we have achieved as a team to complete the project sucessfully. I would like to thank my fellow group mates for working tirelessly make RAHA happen. I would also like to thank all the tutors who helped us throughout the course.
+The Earthy course is a design studio which has the steepest learning curve as compared to all the other courses in the master's track of Building Technology. I personally enjoyed this course as I have worked with earth before but never encountered the possiblity of combining a primitve material with the current technology using the latest computational softwares. The best part about this course was the constructibility phase as I throughly enjoyed myself exloring different construction techniques in order to close the loop. The course was structured in a way that pushed me to think more and with every challenge we faced, especially with adobe 2.0 structure, it only increased the level of complexity and intensity of the course, which made the course extremely interesting. Within the 10 weeks of the coursework, the first few weeks were intense due to the different workshops and lectures. I personally think that these workshops/lectures could have been split into two parts as many of them were more relevant for the 2nd half of the coursework. 
+All in all, I am extrememly proud of what we have achieved as a team to complete the project sucessfully. I would like to thank my fellow group mates for working tirelessly to make RAHA happen. I would also like to thank all the tutors who helped us throughout the course.
 </div>
