@@ -920,7 +920,7 @@ The second model is a modified version of the first model where the interlocking
 *Fig: 3-D Printed prototype of interlocking block 2* 
 <ins>*system exploration*</ins> 
 <div style="text-align: justify">  
-For the interlocking rib system, one can either have the ribs made from gypsum or adobe. The advantage of using gypsum over adobe is that large pieces can be made with gypsum and it thus reduces the number of different modules required for construction. In both cases, the material cannot withstand tension forces in the corners. Therefore, for the ease of construction of these ribs, various interlocking patterns were studied and compared on the basis of their simplicity with the mold, material usage and sharp edges to finalize one. The table below shows the analysis in detail. 
+For the interlocking rib system, one can either have the ribs made from gypsum or adobe. The advantage of using gypsum over adobe is that large pieces can be made with gypsum and it thus reduces the number of different modules required for construction. In both cases, the material cannot withstand tension forces in the interlocking joints. Therefore, for the ease of construction of these ribs, various interlocking patterns were studied and compared on the basis of their simplicity with the mould, material usage and sharp edges to finalize one. The table below shows the analysis in detail. 
 </div>
   
 * Twinkle table*  
@@ -955,12 +955,12 @@ With this experiment, it was concluded that the interlocking bricks dictate the 
 
 <ins>*Construction instrument*</ins>
 <div style="text-align: justify">  
-The context of the site generates several limitations like the availability of limited resources and skilled laborers on the building process. Therefore, it was important to find a process that made use of minimal supporting materials, tools and skills. This created an opportunity for innovative solutions to solve the problem of constructability. Therefore, we designed a tool called The Support Spider that can aid the labors and make the process simple and efficient. 
+The context of the site generates several limitations like the availability of limited resources and skilled labours on the building process. Therefore, it was important to find a process that made use of minimal supporting materials, tools and skills. This created an opportunity for innovative solutions to solve the problem of constructability. Therefore, we designed a tool called The Support Spider that can aid the labours and make the process simple and efficient. This tool is made entirely from the materials available on site.
 </div>
 
-*General concept and deisgn of the tool* 
+*General concept and design of the tool* 
 <div style="text-align: justify"> 
-The tool works on the logic of creating an ellipse which can be viewed here. Notice that at 3 min 16 sec, one can see that the top segment is created by taking the radius as the end of the minor axis and the point on the minor axis where the line segment cuts it. For the simplification of the tool, this radius is found out for all the ellipsoidal segments of the domes and the supporting rods are then made. Since the tool is required only as a support and not the guide for curvature, it is possible to generalize it and make the supporting rods flexible in length.   
+The tool works on the logic of creating an ellipse which can be viewed here. Notice that at 3 min 16 sec, one can see that the top segment is created by taking the radius as the end of the minor axis and the point on the minor axis where the line segment cuts it. For the simplification of the tool, this radius is found out for all the ellipsoidal segments of the domes and the supporting rods are then made. Since the tool is required only as a support and not the guide for curvature, it is possible to generalize it and make the supporting rods flexible in length. Below you can see the process. Notice the red denotes the extention in the tool.  
 </div>   
 
 *Adaptation to different modules*
@@ -988,8 +988,9 @@ The inputs for this script are the diameter of the dome, the number of segments,
 
 <ins>*Construction instrument*</ins> 
 <div style="text-align: justify">  
-*Twinkle*    
-*General concept and deisgn of the tool*  
+In the construction of the dome of Adobe 2.0, there were two challenges; one was that not only the bricks offsets in plan but also rotate with a certain angle to generate the golden spiral and the other was to make the squinching from the square base to convert it into a circular base for the start of the dome. To solve the first challenge, a Fathy’s compass was used. This tool has a pipe anchored to a pole fixed into the ground in the centre of the circular space to be covered. With its help, the labour can lay bricks in proper circle and complete the dome. To inform the worker about the angle of rotation another simple tool called the angle measure was made. It was observed that all bricks rotate at the same angle from the previous brick of the previous course. Therefore, with the help of Fathy’s compass and angle measure, it’s possible to create the Adobe 2.0 dome easily and efficiently. 
+
+For the second challenge of squinching from square base to circular base, the idea was to create interlocking ribs to inform the curve and infill the bricks to finish the squinching. Due to the time constraint, this method was not explored to its full potential. 
 </div>
 
 **Brick Library**  
