@@ -8,7 +8,7 @@ nav:
   - Other: other.md
 theme:
   name: material
-  logo: img/logo.gif
+  logo: img/logo.png
   palette:
     primary: brown
   font:
