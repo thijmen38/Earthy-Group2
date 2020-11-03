@@ -217,7 +217,6 @@ This shows a conceptual arrangement of the spaces which serves as a base for the
 
 <div style="text-align: justify"> 
 The configuration process identified the stages in the design porcess which were supported by an algorithmic logic.By defining the problems and the design goals, a list of functional spaces were proposed which were formulated by a set of rules. These spaces were further analyzed to derive a logical relationship between different functions with the help of bubble diagram and depth chart. These connections developed a schematic spatial layout which was explored further in the forming phase.
-</div>ctions and there relationships that are created in this chapter will be the input for the next chapter were the building layout will be formed.
 </div>
 
 ---  
