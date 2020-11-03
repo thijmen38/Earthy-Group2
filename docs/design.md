@@ -203,7 +203,7 @@ After creating the bubble diagrams we analyzed them. To do some more effectively
 
 <ins>*Depth chart*</ins>
 
-![depth chart](rev\configuration\bubble_diagram\depthchart.jpg)  
+[![depth chart](rev\configuration\bubble_diagram\depthchart.jpg)](rev\configuration\Depth_chart_big.jpg)  
 *Fig: Depth chart of the functions*
 <div style="text-align: justify"> 
 The depth chart as shown above clearly shows the hierarchy of the spaces. For instance, it shows a clear split between the hammam areas and the tea bar areas. It also shows how deep the bathing spaces are in the building. Which is where they are designed to be. This heirarchy branches from public spaces to private spaces, which helps in determining the connectivity between spaces.
@@ -257,14 +257,19 @@ An excel table was created to input the hierarchy of spaces (from the depth char
 
 The flowchart explains the pseudo code used to develop this tool.   
 
-![GDFlowchart](img/GDFlowchart.png) 
+[![GDFlowchart](img/GDFlowchart.jpg)](img/GDFlowchart.jpg)  
 
 <div style="text-align: justify"> 
+
+The input of the spaces, hierarchy depths, direction of spaces, space length and width dimensions are first sorted together to branch them into their respective depth hierarchy. While the north direction, site dimenisons creates rectangular regions in directions North, South, East, West, North-east and South-east . It places these regions at the given distance from the center of the site and populates it with the assigned spaces. The site dimenisons 
+
+The input of the entrance checkpoint curve is 
+
 This process is then repeated keeping the relaxed curves from hierarchy depth 1 as the attractor for the depth 2 and the relaxed curves from depth 2 become the attractor for the depth 3 spaces so on. This process of staged relaxation per depth hierarchy enhances the configuration results, by aligning spaces orthogonally and reduces chaos when the total number of spaces is high.     
 </div>
 
 ![GDSpaceF](img/GDSpaceF.gif)  
-*Fig: The gif below shows the spatial configuration results of this computational process*  
+*Fig: The animation shows the spatial configuration result of this computational process*  
 
 <div style="text-align: justify"> 
 From the many iterations this tool generated, the most ideal solution was chosen considering the site boundary conditions. 
@@ -376,7 +381,7 @@ Following topics gives details about the heating, ventilation and rainwater serv
 To fill in the gaps between the two roof and to ensure that water doesn’t percolate in, the gaps were filled with sand. A desired slope is achieved for the water to run off the building. A coating of Lime plaster is applied on the outer surface for the Hammam domes and tadelakt for the other roofs to ensure sealed surface.
 </div>
 
-![Sections](img\1_Section.jpg) 
+![Sections](img\Sections.jpg) 
 *Fig: Shows the sections*
 
 <ins>*Heating and Ventilation*</ins>
@@ -387,9 +392,6 @@ To heat the Hammam, we have a boiler in the service room which is connected to t
 ![Heating and Ventilation](img\1_Detail.jpg) 
 *Fig: Shows the heating and ventilation strategies for the Hammam*
 
-<ins>*Detailed section*</ins> 
-<div style="text-align: justify">
-</div>
  
 ### Summary 
 <div style="text-align: justify">
@@ -404,7 +406,7 @@ In the structuring phase of the design process, the building form is analyzed fo
 
 ### Tesellations
 
-![flowchart Tessellations](img\Tessellationflowchart1.jpg)  
+[![flowchart Tessellations](img\Tessellationflowchart1.jpg)](rev\Tessellation_flow_chart.png)  
 *Fig: Tessellation process flow chart*
 
 **Exploration**
@@ -561,7 +563,7 @@ It was observed that the load distribution was uniform and the meshes were coher
 
 The structural analysis does not consider gypsum as the material for the ribs. Adobe material properties were considered for the entire structure. As gypsum has higher compressive strength as compared to adobe, it was assumed that using gypsum would give better results in the analysis.
 
-The script used for the structural analysis of all the modules can be found on the [Other page](other.md).
+The script used for the structural analysis of all the modules can be found on the Other page.
  </div>
  
  **Module_1: 3x3 Square Dome**
@@ -1013,8 +1015,10 @@ The context of the site generates several limitations like the availability of l
 
 *General concept and design of the tool* 
 <div style="text-align: justify"> 
-The tool works on the logic of creating an ellipse which can be viewed here. Notice that at 3 min 16 sec, one can see that the top segment is created by taking the radius as the end of the minor axis and the point on the minor axis where the line segment cuts it. For the simplification of the tool, this radius is found out for all the ellipsoidal segments of the domes and the supporting rods are then made. Since the tool is required only as a support and not the guide for curvature, it is possible to generalize it and make the supporting rods flexible in length. Below you can see the process. Notice the red denotes the extention in the tool.  
+The tool works on the logic of creating an ellipse which can be viewed below. Notice that at 3 min 16 sec, one can see that the top segment is created by taking the radius as the end of the minor axis and the point on the minor axis where the line segment cuts it. For the simplification of the tool, this radius is found out for all the ellipsoidal segments of the domes and the supporting rods are then made. Since the tool is required only as a support and not the guide for curvature, it is possible to generalize it and make the supporting rods flexible in length. Below you can see the process. Notice the red denotes the extention in the tool.  
 </div>   
+
+[Link to video explaining the creating of an ellipse](https://www.youtube.com/watch?v=x9o-DQMg2XA)
 
 ![Support Spider](img\Intrument.gif)  
 *Fig: Shows the process followed in developing the Support Spider*
@@ -1032,11 +1036,13 @@ As mentioned earlier, all domes are the scaled versions of the smaller dome, so 
 **Design concept** 
 <div style="text-align: justify"> 
 The idea behind introducing Adobe 2.0 in the course was to push the limits to explore something which has never been built before in adobe. For this challenge, the inspiration came from the Lamella tessellations found in sunflowers. These tessellations occur in the Fibonacci sequence in nature and shifts horizontally keeping the same centre creating a twisting pattern. On further research an origami lamella dome was found as seen in figure below, which helped us in better understanding the shape of the dome. The attractive feature of this geometry was the opening it creates at the apex, serving as a deciding factor on selecting it. Having an opening at the apex created the skylight we envisioned for the hammam main hall and public bathing spaces, i.e. the three 9mx9m dome modules.        
+</div>
 
-![Lamellaorigami](Lamellaorigami-.jpg)   
+![Lamellaorigami](img/Lamellaorigami-.jpg)    
 *Fig: An origami model of the Lamella dome, source:[Flicker](https://www.flickr.com/photos/yoshinobu_miyamoto/4400658370/)* 
 
-On research it was found that the curves in the Lamella tessellation follow a fibonacci interpolation of points.Therefore,this informed the starting point of generating a computational script for this roof module.
+<div style="text-align: justify"> 
+On research it was found that the curves in the Lamella tessellation follow a fibonacci interpolation of points. Therefore,this informed the starting point of generating a computational script for this roof module.
     
 </div>
 
@@ -1090,8 +1096,9 @@ the brick library contains the bricks for the following modules:
 
 [The brick library can be downloaded here.](rev\constructability\Brick_library.pdf)
 
-**Materials Used for Construction**
+**Materials Used for Construction**  
 
+![Material table](img\Material_Table.jpg)  
 <ins>*Construction sequence*</ins>  
 
 The construction sequence of the different modules is illustrated below. 

@@ -8,7 +8,7 @@ Want to know the team better? Please read through the introductions below. Want 
 
 ![Anagha](img/AnaghaYoganand-Portrait.JPG)  
 <div style="text-align: justify"> 
-Anagha Yoganand is currently pursuing MSc.Architecture, Urbanism and Building sciences under the Building Technology track. She also chairs BouT, the study association of the AE&T department at the Bouwkunde. Her academic background in Architecture and two years of practice experience in India has helped her understand the technical details and implications of attaining sustainable designs that impact the overall performance of buildings. At TU Delft she is keen to specialize in computational design and product innovation with emphasis given to optimization and evaluation of design performance.  
+Anagha Yoganand is currently pursuing MSc Architecture, Urbanism and Building sciences under the Building Technology track. She also chairs BouT, the study association of the AE&T department at the Bouwkunde. Her academic background in Architecture and two years of practice experience in India has helped her understand the technical details and implications of attaining sustainable designs that impact the overall performance of buildings. At TU Delft she is keen to specialize in computational design and product innovation with emphasis given to optimization and evaluation of design performance.  
 </div>
 
 **Bezawit Zerayacob Bekele** [Linkedin](https://www.linkedin.com/in/bezawit-zerayacob-bekele/)
@@ -36,7 +36,7 @@ Having focused his Bachelor graduation on structural engineering he was determin
 
 **Twinkle Nathani** [Linkedin](https://www.linkedin.com/in/twinkle-nathani-88036a105/)  
 
-![Twinkle](img/2.Media.JPG)
+![Twinkle](img/Twinkle.JPG)
 <div style="text-align: justify"> 
 Twinkle is a student of master track Building Technology at TU Delft. She is also the head of Media and Public Relations committee of BouT, the study association of the AE&T department at the Bouwkunde. Over the past years, she had a growing interest in the field of sustainable design. After graduating in architecture from National Institute of Technology in 2018, she worked for two years with firms specializing in earth construction and bio-climatic building design. She decided to take up this course to apply and further enhance her knowledge in the design and construction of Earthy buildings through computational workflows.
 </div>

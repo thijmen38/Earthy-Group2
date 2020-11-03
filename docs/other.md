@@ -3,7 +3,7 @@
 The achievements in this project would not have made if it was not for the course guides. They helped us gain knowledge and point us in the right direction. Also, the achievements of previous years were of great inspiration. We hereby thank all of them.
 </div>
 
----
+---  
 ## 0_Literature
 
 ### Vernacular Architecture
@@ -21,6 +21,10 @@ Traditionally the houses used in the dessert are tents, houses in the highlands 
 The valley houses seem to be the most luxurious of the tree having several rooms and a courtyard or patio. (Baglioni, E. ,2015)
 </div>
 
+### Configuration
+
+![configuration](rev\configuration\original_bubble.gif)
+
 
 **References**  
 
@@ -33,6 +37,11 @@ The valley houses seem to be the most luxurious of the tree having several rooms
 
 - Zangana, L., & Tokmachy, A. (2019). Study of the Thermal Insulation Properties of the Compressed Earth Block Stabilized with Gypsum. Kirkuk University Journal-Scientific Studies, 14(1), 241-251. doi: 10.32894/kujss.2019.14.1.16
 
+- Nabavi.F, & Ahmed.E. (2016). Is there any geometrical golden ratio in traditional Iranian Courtyard houses. International Journal of Architectural Research: Archnet-IJAR, doi:http://archnet-ijar.net/index.php/IJAR/article/view/744
+
+- Yadav, N., 2020. Interlocking Vaults By Voronoi Decomposition Of 3D Space. [online] Researchgate. Available at: <https://www.researchgate.net/publication/341977545_Interlocking_Vaults_by_Voronoi_Decomposition_of_3D_Space> [Accessed 3 November 2020].
+
+- 2020, TRASH TALK. OXFAM. (https://oxfamilibrary.openrepository.com/bitstream/handle/10546/620329/dp-trash-talk-zaatari-recycling-210817-en.pdf;jsessionid=0AE54A9EFC7F9B03F399258EAF73F744?sequence=1) [Accessed 3 Novermber 2020]
 
 ---
 
@@ -42,6 +51,15 @@ The design process, as shown on the design page, was developed using many grassh
 </div>
 
 **Site selector**
+![Location flow chart.jpg](img/location.jpg)  
+*Fig: Shows the site selection flow chart*
+<div style="text-align: justify"> 
+As per the proposed intervention of building a recreation hub, the main programmatic functions are a tea house, a hammam, a quiet space with a library, and a play area for children with connecting courtyards housing herbal gardens and water bodies.  To select the site the points of consideration are unbuilt spaces, water resources, proximity to other facilities such as schools and kindergartens and the distance from the main road. As the recreation hub includes a hammam, locating it near a water resource is essential. The recreation hub also includes a quiet space with library, a children’s playground which can be an extension to existing schools, youth centers and kindergartens. 
+</div>
+
+![Location Selection.GIF](img/location.gif)
+
+[Click here to download the script](rev/scripts/Location_finder.gh)  
 
 **Bubble diagram maker**  
 <div style="text-align: justify">
@@ -59,10 +77,17 @@ The grasshopper tool can be [downloaded here](rev\scripts\Basic_bubble_diagram.g
 
 
 **Gradient descent**
-<div style="text-align: justify">
 
-</div>
+[The excel can be downloaded here.](rev\scripts\Space_layout_excel.xlsx)
 
+![ExcelInputGD](img/ExcelInputGD.PNG)  
+*Fig: Spatial parameters translated as inputs into an excel sheet for the gradient descent tool*
+
+The animation below shows the spatial configuration result of this computational process. The script can be [download here.](rev\scripts\Final_GradientDescentTool_.gh)  
+
+
+![GDSpaceF](img/GDSpaceF.gif)  
+    
 **Relaxer**  
 <div style="text-align: justify">
 To study our tessellations and their final form a grasshopper script was made that did the relaxing.
@@ -95,3 +120,12 @@ the gif below illustrates how the ribs are generated. The script can be download
 *Fig: Showing the process followed by the rib maker gif*
 
 **Adobe 2.0 dome maker**
+<div style="text-align: justify">
+The script was designed for generating the the Adobe 2.0 geometry and brick laying.  
+The inputs for this script are the diameter of the dome, the number of segments, squinch height and brick height.  
+</div>
+
+![Adobe2.0](img\Adobe2.0-.gif)  
+*Fig: Shows the computational tool generation in steps for creating Adobe 2.0*
+
+[The script can be downloaded here.](rev\scripts\FInal_Adobe2.0.gh)
