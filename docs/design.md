@@ -929,7 +929,6 @@ For the interlocking rib system, one can either have the ribs made from gypsum o
 To make the desired ribs fit all the domes that are in the project a computational tool has been designed.
 The script takes in curves that it turns into ribs. these curves can be made by projecting lines to the roof surface.
 </div>
-</br>
 
 After this it does the flowing:
 1. Splits the curves into segments provided by the stone sizes.
@@ -990,6 +989,7 @@ The inputs for this script are the diameter of the dome, the number of segments,
 <div style="text-align: justify">  
 *Twinkle*    
 *General concept and deisgn of the tool*  
+</div>
 
 **Brick Library**  
 *Twinkle*  
