@@ -59,7 +59,20 @@ The grasshopper tool can be [downloaded here](rev\scripts\Basic_bubble_diagram.g
 
 
 **Gradient descent**
-<div style="text-align: justify">
+<div style="text-align: justify">  
+
+[The excel can be downloaded here.](rev\scripts\Space_layout_excel.xlsx)
+
+</div>
+
+![ExcelInputGD](img/ExcelInputGD.PNG)  
+*Fig: Spatial parameters translated as inputs into an excel sheet for the gradient descent tool*
+
+The animation below shows the spatial configuration result of this computational process. The script can be [download here.](rev\scripts\Final_GradientDescentTool_.gh)  
+
+
+![GDSpaceF](img/GDSpaceF.gif)  
+    
 
 </div>
 
@@ -86,7 +99,7 @@ The script comprises two stages: the first stage includes the analysis of the ro
 <div style="text-align: justify">
 This script was designed to make all the ribbed roofs for the project.
 The only inputs it needs are the brick sizes and the curves over which it needs to place these bricks.
-the gif below illustrates how the ribs are generated. The script can be downloaded below.
+The gif below illustrates how the ribs are generated. The script can be downloaded below.
 </div>
 
 [download here.](rev\scripts\Rib_brickgen.gh)
@@ -95,3 +108,15 @@ the gif below illustrates how the ribs are generated. The script can be download
 *Fig: Showing the process followed by the rib maker gif*
 
 **Adobe 2.0 dome maker**
+<div style="text-align: justify">
+The script was designed for generating the the Adobe 2.0 geometry and brick laying.  
+The inputs for this script are the diameter of the dome, the number of segments, squinch height and brick height.  
+</div>
+
+![Adobe2.0](img\Adobe2.0-.gif)  
+*Fig: Shows the computational tool generation in steps for creating Adobe 2.0*
+
+The script can be downloaded below.  
+</div>
+
+[download here.](rev\scripts\FInal_Adobe2.0.gh)
