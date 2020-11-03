@@ -397,20 +397,24 @@ In the structuring phase of the design process, the building form is analyzed fo
 
 ### Tesellations
 
+<<<<<<< HEAD
 ![Tesselation flow chart](img/Tessellationflowchart.jpg)
+=======
+![flowchart Tessellations](img\Tessellationflowchart1.jpg)  
+>>>>>>> 4be0495b89b838b554cffe7120817891a30757ed
 *Fig: Tessellation process flow chart*
 
 **Exploration**
 
 <ins>*Manual*</ins>   
 
-![Dome tesselations](img/dometessellations.png)
+![Dome tesselations](img/dometessellations.png)  
 *Fig: Exploration of different meshing techniques*
 <div style="text-align: justify"> 
 The form-finding was determined by the study of architectural characteristics of different spaces. To start the process and understand how different meshes gave different shapes, a thorough literature study was conducted. During this process, we considered a roof form and it's the corresponding size, and manually meshed the initial divisions. The initial divisions followed a logic that was derived from the literature research. Different types of meshing logic were explored initially and were imported in the kangaroo solver to generate the dynamically relaxed form. Different meshing logic gave a different result, for example, the quad split logic generated a curved peak while the triangulation logic generated a pointed peak. This step was repeated for every type of meshing logic and the triangulation meshing logic was chosen as it closely resembled the desired form. Later these meshes were imported in the kangaroo solver to subdivide the initial meshes and generate the dynamically relaxed form. 
 </div>
 
-![Vault tesselations](img/tess.jpg)
+![Vault tesselations](img/tess.jpg)  
 *Fig: Exploration of different vault tesselations*
 
 <ins>*Computational*</ins>  
@@ -430,7 +434,7 @@ The script above along with all the other scripts used for this project can be f
 
 <ins>*Roof*</ins>   
 
-![Tessellation initial](img/Initialroof.jpg) 
+![Tessellation initial](img/Initialroof.jpg)  
 *Fig: Showing the initial roof tessellations*
 <div style="text-align: justify"> 
 As the triangulation meshing logic was chosen initially, after dynamically relaxing the meshes, we realized that the form generated failed to perform well structurally. The dynamically relaxed roof did not transfer the loads uniformly and developed peak tensile stresses at the edges of the walls. Moreover, the meshing logic did not work well for larger spans as it generated fairly flat surface at the top of the dome which gave rise to peak tensile stresses at the highest points of the roof.
@@ -447,7 +451,7 @@ The final tesselation logic was a combination of constant quad split and triangu
 
 <ins>*Walls*</ins>  
 
-![wallTessellation](img/walltessellation.jpg)
+![wallTessellation](img/walltessellation.jpg)  
 *Fig: Wall tessellations* 
 
 <div style="text-align: justify"> 
@@ -692,7 +696,7 @@ Thus, Computational model gives accurate results.
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase1.jpg)
+![Loadcase](img/loadcase1.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non-vertical loads were applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -700,7 +704,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support 4](img/supports4.jpg)  
+![support 4](img/supports4.jpg)   
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -733,7 +737,7 @@ Thus, Computational model gives accurate results.
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase1.jpg)
+![Loadcase](img/loadcase1.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non-vertical loads were applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -775,7 +779,7 @@ Thus, Computational model gives accurate results.
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase1.jpg)
+![Loadcase](img/loadcase1.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non-vertical loads were applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -817,7 +821,7 @@ Thus, Computational model gives accurate results.
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase1.jpg)
+![Loadcase](img/loadcase1.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non-vertical loads were applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -858,7 +862,7 @@ Thus, Computational model gives accurate results.
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase1.jpg)
+![Loadcase](img/loadcase1.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non-vertical loads were applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -931,7 +935,7 @@ Because of the way the roofs are tessellated and because of the scalable relatio
 
 The next step was to figure out how to make the ribs in a way that can easily be constructed with unskilled laborers and requiring limited formwork. Here various types of construction systems were looked at. From literature review, a few examples of interlocking construction systems were taken into consideration to determine the applicability for the construction of the roof modules. 
 
- ### Interlocking bricks
+### Interlocking bricks
 
 <ins>*design process*</ins>
 <div style="text-align: justify">
@@ -958,8 +962,8 @@ The second model is a modified version of the first model where the interlocking
 <div style="text-align: justify">  
 For the interlocking rib system, one can either have the ribs made from gypsum or adobe. The advantage of using gypsum over adobe is that large pieces can be made with gypsum and it thus reduces the number of different modules required for construction. In both cases, the material cannot withstand tension forces in the interlocking joints. Therefore, for the ease of construction of these ribs, various interlocking patterns were studied and compared on the basis of their simplicity with the mould, material usage and sharp edges to finalize one. The table below shows the analysis in detail. 
 </div>
-  
-![Comparative Analysis](img/interlockingtable.jpg)  
+
+![Comparateive](img\Interlockingtable.jpg)  
 *Table: Comparative Analysis of Interlocking Patterns* 
 
 *Computational tool development*  
@@ -1001,7 +1005,7 @@ With this experiment, it was concluded that the interlocking bricks dictate the 
 The context of the site generates several limitations like the availability of limited resources and skilled labours on the building process. Therefore, it was important to find a process that made use of minimal supporting materials, tools and skills. This created an opportunity for innovative solutions to solve the problem of constructability. Therefore, we designed a tool called The Support Spider that can aid the labours and make the process simple and efficient. This tool is made entirely from the materials available on site.    
 </div>  
   
-![Tool](img\Instrument.jpg)
+![Tool](img\Instrument.jpg)  
 *Fig: Shows the Support Spider*
 
 *General concept and design of the tool* 
@@ -1009,7 +1013,7 @@ The context of the site generates several limitations like the availability of l
 The tool works on the logic of creating an ellipse which can be viewed here. Notice that at 3 min 16 sec, one can see that the top segment is created by taking the radius as the end of the minor axis and the point on the minor axis where the line segment cuts it. For the simplification of the tool, this radius is found out for all the ellipsoidal segments of the domes and the supporting rods are then made. Since the tool is required only as a support and not the guide for curvature, it is possible to generalize it and make the supporting rods flexible in length. Below you can see the process. Notice the red denotes the extention in the tool.  
 </div>   
 
-![Support Spider](img\Intrument.gif)
+![Support Spider](img\Intrument.gif)  
 *Fig: Shows the process followed in developing the Support Spider*
 
 *Adaptation to different modules*
@@ -1017,16 +1021,19 @@ The tool works on the logic of creating an ellipse which can be viewed here. Not
 As mentioned earlier, all domes are the scaled versions of the smaller dome, so all the elliptical arches of these modules which form the interlocking ribs are scaled versions or the smallest arch. Therefore, they all have a common center. The tool is designed to fit the smallest module and can be expanded to the largest module by increasing the length of the supporting rod.  
 </div>  
 
-![Extension](img\Extension.jpg)
+![Extension](img\Extension.jpg)  
 *Fig: Shows how the tool can be extended to fit all curves*
 
 ### Adobe 2.0
 
 **Design concept** 
 <div style="text-align: justify"> 
-The idea behind introducing Adobe 2.0 in the course was to push the limits to explore something which has never been built before in adobe. For this challenge, the inspiration came from the Lamella tessellations found in sunflowers. These tessellations occur in the Fibonacci sequence in nature and shifts horizontally keeping the same centre creating a twisting pattern. On further research an origami lamella dome was found which helped us in better understanding the shape of the dome. The difficulty was that each lamella strip not only was an offset but also shifted at the bottom. 
+The idea behind introducing Adobe 2.0 in the course was to push the limits to explore something which has never been built before in adobe. For this challenge, the inspiration came from the Lamella tessellations found in sunflowers. These tessellations occur in the Fibonacci sequence in nature and shifts horizontally keeping the same centre creating a twisting pattern. On further research an origami lamella dome was found as seen in figure below, which helped us in better understanding the shape of the dome. The attractive feature of this geometry was the opening it creates at the apex, serving as a deciding factor on selecting it. Having an opening at the apex created the skylight we envisioned for the hammam main hall and public bathing spaces, i.e. the three 9mx9m dome modules.        
 
-Various methods were researched………..
+![Lamellaorigami](Lamellaorigami-.jpg)   
+*Fig: An origami model of the Lamella dome, source:[Flicker](https://www.flickr.com/photos/yoshinobu_miyamoto/4400658370/)* 
+
+On research it was found that the curves in the Lamella tessellation follow a fibonacci interpolation of points.Therefore,this informed the starting point of generating a computational script for this roof module.
     
 </div>
 
@@ -1035,9 +1042,16 @@ Various methods were researched………..
 A computational script was made to inform the Adobe 2.0 geometry and inform the bricklaying accordingly.
 
 The inputs for this script are the diameter of the dome, the number of segments, squinch height and brick height in order to create this Fibonacci based dome, that twists and offsets to form a conical dome leaving a skylight at the top.   
+
+An integrated pyhton script counts the number of the bricks per segment of the Lamella dome's leaf and colours them as per assigned code, as seen in the animation below. This is an essential information for the brick laying process. 
+
+A discrete corner stone design is achived such that this stone can be repeated on all the corner conditions of the dome retaining the aesthetic quality of the geometry. 
+
+However, for the squinch, this script creates different block sizes that form the unique ribs, but the form offers repitation of these ribs, reducing the complexity in construction.
+
 </div>
 
-![Adobe2.0](img\Adobe2.0-.gif) 
+![Adobe2.0](img\Adobe2.0-.gif)  
 *Fig: Shows the computational tool generation in steps for creating Adobe 2.0*
 
 <ins>*Construction instrument*</ins> 
@@ -1047,7 +1061,7 @@ In the construction of the dome of Adobe 2.0, there were two challenges; one was
 For the second challenge of squinching from square base to circular base, the idea was to create interlocking ribs to inform the curve and infill the bricks to finish the squinching. Due to the time constraint, this method was not explored to its full potential. 
 </div>
 
-![Construction Tool](img\compass.jpg)
+![Construction tool](img\compass.jpg)
 *Fig: Shows Fathy's compass and Angle measure*
 
 ### materials
@@ -1083,7 +1097,7 @@ As mentioned earlier the construction system chosen is the rib-infill method whe
 
 To construct these domes, first the layout of the walls will be marked based on the tartan grid from the center using a rope. Once the out line has been defined, the site will be excavated and the foundation of the building will be laid with stones. After the foundation is in place the floor is compacted and rammed back. Then the bricks of the walls are laid in a pattern leaving the gap for the door and window openings. To construct the arches of the windows and doors, a compass is used to guide the mason. Once the arches are in place, the rest of the wall is completed. 
 
-![dome](img\d.gif) 
+![dome](img\d.gif)  
 *Fig: Shows the construction sequence for square domes*
 
 After the completion of the wall, the construction of the roof begins. First the corner base bricks are placed at each corner of the diagonals, then the base bricks are placed at the center of each side of the wall. Once all the base bricks are in place, the middle bricks are put on top of the base bricks in the manner of their interlocking nature. The spider support instrument is used to support the bricks while they are being put together vertically. At the meeting point of the 8 arches, the keystone is inserted stabilizing the rib structure. Once the rib structure is in place, the infill is constructed. Then the roof is covered with a water- resistant layer.
@@ -1092,7 +1106,7 @@ After the completion of the wall, the construction of the roof begins. First the
 
 The Construction of the vaulted domes is quite similar to that of the domes. The vaulted domes are made of split dome ribs placed at either sides along the long side of the rectangular wall outline and a middle arch. 
 
-![Vaulted dome](img\vd.gif) 
+![Vaulted dome](img\vd.gif)  
 *Fig: Shows the construction sequence for rectangular vaulted domes*
 
 After the walls have been constructed, the base corner bricks are placed at each corner. Then the base bricks are placed at the center of each sides of the wall. As the diagonals have different curvature than the middle curves, the base stones are of two modules. The middle interlocking bricks are placed one on top of the other following their interlocking nature. Three spider supports are used; one on each side and one for the middle elliptical arch. At the meeting point of the 3 arches at each side and the two arches in the middle, the keystones are put in place stabilizing the rib structure. Following this, the infill is constructed and a water protective layer is placed to cover the roof. 
@@ -1101,19 +1115,19 @@ After the walls have been constructed, the base corner bricks are placed at each
 
 The construction of the cross vaults is similar to the domes. Here the cross-vaults are of one square module. To construct the cross vaults four base stones of the same kind are placed on each wall corner. Then the middle bricks are placed in order of their interlocking nature. At a point where the 4 arches meet, the key stone is placed stabilizing the rib-structure. Then the infill is constructed followed by the water protective layer.  
 
-![Cross Vault](img\cv.gif) 
+![Cross Vault](img\cv.gif)  
 *Fig: Shows the construction sequence for cross-vault*
 
 *Adobe 2.0*  
 The construction of the adobe 2.0 is broken down into 3 parts. The first part is the dome squinch, to construct the dome squinch starting from a square base to a segmented circular base on which the twisting dome structure begins. The bricks are laid concentrically where the corner stones are of a different shape, the developed computational script generated a sequence of brick numbers that need to be laid consecutively on a line before the direction of the brick laying changes. After placing the line of bricks in the same angle the corner brick is placed, which informs the direction change of laying the bricks. In such a way the bricks are laid with the help of a compass that is used to align the brick to the proper angle. 
 
-![Adobe 2.0](img\ad2.gif)     
+![Adobe 2.0](img\ad2.gif)      
 *Fig: Shows the construction sequence for the Adobe 2.0*
 
 After the squinch is constructed the twisting dome is constructed in 2 stages, the bottom half and the top half. This differentiation is needed because the top section uses smaller brick sizes. 
 Based on the sequence of bricks that can be laid before the angle changes which is informed by the computational script. The line of bricks is put in place followed by the corner stone of a different size and shape that informs the directional change. Then the next line of bricks is placed concentrically until the full loop is complete, then the next layer of bricks is placed based on the brick sequence number. The compass is used to align the bricks to the required angle in each segment and course of the brick laying. In this manner the first section of the twisting dome is complete. The height where this section ends is also informed by the computational script. 
 
-![Adobe 2.0 Construction](img\adc.png)   
+![Adobe 2.0 construct](img\adc1.PNG)  
 *Fig: Shows the construction technique for the Adobe 2.0*
 
 The final section of the brick in laid in the same way using a smaller module of bricks which can be seen in the brick catalog. The bricks are placed concentrically leaving a skylight opening at the pinnacle of the twisting dome.
