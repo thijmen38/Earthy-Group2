@@ -245,7 +245,7 @@ To start a grid of 1.2 m x 1.2 m was considered, derived from a standard corrido
 An excel table was created to input the hierarchy of spaces (from the depth chart in an ascending order) and their area dimensions (from the program of requirements). As seen in image below, the excel is used to import these inputs into the Grasshopper environment.
 </div>
 
-![ExcelInputGD](img/ExcelInputGD.png)  
+![ExcelInputGD](img/ExcelInputGD.PNG)  
 *Fig: Spatial parameters translated as inputs into an excel sheet for the gradient descent tool*
 
 The flowchart explains the pseudo code used to develop this tool.   
@@ -397,7 +397,7 @@ In the structuring phase of the design process, the building form is analyzed fo
 
 ### Tesellations
 
-![Tesselation flow chart](img/tessellationflowchart.jpg)
+![Tesselation flow chart](img/Tessellationflowchart.jpg)
 *Fig: Tessellation process flow chart*
 
 **Exploration**
@@ -458,19 +458,19 @@ Though a computational method was used for the roofs, for the walls we opted for
 
 **Square domes**
 
-![Square](img/square.gif)
+![Square](img/square.gif)  
 *Fig: Evolution of the dynamically relaxed form*
 <div style="text-align: justify"> 
 In order to achieve a smooth form and for the ease of construction, the dynamically relaxed form was refined further. The initial tessellation, based on the tartan grid, was approximated and simplified to the closest curve resembling the generated mesh. These curves were used to build the final surface of the roof which was later analyzed in karamba 3D for structural calculations. 
 </div>
 
-![Square simplification](img/3x3domesimplification.jpg)
+![Square simplification](img/3x3domesimplification.jpg)  
 *Fig: Simplification logic of Square domes*
 <div style="text-align: justify"> 
 The dynamically relaxed form was refined under a specific geometry to ensure accuracy in construction. Each curve of the form was re-drawn to the closest ellipse. These ellipses were made using the edge points of the meshes and then cut into half to derive the elliptical curves. For the square domes, two types of ellipses were used: one ellipse in the vertical and horizontal direction and one for the diagonals. The final surface was generated using these elliptical curves and imported to weaverbird in grasshopper for further refinement.
 </div>
 
-![Square simplification](img/9x9domesimplification.png)
+![Square simplification](img/9x9domesimplification.png)  
 *Fig: Simplification logic of Square domes*
 <div style="text-align: justify"> 
 This logic was repeated for the other square domes: 6 x 6 M and 9 x 9 M. The curves were scaled twice for the 6 x 6 m dome and thrice for the 9 x 9 m dome. In case of 9 x 9 m dome, additional curves were drawn to match the initial tesselations and for structural stability.
@@ -478,18 +478,18 @@ This logic was repeated for the other square domes: 6 x 6 M and 9 x 9 M. The cur
 
 **Rectangular domes**
 
-![Rectangle](img/rectangle.gif)
+![Rectangle](img/rectangle.gif)  
 *Fig: Evolution of the dynamically relaxed form*
 
 Similar logic was applied for the rectangular domes.
 
-![rectangular simplification](img/6x3domesimplification.jpg)
+![rectangular simplification](img/6x3domesimplification.jpg)  
 *Fig: Simplification logic of rectangular domes*
 <div style="text-align: justify"> 
 In case of rectangular domes, two different ellipses were made. One ellipse was made in the center dividing the top ridge into 2 parts and the second ellipse was drawn from the corners of the rectangle, creating a slight curvature on the smaller sides of the ceiling.
 </div>
 
-![rectangular simplification](img/12x9domesimplification.png)
+![rectangular simplification](img/12x9domesimplification.png)  
 *Fig: Simplification logic of rectangular domes*
 <div style="text-align: justify"> 
 This logic was repeated for the other rectangular domes domes: 6 x 3 M and 9 x 6 M. The curves were scaled twice for the 6 x 3 m dome and thrice for the 9 x 6 m dome. In case of 9 x 6 m dome, additional curves were drawn to match the initial tesselations and for structural stability.
@@ -497,13 +497,13 @@ This logic was repeated for the other rectangular domes domes: 6 x 3 M and 9 x 6
 
 **Cross vaults**
 
-![Cross-vaults](img/crossvault.gif)
+![Cross-vaults](img/crossvault.gif)  
 *Fig: Evolution of the dynamically relaxed form*
 <div style="text-align: justify"> 
 The dynamically relaxed form was refined under a specific geometry to ensure accuracy in construction. Each curve of the form was re-drawn to the closest catenary arc. These arcs were made using the edge points of the meshes and then cut into half to derive the catenary curves. For the cross vaults, only one catenary arc was used to generate the surface. The final surface was generated using these elliptical curves and imported to weaverbird in grasshopper for further refinement.
 </div>
 
-![cross vault simplification](img/crossvaultsimplification.png)
+![cross vault simplification](img/crossvaultsimplification.png)  
 *Fig: Simplification logic of cross vaults*
 
 ### Material selection 
@@ -511,19 +511,19 @@ The dynamically relaxed form was refined under a specific geometry to ensure acc
 Due to the change in the course structure due to Covid-19, material research and testing was not part of the brief. We referred to the tests and analysis done by the previous year students of the same course. We primarily considered the test results of Bustan group (Group 5) and chose the same materials and material limit states for our project.  
 </div>
 
-![material](img/materials.jpg)
+![material](img/materials.jpg)  
 *Fig: Material composition*
 <div style="text-align: justify">
 The adobe bricks should be made by the refugees at the campsite with the available materials. The recipe for the standard brick composition was 30% clay, 30% fine sand, 40% coarse sand and 10% water of the total weight of the dry ingredients. Additionally, straw was chosen as an addition to the adobe paste to improve the tensile strength of the brick. The straw was added in the percentage of 10% of the total mixture. The final mixture was then placed in the required molds and allowed to dry to make the bricks. The mortar was also prepared with the same basic composition with a higher percentage of water as required to make the sticky paste. (Bustan,2019)
 </div>
 
-![gypsum mechanical properties](img/Gypsum.jpg)
+![gypsum mechanical properties](img/Gypsum.jpg)  
 *Fig: Mechanical properties of Gypsum*
 <div style="text-align: justify">
 Since elliptical curves were used to simplify the geometry, the combination of interlocking bricks and adobe projected in the elliptical curve leads to an increase in the number of brick modules. In order to reduce the number of modules and ease of constructibility, gypsum bricks were used instead of adobe bricks for the ribs. A literature study was conducted to understand the mechanical properties of gypsum. From the study, it was concluded that gypsum stabilizer indicated higher compressive strength values compared to adobe. (Türkmen, Ekinci, Kantarcı & Sarıcı, 2020)
 </div>
 
-![limit states](img/Limitstates.jpg)
+![limit states](img/Limitstates.jpg)  
 *Fig: Design Values*
 <div style="text-align: justify">
 The limit states of the material were obtained from a research paper (Clifton, J. R., & Davis, F. L., 1979.) and Last year's material report written by Bustan group (group 5). From the literature study (Clifton, J. R., & Davis, F. L., 1979) we concluded that safety factor within the range 1.2-2 is ideal in this case. In case of addtional floors above, safety factor of 4 was considered.  
@@ -531,12 +531,12 @@ The limit states of the material were obtained from a research paper (Clifton, J
 
 ### Structural analysis
 
-![structural flow chart](img/structuralflowchart.png)
+![structural flow chart](img/structuralflowchart.png)  
 *Fig: Structural analysis process flow chart*
 
 **Process**
 
-![initial approach](img/processsofstructuralanalysis1.jpg)
+![initial approach](img/processsofstructuralanalysis1.jpg)  
 *Fig: Initial approach for structural analysis of the structure*
 <div style="text-align: justify">
 Structural analysis of the generated geometry was implemented in Karamba 3D in grasshopper. The structural analysis process was carried out in 2 stages. In the first stage, the chosen dynamically relaxed form was placed over the vertical base after which the wall and the roof meshes were merged to form a uniform mesh. This uniform mesh became the input for the karamba analysis. 
@@ -544,7 +544,7 @@ Structural analysis of the generated geometry was implemented in Karamba 3D in g
 It was observed that the load distribution was not uniform as we observed peak tensile stresses at the edges of the wall and irregularity in the load distribution in the roof. This was due to irregular surfaces and meshes generated from dynamic relaxation. Moreover, the ridge between the wall and the roof was visible distinctly; therefore, the wall and the roof meshes were not coherent.
 </div>
 
-![final approach](img/processsofstructuralanalysis2.jpg)
+![final approach](img/processsofstructuralanalysis2.jpg)  
 *Fig: Final approach for structural analysis of the structure*
 
 <div style="text-align: justify"> 
@@ -561,7 +561,7 @@ The script used for the structural analysis of all the modules can be found on t
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase1.jpg)
+![Loadcase](img/loadcase1.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 were considered. Non vertical loads were applied using mesh loads in Karamba 3D. Self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -569,7 +569,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support1](img/support1.jpg)  
+![support1](img/support1.jpg)    
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -577,7 +577,7 @@ All the edge points of the base of the roof are considered as fixed supports in 
 
 <ins>*Results*</ins>
 
-![results](img/3x3domestructuralanalysis.jpg)  
+![results](img/3x3domestructuralanalysis.jpg)    
 *Fig: Results showing the structural behavior of square dome and supporting wall*  
 <div style="text-align: justify"> 
 In case of the roof, it was observed that peak tensile stresses were developed at the corners of the wall as the meshes generated a defined ridgeline from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with a shell thickness of 150 mm, the structure was safe. The maximum deflection observed was 1.4 mm (3000/400 = 7.5) which was also safe for the given load conditions.
@@ -592,7 +592,7 @@ In case of the wall, maximum tensile stresses were observed at the corners and a
 In order to verify the results of the karamba analysis, a test module was considered which was generated manually. In this case, the walls had arched edges in order to check if the karamba model shows a difference in the load distribution. In this case, it was observed that the maximum compression was at the highest points where the wall and the roof intersected whereas the maximum tension was observed at the corners. This verifies that the load distribution is correct and the karamba model gives accurate results.
 </div>
 
-![check 1](img/check.jpg)  
+![check 1](img/check.jpg)    
 *Fig: Results showing the structural analysis of a test module*  
 
 *Hand Calculation*
@@ -610,7 +610,7 @@ Thus, Computational model gives accurate results.
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase2.jpg)
+![Loadcase](img/loadcase2.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where live load of the first floor was considered as 4kN/m2 (Malakatas, 2008), the slab load and filling load were taken as 1kN/m2 and 1600Kg/m3 respectively and safety factor of 4 was considered. The non-vertical load was applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -618,7 +618,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support 2](img/support2.jpg)  
+![support 2](img/support2.jpg)    
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -626,7 +626,7 @@ All the edge points of the base of the roof are considered as fixed supports in 
 
 <ins>*Results*</ins>
 
-![results](img/6x6domestructuralanalysis.jpg)  
+![results](img/6x6domestructuralanalysis.jpg)    
 *Fig: Results showing the structural behavior of square dome and supporting wall*  
 <div style="text-align: justify"> 
 In the case of the roof, it was observed that peak tensile stresses were developed at the corners of the wall as the meshes generated a defined ridgeline from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with a shell thickness of 450 mm, the structure was safe. Due to the presence of the first floor, high tensile and compressive forces were developed on the roof surface. This required a thicker roof and wall to bring down the loads within the limit states. The maximum deflection observed was 6.6 mm (6000/400 = 15) which was also safe for the given load conditions.
@@ -651,7 +651,7 @@ Thus, Computational model gives accurate results.
 
 <ins>*Loadcases:*</ins>
 
-![Loadcase](img/loadcase1.jpg)
+![Loadcase](img/loadcase1.jpg)  
 *Fig: Load cases for the analysis*  
 <div style="text-align: justify"> 
 The load case for this part of the building is shown in the Figure above, where finish material load of 2 KN/m2 and a safety factor of 1.2 was considered. Non-vertical loads were applied using mesh loads in Karamba 3D. The self-weight of the structure and the design values were taken from the material research as discussed in the section before.
@@ -659,7 +659,7 @@ The load case for this part of the building is shown in the Figure above, where 
 
 <ins>*Support conditions*</ins>
 
-![support 3](img/supports3.jpg)  
+![support 3](img/supports3.jpg)    
 *Fig: Support conditions for the roof and the wall*  
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -1071,10 +1071,7 @@ the brick library contains the bricks for the following modules:
 
 [The brick library can be downloaded here.](rev\constructability\Brick_library.pdf)
 
-
-
 **Materials Used for Construction**
-
 
 <ins>*Construction sequence*</ins>  
 
@@ -1090,7 +1087,6 @@ To construct these domes, first the layout of the walls will be marked based on 
 *Fig: Shows the construction sequence for square domes*
 
 After the completion of the wall, the construction of the roof begins. First the corner base bricks are placed at each corner of the diagonals, then the base bricks are placed at the center of each side of the wall. Once all the base bricks are in place, the middle bricks are put on top of the base bricks in the manner of their interlocking nature. The spider support instrument is used to support the bricks while they are being put together vertically. At the meeting point of the 8 arches, the keystone is inserted stabilizing the rib structure. Once the rib structure is in place, the infill is constructed. Then the roof is covered with a water- resistant layer.
-
 
 *Rectangular Vaulted Domes (3x6, 6x9, 9X12)*  
 
@@ -1122,7 +1118,6 @@ Based on the sequence of bricks that can be laid before the angle changes which 
 
 The final section of the brick in laid in the same way using a smaller module of bricks which can be seen in the brick catalog. The bricks are placed concentrically leaving a skylight opening at the pinnacle of the twisting dome.
 
-
 ### Summary 
 
 The building modules are based on the tartan grid, they are scalable variations of each other. This along with the chosen type of tessellation makes the choice of rib-infill construction ideal. The construction of the ribs with interlocking blocks contributes to the ease of construction using very limited formwork. The simplification of the roofs using elliptical curves increases the number of interlocking brick modules as the curvature of the ellipse changes. By having larger interlocking brick segments casted out of gypsum, the ribs can be created with a few large modules that is lightweight. These can also be easily assembled using the spider supports when needed.  
@@ -1144,12 +1139,14 @@ While going through the process of designing, an earthy building as is being exp
 </div>
 
 **Anagha Yoganand**
-
-The design studio of Earthy is an enriching way to end the formal learning of the 3 semesters in the master porgram of Building Technology. It focuses on all aspects of an Architectural design project made with Adobe, while focusing on the technical aspects using mathematics and computational logic, which I enjoyed thoroughly. I have realised this approch generates a coherent design that best answers the design problem. The course has helped upskill my computational skills in Grasshopper a plugin for Rhinocerous and laid a good foundational understanding of python in the grasshopper interface. Having said that, my motivation to further my skills in this field has only grown with this experience. The design of RAHA resulting from this course in 10 weeks duration, is absolutely a proud achievement for me. To make this happen the team worked tirelessly and always inspired me to push boundarys. I would like to thank my very hardworking group of teammates for their constant virtual support in today's digital world. I would also like to share deep appreciation towards the instructors of this course who kept us motivated and guided us throughout the course. 
+<div style="text-align: justify">
+The design studio of Earthy is an enriching way to end the formal learning of the 3 semesters in the master porgram of Building Technology. It focuses on all aspects of an Architectural design project made with Adobe, while focusing on the technical aspects using mathematics and computational logic, which I enjoyed thoroughly. I have realised this approch generates a coherent design that best answers the design problem. The course has helped upskill my computational skills in Grasshopper a plugin for Rhinocerous and laid a good foundational understanding of python in the grasshopper interface. Having said that, my motivation to further my skills in this field has only grown with this experience. The design of RAHA resulting from this course in 10 weeks duration, is absolutely a proud achievement for me. To make this happen the team worked tirelessly and always inspired me to push boundaries. I would like to thank my very hardworking group of teammates for their constant virtual support in today's digital world. I would also like to share deep appreciation towards the instructors of this course who kept us motivated and guided us throughout the course. 
+</div>
 
 **Bezawit Z. Bekele**
-
+<div style="text-align: justify">
 The Earthy course explores the various levels of complexities of building with earth using mathematical and computational means. It allowed me to explore various approaches, design and construction methods of compression only structures within the limits of the earth material. The python workshops were very useful. Yet, because of the rapid pace of the course we didn’t boldly experiment with python scripting within our design as we would have liked. All in all, the 10 weeks flew by and it was an enjoyable learning experience and one of the best team collaboration projects yet. 
+</div>
 
 **Shriya Balakrishnan**
 <div style="text-align: justify">
@@ -1168,5 +1165,6 @@ That is why I would like to learn about using Python in the time to come.
 </div>
 
 **Twinkle Nathani**
-
-reflection
+<div style="text-align: justify">
+The Earthy course is a design studio which has the steepest learning curve as compared to all the other courses in the master's track of Building Technology. I personally enjoyed this course as I have worked with earth before but never encountered the possiblity of combining a primitve material with the current technology using the latest computational softwares. 
+</div>
