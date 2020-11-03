@@ -71,10 +71,12 @@ The design vision is to create a “recreation hub” hosting social spaces with
 ### Overall flow chart
 <div style="text-align: justify"> 
 This flowchart shows the overall procedural workflow adopted for designing RAHA. The whole project is divided into four stages, Configuration, Forming, Structuring and Constructability respectively. The larger division of stages offers an eventual progression of the design by keeping each stage incoherence and informed with the other to achieve a generative design.
+</div>
 
-![overall flow chart](img/ofc.jpg)  
-*Fig: Overall flow chart of the design process*
+[![overall flow chart](img/ofc.jpg)](img\final overall flowchart .jpg)  
+*Fig: Overall flow chart of the design process (click image to zoom in).*
 
+<div style="text-align: justify"> 
 The first part is configuring followed by shaping and structuring. In the configuration phase: based on the identified problem and proposed intervention; the main programmatic functions were defined. A set of rules were developed to select the site after which the program relationships were developed using bubble diagrams and REL charts. These were computationally mirrored using a phyton script and a syntactic tool. Further relationships were studied using metro-link diagrams and depth graphs. Based on the outcome, the study was translated to a concept plan which was further developed computationally using gradient descent optimization. Following these studies the floor plans were formulated. 
 
 In the shaping process, the required architectural principles for each space was ranked based on set priority criteria to inform the form-finding process. Based on this, different dynamically relaxed roof tessellations were studied after which roof and wall modules were defined. 
@@ -88,11 +90,9 @@ The constructability was studied along with the structuring phase. Different con
 In the configuration phase of the design process, based on the design goals the programs will be defined along with their spatial requirements and the area requirements. Based on the site study, the relationship between the programs and the integration of the programs into the site will be studied using various computational and graphical methods. 
 
 ### Site selection 
-<div style="text-align: justify"> 
-
-![Location flow chart.jpg](img/location.jpg)
+![Location flow chart.jpg](img/location.jpg)  
 *Fig: Shows the site selection flow chart*
-
+<div style="text-align: justify"> 
 As per the proposed intervention of building a recreation hub, the main programmatic functions are a tea house, a hammam, a quiet space with a library, and a play area for children with connecting courtyards housing herbal gardens and water bodies.  To select the site the points of consideration are unbuilt spaces, water resources, proximity to other facilities such as schools and kindergartens and the distance from the main road. As the recreation hub includes a hammam, locating it near a water resource is essential. The recreation hub also includes a quiet space with library, a children’s playground which can be an extension to existing schools, youth centers and kindergartens. 
 </div>
 
@@ -248,10 +248,9 @@ This approach was inspired by one of the group's from the previous year who deve
 To start a grid of 1.2 m x 1.2 m was considered, derived from a standard corridor width size and minimum area for one person. Therefore, each functional area was adjusted to a multiple of this grid size.
 
 An excel table was created to input the hierarchy of spaces (from the depth chart in an ascending order) and their area dimensions (from the program of requirements). As seen in image below, the excel is used to import these inputs into the Grasshopper environment.
-
-[The excel can be downloaded here.](rev\scripts\Space_layout_excel.xlsx)
-
 </div>
+
+[The excel can be downloaded here.](rev\scripts\Space_layout_excel.xlsx)  
 
 ![ExcelInputGD](img/ExcelInputGD.PNG)  
 *Fig: Spatial parameters translated as inputs into an excel sheet for the gradient descent tool*
@@ -382,7 +381,7 @@ Following topics gives details about the heating, ventilation and rainwater serv
 To fill in the gaps between the two roof and to ensure that water doesn’t percolate in, the gaps were filled with sand. A desired slope is achieved for the water to run off the building. A coating of Lime plaster is applied on the outer surface for the Hammam domes and tadelakt for the other roofs to ensure sealed surface.
 </div>
 
-![Sections](img\1_Section.jpg) 
+![Sections](img\Sections.jpg) 
 *Fig: Shows the sections*
 
 <ins>*Heating and Ventilation*</ins>
@@ -393,9 +392,6 @@ To heat the Hammam, we have a boiler in the service room which is connected to t
 ![Heating and Ventilation](img\1_Detail.jpg) 
 *Fig: Shows the heating and ventilation strategies for the Hammam*
 
-<ins>*Detailed section*</ins> 
-<div style="text-align: justify">
-</div>
  
 ### Summary 
 <div style="text-align: justify">
@@ -567,7 +563,7 @@ It was observed that the load distribution was uniform and the meshes were coher
 
 The structural analysis does not consider gypsum as the material for the ribs. Adobe material properties were considered for the entire structure. As gypsum has higher compressive strength as compared to adobe, it was assumed that using gypsum would give better results in the analysis.
 
-The script used for the structural analysis of all the modules can be found on the [Other page](other.md).
+The script used for the structural analysis of all the modules can be found on the Other page.
  </div>
  
  **Module_1: 3x3 Square Dome**
@@ -1038,11 +1034,13 @@ As mentioned earlier, all domes are the scaled versions of the smaller dome, so 
 **Design concept** 
 <div style="text-align: justify"> 
 The idea behind introducing Adobe 2.0 in the course was to push the limits to explore something which has never been built before in adobe. For this challenge, the inspiration came from the Lamella tessellations found in sunflowers. These tessellations occur in the Fibonacci sequence in nature and shifts horizontally keeping the same centre creating a twisting pattern. On further research an origami lamella dome was found as seen in figure below, which helped us in better understanding the shape of the dome. The attractive feature of this geometry was the opening it creates at the apex, serving as a deciding factor on selecting it. Having an opening at the apex created the skylight we envisioned for the hammam main hall and public bathing spaces, i.e. the three 9mx9m dome modules.        
+</div>
 
-![Lamellaorigami](Lamellaorigami-.jpg)   
+![Lamellaorigami](img/Lamellaorigami-.jpg)    
 *Fig: An origami model of the Lamella dome, source:[Flicker](https://www.flickr.com/photos/yoshinobu_miyamoto/4400658370/)* 
 
-On research it was found that the curves in the Lamella tessellation follow a fibonacci interpolation of points.Therefore,this informed the starting point of generating a computational script for this roof module.
+<div style="text-align: justify"> 
+On research it was found that the curves in the Lamella tessellation follow a fibonacci interpolation of points. Therefore,this informed the starting point of generating a computational script for this roof module.
     
 </div>
 
@@ -1075,7 +1073,7 @@ For the second challenge of squinching from square base to circular base, the id
 ![Construction tool](img\compass.jpg)
 *Fig: Shows Fathy's compass and Angle measure*
 
-### materials
+### Materials
 
 **Brick Library**  
 <div style="text-align: justify">  
@@ -1096,8 +1094,9 @@ the brick library contains the bricks for the following modules:
 
 [The brick library can be downloaded here.](rev\constructability\Brick_library.pdf)
 
-**Materials Used for Construction**
+**Materials Used for Construction**  
 
+![Material table](img\Material_Table.jpg)  
 <ins>*Construction sequence*</ins>  
 
 The construction sequence of the different modules is illustrated below. 
@@ -1154,16 +1153,12 @@ The building modules are based on the tartan grid, they are scalable variations 
 It can be concluded that the design as was shown on this page takes into account the limits we set for it and does so using scripts to optimize the dicisions made in the process. An optimal site was selected setting the limitations of adjacency to a water source, free plot size and nearby facilities. The program of the project was based on the problem statements seen in the Zaatari camp and evolved into an inclusive place to relax and enjoy peace and quiet in Raha.
 
 Gradient Descent tool limitations: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation. 
-
-
-
 </div>
 
 ---
 ## 6_Reflection
 <div style="text-align: justify">
 While going through the process of designing, an earthy building as is being explained above a lot was learned. Below each group member will reflect on the process and how they have experienced it.
-
 </div>
 
 **Anagha Yoganand**
@@ -1194,7 +1189,6 @@ That is why I would like to learn about using Python in the time to come.
 
 **Twinkle Nathani**
 <div style="text-align: justify">
-The Earthy course is a design studio which has the steepest learning curve as compared to all the other courses in the master's track of Building Technology. I personally enjoyed this course as I have worked with earth before but never encountered the possiblity of combining a primitve material with the current technology using the latest computational softwares. The best part about this course was the constructibility phase as I throughly enjoyed myself exloring different construction techniques in order to close the loop. The was the course was structured pushed me to think more and with every challenge we faced, especially with adobe 2.0 structure, it only increased the level of complexity and intensity of the course, which made the course extremely interesting.
-
-
+The Earthy course is a design studio which has the steepest learning curve as compared to all the other courses in the master's track of Building Technology. I personally enjoyed this course as I have worked with earth before but never encountered the possiblity of combining a primitve material with the current technology using the latest computational softwares. The best part about this course was the constructibility phase as I throughly enjoyed myself exloring different construction techniques in order to close the loop. The was the course was structured pushed me to think more and with every challenge we faced, especially with adobe 2.0 structure, it only increased the level of complexity and intensity of the course, which made the course extremely interesting.Within the 10 weeks of the coursework, the first few weeks were intense due to the different workshops and lectures. I personally think that these workshops/lectures could have been split into two parts as many of them were more relevant for the 2nd half of the coursework. 
+All in all, I am extrememly proud of what we have achieved as a team to complete the project sucessfully. I would like to thank my fellow group mates for working tirelessly make RAHA happen. I would also like to thank all the tutors who helped us throughout the course.
 </div>
