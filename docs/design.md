@@ -248,10 +248,9 @@ This approach was inspired by one of the group's from the previous year who deve
 To start a grid of 1.2 m x 1.2 m was considered, derived from a standard corridor width size and minimum area for one person. Therefore, each functional area was adjusted to a multiple of this grid size.
 
 An excel table was created to input the hierarchy of spaces (from the depth chart in an ascending order) and their area dimensions (from the program of requirements). As seen in image below, the excel is used to import these inputs into the Grasshopper environment.
-
-[The excel can be downloaded here.](rev\scripts\Space_layout_excel.xlsx)
-
 </div>
+
+[The excel can be downloaded here.](rev\scripts\Space_layout_excel.xlsx)  
 
 ![ExcelInputGD](img/ExcelInputGD.PNG)  
 *Fig: Spatial parameters translated as inputs into an excel sheet for the gradient descent tool*
