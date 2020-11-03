@@ -2,7 +2,6 @@
 <div style="text-align: justify">
 The achievements in this project would not have made if it was not for the course guides. They helped us gain knowledge and point us in the right direction. Also, the achievements of previous years were of great inspiration. We hereby thank all of them.
 </div>
-
 ---
 ## 0_Literature
 

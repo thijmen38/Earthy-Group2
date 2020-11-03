@@ -8,7 +8,7 @@ Want to know the team better? Please read through the introductions below. Want 
 
 ![Anagha](img/AnaghaYoganand-Portrait.JPG)  
 <div style="text-align: justify"> 
-Anagha Yoganand is currently pursuing MSc.Architecture, Urbanism and Building sciences under the Building Technology track. She also chairs BouT, the study association of the AE&T department at the Bouwkunde. Her academic background in Architecture and two years of practice experience in India has helped her understand the technical details and implications of attaining sustainable designs that impact the overall performance of buildings. At TU Delft she is keen to specialize in computational design and product innovation with emphasis given to optimization and evaluation of design performance.  
+Anagha Yoganand is currently pursuing MSc Architecture, Urbanism and Building sciences under the Building Technology track. She also chairs BouT, the study association of the AE&T department at the Bouwkunde. Her academic background in Architecture and two years of practice experience in India has helped her understand the technical details and implications of attaining sustainable designs that impact the overall performance of buildings. At TU Delft she is keen to specialize in computational design and product innovation with emphasis given to optimization and evaluation of design performance.  
 </div>
 
 **Bezawit Zerayacob Bekele** [Linkedin](https://www.linkedin.com/in/bezawit-zerayacob-bekele/)
