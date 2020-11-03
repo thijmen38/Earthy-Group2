@@ -986,17 +986,21 @@ For further study the script can be download on the [Other page.](other.md)
 To better understand the process and sequence of construction of the different types of modules of the building, an experiment was carried out and a scaled model of Module 2 i.e. 6000mm x 6000mm dome was made. The bricks for the interlocking rib system were 3D printed and the infill bricks were hand molded from play clay and were baked in an oven for 10 minutes.     
 
 To construct this model, the first step was to mark the square base on a sheet of paper. As a next step, the curve of the rib segment was drawn and cut out from a piece of cardboard to be used as formwork to lay the interlocking bricks. This formwork was placed on the square base and each brick was then placed in position with the help of tack glue. Once all the ribs were in place the keystone was put and the infill layer from the baked bricks was put. 
-  
-![Experiment1](rev\constructability\Experiment1.jpg)     
+
+![3DPrint2](img\3DPrint2.jpeg)      
+*Fig: Shows the bricks in one rib forming the required curvature when simply placed next to one another following the interlock sequence*  
+
+![Experiment1](img\Experiment1.jpg)         
+*Fig: Shows the different processes of the experiment*
 
 With this experiment, it was concluded that the interlocking bricks dictate the curve of the ribs and the formwork was only required to hold them in place. Once the ribs and keystone are in place, the infill bricks can be laid out in concentric circles to ensure that compressions bands in the dome are always complete before laying the next course. 
 </div>
 
 <ins>*Construction instrument*</ins>
 <div style="text-align: justify">  
-The context of the site generates several limitations like the availability of limited resources and skilled labours on the building process. Therefore, it was important to find a process that made use of minimal supporting materials, tools and skills. This created an opportunity for innovative solutions to solve the problem of constructability. Therefore, we designed a tool called The Support Spider that can aid the labours and make the process simple and efficient. This tool is made entirely from the materials available on site.
-</div>
-
+The context of the site generates several limitations like the availability of limited resources and skilled labours on the building process. Therefore, it was important to find a process that made use of minimal supporting materials, tools and skills. This created an opportunity for innovative solutions to solve the problem of constructability. Therefore, we designed a tool called The Support Spider that can aid the labours and make the process simple and efficient. This tool is made entirely from the materials available on site.    
+</div>  
+  
 ![Tool](img\Instrument.jpg)
 *Fig: Shows the Support Spider*
 
