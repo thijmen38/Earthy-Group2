@@ -178,7 +178,7 @@ To make the process of checking and rechecking more automated rather than buildi
 ![script for making all this](rev\configuration\bubble_diagram\bubble_script.png)  
 *Fig: The script is used for generating the lines between the dots, based on the value implied in the REL chart*
 
-![bubble diagram using syntactic tool](rev\configuration\bubble_diagram\bubble_syntactic.jpg)  
+![bubble diagram using syntactic tool](rev\configuration\bubble_diagram\Syntactic.jpg)  
 *Fig: Bubble diagram made using the syntactic tool in grasshopper*
 <div style="text-align: justify"> 
 This bubble diagram was studied and connections were moderated if necessary. However, it did not provide us with the clear bubble diagram that we were expecting from the program. So we converted it into a manual bubble diagram. This also gave us the option of giving a certain weight to the connections as is shown below.
