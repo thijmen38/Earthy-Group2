@@ -32,6 +32,11 @@ The valley houses seem to be the most luxurious of the tree having several rooms
 
 - Zangana, L., & Tokmachy, A. (2019). Study of the Thermal Insulation Properties of the Compressed Earth Block Stabilized with Gypsum. Kirkuk University Journal-Scientific Studies, 14(1), 241-251. doi: 10.32894/kujss.2019.14.1.16
 
+- Nabavi.F, & Ahmed.E. (2016). Is there any geometrical golden ratio in traditional Iranian Courtyard houses. International Journal of Architectural Research: Archnet-IJAR, doi:http://archnet-ijar.net/index.php/IJAR/article/view/744
+
+- Yadav, N., 2020. Interlocking Vaults By Voronoi Decomposition Of 3D Space. [online] Researchgate. Available at: <https://www.researchgate.net/publication/341977545_Interlocking_Vaults_by_Voronoi_Decomposition_of_3D_Space> [Accessed 3 November 2020].
+
+- 2020. TRASH TALK. OXFAM.
 
 ---
 
