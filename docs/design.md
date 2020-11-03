@@ -995,18 +995,24 @@ With this experiment, it was concluded that the interlocking bricks dictate the 
 The context of the site generates several limitations like the availability of limited resources and skilled labours on the building process. Therefore, it was important to find a process that made use of minimal supporting materials, tools and skills. This created an opportunity for innovative solutions to solve the problem of constructability. Therefore, we designed a tool called The Support Spider that can aid the labours and make the process simple and efficient. This tool is made entirely from the materials available on site.
 </div>
 
+![Tool](img\Instrument.jpg)
+*Fig: Shows the Support Spider*
+
 *General concept and design of the tool* 
 <div style="text-align: justify"> 
 The tool works on the logic of creating an ellipse which can be viewed here. Notice that at 3 min 16 sec, one can see that the top segment is created by taking the radius as the end of the minor axis and the point on the minor axis where the line segment cuts it. For the simplification of the tool, this radius is found out for all the ellipsoidal segments of the domes and the supporting rods are then made. Since the tool is required only as a support and not the guide for curvature, it is possible to generalize it and make the supporting rods flexible in length. Below you can see the process. Notice the red denotes the extention in the tool.  
 </div>   
 
-![Support Spider](img\)  
+![Support Spider](img\Intrument.gif)
 *Fig: Shows the process followed in developing the Support Spider*
 
 *Adaptation to different modules*
 <div style="text-align: justify">
 As mentioned earlier, all domes are the scaled versions of the smaller dome, so all the elliptical arches of these modules which form the interlocking ribs are scaled versions or the smallest arch. Therefore, they all have a common center. The tool is designed to fit the smallest module and can be expanded to the largest module by increasing the length of the supporting rod.  
 </div>  
+
+![Extension](img\Extension.jpg)
+*Fig: Shows how the tool can be extended to fit all curves*
 
 ### Adobe 2.0
 
@@ -1032,6 +1038,9 @@ In the construction of the dome of Adobe 2.0, there were two challenges; one was
 
 For the second challenge of squinching from square base to circular base, the idea was to create interlocking ribs to inform the curve and infill the bricks to finish the squinching. Due to the time constraint, this method was not explored to its full potential. 
 </div>
+
+![Extension](img\Extension.jpg)
+*Fig: Shows how the tool can be extended to fit all curves*
 
 **Brick Library**  
 *Twinkle*  
