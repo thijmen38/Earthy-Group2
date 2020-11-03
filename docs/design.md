@@ -1153,35 +1153,37 @@ The building modules are based on the tartan grid, they are scalable variations 
 
 ## 5_Conclusion
 <div style="text-align: justify">
-
 The ongoing war has prolonged the short-term accommodation towards latent permanency, providing adequate and culturally relevant community-based facilities became important to ensure the holistic well-being of the refugees. The project RAHA was aimed at providing comfort and a sense of belongingness to the inhabitants of the Zaatari camp. 
+</div>
+</br>
 
+<div style="text-align: justify">
 An optimal district was selected by setting the limitations of adjacency to a water source, free plot size and nearby facilities. 
 Along with the set parameters, the urban analysis of the other projects was taken into consideration, which affected the site selection process. Once the site was selected, it was important to establish the program requirements and understand the connections between various spaces in the building. For this, a thorough study was conducted by drawing different bubble diagrams, REL charts, depth chart and metro-link networks which served as an input for the gradient descent solver, thereby generating our final layout. To make the design more modular, a Tartan grid was chosen which became the base for the further development of roofs and walls.
+</div>
 
+
+<div style="text-align: justify">
 The modular geometry was then simplified for the structural analysis. The roofs were optimized to behave in complete compression, except the corners, which showed low tensile stresses. The walls were optimized to take the load of the roof above and also to not exceed the width of the Tartan bands. To make the construction more realistic, a higher safety factor was considered to cover the inefficiency in the construction process. 
+</div>
 
+
+<div style="text-align: justify">
 The construction process and materials were carefully researched to finalize the appropriate method for the buildability. These methods take into consideration the limited resources on-site, skills of the labourers and time required during the construction. The instruments, along with the different brick modules for interlocking, make the process easy and efficient.
+</div>
 
 Limitations: 
 
-General: The computational process is limited to the software used.    
+- General: The computational process is limited to the software used.    
+- Site selection tool: The limitation of this script is that the criteria are subjective. It can be further developed to make it adaptable to different building functions. 
+- Gradient Descent tool: While the script strives to create a Tetris inspired configuration, there is further scope of developing an efficient grid-snapping system that avoids collisions and overlap of spaces after the dynamic relaxation. 
+- Material Study: Due to the change in the course structure dictated by the transfer for of education online, it was not an option to test materials which limited the material properties considered in this project. This led to selecting them from the last year's works.   
+- Structural Analysis using Karamba: The Karamba model does not consider the forces in the horizontal direction, as the mesh is analyzed as a shell instead of a plate. The wind loads were not included in the analysis as it was negligible. 
+- Interlocking blocks: The concept of interlocking bricks work very well for circular curves as they generate the same module of bricks, however, when they are adapted to elliptical curves, every brick module in the curve becomes unique increasing the number of modules. 
+- Construction Instrument: The instrument developed is still at a conceptual stage, while the logic for the tool works; the assembly of the tool is not covered in the scope. 
+- Adobe 2.0 dome computational tool: Due to the time constraints, the tool was not developed to create interlocking bricks for the ribs in the squinch area of the dome. 
 
-Site selection tool: The limitation of this script is that the criteria are subjective. It can be further developed to make it adaptable to different building functions. 
 
-Gradient Descent tool: While the script strives to create a Tetris inspired configuration, there is further scope of developing an efficient grid-snapping system that avoids collisions and overlap of spaces after the dynamic relaxation. 
-
-Material Study: Due to the change in the course structure dictated by the transfer for of education online, it was not an option to test materials which limited the material properties considered in this project. This led to selecting them from the last year's works.   
-
-Structural Analysis using Karamba: The Karamba model does not consider the forces in the horizontal direction, as the mesh is analyzed as a shell instead of a plate. The wind loads were not included in the analysis as it was negligible. 
-
-Interlocking blocks: The concept of interlocking bricks work very well for circular curves as they generate the same module of bricks, however, when they are adapted to elliptical curves, every brick module in the curve becomes unique increasing the number of modules. 
-
-Construction Instrument: The instrument developed is still at a conceptual stage, while the logic for the tool works; the assembly of the tool is not covered in the scope. 
-
-Adobe 2.0 dome computational tool: Due to the time constraints, the tool was not developed to create interlocking bricks for the ribs in the squinch area of the dome. 
-
-</div>
 
 ---
 ## 6_Reflection
