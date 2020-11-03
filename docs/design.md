@@ -242,7 +242,7 @@ The configuration process identified the stages in the design porcess which were
 ---  
 
 ## 2_Forming
-introduction explaining the configuring phase and its goals.(from course brief)*Anagha*
+introduction explaining the configuring phase and its goals.(from course brief)*beza*
 
 ### Spacial configuration
 
@@ -377,7 +377,7 @@ The Forming process strategically developed a shape from the spatial configurati
 
 ## 3_Structuring 
  
-Introduction explaining the configuring phase and its goals.(from course brief)*Anagha*
+Introduction explaining the configuring phase and its goals.(from course brief)*beza*
 
 ### Tesellations
 
@@ -912,9 +912,8 @@ Because of the way the roofs are tessellated and because of the scalable relatio
 </div>
 
 <ins>*Rib system approach*</ins>  
-<div style="text-align: justify">
-The next step was to figure out how to make the ribs in a way that can easily be constructed with unskilled laborers and requiring limited formwork. Here various types of construction systems were looked at. From the literature review, a few examples of interlocking construction systems were taken into consideration to determine the applicability for the construction of the roof modules. 
-</div>
+
+The next step was to figure out how to make the ribs in a way that can easily be constructed with unskilled laborers and requiring limited formwork. Here various types of construction systems were looked at. From literature review, a few examples of interlocking construction systems were taken into consideration to determine the applicability for the construction of the roof modules. 
 
  ## Interlocking bricks ##   
 
@@ -1019,27 +1018,49 @@ Brick sizes and weights to be justified for constructability -  Brick Library wi
 In a 3D view colour code and nomenclate the bricks used per module
 
 <ins>*Construction sequence*</ins>   
-*Beza*  
-All the lovely Gifs and explanation of the process it selft
-Foundation to walls to window/door openings and therefore roof modules
 
-*Square domes*  
-Gif.
-3d image of the brick colour and nomenclature   
+*Square Domes (3x3, 6x6, 9X9)*  
 
-*Rectangular domes*  
-Gif.
-3d image of the brick colour and nomenclature   
+As mentioned earlier the construction system chosen is the rib-infill method where the ribs will be made of interlocking blocks. 
 
-*Cross vaults*  
-Gif.
-3d image of the brick colour and nomenclature  
+To construct these domes, first the layout of the walls will be marked based on the tartan grid from the center using a rope. Once the out line has been defined, the site will be excavated and the foundation of the building will be laid with stones. After the foundation is in place the floor is compacted and rammed back. Then the bricks of the walls are laid in a pattern leaving the gap for the door and window openings. To construct the arches of the windows and doors, a compass is used to guide the mason. Once the arches are in place, the rest of the wall is completed. 
+
+![dome](img\d.gif) 
+*Fig: Shows the construction sequence for square domes*
+
+After the completion of the wall, the construction of the roof begins. First the corner base bricks are placed at each corner of the diagonals, then the base bricks are placed at the center of each side of the wall. Once all the base bricks are in place, the middle bricks are put on top of the base bricks in the manner of their interlocking nature. The spider support instrument is used to support the bricks while they are being put together vertically. At the meeting point of the 8 arches, the keystone is inserted stabilizing the rib structure. Once the rib structure is in place, the infill is constructed. Then the roof is covered with a water- resistant layer.
+
+
+*Rectangular Vaulted Domes (3x6, 6x9, 9X12)*  
+
+The Construction of the vaulted domes is quite similar to that of the domes. The vaulted domes are made of split dome ribs placed at either sides along the long side of the rectangular wall outline and a middle arch. 
+
+![Vaulted dome](img\vd.gif) 
+*Fig: Shows the construction sequence for rectangular vaulted domes*
+
+After the walls have been constructed, the base corner bricks are placed at each corner. Then the base bricks are placed at the center of each sides of the wall. As the diagonals have different curvature than the middle curves, the base stones are of two modules. The middle interlocking bricks are placed one on top of the other following their interlocking nature. Three spider supports are used; one on each side and one for the middle elliptical arch. At the meeting point of the 3 arches at each side and the two arches in the middle, the keystones are put in place stabilizing the rib structure. Following this, the infill is constructed and a water protective layer is placed to cover the roof. 
+
+*Cross vaults (3x3)*  
+
+The construction of the cross vaults is similar to the domes. Here the cross-vaults are of one square module. To construct the cross vaults four base stones of the same kind are placed on each wall corner. Then the middle bricks are placed in order of their interlocking nature. At a point where the 4 arches meet, the key stone is placed stabilizing the rib-structure. Then the infill is constructed followed by the water protective layer.  
+
+![Cross Vault](img\cv.gif) 
+*Fig: Shows the construction sequence for cross-vault*
 
 *Adobe 2.0*  
-Gif.
+The construction of the adobe 2.0 is broken down into 3 parts. The first part is the dome squinch, to construct the dome squinch starting from a square base to a segmented circular base on which the twisting dome structure begins. The bricks are laid concentrically where the corner stones are of a different shape, the developed computational script generated a sequence of brick numbers that need to be laid consecutively on a line before the direction of the brick laying changes. After placing the line of bricks in the same angle the corner brick is placed, which informs the direction change of laying the bricks. In such a way the bricks are laid with the help of a compass that is used to align the brick to the proper angle. 
 
+![Adobe 2.0](img\ad2.gif)     
+*Fig: Shows the construction sequence for the Adobe 2.0*
 
-3d image of the brick colour and nomenclature  
+After the squinch is constructed the twisting dome is constructed in 2 stages, the bottom half and the top half. This differentiation is needed because the top section uses smaller brick sizes. 
+Based on the sequence of bricks that can be laid before the angle changes which is informed by the computational script. The line of bricks is put in place followed by the corner stone of a different size and shape that informs the directional change. Then the next line of bricks is placed concentrically until the full loop is complete, then the next layer of bricks is placed based on the brick sequence number. The compass is used to align the bricks to the required angle in each segment and course of the brick laying. In this manner the first section of the twisting dome is complete. The height where this section ends is also informed by the computational script. 
+
+![Adobe 2.0 Construction](img\adc.png)   
+*Fig: Shows the construction technique for the Adobe 2.0*
+
+The final section of the brick in laid in the same way using a smaller module of bricks which can be seen in the brick catalog. The bricks are placed concentrically leaving a skylight opening at the pinnacle of the twisting dome.
+
 
 ### Summary 
 
