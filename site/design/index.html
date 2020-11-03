@@ -421,7 +421,7 @@
         
           <li class="md-nav__item">
   <a href="#materials" class="md-nav__link">
-    materials
+    Materials
   </a>
   
 </li>
@@ -725,7 +725,7 @@
         
           <li class="md-nav__item">
   <a href="#materials" class="md-nav__link">
-    materials
+    Materials
   </a>
   
 </li>
@@ -843,9 +843,11 @@ The design vision is to create a “recreation hub” hosting social spaces with
 <h3 id="overall-flow-chart">Overall flow chart</h3>
 <div style="text-align: justify"> 
 This flowchart shows the overall procedural workflow adopted for designing RAHA. The whole project is divided into four stages, Configuration, Forming, Structuring and Constructability respectively. The larger division of stages offers an eventual progression of the design by keeping each stage incoherence and informed with the other to achieve a generative design.
+</div>
 
-INSERT FLOW CHART HERE
-
+<p><a href="../img/final%20overall%20flowchart%20.jpg"><img alt="overall flow chart" src="../img/ofc.jpg" /></a><br />
+<em>Fig: Overall flow chart of the design process (click image to zoom in).</em></p>
+<div style="text-align: justify"> 
 The first part is configuring followed by shaping and structuring. In the configuration phase: based on the identified problem and proposed intervention; the main programmatic functions were defined. A set of rules were developed to select the site after which the program relationships were developed using bubble diagrams and REL charts. These were computationally mirrored using a phyton script and a syntactic tool. Further relationships were studied using metro-link diagrams and depth graphs. Based on the outcome, the study was translated to a concept plan which was further developed computationally using gradient descent optimization. Following these studies the floor plans were formulated. 
 
 In the shaping process, the required architectural principles for each space was ranked based on set priority criteria to inform the form-finding process. Based on this, different dynamically relaxed roof tessellations were studied after which roof and wall modules were defined. 
@@ -857,13 +859,14 @@ The constructability was studied along with the structuring phase. Different con
 <h2 id="1_configuration">1_Configuration</h2>
 <p>In the configuration phase of the design process, based on the design goals the programs will be defined along with their spatial requirements and the area requirements. Based on the site study, the relationship between the programs and the integration of the programs into the site will be studied using various computational and graphical methods. </p>
 <h3 id="site-selection">Site selection</h3>
+<p><img alt="Location flow chart.jpg" src="../img/location.jpg" /><br />
+<em>Fig: Shows the site selection flow chart</em></p>
 <div style="text-align: justify"> 
-INSERT FLOW CHART HERE
-
 As per the proposed intervention of building a recreation hub, the main programmatic functions are a tea house, a hammam, a quiet space with a library, and a play area for children with connecting courtyards housing herbal gardens and water bodies.  To select the site the points of consideration are unbuilt spaces, water resources, proximity to other facilities such as schools and kindergartens and the distance from the main road. As the recreation hub includes a hammam, locating it near a water resource is essential. The recreation hub also includes a quiet space with library, a children’s playground which can be an extension to existing schools, youth centers and kindergartens. 
 </div>
 
 <p><img alt="Location Selection.GIF" src="../img/location.gif" /></p>
+<p><a href="../rev/scripts/Location_finder.gh">Click here to download the script</a></p>
 <div style="text-align: justify"> 
 To select the site, a computation tool was created that first identifies built/ unbuilt space and road networks. The tools select the empty plots on the site. These plots are further filtered by size taking only in-between spaces of larger sizes.  Then the existing water resources are mapped. Open spaces that fall within 250 m of the existing water resource are selected. The existing schools, youth centers and kindergartens were mapped and the site selection was further narrowed down to open spaces within 100m of the mapped centers. From the remaining list, the hierarchical demarcation was given to the open spaces based on the distance from the main busy road with preference given to quieter spaces further away from the loud busy main street. At this stage, spaces in districts 6, 7 and 9 were identified. The final chosen site falls in district 9 which has the least saturated population therefore the proposed facility can cater to a larger percentage of the district’s population.
 </div>
@@ -957,7 +960,7 @@ After creating the bubble diagrams we analyzed them. To do some more effectively
 </div>
 
 <p><ins><em>Depth chart</em></ins></p>
-<p><img alt="depth chart" src="../rev/configuration/bubble_diagram/depthchart.jpg" /><br />
+<p><a href="../rev/configuration/Depth_chart_big.jpg"><img alt="depth chart" src="../rev/configuration/bubble_diagram/depthchart.jpg" /></a><br />
 <em>Fig: Depth chart of the functions</em></p>
 <div style="text-align: justify"> 
 The depth chart as shown above clearly shows the hierarchy of the spaces. For instance, it shows a clear split between the hammam areas and the tea bar areas. It also shows how deep the bathing spaces are in the building. Which is where they are designed to be. This heirarchy branches from public spaces to private spaces, which helps in determining the connectivity between spaces.
@@ -997,16 +1000,22 @@ To start a grid of 1.2 m x 1.2 m was considered, derived from a standard corrido
 An excel table was created to input the hierarchy of spaces (from the depth chart in an ascending order) and their area dimensions (from the program of requirements). As seen in image below, the excel is used to import these inputs into the Grasshopper environment.
 </div>
 
+<p><a href="../rev/scripts/Space_layout_excel.xlsx">The excel can be downloaded here.</a>  </p>
 <p><img alt="ExcelInputGD" src="../img/ExcelInputGD.PNG" /><br />
 <em>Fig: Spatial parameters translated as inputs into an excel sheet for the gradient descent tool</em></p>
 <p>The flowchart explains the pseudo code used to develop this tool.   </p>
-<p><img alt="GDFlowchart" src="../img/GDFlowchart.png" /> </p>
+<p><a href="../img/GDFlowchart.jpg"><img alt="GDFlowchart" src="../img/GDFlowchart.jpg" /></a>  </p>
 <div style="text-align: justify"> 
-This process is then repeated keeping the relaxed curves from depth 1 as the attractor for the depth 2 and so on. This process of staged relaxation per depth enhances the configuration results, by aligning spaces orthogonally and reduces chaos when the total number of spaces are high.     
+
+The input of the spaces, hierarchy depths, direction of spaces, space length and width dimensions are first sorted together to branch them into their respective depth hierarchy. While the north direction, site dimenisons creates rectangular regions in directions North, South, East, West, North-east and South-east . It places these regions at the given distance from the center of the site and populates it with the assigned spaces. The site dimenisons 
+
+The input of the entrance checkpoint curve is 
+
+This process is then repeated keeping the relaxed curves from hierarchy depth 1 as the attractor for the depth 2 and the relaxed curves from depth 2 become the attractor for the depth 3 spaces so on. This process of staged relaxation per depth hierarchy enhances the configuration results, by aligning spaces orthogonally and reduces chaos when the total number of spaces is high.     
 </div>
 
 <p><img alt="GDSpaceF" src="../img/GDSpaceF.gif" /><br />
-<em>Fig: The gif below shows the spatial configuration results of this computational process</em>  </p>
+<em>Fig: The animation shows the spatial configuration result of this computational process</em>  </p>
 <div style="text-align: justify"> 
 From the many iterations this tool generated, the most ideal solution was chosen considering the site boundary conditions. 
 </div>
@@ -1025,7 +1034,7 @@ Next step was to connect the built and the unbuilt spaces and understand the nat
 <h3 id="configured-design">Configured design</h3>
 <p><strong>Modular grid</strong>    </p>
 <div style="text-align: justify"> 
-After having configured the general layout, it was important to translate it into the final plan for the building. For this, a grid of 1200mm x 1200mm was selected. The logic was based on the fact that 1200mm is the minimum corridor width required for a person. The grid was further refined into a Tartan grid. This consists of straight lines of varying widths and distances, crossing at right angles. Tartan grids allow for modularity in the size of built elements. Elements are restricted to centre on the centreline grid and limited in dimension to stay within the tartan bands. 
+After having configured the general layout, it was important to translate it into the final plan for the building. For this, a grid of 1200mm x 1200mm was selected. The logic was based on the fact that 1200mm is the minimum corridor width required for a person. The grid was further refined into a Tartan grid. This consists of straight lines of varying widths and distances, crossing at right angles. Tartan grids allow for modularity in the size of built elements. Elements are restricted to centre on the centreline grid and limited in dimension to stay within the tartan bands.   
 
 The optimized grid has 600mm bands with 2400mm distance between each 600mm bands. This is to ensure that all walls lie in these bands and no module in the building is less than 2400mm x 2400mm. The reason for choosing the width of tartan band as 600mm comes from a small study done on commonly used wall thicknesses for various spans. This was also backed by the previous year structural reports. So when two modules are placed adjacent to each other the wall thickness between them is the combination of the wall thickness of each module but is constructed as one and load from both roofs is directed to the centre of this combined wall. Our assumption was later proved to be correct and details of that can be found in 3_Structuring.
 </div>
@@ -1102,7 +1111,7 @@ Following topics gives details about the heating, ventilation and rainwater serv
 To fill in the gaps between the two roof and to ensure that water doesn’t percolate in, the gaps were filled with sand. A desired slope is achieved for the water to run off the building. A coating of Lime plaster is applied on the outer surface for the Hammam domes and tadelakt for the other roofs to ensure sealed surface.
 </div>
 
-<p><img alt="Sections" src="../img/1_Section.jpg" /> 
+<p><img alt="Sections" src="../img/Sections.jpg" /> 
 <em>Fig: Shows the sections</em></p>
 <p><ins><em>Heating and Ventilation</em></ins></p>
 <div style="text-align: justify">
@@ -1111,10 +1120,6 @@ To heat the Hammam, we have a boiler in the service room which is connected to t
 
 <p><img alt="Heating and Ventilation" src="../img/1_Detail.jpg" /> 
 <em>Fig: Shows the heating and ventilation strategies for the Hammam</em></p>
-<p><ins><em>Detailed section</em></ins> </p>
-<div style="text-align: justify">
-</div>
-
 <h3 id="summary_1">Summary</h3>
 <div style="text-align: justify">
 The Forming process strategically developed a shape from the spatial configuration based on the REL-Chart and the bubble diagram. In order to define the shape and the layout, a grid was defined which became the base for converting the design ideas and concepts into the proposed site boundary. This grid was imminent in making the design more modular.
@@ -1124,7 +1129,7 @@ The Forming process strategically developed a shape from the spatial configurati
 <h2 id="3_structuring">3_Structuring</h2>
 <p>In the structuring phase of the design process, the building form is analyzed for structural integrity. Here the material properties are defined and the different modules are tested using karamba. Iterations were made to the cross-section dimensions and to the roof tessellations based on the result to ensure the structure is compression only load bearing form. The results from karamba are cross-checked with hand calculations. </p>
 <h3 id="tesellations">Tesellations</h3>
-<p><img alt="flowchart Tessellations" src="../img/Tessellationflowchart1.jpg" /><br />
+<p><a href="../rev/Tessellation_flow_chart.png"><img alt="flowchart Tessellations" src="../img/Tessellationflowchart1.jpg" /></a><br />
 <em>Fig: Tessellation process flow chart</em></p>
 <p><strong>Exploration</strong></p>
 <p><ins><em>Manual</em></ins>   </p>
@@ -1259,7 +1264,7 @@ It was observed that the load distribution was uniform and the meshes were coher
 
 The structural analysis does not consider gypsum as the material for the ribs. Adobe material properties were considered for the entire structure. As gypsum has higher compressive strength as compared to adobe, it was assumed that using gypsum would give better results in the analysis.
 
-The script used for the structural analysis of all the modules can be found on the [Other page](other.md).
+The script used for the structural analysis of all the modules can be found on the Other page.
  </div>
 
 <p><strong>Module_1: 3x3 Square Dome</strong></p>
@@ -1271,14 +1276,14 @@ The load case for this part of the building is shown in the Figure above, where 
 </div>
 
 <p><ins><em>Support conditions</em></ins></p>
-<p><img alt="support1" src="../img/support1.jpg" /><br />
+<p><img alt="support1" src="../img/support1.jpg" />  <br />
 <em>Fig: Support conditions for the roof and the wall</em>  </p>
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
 </div>
 
 <p><ins><em>Results</em></ins></p>
-<p><img alt="results" src="../img/3x3domestructuralanalysis.jpg" /><br />
+<p><img alt="results" src="../img/3x3domestructuralanalysis.jpg" />  <br />
 <em>Fig: Results showing the structural behavior of square dome and supporting wall</em>  </p>
 <div style="text-align: justify"> 
 In case of the roof, it was observed that peak tensile stresses were developed at the corners of the wall as the meshes generated a defined ridgeline from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with a shell thickness of 150 mm, the structure was safe. The maximum deflection observed was 1.4 mm (3000/400 = 7.5) which was also safe for the given load conditions.
@@ -1292,7 +1297,7 @@ In case of the wall, maximum tensile stresses were observed at the corners and a
 In order to verify the results of the karamba analysis, a test module was considered which was generated manually. In this case, the walls had arched edges in order to check if the karamba model shows a difference in the load distribution. In this case, it was observed that the maximum compression was at the highest points where the wall and the roof intersected whereas the maximum tension was observed at the corners. This verifies that the load distribution is correct and the karamba model gives accurate results.
 </div>
 
-<p><img alt="check 1" src="../img/check.jpg" /><br />
+<p><img alt="check 1" src="../img/check.jpg" />  <br />
 <em>Fig: Results showing the structural analysis of a test module</em>  </p>
 <p><em>Hand Calculation</em></p>
 <p>Sum of total reaction forces in computational model= <strong>42.24 KN</strong><br />
@@ -1312,14 +1317,14 @@ The load case for this part of the building is shown in the Figure above, where 
 </div>
 
 <p><ins><em>Support conditions</em></ins></p>
-<p><img alt="support 2" src="../img/support2.jpg" /><br />
+<p><img alt="support 2" src="../img/support2.jpg" />  <br />
 <em>Fig: Support conditions for the roof and the wall</em>  </p>
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
 </div>
 
 <p><ins><em>Results</em></ins></p>
-<p><img alt="results" src="../img/6x6domestructuralanalysis.jpg" /><br />
+<p><img alt="results" src="../img/6x6domestructuralanalysis.jpg" />  <br />
 <em>Fig: Results showing the structural behavior of square dome and supporting wall</em>  </p>
 <div style="text-align: justify"> 
 In the case of the roof, it was observed that peak tensile stresses were developed at the corners of the wall as the meshes generated a defined ridgeline from the top to the corners of the roof. Hence proving the conventional way of distributing the loads uniformly to the corners of the wall. These tensile stresses were within the limit states, hence the structure was considered safe. The FEA showed that with a shell thickness of 450 mm, the structure was safe. Due to the presence of the first floor, high tensile and compressive forces were developed on the roof surface. This required a thicker roof and wall to bring down the loads within the limit states. The maximum deflection observed was 6.6 mm (6000/400 = 15) which was also safe for the given load conditions.
@@ -1346,7 +1351,7 @@ The load case for this part of the building is shown in the Figure above, where 
 </div>
 
 <p><ins><em>Support conditions</em></ins></p>
-<p><img alt="support 3" src="../img/supports3.jpg" /><br />
+<p><img alt="support 3" src="../img/supports3.jpg" />  <br />
 <em>Fig: Support conditions for the roof and the wall</em>  </p>
 <div style="text-align: justify"> 
 All the edge points of the base of the roof are considered as fixed supports in all directions. All the edge points of the base of the wall, excluding the opening, are considered as fixed supports in all directions.
@@ -1658,11 +1663,12 @@ As mentioned earlier, all domes are the scaled versions of the smaller dome, so 
 <p><strong>Design concept</strong> </p>
 <div style="text-align: justify"> 
 The idea behind introducing Adobe 2.0 in the course was to push the limits to explore something which has never been built before in adobe. For this challenge, the inspiration came from the Lamella tessellations found in sunflowers. These tessellations occur in the Fibonacci sequence in nature and shifts horizontally keeping the same centre creating a twisting pattern. On further research an origami lamella dome was found as seen in figure below, which helped us in better understanding the shape of the dome. The attractive feature of this geometry was the opening it creates at the apex, serving as a deciding factor on selecting it. Having an opening at the apex created the skylight we envisioned for the hammam main hall and public bathing spaces, i.e. the three 9mx9m dome modules.        
+</div>
 
-![Lamellaorigami](Lamellaorigami-.jpg)   
-*Fig: An origami model of the Lamella dome, source:[Flicker](https://www.flickr.com/photos/yoshinobu_miyamoto/4400658370/)* 
-
-On research it was found that the curves in the Lamella tessellation follow a fibonacci interpolation of points.Therefore,this informed the starting point of generating a computational script for this roof module.
+<p><img alt="Lamellaorigami" src="../img/Lamellaorigami-.jpg" />  <br />
+<em>Fig: An origami model of the Lamella dome, source:<a href="https://www.flickr.com/photos/yoshinobu_miyamoto/4400658370/">Flicker</a></em> </p>
+<div style="text-align: justify"> 
+On research it was found that the curves in the Lamella tessellation follow a fibonacci interpolation of points. Therefore,this informed the starting point of generating a computational script for this roof module.
 
 </div>
 
@@ -1683,6 +1689,7 @@ However, for the squinch, this script creates different block sizes that form th
 </p>
 <p><img alt="Adobe2.0" src="../img/Adobe2.0-.gif" /><br />
 <em>Fig: Shows the computational tool generation in steps for creating Adobe 2.0</em></p>
+<p>To study this further, the script can be downloaded on the <a href="../other/">Other page.</a></p>
 <p><ins><em>Construction instrument</em></ins> </p>
 <div style="text-align: justify">  
 In the construction of the dome of Adobe 2.0, there were two challenges; one was that not only the bricks offsets in plan but also rotate with a certain angle to generate the golden spiral and the other was to make the squinching from the square base to convert it into a circular base for the start of the dome. To solve the first challenge, a Fathy’s compass was used. This tool has a pipe anchored to a pole fixed into the ground in the centre of the circular space to be covered. With its help, the labour can lay bricks in proper circle and complete the dome. To inform the worker about the angle of rotation another simple tool called the angle measure was made. It was observed that all bricks rotate at the same angle from the previous brick of the previous course. Therefore, with the help of Fathy’s compass and angle measure, it’s possible to create the Adobe 2.0 dome easily and efficiently. 
@@ -1692,7 +1699,7 @@ For the second challenge of squinching from square base to circular base, the id
 
 <p><img alt="Construction tool" src="../img/compass.jpg" />
 <em>Fig: Shows Fathy's compass and Angle measure</em></p>
-<h3 id="materials">materials</h3>
+<h3 id="materials">Materials</h3>
 <p><strong>Brick Library</strong>  </p>
 <div style="text-align: justify">  
 To give a clear overview of the bricks and which brick is used where a brick library was made. This document shows which bricks are needed to construct the dome ribs. The infill between these ribs is less critical when it comes to the brick size other than it should have a thickness of at least 200mm.
@@ -1718,8 +1725,9 @@ the brick library contains the bricks for the following modules:
 </li>
 </ol>
 <p><a href="../rev/constructability/Brick_library.pdf">The brick library can be downloaded here.</a></p>
-<p><strong>Materials Used for Construction</strong></p>
-<p><ins><em>Construction sequence</em></ins>  </p>
+<p><strong>Materials Used for Construction</strong>  </p>
+<p><img alt="Material table" src="../img/Material_Table.jpg" /><br />
+<ins><em>Construction sequence</em></ins>  </p>
 <p>The construction sequence of the different modules is illustrated below. </p>
 <p><em>Square Domes (3x3, 6x6, 9X9)</em>  </p>
 <p>As mentioned earlier the construction system chosen is the rib-infill method where the ribs will be made of interlocking blocks. </p>
@@ -1752,20 +1760,25 @@ Based on the sequence of bricks that can be laid before the angle changes which 
 <div style="text-align: justify">
 It can be concluded that the design as was shown on this page takes into account the limits we set for it and does so using scripts to optimize the dicisions made in the process. An optimal site was selected setting the limitations of adjacency to a water source, free plot size and nearby facilities. The program of the project was based on the problem statements seen in the Zaatari camp and evolved into an inclusive place to relax and enjoy peace and quiet in Raha.
 
-Gradient Descent tool limitations: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation.  
+Gradient Descent tool limitations: While the script strives to create a Tetris inspired configuration, there is further scope of developing efficient grid snapping system that avoids collisions and overlap of spaces after the dynamic relaxation. 
 </div>
 
 <hr />
 <h2 id="6_reflection">6_Reflection</h2>
 <div style="text-align: justify">
 While going through the process of designing, an earthy building as is being explained above a lot was learned. Below each group member will reflect on the process and how they have experienced it.
-
 </div>
 
 <p><strong>Anagha Yoganand</strong></p>
-<p>The design studio of Earthy is an enriching way to end the formal learning of the 3 semesters in the master porgram of Building Technology. It focuses on all aspects of an Architectural design project made with Adobe, while focusing on the technical aspects using mathematics and computational logic, which I enjoyed thoroughly. I have realised this approch generates a coherent design that best answers the design problem. The course has helped upskill my computational skills in Grasshopper a plugin for Rhinocerous and laid a good foundational understanding of python in the grasshopper interface. Having said that, my motivation to further my skills in this field has only grown with this experience. The design of RAHA resulting from this course in 10 weeks duration, is absolutely a proud achievement for me. To make this happen the team worked tirelessly and always inspired me to push boundarys. I would like to thank my very hardworking group of teammates for their constant virtual support in today's digital world. I would also like to share deep appreciation towards the instructors of this course who kept us motivated and guided us throughout the course. </p>
+<div style="text-align: justify">
+The design studio of Earthy is an enriching way to end the formal learning of the 3 semesters in the master porgram of Building Technology. It focuses on all aspects of an Architectural design project made with Adobe, while focusing on the technical aspects using mathematics and computational logic, which I enjoyed thoroughly. I have realised this approch generates a coherent design that best answers the design problem. The course has helped upskill my computational skills in Grasshopper a plugin for Rhinocerous and laid a good foundational understanding of python in the grasshopper interface. Having said that, my motivation to further my skills in this field has only grown with this experience. The design of RAHA resulting from this course in 10 weeks duration, is absolutely a proud achievement for me. To make this happen the team worked tirelessly and always inspired me to push boundaries. I would like to thank my very hardworking group of teammates for their constant virtual support in today's digital world. I would also like to share deep appreciation towards the instructors of this course who kept us motivated and guided us throughout the course. 
+</div>
+
 <p><strong>Bezawit Z. Bekele</strong></p>
-<p>The Earthy course explores the various levels of complexities of building with earth using mathematical and computational means. It allowed me to explore various approaches, design and construction methods of compression only structures within the limits of the earth material. The python workshops were very useful. Yet, because of the rapid pace of the course we didn’t boldly experiment with python scripting within our design as we would have liked. All in all, the 10 weeks flew by and it was an enjoyable learning experience and one of the best team collaboration projects yet. </p>
+<div style="text-align: justify">
+The Earthy course explores the various levels of complexities of building with earth using mathematical and computational means. It allowed me to explore various approaches, design and construction methods of compression only structures within the limits of the earth material. The python workshops were very useful. Yet, because of the rapid pace of the course we didn’t boldly experiment with python scripting within our design as we would have liked. All in all, the 10 weeks flew by and it was an enjoyable learning experience and one of the best team collaboration projects yet. 
+</div>
+
 <p><strong>Shriya Balakrishnan</strong></p>
 <div style="text-align: justify">
 The course AR3B011 Earthy is an amalgamation of diverse topics ranging from spatial planning, programming, construction techniques and structural design. The entire learning process was indeed remarkable and a different approach towards thinking mathematically and computationally. One major challenge of the course was to design with limited material resources and unskilled labor. Although adobe construction is something that has been done for ages, it is not commonly adopted construction material that developed the perfect design brief in the proposed location. Moreover, the structuring phase was an additional challenge due to the lack of assistance for the structural analysis using Karamba 3D and Ansys.
@@ -1783,7 +1796,10 @@ That is why I would like to learn about using Python in the time to come.
 </div>
 
 <p><strong>Twinkle Nathani</strong></p>
-<p>reflection</p>
+<div style="text-align: justify">
+The Earthy course is a design studio which has the steepest learning curve as compared to all the other courses in the master's track of Building Technology. I personally enjoyed this course as I have worked with earth before but never encountered the possiblity of combining a primitve material with the current technology using the latest computational softwares. The best part about this course was the constructibility phase as I throughly enjoyed myself exloring different construction techniques in order to close the loop. The was the course was structured pushed me to think more and with every challenge we faced, especially with adobe 2.0 structure, it only increased the level of complexity and intensity of the course, which made the course extremely interesting.Within the 10 weeks of the coursework, the first few weeks were intense due to the different workshops and lectures. I personally think that these workshops/lectures could have been split into two parts as many of them were more relevant for the 2nd half of the coursework. 
+All in all, I am extrememly proud of what we have achieved as a team to complete the project sucessfully. I would like to thank my fellow group mates for working tirelessly make RAHA happen. I would also like to thank all the tutors who helped us throughout the course.
+</div>
                 
               
               
