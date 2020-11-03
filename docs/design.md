@@ -1049,6 +1049,9 @@ For the second challenge of squinching from square base to circular base, the id
 Brick sizes and weights to be justified for constructability -  Brick Library with dimensions weights and moulds - which one is used where (which module)
 In a 3D view colour code and nomenclate the bricks used per module
 
+**Materials Used for Construction**
+
+
 <ins>*Construction sequence*</ins>  
 
 The construction sequence of the different modules is illustrated below. 
