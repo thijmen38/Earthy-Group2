@@ -1049,7 +1049,6 @@ An integrated pyhton script counts the number of the bricks per segment of the L
 A discrete corner stone design is achived such that this stone can be repeated on all the corner conditions of the dome retaining the aesthetic quality of the geometry. 
 
 However, for the squinch, this script creates different block sizes that form the unique ribs, but the form offers repitation of these ribs, reducing the complexity in construction.
-
 </div>
 
 ![Adobe2.0](img\Adobe2.0-.gif)  
