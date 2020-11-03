@@ -1057,7 +1057,7 @@ In the construction of the dome of Adobe 2.0, there were two challenges; one was
 For the second challenge of squinching from square base to circular base, the idea was to create interlocking ribs to inform the curve and infill the bricks to finish the squinching. Due to the time constraint, this method was not explored to its full potential. 
 </div>
 
-![Construction Tool](img\compass.jpg)  
+![Construction tool](img\compass.jpg)
 *Fig: Shows Fathy's compass and Angle measure*
 
 ### materials
