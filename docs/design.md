@@ -83,7 +83,8 @@ The constructability was studied along with the structuring phase. Different con
 </div>
 
 ## 1_Configuration
-introduction explaining the configuring phase and its goals.(from course brief)*Beza*
+
+In the configuration phase of the design process, based on the design goals the programs will be defined along with their spatial requirements and the area requirements. Based on the site study, the relationship between the programs and the integration of the programs into the site will be studied using various computational and graphical methods. 
 
 ### Site selection 
 <div style="text-align: justify"> 
@@ -227,7 +228,8 @@ The configuration process identified the stages in the design porcess which were
 ---  
 
 ## 2_Forming
-introduction explaining the configuring phase and its goals.(from course brief)*beza*
+
+In the forming phase of the design: Based on the relationship study and depth graphs, the programs are arranged in a defined grid. Here the space grammar is transformed from 2D to 3D where the relationship between the spaces is configured three-dimensionally. Different roof tessellations are studied along with the connectivity between adjacent spaces.
 
 ### Spacial configuration
 
@@ -390,8 +392,8 @@ The Forming process strategically developed a shape from the spatial configurati
 ---
 
 ## 3_Structuring 
- 
-Introduction explaining the configuring phase and its goals.(from course brief)*beza*
+
+In the structuring phase of the design process, the building form is analyzed for structural integrity. Here the material properties are defined and the different modules are tested using karamba. Iterations were made to the cross-section dimensions and to the roof tessellations based on the result to ensure the structure is compression only load bearing form. The results from karamba are cross-checked with hand calculations. 
 
 ### Tesellations
 
@@ -1032,7 +1034,9 @@ For the second challenge of squinching from square base to circular base, the id
 Brick sizes and weights to be justified for constructability -  Brick Library with dimensions weights and moulds - which one is used where (which module)
 In a 3D view colour code and nomenclate the bricks used per module
 
-<ins>*Construction sequence*</ins>   
+<ins>*Construction sequence*</ins>  
+
+The construction sequence of the different modules is illustrated below. 
 
 *Square Domes (3x3, 6x6, 9X9)*  
 
@@ -1079,6 +1083,8 @@ The final section of the brick in laid in the same way using a smaller module of
 
 ### Summary 
 
+The building modules are based on the tartan grid, they are scalable variations of each other. This along with the chosen type of tessellation makes the choice of rib-infill construction ideal. The construction of the ribs with interlocking blocks contributes to the ease of construction using very limited formwork. The simplification of the roofs using elliptical curves increases the number of interlocking brick modules as the curvature of the ellipse changes. By having larger interlocking brick segments casted out of gypsum, the ribs can be created with a few large modules that is lightweight. These can also be easily assembled using the spider supports when needed.  
+
 ---
 
 ## 5_Conclusion
@@ -1100,7 +1106,7 @@ reflection
 
 **Bezawit Z. Bekele**
 
-reflection
+The Earthy course explores the various levels of complexities of building with earth using mathematical and computational means. It allowed me to explore various approaches, design and construction methods of compression only structures within the limits of the earth material. The python workshops were very useful. Yet, because of the rapid pace of the course we didn’t boldly experiment with python scripting within our design as we would have liked. All in all, the 10 weeks flew by and it was an enjoyable learning experience and one of the best team collaboration projects yet. 
 
 **Shriya Balakrishnan**
 <div style="text-align: justify">
