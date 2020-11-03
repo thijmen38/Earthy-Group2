@@ -909,7 +909,7 @@ This idea was digitally modeled first for a simple semi-circular arch. The first
 ![Interlocking brick one](img/interlocking1.jpg)  
 *Fig: Interlocking block 1* 
 
-div style="text-align: justify">
+<div style="text-align: justify">
 The second model is a modified version of the first model where the interlocking blocks are shaped in a way, they can easily be molded to form adobe blocks. Here the corner base stones are of different module and there is a key-stone in the middle. This module was tested by 3d printing the 4 different modules.
 </div>
 
