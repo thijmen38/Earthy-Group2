@@ -1096,7 +1096,7 @@ Gradient Descent tool limitations: While the script strives to create a Tetris i
 
 **Anagha Yoganand**
 
-reflection
+The design studio of Earthy is an enriching way to end the larning of the two year master porgram in Building Technology. It focuses on all aspects of an Architectural design project, while focusing on the technical aspects using mathematics and computational logic. This approch generates a coherent design that best answers the design problem. The course has helped me upskill my computational skills in Grasshopper a plugin for Rhinocerous and laid a good foundational understanding of python in the grasshopper interface. Having said that, my motivation to further my skills in this field has only grown with this experience. The design of RAHA resulting from this course in 10 weeks duration, is absolutely a proud achievement for me. To make this happen the team worked tirelessly and always inspired me to push boundarys.I would like to thank my very hardworking group of teammates for their constant virtual support in today's digital world. I would also like to share deep appreciation towards the instructors of this course who kept us motivated and guided us throughout the course. 
 
 **Bezawit Z. Bekele**
 
