@@ -1089,8 +1089,9 @@ the brick library contains the bricks for the following modules:
 
 [The brick library can be downloaded here.](rev\constructability\Brick_library.pdf)
 
-**Materials Used for Construction**
+**Materials Used for Construction**  
 
+![Material table](img\Material_Table.jpg)  
 <ins>*Construction sequence*</ins>  
 
 The construction sequence of the different modules is illustrated below. 
