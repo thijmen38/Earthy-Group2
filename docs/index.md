@@ -1,4 +1,4 @@
-# RAHA[.](https://www.youtube.com/watch?v=D-GP-sk8IJo)
+# RAHA.
 
 ![Entrance.jpg](img/Entrance.jpg)
 *Fig: 3D Visualisation of the Entrance of RAHA*
